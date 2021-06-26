@@ -7,15 +7,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_TRUCE_HOSTAGE</zType>
-		<English>PLAYER-0}からの控えめな使者が、礼儀正しく頭を下げて宮廷に入ってきます。彼は、自国の指導者を代表して発言する権限を与えられていると述べています。
+		<English>{PLAYER-0}の大使は謙遜した態度で宮廷を訪れ、礼儀正しく頭を垂れました。彼は、国を代表して発言する権限を与えられていると述べています。
 
-PLAYER-0,3}は、人質を返してくれさえすれば、喜んで停戦して戦闘を終結させます。</English>
+{PLAYER-0,3}は捕虜が返還されるのであれば、喜んで停戦すると申し出ています。</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_TRUCE</zType>
-		<English>A group of riders approaches our front lines, led by the Chancellor to {CHARACTER-0}. In respectful terms, he extends an offer of truce.
+		<English>{CHARACTER-0}の宰相に率いられた騎馬の一団が、我が国の前線に接近してきました。彼らはいややかな態度で停戦を申し込んできました。
 
-{PLAYER-0} is willing to end the fighting.</English>
+{PLAYER-0}は戦争の終結を望んでいるようです。</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR</zType>
