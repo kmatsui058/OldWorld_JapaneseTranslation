@@ -7,9 +7,9 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_TRUCE_HOSTAGE</zType>
-		<English>An unassuming envoy from {PLAYER-0} enters the court, head bowed courteously. He states that he has been given authority to speak for his nation's leadership.
+		<English>PLAYER-0}からの控えめな使者が、礼儀正しく頭を下げて宮廷に入ってきます。彼は、自国の指導者を代表して発言する権限を与えられていると述べています。
 
-The {PLAYER-0,3} will gladly establish a truce and end the fighting, if only we will return their hostage.</English>
+PLAYER-0,3}は、人質を返してくれさえすれば、喜んで停戦して戦闘を終結させます。</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_TRUCE</zType>
