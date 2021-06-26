@@ -7,13 +7,13 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_TRUCE_HOSTAGE</zType>
-		<English>{PLAYER-0}の大使は謙遜した態度で宮廷を訪れ、礼儀正しく頭を垂れました。彼は、国を代表して発言する権限を与えられていると述べています。
+		<English>{PLAYER-0}からの全権大使が我が国の宮廷を訪れました。大使は礼儀正しく、謙遜した態度です。
 
-{PLAYER-0,3}は捕虜が返還されるのであれば、喜んで停戦すると申し出ています。</English>
+大使の伝えるところによると、{PLAYER-0,3}は捕虜の返還を条件に停戦を求めているようです。</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_TRUCE</zType>
-		<English>{CHARACTER-0}の宰相に率いられた騎馬の一団が、我が国の前線に接近してきました。彼らはいややかな態度で停戦を申し込んできました。
+		<English>{CHARACTER-0}の宰相に率いられた騎馬の一団が、我が国の前線に接近してきました。彼らはいややかな態度で停戦を申し込んできます。
 
 {PLAYER-0}は戦争の終結を望んでいるようです。</English>
 	</Entry>
