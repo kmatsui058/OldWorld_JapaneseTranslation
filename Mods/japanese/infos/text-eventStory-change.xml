@@ -13,9 +13,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_TRUCE</zType>
-		<English>{CHARACTER-0}の宰相に率いられた騎馬の一団が、我が国の前線に接近してきました。彼らはいややかな態度で停戦を申し込んできます。
-
-{PLAYER-0}は戦争の終結を望んでいるようです。</English>
+		<English>{CHARACTER-0}の宰相が自ら騎馬隊を率い、我が国の前線を訪れました。彼らは礼儀正しい態度で停戦を申し込んできています。</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR</zType>
