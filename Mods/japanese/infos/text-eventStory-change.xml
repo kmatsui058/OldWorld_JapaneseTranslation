@@ -17,9 +17,9 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PLAYER_WAR</zType>
-		<English>An emissary from {PLAYER-0} arrives by horseback, escorted by a team of the finest {PLAYER-0,1} soldiers. He carries a message.
+		<English>{PLAYER-0}は精鋭部隊に護衛された特使を我が国に派遣してきました。
 
-{CHARACTER-0} is willing to avoid conflict, but only if we pay tribute.</English>
+彼らとの紛争を避けるためには、我が国からの貢物が必要であると言っています。</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_PEACE_RESPONSE_OFFER_TRIBUTE</zType>
