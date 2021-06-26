@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ModInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <displayName>JapaneseTranslation</displayName>
+  <description>nihongo dasuyo</description>
+  <modpicture></modpicture>
+  <author>Okoha Yugure</author>
+  <modversion>for 0.1.48687</modversion>
+  <homepage>https://github.com/kmatsui058/OldWorld_JapaneseTranslation</homepage>
+  <singlePlayer>true</singlePlayer>
+  <multiplayer>true</multiplayer>
+  <modDependencies />
+  <modIncompatibilities />
+</ModInfo>
