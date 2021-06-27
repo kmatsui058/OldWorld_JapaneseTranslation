@@ -1,0 +1,22 @@
+{
+  "name": "oldworld_japanesetranslation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmatsui058/OldWorld_JapaneseTranslation.git"
+  },
+  "author": "Okoha Yugure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmatsui058/OldWorld_JapaneseTranslation/issues"
+  },
+  "homepage": "https://github.com/kmatsui058/OldWorld_JapaneseTranslation#readme",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.34"
+  }
+}
