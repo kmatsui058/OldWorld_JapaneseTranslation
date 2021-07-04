@@ -12,20 +12,25 @@
     "declaration": false,
     "outDir": "./dist",
     "rootDir": "./src",
+    "baseUrl": "./",
     "downlevelIteration": true,
-
+    "resolveJsonModule": true,
     "strict": true,
     "noImplicitAny": true,
-
     "noUnusedLocals": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-
     "moduleResolution": "node",
     "esModuleInterop": true,
-
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
   },
-  "include": ["./src/**/*"]
+  "include": [
+    "./src/**/*"
+  ]
 }

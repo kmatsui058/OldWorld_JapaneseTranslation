@@ -1,20 +1,22 @@
-const fs = require('fs')
-const readline = require('readline')
-const { google } = require('googleapis')
-
+import fs from 'fs'
+import readline from 'readline'
+import { google } from 'googleapis';
+import { OAuth2Client } from 'google-auth-library/build/src/auth/oauth2client';
+import credential from '@/credentials.json'
 // If modifying these scopes, delete token.json.
-const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
+export const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 // The file token.json stores the user's access and refresh tokens, and is
 // created automatically when the authorization flow completes for the first
 // time.
-const TOKEN_PATH = 'token.json'
+export const TOKEN_PATH = 'token.json'
+main()
+export default function main(): void {
+  // Load client secrets from a local file.
+  authorize(credential, listMajors);
+}
 
-// Load client secrets from a local file.
-fs.readFile('credentials.json', (err, content) => {
-  if (err) return console.log('Error loading client secret file:', err)
-  // Authorize a client with credentials, then call the Google Sheets API.
-  authorize(JSON.parse(content), listMajors)
-})
+
+
 
 /**
  * Create an OAuth2 client with the given credentials, and then execute the
@@ -22,14 +24,14 @@ fs.readFile('credentials.json', (err, content) => {
  * @param {Object} credentials The authorization client credentials.
  * @param {function} callback The callback to call with the authorized client.
  */
-function authorize(credentials, callback) {
+export function authorize(credentials: typeof credential, callback: (auth: OAuth2Client) => void): void {
   const { client_secret, client_id, redirect_uris } = credentials.installed
   const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, redirect_uris[0])
 
   // Check if we have previously stored a token.
   fs.readFile(TOKEN_PATH, (err, token) => {
     if (err) return getNewToken(oAuth2Client, callback)
-    oAuth2Client.setCredentials(JSON.parse(token))
+    oAuth2Client.setCredentials(JSON.parse(token as unknown as string))
     callback(oAuth2Client)
   })
 }
@@ -40,7 +42,7 @@ function authorize(credentials, callback) {
  * @param {google.auth.OAuth2} oAuth2Client The OAuth2 client to get token for.
  * @param {getEventsCallback} callback The callback for the authorized client.
  */
-function getNewToken(oAuth2Client, callback) {
+export function getNewToken(oAuth2Client: OAuth2Client, callback: (auth: OAuth2Client) => void) {
   const authUrl = oAuth2Client.generateAuthUrl({
     access_type: 'offline',
     scope: SCOPES
@@ -53,7 +55,7 @@ function getNewToken(oAuth2Client, callback) {
   rl.question('Enter the code from that page here: ', (code) => {
     rl.close()
     oAuth2Client.getToken(code, (err, token) => {
-      if (err) return console.error('Error while trying to retrieve access token', err)
+      if (err || !token) return console.error('Error while trying to retrieve access token', err)
       oAuth2Client.setCredentials(token)
       // Store the token to disk for later program executions
       fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err) => {
@@ -70,18 +72,17 @@ function getNewToken(oAuth2Client, callback) {
  * @see https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
-function listMajors(auth) {
+export function listMajors(auth: OAuth2Client) {
   const sheets = google.sheets({ version: 'v4', auth })
   sheets.spreadsheets.values.get(
     {
-      spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
-      range: 'Class Data!A2:E'
+      spreadsheetId: '1axY7ktG7bJC-MaQD4BsnZ6EWRRb6thkHoeQSlsZQx5k',
+      range: 'text-eventStory-change.xml!A3:E8'
     },
     (err, res) => {
-      if (err) return console.log('The API returned an error: ' + err)
+      if (err || !res) return console.log('The API returned an error: ' + err)
       const rows = res.data.values
-      if (rows.length) {
-        console.log('Name, Major:')
+      if (rows && rows.length) {
         // Print columns A and E, which correspond to indices 0 and 4.
         rows.map((row) => {
           console.log(`${row[0]}, ${row[4]}`)
