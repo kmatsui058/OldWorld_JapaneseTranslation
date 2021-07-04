@@ -22,12 +22,15 @@
   "dependencies": {
     "@types/google-apps-script": "^1.0.34",
     "copy-webpack-plugin": "^9.0.1",
+    "googleapis": "^39.2.0",
+    "jest": "^27.0.5",
     "write-file-webpack-plugin": "^4.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
     "@webpack-cli/init": "^1.1.3",
