@@ -11,7 +11,7 @@
     "allowJs": true,
     "declaration": false,
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./",
     "baseUrl": "./",
     "downlevelIteration": true,
     "resolveJsonModule": true,
@@ -31,6 +31,7 @@
     }
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*",
+    "./test/**/*",
   ]
 }

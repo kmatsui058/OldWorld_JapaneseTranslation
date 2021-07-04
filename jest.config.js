@@ -4,5 +4,8 @@ module.exports = {
   globals: {
     Logger: {},
     DocumentApp: {}
+  },
+  moduleNameMapper: {
+    '^@/(.+)': '<rootDir>/src/$1'
   }
 }
