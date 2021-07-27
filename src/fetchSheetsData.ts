@@ -24,7 +24,7 @@ export default async function fetchSheetsData(auth: OAuth2Client, targetSheet: s
           rows.forEach((row, index) => {
             if (index > titleIndex) {
               const zType = row[zTypeIndex]
-              const machineText = row[machineTextIndex]
+              const machineText = (row[machineTextIndex] as string).replace(/\{.*?\}/g, sentence => { return sentence.toUpperCase() }).replace(/(リンク（)(.*?)(）)/, (p1, p2, p3) => { return `link(${p3.toUpperCase()})` })
               const japaneseText = row[japaneseTextIndex]
               if (zType) {
                 result.push({
