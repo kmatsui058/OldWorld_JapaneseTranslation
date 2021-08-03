@@ -514,7 +514,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_EL_YAHWEH_BAAL_TITLE</zType>
-    <Translation>El、Yahweh、Baal.</Translation>
+    <Translation>El、Yahweh、Baal</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_JUSTICE_AND_KINDNESS_TITLE</zType>
@@ -4374,7 +4374,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_LEGACY_OF_GOLD_TITLE</zType>
-    <Translation>金の遺産</Translation>
+    <Translation>ゴールドの遺産</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_TWILIGHT_YEARS_TITLE</zType>
@@ -5838,7 +5838,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONSORT_REGENT_TITLE</zType>
-    <Translation>Dowager Regent.</Translation>
+    <Translation>Dowager Regent</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_AUNT_UNCLE_REGENT_TITLE</zType>
@@ -9666,7 +9666,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_TRIBE_CAMP_CLEARED_TITLE</zType>
-    <Translation>チュートリアル：部族のサイトはクリアされました</Translation>
+    <Translation>チュートリアル：部族のサイトがクリアされました</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_CITY_CAPTURED_TITLE</zType>
@@ -9810,7 +9810,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_TECH_DECK_TITLE</zType>
-    <Translation>チュートリアル：Tech Deck</Translation>
+    <Translation>チュートリアル：Tech Deck.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_GOT_YOUR_NOSE_TITLE</zType>
