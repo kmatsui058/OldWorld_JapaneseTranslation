@@ -11,6 +11,7 @@ https://discord.com/channels/703016545953251379/712712304546021448/8581292413873
 ## MOD適用方法
 ~~1. リリースページから最新版をダウンロードして展開したら、"Translations" ディレクトリを\Users\###\Documents\My Games\OldWorld\に配置する。~~
 ~~2. ゲーム内のModsメニューからJapaneseTranslationを有効にし、Play with Modsでゲームを開始する。~~
+
 ゲーム内からインストール可能になりました。
 ModsでTranslationで絞り込めば見つかると思います。
 有効化できればOptions＞UI＞LnaguageからJapaneseが選択可能です。
