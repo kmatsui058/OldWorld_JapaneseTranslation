@@ -29,9 +29,7 @@ export default async function main() {
         const xml = sheetsToXML(structure)
         writeXML(xml, target)
       })
-
   })
-
 }
 
 

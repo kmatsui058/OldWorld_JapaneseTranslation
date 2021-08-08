@@ -1,4 +1,4 @@
-import { getXML } from '@/updateSheetsByXML';
+import updateSheetsByXML, { getXML } from '@/updateSheetsByXML';
 import { targets } from '@/main'
 describe("updateSheetsByXML.ts", () => {
   for (const target of targets) {
@@ -14,4 +14,10 @@ describe("updateSheetsByXML.ts", () => {
       })
     });
   }
+});
+
+describe("updateSheetsByXML.ts", () => {
+  test("updateSheetsByXML", async () => {
+    await updateSheetsByXML()
+  });
 });

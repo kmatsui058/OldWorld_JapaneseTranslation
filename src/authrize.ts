@@ -20,6 +20,7 @@ export async function authorize(credentials: typeof credential): Promise<OAuth2C
       oAuth2Client.setCredentials(JSON.parse(token as unknown as string))
     })
     .catch(async err => {
+      console.log(err)
       await getNewToken(oAuth2Client)
     })
   return oAuth2Client
