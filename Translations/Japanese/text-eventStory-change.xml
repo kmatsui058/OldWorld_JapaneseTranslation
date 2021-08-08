@@ -2264,7 +2264,7 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_START_CARTHAGE</zType>
-    <Translation>あなたは{character-short-1}、創設者{G1:king:queen}です。
+    <Translation>あなたは {CHARACTER-SHORT-1}、カルタゴの創設者 -{G1:king:queen} です。
 
 あなたの兄弟の専制ルールからあなたの {G1:wife:husband} の残酷な死の後、あなたは新しい都市を見つけるために海を越えて出発しました。外交と説得のあなたの自然なスキルは、この旧世界にあなたをあなたに従うように多くの人々があなたのフランジル国のための同盟国を作るのを助けるスキルを勧めました。
 
@@ -16920,5 +16920,380 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
   <Entry>
     <zType>TEXT_ACHIEVEMENT</zType>
     <Translation>成果</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_THE_THREE_THOUSAND</zType>
+    <Translation>裁判所学者の数は、{CITY-0}の栄光の街の歴史を構成するために取られました。何年もの研究の後に彼らの著作を編集して、彼らは3000以上のエントリーがなされたことを見つけました - 驚くべき数&#xD;
+&#xD;
+このfeatをどのように祝いましょうか。&#xD;
+</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_FAMILY_FURY</zType>
+    <Translation>襲撃者は来て、{CITY-0}に向かって急増し、彼らの道をすべて破壊します。これらの未知の戦士は、遠方の軍隊のリーダーの宣誓{G1：兄弟：姉妹}の激怒の{CHARACTER-1}によって召喚されています。&#xD;
+&#xD;
+{CITY-0}の長老は、潮の潮に対するあなたの保護を頼みます。私たちはどのようなコマンドですか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_MONKEY_RECLAIMED</zType>
+    <Translation>私たちの国の国境から急流の侵略者が、完璧な瞬間を待っている捕食者のようにペーシングしているのは、遠く離陸からのレイダーがあることを報告しています。しかし、攻撃するのではなく、悪質なホストのリーダーは急いであなたの耳に中継されているメッセージを送ります。&#xD;
+&#xD;
+長年前に私のペットモンキーは私から盗まれました。私のスパイはそれが今あなたの所持品の中にあると私に言った、そして彼らは私を嘘をつくのを恐れています。私の猿を帰るか、私の軍を顔に顔をしなさい。」</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_EARLY_WARNING</zType>
+    <Translation>{PLAYER-1,1}メッセンジャーは、組み立てられた裁判所の前に話し、彼らの代理人が米国への攻撃の準備で既知の世界のエッジを超えて集まる素晴らしいホストを聞いたことを警告しています。&#xD;
+&#xD;
+{PLAYER-1}この警告を彼らの友情の兆候として提供してください -  {CITY-0}は来年攻撃されます。この情報をどのように使用する必要がありますか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_FOREWARNED_HOUR</zType>
+    <Translation>{PLAYER-1}のように警告すると、{CITY-0}の周辺の地平線は、コンドミニーズのバナーによって暗くなります。敵はゲイツにあります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_SUPPORT_FOR_THE_WICKED</zType>
+    <Translation>遠くの土地を通過させて、{CHARACTER-1}は私たちの国の弱さについての嘘をついており、さまざまな盗賊や侵略者が撮影のための簡単な目標の熟した熟したものです。&#xD;
+&#xD;
+これらの噂は、素晴らしいホストの侵略者が豊かで豊かで略奪することを望んでいる人が組み立てるまで、広がりました。実行中であっても、{CHARACTER-1}はトラブルを引き起こし続けます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_FRIENDS_IN_FAR_PLACES</zType>
+    <Translation>{CHARACTER-1}はパニックであなたにやって来て、{G1：彼の：彼女の過去が{G1：彼：彼女：彼女の}に巻き込まれました。何が起こったのか尋ねることができる前に、{G1：彼の}の物語に入ることができる{G1：彼女の}若い日の探検、偉大な{G1：QUEEN：KING}の年間をはるかに超えています。既知の世界のエッジ。&#xD;
+&#xD;
+{CHARACTER-SHORT-1}結婚を逃げ、{G1：彼：彼女の背後にあることを考えたが、この古い炎が{CITY-0}を除去するためにarialを送ることを脅かしているという言葉を受け取っただけで、{CHITE-SHORT -1} {G1：彼女：彼の}側に戻ります。&#xD;
+&#xD;
+どのようなメッセージをこの永続的な{G1：QUEEN：KING}に送信しますか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_DEFAULT_FAMILY</zType>
+    <Translation>{CITY-0}は攻撃中です。侵略者が土地を掃除し、燃焼、略奪が行くように掃除しているので、人々は恐怖で逃げました。 {CHARACTER-1}はあなたが{FAMILY-2}市の援助を頼む前に、これらの遠い戦士によってコミットされた残虐行為と彼らの以前の征服が残っているという残念な状態を記述するために来る。&#xD;
+&#xD;
+貴族は人々を助けようとしています、クラウンはこれらの攻撃に直面してさらに助けを助けますか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_CITY_AUTONOMY_EMPRESS</zType>
+    <Translation>{CITY-0}の都市は自律的な規則の間に繁栄してきました、都市を強さから強さまで街を迎えました。最近の経済ブームは、区間を刻印し、eは緊張している碑文と自分に等しい区画を模索しています。&#xD;
+&#xD;
+許容されるそのような華氏は？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_CITY_AUTONOMY_END</zType>
+    <Translation>{CITY-0}の街は自律的な規則の自由状態として有名になっています。裁判所は状況を変える、そのような自由が他の人が同じことを期待することを奨励することを訴えている。&#xD;
+&#xD;
+{CHARACTER-1}が裁判所の前に立っているとき、状況は頭に到達し、何かが行われることを要求します。 {CITY-0}は力を使用せずに折りたたみに戻りません。コントロールを取り戻すために戦いましょうか。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_1_EUNUS</zType>
+    <Translation>何年もの間、{FAMILY-1}パーティーでの共通の娯楽は、スレーブ{CHARACTER-2}から預言を受け取ることでした。ゲストが{G2：HIS：彼女の}手を取るように、{CHARACTER-SHORT-2}は、神の単語が{G2：HIM：彼女の}を通って流れるように口から火を消します。そのような力がどこから来たのか尋ねられたとき、{G2：彼：彼女：彼女は地元のPAGANの女神からのビジョンを受け取ることを主張していると主張しています。{G2：彼：彼女：彼女}は{G2：KING：QUEEN}になるでしょう。&#xD;
+&#xD;
+{FAMILY-1,1}はこれらのステートメントを見つけられなくなるため、面白いものはありません。暴力的な闘争では、{CITY-0}の何百もの奴隷が長年の不安の後、彼らのマスターを殺し、そして周囲の田園地帯に行ってきました。彼らのリーダーは{CHARACTER-SHORT-2}以外のものではありません。今は、自己戴冠{G2：KING：QUEEN}。&#xD;
+&#xD;
+激怒して復讐を求めて、{FAMILY-1,1}は恐れること、そして彼らが状況自体を扱うことを主張していると主張しています。我々は如何に対応すべきであろうか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_1_SPARTICUS</zType>
+    <Translation>{CITY-0}の剣闘士はあなたに対して上昇しました。日々の彼らの生活のために戦うことを余儀なくされた、致命的な戦士は彼らのチャンスを模索して待っています。レポートは、台所の道具を使って台所用品を使って台所用品を使って、周囲の田園地帯のために休憩を作る前に裁縫学校の訓練学校から逃げたことを読んだ。 {CITY-0}の警備員の多くは戦闘で殺害され、かつて奴隷は現在武装しています。&#xD;
+&#xD;
+昨週以内に{PLAYER-3}の周りに広がる脱出の噂。そのニュースはノールに恐怖をもたらし、廃棄されたことを望みます。ほとんどの唇の名前は、Rebelのリーダーのリーダー -  A {G2：MAN：HOMESS}という名前の{CHARACTER-2}です。&#xD;
+&#xD;
+{FAMILY-1,1}は、恐れには何もないと主張していて、彼らは状況自体を処理することを主張しています。我々は如何に対応すべきであろうか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_1_SALVIUS</zType>
+    <Translation>{FAMILY-1}ファミリーは私たちの軍隊のために新しい兵士を募集するのに苦労していました、{CITY-0}の有能な男性の多くが奴隷化されていたと繰り返し言われています。これを回避しようとしている、{CHARACTER-1}は彼らの土地から誰も奴隷化されるべきではないことを宣言しました。暴力は即時でした。 Rageは彼らの自由を与えられていない人の中で成長し、他の{ファミリー-1}貴族が彼らの奴隷の喪失によって激怒されました。&#xD;
+&#xD;
+警告された、{CHARACTER-SHORT-4}はすぐに命令を復元します。今回は暴力は悪化しています。奴隷は、それを奪ったことを約束された自由を約束し、腕を取り、彼らのマスターを殺し、そして{CITY-0}の周りの土地に逃げました。彼らは{CHARACTER-SHORT-4}の個人的なミュージシャンを一度、彼らのリーダーとして{CHARACTER-2}を任命しました。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_2_ATTACK</zType>
+    <Translation>スレーブの反乱を停止しようとする試みはすべて失敗しました。彼らの勝利によって非難された、反逆者は{CITY-3}でストライキを作り、リソースを捕まえ、彼らのマスターに対しても上昇するためにそこに多くの奴隷を奨励します。&#xD;
+&#xD;
+裁判所は成長力について心配していますが、{ファミリー-3}ファミリーは焦点が都市を支援する必要があることを要求します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_2_SLAVE_GENERAL</zType>
+    <Translation>スレーブの反乱を停止しようとする試みはすべて失敗しました。 {CHARACTER-2}の下の奴隷の反乱に陥没した、{CITY-3}の奴隷も彼らのマスターを投げ込まれました。裁判所は2つの派閥が互いに戦うことを望んでいましたが、{CITY-3}からの軍隊をリードする一般的な主導は{CHARACTER-2}に繁殖し、反逆者力をさらに強化しました。&#xD;
+&#xD;
+裁判所は成長力を心配していますが、{FAMILY-3,1}は私たちが訓練の増加に焦点を当て、{CITY-3}を保護するための新しい力を上げることに焦点を当てています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_2_POPULAR_SUPPORT</zType>
+    <Translation>スレーブの反乱を停止しようとする試みはすべて失敗しました。さらに、より低いクラスの多くの間の反逆者の行動のための賞賛と賞賛の移行がありました。多くの人が私たちの規則のヨークと彼らの憤りは彼らの解決に力を貸しています。最初のRevoltによって始まった火は広がり、{CITY-3}の人々の一部は反乱との結合にさえ上がっています。&#xD;
+&#xD;
+裁判所は成長力について心配していますが、一般的な人々の窮状に同情的に見えるこの機会の使用を奨励します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_3_SPY</zType>
+    <Translation>{CHARACTER-2}の力は{PLAYER-3}の非常に心を脅かす。裁判所は、復讐が一度奴隷化されていることを復活させることの考えで完全に不可能です。気味が裁判所の周りに投げられているように混乱を迎えます。&#xD;
+&#xD;
+{CHARACTER-5}はあなたの前に来て、最後のゲームビットを提供しています -  {G5：彼の}軍隊を反逆するためにスパイを試してみる。成功は暴力なしに脅威に最終的な脅威を払うでしょうが、失敗は陸軍の支援が彼らが攻撃のために取り組むべき大きさに成長するでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_3_THOSE_THEY_SPARED</zType>
+    <Translation>{CHARACTER-2}の力は{PLAYER-3}の非常に心を脅かす。反逆者は、彼らが彼らの腕を置いて逃げるならば、降伏する誰もが生きるのをさせる新しい戦略を採用しました。救済の申し出は両方とも私たちの戦士の解決を弱め、反逆者が武器や鎧を集めることができることを意味し、ますます整備されています。&#xD;
+&#xD;
+裁判所の残りの部分はカオスと絶望に落ちる間、{CHARACTER-5}は最後のゲームビットを提供しています - 奴隷に対してこの戦術を使うために、彼らが武器を集めてから隠された力で攻撃するまで待っています。成功は暴力なしに脅威に最終的な脅威を払うでしょうが、失敗は陸軍の支援が彼らが攻撃のために取り組むべき大きさに成長するでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_3_CAPTIVES</zType>
+    <Translation>{CHARACTER-2}の力は{PLAYER-3}の非常に心を脅かす。裁判所は、一度奴隷化された人たちの復讐の考えで完全に不可能です。気味が裁判所の周りに投げられているように混乱を迎えます。&#xD;
+&#xD;
+逆転の動機はまだ知られていません。彼らは首都を攻撃することを目指していますか？あなたの土地を脱出するには？奴隷制を完全に終わらせる？ {CHARACTER-5}は最後のゲームビットを提供します - リベルキャンプの船に出荷を提供するメッセージを送る。いくつかも申し出を取ることになったら、それはRAIDのために彼らの力を分けるでしょう。成功は暴力なしに脅威に最終的な脅威を払うでしょうが、失敗は陸軍の支援が彼らが攻撃のために取り組むべき大きさに成長するでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_4_SUCCESS</zType>
+    <Translation>{CHARACTER-5}は勝利の街に戻ります。人々は通りを並べて行って、プロセスを見るために、そして有名な反逆者、{CHARACTER-2}を垣間見るために、チェーンで{CHARACTER-SHORT-5}を歩いています。&#xD;
+&#xD;
+戦争の脅威は終わっていますが、残りの反逆者で何をするべきか決められることはまだ決定されています。 {キャラクター - ショート -  2}はこれらの目を向いていて、あらゆる人が耐える必要があるべきであるのを超えた苦痛の一生の苦しみの一生を見ます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_4_FAILURE</zType>
+    <Translation>{CHARACTER-2}は私たちの首都の門の前に立ちます。 「あなたの嘘やトリックは私たちには機能しません。我々は決して降伏などせん！" {G2：彼：彼女の}泣き、何千もの反乱軍が一斉に叫び、彼らの怒りは非常に建物を振っています。&#xD;
+&#xD;
+ついにそれは戦いに来ました。 {文字-5} 'gambitに失敗しました、そしてあなたのスカウトは{G5：彼の}}身体が政権として推奨されています。潮を和らげることができるものは1つだけ - 全解放を提供し、反政府から赦し、{PLAYER-2}の奴隷のすべての奴隷を解放することができます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_SLAVE_REVOLT_AFTERMATH_FREEDOM</zType>
+    <Translation>DECREEは、奴隷制度は再び{PLAYER-}の法律になると発表されています。あなたは宮殿に戻り、あなたの部屋に引退します。あなたがリラックスし始めるのと同じように、奇妙な騒ぎがあなたの耳を捕まえます。バルコニーからあなたは宮殿と人を走っている人々を横切って火を見ます。何かが間違っている。真剣に間違っています。&#xD;
+&#xD;
+あなたの部屋の外側の廊下に衝突があり、あなたは金属の衝突を聞くのが続いて鋭い悲鳴が聞こえます。警備員、しもべ、廷臣の組み合わせである人々のホストが行進しています。 「私たちは一度奴隷でした。二度と二度としない」ブレードがあなたの体内にそれ自体を埋め込んだ後、あなたがブレードであるので泣くことが繰り返されます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_RETRIBUTION</zType>
+    <Translation>あなたは宮殿に戻り、リラックスするためにあなたのチャンバーに退職しています、それは長い一日でしたが、奴隷制は再び{PLAYER-3}の法則になると発表されました。あなたが休み始めるのと同じように、奇妙な騒ぎはあなたの耳を捕まえます。バルコニーからあなたは宮殿と人を走っている人々を横切って火を見ます。何かが間違っている。真剣に間違っています。&#xD;
+&#xD;
+あなたの部屋の外側の廊下に衝突があり、あなたは金属の格子を聞き、続いて鋭い悲鳴が聞こえます。警備員、しもべ、廷臣の組み合わせである人々のホストが行進しています。 「私たちは一度奴隷でした。二度と二度としない」ブレードがあなたの体内で自ら埋め込まれた後、泣くのはブレードとして繰り返されます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_CAPTURED</zType>
+    <Translation>ニュースはwildfire  -  {CHARACTER-2}のように広がっています -  {CHARACTER-2}は小学校で捕獲されました。人々は通りを並べて行って、行列を見るために、そして有名な反逆者を垣間見るために、{G2：彼の}チェーンの捕獲者の捕捉。&#xD;
+&#xD;
+戦争の脅威は終わっていますが、残りの反逆者で何をするべきか決められることはまだ決定されています。 {キャラクター - ショート -  2}はこれらの目を向いていて、あらゆる人が耐える必要があるべきであるのを超えた苦痛の一生の苦しみの一生を見ます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_PLAYER_POACHED_CITY_CALM</zType>
+    <Translation>{CITY-1}の征服の後、{PLAYER-0}からのメッセージを受け取りました。{PLAYER-0}が街を連れて行こうとしていたことを示しています。&#xD;
+&#xD;
+全体的なトーンはわずかに覗いています。何でも、{CHARACTER-0}は私たちの速度と音声にかなり感銘を受けているようです。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_PLAYER_POACHED_CITY_ANGRY</zType>
+    <Translation>{CITY-1}は私達の力に落ちました。私たちの勝利の目覚めに、{PLAYER-0}から攻撃された攻撃された不快感。彼の口から飛んで輝くと彼は激しいティウレードに入る。&#xD;
+&#xD;
+「あなたはどのようにしていますか？{CITY-1}は{PLAYER-0}に属しています！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_PLAYER_POACHED_CITY_POLITE</zType>
+    <Translation>{PLAYER-0}から到着しました。彼は快適な笑顔であなたに演説します。&#xD;
+&#xD;
+"{CHARACTER-0}は{CITY-1}の買収についておめでとうございます{G0：}おめでとうございます。 {G0：彼：彼女は、それがあなたの規則の下でどのように繁栄するかを観察するために、近い将来{CITY-1}を訪問するでしょう。」</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_PLAYER_STOLE_CITY_SITE_THREE</zType>
+    <Translation>{PLAYER-0}は、最新のlink(改善_CITY_SITE)の決済で激怒しています。 &lt;SentenceCase&gt; {PLAYER-0,2} &lt;/ SentenceCase&gt; Emissaryは、報酬に敬意を表していることを要求するために到着しました。&#xD;
+&#xD;
+{PLAYER-0,1}軍隊がこの地域で見られましたが、{PLAYER-0}がこれ以上戦っても構わないと思っています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_PLAYER_STOLE_CITY_SITE_TWO</zType>
+    <Translation>私たちの最新link(改善_CITY_SITE)を主張しているようです{PLAYER-0}が{PLAYER-0}になっているようです。彼らは同じ地域を決済する過程にあったと主張していますが、私たちはそれに勝ちました。いくつかのアドバイザーは私たちが贈り物を滑らかにするべきであるが、{PLAYER-0}がそれをひどく望んでいたならば、{PLAYER-0}がサイトを解決するのに早かったと思います。&#xD;
+&#xD;
+我々は如何に対応すべきであろうか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_PLAYER_STOLE_CITY_SITE_FOUR</zType>
+    <Translation>新しいリンクを解決した後（即席_city_site）私たちは{CHARACTER-0}から簡単なメモを受け取りました。&#xD;
+&#xD;
+「私はこれを覚えています」</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LEADER_BLESSED_BUSINESS</zType>
+    <Translation>短いほど野心的でありながら現金で縛られたマーチャントは、彼女のビジネスを始めるために小さな融資のためにあなたに近づいた{RANDOM_R2：{RANDOM_R0：チルドデザート：熱い食事} {CITY-0}：罰金を作る：クラフト美しいジュエリー：致命的な、まだ手頃な価格である武器：特定の時間に人々を目​​覚めさせる：搾乳スネーク：メッセージを携帯する：ほとんど、瞬間的に{CITY-0}：重要な時期と日付の人々を思い出させる}&#xD;
+&#xD;
+今日、彼女は彼女のビジネスが彼女の最も野生の夢を超えて成功したという言葉を送りました、そして、彼女は上の大きなボーナスであなたを返済することができます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LEADER_BLESSED_STONE</zType>
+    <Translation>幸せな商人が裁判所であなたを待っています。彼女が地元のマーチャントを介してチーズに驚くべきことを発見したとき、彼女は石の負荷で{CITY-0}を通って旅行していたようです。彼女はあなたに石を寄付したいと思うワゴン空間を解放するために、「{PLAYER-0}の栄光のために！」</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_INFLUENCE_SUBJECT_ESTRANGED</zType>
+    <Translation>{CHARACTER-0}に話したからは長すぎました。あなたは{G0：彼：彼女の}を深く恋しいです。修正をする時が来ました。 {G0：HE：彼女}がマイナーな宴会の間にあなたに会うことに同意したポイントにあなたを慎重にしました。あなたはいくつかのトレ刑法で取り組みます。&#xD;
+&#xD;
+"{CHARACTER-SHORT-0}、私を許してください。私はあなたを傷つけることを知っています。私はあなたを貧弱に扱い、それは私の間違っていました。私はほとんどの{g1：曖昧に行動しました。&#xD;
+&#xD;
+{G0：彼：彼女：彼女はいくつかの瞬間に見え、返信する前に十分に考えています。 「非常によく、{文字 - ショート -  1}、あなたは本当に申し訳ありません、そして私はあなたに別の機会を与えても構わないと思っています。後悔しないでください。」</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_INFLUENCE_SUBJECT_DISAPPOINTED</zType>
+    <Translation>{CHARACTER-0}に影響を与えるためのあなたの努力はついに果物を媒介しています。 {G0：彼：彼女}はしばらくの間あなたにはがっかりしました、しかしあなたの勝利{G0：彼：彼女の}は時間の経過とともに小さなジェスチャーを持つ良い意志は短くてフレンドリーな会議をもたらしました。 short-0}&#xD;
+&#xD;
+「もう一度お会いできて嬉しかった、{CHARACTER-SHORT-1}。 {G0：彼：彼女：彼女：彼女の}と言う。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_INFLUENCE_SUBJECT_VENGEFUL</zType>
+    <Translation>{CHARACTER-0}は長い間{G0：彼：彼女の復讐ですが、あなたの長いキャンペーンの{RANDOM_R0：PLACATING：脅迫的：謝罪：謝罪する}彼らはついに納得しました{G0：彼：彼女の}それはいいえそれだけの価値があります。あなたは確かに{CHARACTER-SHORT-0}と友達ではありませんが、彼らはもはや復讐を追求していません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_CARRYING_THE_TORCH_UPSET</zType>
+    <Translation>{G2：HE：彼女}は最近{CHARACTER-3}の死を目覚めに{宗教 -  1}のリーダーのマントルを取り上げたので、霊的問題について議論するためにあなたと会います。 {G2：彼：彼女：彼女はあなたがついに問題の中心になるまで、犠牲に出席した後に宮殿の庭を散歩するようにさまざまな問題についてあなたと会話します。&#xD;
+&#xD;
+「私の先行者、{CHARACTER-SHORT-3}、5月{G3：HE：彼女}安心して休んで、私が読んだすべての対応に基づいて喜んでいました。私はあなたがどんな種類の人のために私自身のためにここに来ました"&#xD;
+&#xD;
+どのようにあなたはこれに答えますか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LEADING_THE_NEXT_GENERATION_UPSET</zType>
+    <Translation>{G2：HE：HE：SHER}が最近{CHARACTER-3を起こしたときの{G2：HE：HE：SHE}のマントルのマントルを取り上げたので、あなたと会います。死の死。 {g2：彼：彼女：彼女はあなたがついに問題の中心になるまで宮殿の庭を散歩するように様々な問題についてあなたと会話します。&#xD;
+&#xD;
+「私の前身、{CHARACTER-SHORT-3}、5月{G3：HE：彼女}が安心して休む、私が読んだすべての対応に基づいて、あなたからはかなり離れていました。私はここに来ました。あなたは。"&#xD;
+&#xD;
+どのようにあなたはこれに答えますか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_ADOPT_RELIGION_PAGAN</zType>
+    <Translation>{REGRIS-0}のフォロワーは裁判所に到着し、あなたが彼らのリンクを採用することによってあなたに神の支配者になるように頼みます（concept_pagan_religion）。私たちのリンクとして{RIGHTION-0}を取るべきです（concept_state_religion）？そうすることで、{RESTRIP-0,1}の{RIGHT_DISCONTENT、1）を減らし、{RIGIX-0}に従う家族との関係を改善します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_RURAL_YIELDS</zType>
+    <Translation>農村収量はlink(EIFER_FOOD、1)、リンク（eifer_iron、1）、リンク（eifim_wone、1）、およびlink（yield_wood、1）です。彼らは主に田舎のリンク（concept_improvement、2）から描かれ、世界の備蓄を集める。あなたはあなたの現在の備蓄を示す上部バーから直接農村収量を購入するためにリンク（eigher_money、1）を使うことができます。&#xD;
+&#xD;
+Linkの主なソース（eight_food）はリンク（expent_fresh_water）とリンク（terrain_lush）の地形の横にあるリンク（即席_farm、2）です。リンク（eght_population）を送り、新しいリンクを作成するために、リンク（eight_food）が必要です（unit_settler、2）。&#xD;
+&#xD;
+Linkのプライマリソース（eigher_iron）はリンク（reface_mine、2）で、リンク（Resource_ore）とLink（HEIGHT_HILL、2）で最も生産的です。 LINK（INTER_WARRIOR、2）とリンク（UNIT_AXMAN、2）など、さまざまな種類の軍用ユニットを作成するために必要です。&#xD;
+&#xD;
+リンクの主なソース（eigher_stone）は、リンク（resource_marble）、Link（Terrain_arid）地形、およびリンクに隣接する場合（height_mountain、2）のリンク（reford_marble）であるリンク（即席_quarry、2）です。 Link（eight_wall）は、主にリンク（eccent_improvement、2）とlink（project_walls）などのConcept_Project、2）のようなリンク（concept_improvement、2）をビルドすることが必要です。&#xD;
+&#xD;
+リンク（TECH_FORESTRY）TECHは、リンク（vegetth_trees）のリンクの構築を可能にしてリンクを生成することを可能にします（yield_wood）。リンク（UNIT_WORKER、2）は、アクションパネルのアイコン（REMOVE_TREES）ボタンでリンク（植生_trees）を削減することもできます。リンク（exit_imarracks）、リンク（Unit_archer、2）、リンク（Unit_BireMe、2）などの軍用ユニット、リンク（Unit_archer、2）、リンク（Unittrait_ship）単位などのCity_IMPROVEMENT、2）を構築するには、Link（eight_wood）が必要です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_URBAN_YIELDS</zType>
+    <Translation>都市は、次の歩留まりを生成します。link(YIELD_GROWTH、1)、link（eime_crights、1）、リンク（eifet_money、1）、リンク（eify_science、1）、リンク（eify_culture、1）、およびリンク（yield_discontent、1）。&#xD;
+&#xD;
+Link（eifet_growth）、link（eifet_training）、およびlink（eifile_civics）はすべて都市生産に使用されています。 Civilian単位、軍事部門のリンク（eify_training）、およびリンク（concept_project、2）およびリンク（concept_specialist、2）のリンク（eify_civics）のリンク（egy_civics）。 link（eime_civics）グローバルStockpileにアクセスし、リンク（eight_growth）が新しいリンクの生産に入ります（concept_citizen、2）。&#xD;
+&#xD;
+link（eime_culture）とlink（viscontent）はどちらもそれぞれのプログレスバーに入ります。リンク（aumary_culture）バーが埋められると、正のイベントが発生し、新しいリンク（concept_improvement、2）とリンク（concept_wonder、2）がロック解除されます。リンク（aument_discontent）バーが塗りつぶし、リンク（eime_maintenance）が起動し、link（fiell_growth）とlink（eime_science）が下がります。&#xD;
+&#xD;
+link（view_money）とlink（eifet_science）は両方ともグローバルな備蓄に直接行きます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_TECH_DECK</zType>
+    <Translation>新しい技術の研究を完了すると、ツリー上の次の技術のロックを解除し（廃棄杭に入る）、4つの新しいカードが使用可能なテクノロジの描画山から引き出されます。&#xD;
+&#xD;
+4つの描画カードから新しい選択をした後、残りの3枚のカードが廃棄パイルに送信され、最終的には空のときに描画杭にリサイクルされます。&#xD;
+&#xD;
+無料のユニットとボーナスカードは決してリサイクルされず、代わりに選択されていない場合は永久に破棄されます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_START_EGYPT_TUTORIAL</zType>
+    <Translation>{TEXT_EVENTSTORY_START_EGYPT}&#xD;
+&#xD;
+link(UNIT_SETTLER)を選択し、リンク（concept_capital）シティを見つけました。あなたはまたあなたの最初の都市を管理し、すぐに彼らの利点を得るかを決めるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_START_ROME_TUTORIAL</zType>
+    <Translation>{TEXT_EVENTSTORY_START_ROME}&#xD;
+&#xD;
+link(UNIT_SETTLER)を選択し、リンク（concept_capital）シティを見つけました。あなたはあなたの国を選んであなたの最初の都市を管理しているかを決めるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_START_GREECE_TUTORIAL</zType>
+    <Translation>{TEXT_EVENTSTORY_START_GREECE}&#xD;
+&#xD;
+link(UNIT_SETTLER)を選択し、リンク（concept_capital）シティを見つけました。あなたはあなたの国を選んであなたの最初の都市を管理しているかを決めるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_START_CARTHAGE_TUTORIAL</zType>
+    <Translation>{TEXT_EVENTSTORY_START_CARTHAGE}&#xD;
+&#xD;
+link(UNIT_SETTLER)を選択し、リンク（concept_capital）シティを見つけました。あなたはあなたの国を選んであなたの最初の都市を管理しているかを決めるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_START_ASSYRIA_TUTORIAL</zType>
+    <Translation>{TEXT_EVENTSTORY_START_ASSYRIA}&#xD;
+&#xD;
+link(UNIT_SETTLER)を選択し、リンク（concept_capital）シティを見つけました。あなたはあなたの国を選んであなたの最初の都市を管理しているかを決めるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_START_BABYLONIA_TUTORIAL</zType>
+    <Translation>{TEXT_EVENTSTORY_START_BABYLONIA}&#xD;
+&#xD;
+link(UNIT_SETTLER)を選択し、リンク（concept_capital）シティを見つけました。あなたはあなたの国を選んであなたの最初の都市を管理しているかを決めるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_START_PERSIA_TUTORIAL</zType>
+    <Translation>{TEXT_EVENTSTORY_START_PERSIA}&#xD;
+&#xD;
+link(UNIT_SETTLER)を選択し、リンク（concept_capital）シティを見つけました。あなたはあなたの国を選んであなたの最初の都市を管理しているかを決めるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHOLAR</zType>
+    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_SCHOLAR_ARCHETYPE)リンク（concept_archetype）です。リンク（EffectPlayer_trait_scholar_archeType）は、リンク（Mission_tutor_Scholar）のミッションと再描画技術の選択を行うことができます。リンク内のリンク（project_inquiry、2）もロック解除されます（concept_capital）。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_HERO</zType>
+    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_HERO_ARCHETYPE)リンク（concept_archetype）です。リンク（EffectPlayer_trait_hero_archeType）は、ミリタリーユニットあたりの追加+ 50リンク（eight_training、1）を採用し、&lt;color =＃E3C08C&gt; &lt;link = "help_link、help_attack_value"&gt; + int（stonght_multiprial）％アイコン（攻撃）&lt;/リンク&gt; &lt;/ color&gt;各リンク（UNITTRAIT_MELEE）ユニットへのボーナス、およびリンクとして、リンク（concept_general）がリンク（concept_launch_omans）をリンクできます。&#xD;
+&#xD;
+link（trait_hero_archeType）文字はまた、リーダーが彼らの国がより多くのリンクを生成するようになっている（rating_training）を引き起こすより高いリンク（rating_courage）もあります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_COMMANDER</zType>
+    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_COMMANDER_ARCHETYPE)リンク（concept_archetype）です。アイドルユニットは、リンク（EffectPlayer_trait_commander_archeType）の追加+ 10 xp /年を受け取り、リンク（Unittrait_infantry）単位追加&lt;color =＃e3c08c&gt; &lt;link = "help_link、help_defense"&gt; + int（Stronght_Multiprier）％icon（防御） &lt;/ link&gt; &lt;/カラー&gt;リンク（EffectPlayer_trait_commander_archeType）もリンク（excip_hurry）をlink（eigher_dorders、1）にリンクできます。&#xD;
+&#xD;
+リンク（concept_general）として、リンク（Effectplayer_trait_Commander_archType）は&lt;color =＃E3C08C&gt; &lt;link = "help_link、help_unit_strength"&gt; + 20％アイコン（attackdefense）&lt;/ link&gt; &lt;/ color&gt;に隣接する単位と&lt;color = #e3c08c&gt; &lt;link = "help_link、help_attack_value"&gt; + 20％アイコン（攻撃）&lt;/ link&gt; &lt;/ color&gt;リンク（concept_flanking）。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_TACTICIAN</zType>
+    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_TACTICIAN_ARCHETYPE)リンク（concept_archetype）です。リンク（EffectPlayer_trait_tactician_archeType）は、ユニットのリンク（concept_vision）の範囲を2で増加させ、リンク（Unittrait_ranged）単位がニュートラルで、フレンドリーなリンク（植生_trees）でリンク（concept_hiddendidd）を使用できます。リンクとして（concept_general）、リンク（EffectPlayer_trait_tactician_archeType）リンク（concept_stun、1）ターゲット。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ZEALOT</zType>
+    <Translation>リーダー{CHARACTER-0}はlink(TRAIT_ZEALOT_ARCHETYPE)リンク（concept_archeType）です。リンク（EffectPlayer_trait_Zealot_archeType）は、ユニットのリンク（concept_fatigue）制限をリンク（concept_hurry）に追加することができます（eifet_training、1）、常にリンク（concept_state_religion）リンク（concept_improvement、2）を常にビルドすることができます。&#xD;
+&#xD;
+リンク（concept_general）として、リンク（EffectPlayer_trait_zealot_archeType）はそれらを倒して敵ユニットを登録するための10％のチャンスを持っています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHEMER</zType>
+    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_SCHEMER_ARCHETYPE)リンク（concept_archetype）です。リンク（EffectPlayer_trait_schemer_archeType）は、アイコン（eife_legitimacy）リンク（concept_legitimacy）のリンク（mission_adopt）のミッションとBuy Link（eigher_orders、1）を実行できます。それらはまた、リンク（diplomacy_war）、それらのリンク（unit_scout、2）がリンク（concept_invisible）の1年に+2リンク（eight_orders、1）を取得します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ORATOR</zType>
+    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_ORATOR_ARCHETYPE)リンク（concept_archetype）です。リンク（EffectPlayer_trait_orator_archeType）は、すべての宗教から+ 40リンク（concept_opinion_religion、3）を受信し、アイコン（ever_legitimacy）リンク（concept_legitimacy）を使用してリンク（concept_mercenary、2）アイコン（Recluit_Mercenary）をリクルートできます。彼らはまた、リンクごとの年に+2リンク（eight_orders、1）を取得します（PeconictFamily_Friendly）都市。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_DIPLOMAT</zType>
+    <Translation>あなたのリーダー{文字0}（TRAIT_DIPLOMAT_ARCHETYPE）link(CONCEPT_ARCHETYPE)リンクです。リンク（EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE）は、すべての他の指導者からのリンクに60ブースト（CONCEPT_OPINION_CHARACTER、1）を受信します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_JUDGE</zType>
+    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_JUDGE_ARCHETYPE)リンク（concept_archetype）です。リンク（EffectPlayer_trait_judge_archeType）は、法コストを切り替えるために50％の割引を受け取り、リンク（concept_upgrade_improvents）を受信します。彼らはまたリンク（Mission_hold_Court）のミッションを行うことができます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_BUILDER</zType>
+    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_BUILDER_ARCHETYPE)リンク（concept_archetype）です。リンク（EffectPlayer_trait_builder_archeType）はリンク（Concept_urban）タイルを追加し、複数のリンク（unit_worker、2）を1つのリンクで動作させることができます（concept_improvement）。それらはまた、すべての都市におけるリンク（Unit_worker、2）の生産時間を50％減少させる。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_MERCENARIES</zType>
+    <Translation>言葉は遠い土地からの襲撃者が{CITY-0}に降りているという裁判所に達しました。既知の世界のエッジを超えてからのこれらの戦士は、最高入札者のために戦って、彼らの遠い諸国の間の伝説的な貿易経路を守る傭兵です。&#xD;
+&#xD;
+しかし今、未知の給料マスターはこの力を私たちに向けました。幸いなことに、これらの軍隊の忠誠心を買うことができ、そして彼らの司令官が彼ら自身のために私たちのために戦うことを望んでいることを彼ら自身が安定した維持されています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_REDIRECTED</zType>
+    <Translation>{CITY-0}の遠方のRAIDの脅威を聞くと、{CHARACTER-2}が行動に移りました。夜を通って乗って、{g2：彼：彼女：彼女は傍観した大群を傍受し、彼らの指導者と暫定的な協定を作りました。&#xD;
+&#xD;
+私たちが十分な敬意を払ったら、彼らは代わりに{CITY-1}を攻撃するのであれば、私たちが関与していることを知らずに私たちの動揺の隣人を弱める機会を攻撃します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RAID_FAR_OFF_NATION</zType>
+    <Translation>{CITY-0}の人々は、彼らの国境を超えて嘘をつく奇妙で到達できない土地の物語に慣れていますが、現在の噂はこれらの厳しい民が心配しています。既知の世界の縁をはるかに超えた偉大な国は、私たちの土地を襲撃するためにその力を集めると言われています。&#xD;
+&#xD;
+彼らが到着したときに侵入者から支払うことを試みるための資金を彼らに与えることを彼らに与えることを彼らに与えることを彼らに与えるためにあなたに頼む。私たちはこの要求を受け入れましょうか、それとも私たちは大群に対して守りますか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RELATIONSHIP_DIPLOMATIC_MISSTEP</zType>
+    <Translation>{PLAYER-2}との関係を中止するために、{G1：HE：彼女の順序に有利には反応しません。グランド宣言では、{TRIBE-0}は{PLAYER-2}との公式提携をフォームします。&#xD;
+&#xD;
+{TRIBE-0}との関係がありませんでした。</Translation>
   </Entry>
 </Root>
