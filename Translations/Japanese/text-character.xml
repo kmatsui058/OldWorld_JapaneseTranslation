@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <!-- Title -->
+  <Entry>
+    <zType />
+    <Translation />
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_KING</zType>
+    <Translation>
+      <![CDATA[<masculine_0>King<feminine>Queen<end> {0_name}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_KING_CONSORT</zType>
+    <Translation>
+      <![CDATA[<masculine_0>King Consort<feminine>Queen Consort<end> {0_name}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_KING_DOWAGER</zType>
+    <Translation>
+      <![CDATA[<masculine_0>King Dowager<feminine>Queen Dowager<end> {0_name}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_PRINCE</zType>
+    <Translation>
+      <![CDATA[<masculine_0>Prince<feminine>Princess<end> {0_name}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_PRINCE_CONSORT</zType>
+    <Translation>
+      <![CDATA[<masculine_0>Prince Consort<feminine>Princess Consort<end> {0_name}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_DUKE</zType>
+    <Translation>
+      <![CDATA[<masculine_0>Duke<feminine>Duchess<end> {0_name}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_DUKE_CONSORT</zType>
+    <Translation>
+      <![CDATA[<masculine_0>Duke Consort<feminine>Duchess Consort<end> {0_name}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_COUNCIL</zType>
+    <Translation>{0_title} {1_name}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_GENERAL</zType>
+    <Translation>Gen. {0_name}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_GOVERNOR</zType>
+    <Translation>Gov. {0_name}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_AGENT</zType>
+    <Translation>Agent {0_name}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_PATRIARCH</zType>
+    <Translation>
+      <![CDATA[<masculine_0>Patriarch<feminine>Matriarch<end> {0_name}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_TITLE_OLIGRARCH</zType>
+    <Translation>Oligarch {0_name}</Translation>
+  </Entry>
+  <!-- Relation -->
+  <Entry comment="TEXT_CHARACTER_RELATION texts have the leader (i.e. 'You') as variable index 1 for gender">
+    <zType>TEXT_CHARACTER_RELATION_YOU</zType>
+    <Translation>you</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_SPOUSE</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Husband<feminine>Wife<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_CHILD</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Son<feminine>Daughter<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_GRANDCHILD</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Grandson<feminine>Granddaughter<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_DESCENDANT</zType>
+    <Translation>your Descendant</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_PARENT</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Father<feminine>Mother<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_GRANDPARENT</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Grandfather<feminine>Grandmother<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_ANCESTOR</zType>
+    <Translation>your Ancestor</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_SIBLING</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Brother<feminine>Sister<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_SIBLING_IN_LAW</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Brother-in-Law<feminine>Sister-in-Law<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_HALF_SIBLING</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Half-Brother<feminine>Half-Sister<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_COUSIN</zType>
+    <Translation>your Cousin</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_AUNT_UNCLE</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Uncle<feminine>Aunt<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_NIECE_NEPHEW</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Nephew<feminine>Niece<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_CHILD_IN_LAW</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Son-in-Law<feminine>Daughter-in-Law<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_PARENT_IN_LAW</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Father-in-Law<feminine>Mother-in-Law<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_STEPCHILD</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Stepson<feminine>Stepdaughter<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_STEPPARENT</zType>
+    <Translation>
+      <![CDATA[your <masculine_0>Stepfather<feminine>Stepmother<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_RELATIVE</zType>
+    <Translation>your Relative</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_RELATION_IN_LAW</zType>
+    <Translation>your In-Law</Translation>
+  </Entry>
+  <!-- Heir -->
+  <Entry>
+    <zType>TEXT_CHARACTER_HEIR_ORDER_1</zType>
+    <Translation>Heir</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_HEIR_ORDER_2</zType>
+    <Translation>Second in Line</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_HEIR_ORDER_3</zType>
+    <Translation>Third in Line</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_HEIR_ORDER_4</zType>
+    <Translation>Fourth in Line</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_HEIR_ORDER_X</zType>
+    <Translation>Distant Successor</Translation>
+  </Entry>
+  <!-- Misc -->
+  <Entry>
+    <zType>TEXT_CHARACTER_DEAD</zType>
+    <Translation>
+      <![CDATA[<icon>DeathSkull</icon> {0_name}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_HAS_COGNOMEN</zType>
+    <Translation>{0_name} {1_cognomen}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_GENERAL_OF</zType>
+    <Translation>link(CONCEPT_GENERAL) of {0_unit}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_GOVERNOR_OF</zType>
+    <Translation>link(CONCEPT_GOVERNOR) of {0_city}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_AGENT_IN</zType>
+    <Translation>link(CONCEPT_AGENT) in {0_city}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_YOUR_HEIR</zType>
+    <Translation>Your Heir</Translation>
+  </Entry>
+  <!-- Name -->
+  <Entry>
+    <zType>TEXT_CHARACTER_FULL_NAME_EXTRA</zType>
+    <Translation> ({0_data})</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_FIRST_AND_LAST_NAME</zType>
+    <Translation>{0_firstname} {1_lastname}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_NAME_WITH_SUFFIX</zType>
+    <Translation>{0_name} {1_suffix}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_OF_NATION</zType>
+    <Translation>{0_name} of {1_nation}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_THE_YOUNGER</zType>
+    <Translation>the Younger</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_THE_ELDER</zType>
+    <Translation>the Elder</Translation>
+  </Entry>
+  <!--Game Text-->
+  <Entry>
+    <zType>TEXT_CHARACTER_HAS_DIED</zType>
+    <Translation>{0_character}が死亡した。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_CHARACTER_LEADER_NEW_COGNOMEN</zType>
+    <Translation>You are now known as {0_name} {1_cognomen}!</Translation>
+  </Entry>
+</Root>

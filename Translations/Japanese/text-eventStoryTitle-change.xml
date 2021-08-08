@@ -514,7 +514,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_EL_YAHWEH_BAAL_TITLE</zType>
-    <Translation>El、Yahweh、Baal</Translation>
+    <Translation>El、Yahweh、Baal.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_JUSTICE_AND_KINDNESS_TITLE</zType>
@@ -1066,7 +1066,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_A_ROYAL_AFFAIR_TITLE</zType>
-    <Translation>王様の事件</Translation>
+    <Translation>王室のスキャンダル</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_AMBITION_FINISHED_5_KILLS_TITLE</zType>
@@ -1278,7 +1278,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_LUDUS_TITLE</zType>
-    <Translation>lus</Translation>
+    <Translation>学校</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_BULLA_TITLE</zType>
@@ -1294,7 +1294,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_WATCHING_THE_MASTERS_TITLE</zType>
-    <Translation>マスターを見ている</Translation>
+    <Translation>練達より学ぶ</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_CLIENTA_TITLE</zType>
@@ -1702,7 +1702,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RUINS_THE_DIVINER_TITLE</zType>
-    <Translation>ヴェネラリ</Translation>
+    <Translation>神託の巫女</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RIDDLE_OF_THE_GATE_TITLE</zType>
@@ -2102,7 +2102,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_CONTACT_WOODCUTTING_TRIBE_TITLE</zType>
-    <Translation>木版画部族</Translation>
+    <Translation>木こりの部族</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_CONTACT_STONEMASON_TRIBE_TITLE</zType>
@@ -2150,7 +2150,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_PEACE_OFFER_TITLE</zType>
-    <Translation>部族link(DIPLOMACY_PEACE)オファー</Translation>
+    <Translation>部族からの要請：link(DIPLOMACY_PEACE)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_TRUCE_OFFER_TITLE</zType>
@@ -3082,7 +3082,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_PROMPT_TITLE</zType>
-    <Translation>影響を及ぼす</Translation>
+    <Translation>Influence Mission</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_CHOOSE_WAR_RELIGION_TITLE</zType>
@@ -3122,7 +3122,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BATTLEFIELD_PROMOTION_TITLE</zType>
-    <Translation>戦場のプロモーション</Translation>
+    <Translation>前線での昇進</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HONOR_AND_GLORY_TITLE</zType>
@@ -3142,7 +3142,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SHATTERED_KNEE_TITLE</zType>
-    <Translation>粉々になった膝</Translation>
+    <Translation>砕かれた膝</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LOST_SIGHT_TITLE</zType>
@@ -3222,7 +3222,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_REBEL_GLADIATORS_TITLE</zType>
-    <Translation>リバーゼル剣闘士</Translation>
+    <Translation>剣闘士の離反</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_HORSE_LORDS_TITLE</zType>
@@ -3614,7 +3614,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NEW_COURTIER_TITLE</zType>
-    <Translation>{キャラクター - ショート0}裁判所に参加する</Translation>
+    <Translation>{CHARACTER-SHORT-0} の入閣</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DELICIOUS_DRINKS_TITLE</zType>
@@ -3834,7 +3834,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHILD_NEW_THOUGHTS_TITLE</zType>
-    <Translation>新しい考え</Translation>
+    <Translation>再考の時</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HEIR_EDUCATION_TITLE</zType>
@@ -4374,7 +4374,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_LEGACY_OF_GOLD_TITLE</zType>
-    <Translation>ゴールドの遺産</Translation>
+    <Translation>金の遺産</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_TWILIGHT_YEARS_TITLE</zType>
@@ -4410,7 +4410,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_A_SPARK_TITLE</zType>
-    <Translation>火花</Translation>
+    <Translation>情熱的な出来事</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SOMETHING_REAL_TITLE</zType>
@@ -4626,7 +4626,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CULTURE_A_FIERY_RIDE_TITLE</zType>
-    <Translation>燃えるような乗車</Translation>
+    <Translation>熱狂的な乗馬</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CULTURE_PRIZE_HORSE_TITLE</zType>
@@ -4646,19 +4646,19 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_TACTICS_ARCHETYPES_TITLE</zType>
-    <Translation>戦術研究</Translation>
+    <Translation>戦術学の修了</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_RHETORIC_ARCHETYPES_TITLE</zType>
-    <Translation>修辞学研究</Translation>
+    <Translation>弁論学の修了</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_COMMERCE_ARCHETYPES_TITLE</zType>
-    <Translation>商業勉強</Translation>
+    <Translation>商業学の修了</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_PHILOSOPHY_ARCHETYPES_TITLE</zType>
-    <Translation>哲学研究</Translation>
+    <Translation>哲学の修了</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SCHEMER_SUCCESSION_TITLE</zType>
@@ -4990,7 +4990,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_YOUTHFUL_ZEAL_TITLE</zType>
-    <Translation>若々しい気持ち</Translation>
+    <Translation>若さゆえの情動</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_EAGER_FOR_COMBAT_TITLE</zType>
@@ -5242,7 +5242,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BIRTH_A_NEW_HEIR_TITLE</zType>
-    <Translation>新しい相続人</Translation>
+    <Translation>新しい王位継承者</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_THE_PRICE_TITLE</zType>
@@ -5706,7 +5706,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_A_TALENT_FOR_GEOMETRY_TITLE</zType>
-    <Translation>ジオメトリのための才能</Translation>
+    <Translation>幾何学の才能</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TENSE_MEETING_TITLE</zType>
@@ -5838,7 +5838,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONSORT_REGENT_TITLE</zType>
-    <Translation>Dowager Regent</Translation>
+    <Translation>Dowager Regent.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_AUNT_UNCLE_REGENT_TITLE</zType>
@@ -6042,35 +6042,35 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_DISPOSITION_HIGH_CHARISMA_TITLE</zType>
-    <Translation>{G0：彼：彼女の} {G1：父親：母親}処分</Translation>
+    <Translation>{G0:彼:彼女} の{G1:父:母}の気質</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_DISPOSITION_HIGH_COURAGE_TITLE</zType>
-    <Translation>{G0：彼：彼女の} {G1：父親：母親}処分</Translation>
+    <Translation>{G0:彼:彼女} の{G1:父:母}の気質</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_DISPOSITION_HIGH_DISCIPLINE_TITLE</zType>
-    <Translation>{G0：彼：彼女の} {G1：父親：母親}処分</Translation>
+    <Translation>{G0:彼:彼女} の{G1:父:母}の気質</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_DISPOSITION_HIGH_WISDOM_TITLE</zType>
-    <Translation>{G0：彼：彼女の} {G1：父親：母親}処分</Translation>
+    <Translation>{G0:彼:彼女} の{G1:父:母}の気質</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_DISPOSITION_LOW_CHARISMA_TITLE</zType>
-    <Translation>{G0：彼：彼女の} {G1：父親：母親}処分</Translation>
+    <Translation>{G0:彼:彼女} の{G1:父:母}の気質</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_DISPOSITION_LOW_COURAGE_TITLE</zType>
-    <Translation>{G0：彼：彼女の} {G1：父親：母親}処分</Translation>
+    <Translation>{G0:彼:彼女} の{G1:父:母}の気質</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_DISPOSITION_LOW_DISCIPLINE_TITLE</zType>
-    <Translation>{G0：彼：彼女の} {G1：父親：母親}処分</Translation>
+    <Translation>{G0:彼:彼女} の{G1:父:母}の気質</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_DISPOSITION_LOW_WISDOM_TITLE</zType>
-    <Translation>{G0：彼：彼女の} {G1：父親：母親}処分</Translation>
+    <Translation>{G0:彼:彼女} の{G1:父:母}の気質</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_OF_WINE_TITLE</zType>
@@ -6278,7 +6278,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_AGAINST_THE_SOPHISTS_TITLE</zType>
-    <Translation>ソフィストに対して</Translation>
+    <Translation>哲学者に触れる</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_OPPOSING_VIEWS_TITLE</zType>
@@ -7198,7 +7198,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CITY_AUTONOMY_TITLE</zType>
-    <Translation>{CITY-0}の自律性</Translation>
+    <Translation>{CITY-0}の自治州化</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SAFE_HOUSES_TITLE</zType>
@@ -7878,63 +7878,63 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_EPICS_EXPLORATION_TITLE</zType>
-    <Translation>link(LAW_EPICS)またはリンク（LAW_EXPLATION）</Translation>
+    <Translation>link(LAW_EPICS) かlink(LAW_EXPLORATION)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LAW_SLAVERY_FREEDOM_TITLE</zType>
-    <Translation>link(LAW_SLAVERY)またはリンク（LAW_FREEDOM）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CENTRALIZATION_VASSALAGE_TITLE</zType>
-    <Translation>link(LAW_CENTRALISIZALIZATION)またはリンク（LAW_VASSARAGE）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TYRANNY_CONSTITUTION_TITLE</zType>
-    <Translation>link(LAW_TYRANNY)またはLink（Law_constitution）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COLONIES_SERFDOM_TITLE</zType>
-    <Translation>link(LAW_COLONIES)またはリンク（LAW_SERFDOM）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_MONOTHEISM_POLYTHEISM_TITLE</zType>
-    <Translation>link(LAW_MONOTHISM)またはリンク（Law_Polytheism）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DIVINE_RULE_LEGAL_CODE_TITLE</zType>
-    <Translation>link(LAW_DIVINE_RULE)またはリンク（LAW_LEGAL_CODE）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TOLERANCE_ORTHODOXY_TITLE</zType>
-    <Translation>link(LAW_TOLERANCE)またはリンク（LAW_THODOXY）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PROFESSIONAL_ARMY_VOLUNTEERS_TITLE</zType>
-    <Translation>link(LAW_PROFSERSAL_ARMY)またはリンク（Law_volunteers）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PHILOSOPHY_ENGINEERING_TITLE</zType>
-    <Translation>link(LAW_PHILOSOPHY)またはリンク（Law_enginearing）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ICONOGRAPHY_CALLIGRAPHY_TITLE</zType>
-    <Translation>link(LAW_ICONOGRAPHY)またはリンク（LAW_CALLIGHY）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PILGRIMAGE_HOLY_WAR_TITLE</zType>
-    <Translation>link(LAW_PILGRIMAGE)またはリンク（LAW_HOLY_WAR）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_GUILDS_ELITES_TITLE</zType>
-    <Translation>link(LAW_GUILDS)またはリンク（Law_ELITES）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_AUTARKY_TRADE_LEAGUE_TITLE</zType>
-    <Translation>link(LAW_AUTARKY)またはリンク（LAW_TRADE_LEAGUE）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COIN_DEBASEMENT_MONETARY_REFORM_TITLE</zType>
-    <Translation>link(LAW_COIN_DEBASEMENT)またはリンク（LAW_MONETARY_REFORD）</Translation>
+    <Translation>link(LAW_SLAVERY)かlink(LAW_FREEDOM)か</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_START_SLAVERY_TITLE</zType>
@@ -9666,7 +9666,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_TRIBE_CAMP_CLEARED_TITLE</zType>
-    <Translation>チュートリアル：部族のサイトがクリアされました</Translation>
+    <Translation>チュートリアル：部族のサイトはクリアされました</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_CITY_CAPTURED_TITLE</zType>
@@ -9810,7 +9810,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_TECH_DECK_TITLE</zType>
-    <Translation>チュートリアル：Tech Deck.</Translation>
+    <Translation>チュートリアル：Tech Deck</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_GOT_YOUR_NOSE_TITLE</zType>
@@ -10102,7 +10102,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_GREAT_AMBITION_TITLE</zType>
-    <Translation>グレート</Translation>
+    <Translation>great</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SILVER_JUBILEE_TITLE</zType>

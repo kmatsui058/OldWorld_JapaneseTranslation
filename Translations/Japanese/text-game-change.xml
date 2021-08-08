@@ -103,7 +103,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_FAMILY_HEAD</zType>
-    <Translation>{0_character} is now Head of the {1_family} Family. (Their Opinion of you is now {2_opinion}.)</Translation>
+    <Translation>{0_character}が{1_family}家の家長となった。 (彼らのあなたへの評価は{2_opinion}。)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_IMPROVEMENT_PILLAGED</zType>
@@ -111,7 +111,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_IMPROVEMENT_STARTED</zType>
-    <Translation>{0_player} has begun construction of {1_improvement}.</Translation>
+    <Translation>{0_player}が{1_improvement}の建設を開始しました。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_IMPROVEMENT_COMPLETED</zType>
@@ -306,7 +306,7 @@
   <Entry>
     <zType>TEXT_GAME_GIVE_BIRTH_NON_LEADER</zType>
     <Translation>
-      <![CDATA[{0_father} and {1_mother} have given birth to a <masculine_2>son<feminine>daughter<end>, {2_childName}!]]>
+      <![CDATA[{0_father}と{1_mother}の間に<masculine_2>息子<feminine>娘<end>{2_childName}が誕生した。]]>
     </Translation>
   </Entry>
   <Entry>
