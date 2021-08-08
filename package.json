@@ -22,6 +22,7 @@
     "copy-webpack-plugin": "^9.0.1",
     "googleapis": "^39.2.0",
     "write-file-webpack-plugin": "^4.5.1",
+    "xml2js": "^0.4.23",
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
@@ -29,6 +30,7 @@
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-typescript": "^7.14.5",
     "@types/jest": "^26.0.23",
+    "@types/xml2js": "^0.4.9",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
     "@webpack-cli/init": "^1.1.3",

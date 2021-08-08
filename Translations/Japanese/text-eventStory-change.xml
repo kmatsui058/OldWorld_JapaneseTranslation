@@ -5642,9 +5642,9 @@ Pagan {PLAYER-4,3}に対して{PLAYER-3,1} holy戦争に参加しましょうか
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_LIBERATED</zType>
-    <Translation>崩れている刑務所は{族元0,1}の和解に立っています。将軍と市民のスコア{PLAYER-1,0}からここでここに言われていますが、最も愛されている人によって死んだ。
-
-彼らのリリースはお祝いを呼び出します。</Translation>
+    <Translation>{TRIBE-0,1}の領地に建つ崩れかけの収容所の中で、数十名の{PLAYER-1,0}兵士と市民が数年にわたり拘束されていました。ほとんどみな死んだものと思われていた人たちばかりです。&#xD;
+&#xD;
+捕虜の開放を祝福しましょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_EXOTIC_INFLUENCE</zType>

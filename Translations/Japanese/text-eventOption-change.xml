@@ -5038,11 +5038,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RUINS_GREAT_MIGRATION_OPTION_0</zType>
-    <Translation>コミッションスカウトを模索し、あらゆる方向に送ります。</Translation>
+    <Translation>斥候を採用し、方々に送り込め。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RUINS_GREAT_MIGRATION_OPTION_1</zType>
-    <Translation>この未知の部族を研究し、私たちの理解を広げます。</Translation>
+    <Translation>この未知の部族について研究し、我々の見識を深めよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RUINS_VULGAR_SPEECH_OPTION_0</zType>
@@ -9582,11 +9582,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_LIBERATED_OPTION_0</zType>
-    <Translation>彼らに彼らの家族に戻りましょう。</Translation>
+    <Translation>彼の者たちの家族の元へと帰らせよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_LIBERATED_OPTION_1</zType>
-    <Translation>それらを腕を腕にして前面に置いてください。</Translation>
+    <Translation>彼らを武装し前線へと送れ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_0</zType>
