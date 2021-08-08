@@ -15,6 +15,8 @@ https://discord.com/channels/703016545953251379/712712304546021448/8581292413873
 ゲーム内からインストール可能になりました。
 ModsでTranslationで絞り込めば見つかると思います。
 有効化できればOptions＞UI＞LnaguageからJapaneseが選択可能です。
+二重管理になるのは面倒なので今後github側ではリリースしません。最新版はゲーム内かmod.ioからダウンロードしてください。
+https://oldworld.mod.io/Japanese
 
 ## MOD制作協力のお願い
 [discordのold world公式](https://discord.gg/MGKFes3UM9)のjapaneseチャンネルで活動してるので、協力してくれるかたはこちらでお声掛けください。  
