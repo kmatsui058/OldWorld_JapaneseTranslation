@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <ModInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <displayName>JapaneseTranslation</displayName>
+  <displayName>Japanese Translation</displayName>
   <description>Old worldの日本語翻訳MODです。今のところイベントの文言のみの対応です。</description>
   <modpicture>Flag_of_Japan.png</modpicture>
   <author>Okoha Yugure</author>
-  <modversion>for 0.1.48687</modversion>
+  <modioID>1084796</modioID>
+  <modioFileID>1382909</modioFileID>
+  <modversion>for 1.0.53922</modversion>
   <homepage>https://github.com/kmatsui058/OldWorld_JapaneseTranslation</homepage>
   <singlePlayer>true</singlePlayer>
   <multiplayer>true</multiplayer>

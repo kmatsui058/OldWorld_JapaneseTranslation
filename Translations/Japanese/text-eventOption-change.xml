@@ -210,19 +210,19 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LAW_EPICS</zType>
-    <Translation>私たち自身の物語を共有しましょう。</Translation>
+    <Translation>私たち自身の物語を編纂しよう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LAW_EXPLORATION</zType>
-    <Translation>世界には言うのが多くの物語があります。</Translation>
+    <Translation>世界には語るべき価値のある多数の物語がある。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LAW_SLAVERY</zType>
-    <Translation>奴隷を守ります。</Translation>
+    <Translation>奴隷制を維持する</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LAW_FREEDOM</zType>
-    <Translation>私たちの科目は無料です。</Translation>
+    <Translation>我らの主題は自由制にある</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LAW_CENTRALIZATION</zType>
@@ -330,47 +330,47 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LAW_NO</zType>
-    <Translation>私たちは今決めません。</Translation>
+    <Translation>決定を先送りにする。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LAW_SCREEN</zType>
-    <Translation>裁判所は法律を選ぶでしょう。</Translation>
+    <Translation>宮廷に判断を委ねる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY</zType>
-    <Translation>{G0：HE：彼女}は哲学を勉強します。</Translation>
+    <Translation>{G0:彼:彼女}に哲学を学ばせる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_PHILOSOPHY_HELP</zType>
-    <Translation>link(TRAIT_TACTICIAN_ARCHETYPE)、link（trait_zealot_archeType）、link（trait_judge_archetype）、link（trait_builder_archeType）、またはlink（trait_scholar_archeType）につながる可能性があります。</Translation>
+    <Translation>link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE),  link(TRAIT_SCHOLAR_ARCHETYPE)になる可能性があります。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_RHETORIC</zType>
-    <Translation>{G0：彼：彼女：彼女}は修辞的です。</Translation>
+    <Translation>{G0:彼:彼女}に弁論学を学ばせる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_RHETORIC_HELP</zType>
-    <Translation>link(TRAIT_HERO_ARCHETYPE)、link（trait_orator_archeType）、link（trait_jude_archetype）、リンク（trait_scholar_archeType）、またはlink（trait_diplomat_archetype）につながる可能性があります。</Translation>
+    <Translation>link(TRAIT_HERO_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE)になる可能性があります。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_TACTICS</zType>
-    <Translation>{G0：彼：彼女}は戦術を勉強します。</Translation>
+    <Translation>{G0:彼:彼女}に戦術を学ばせる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_TACTICS_HELP</zType>
-    <Translation>link(TRAIT_HERO_ARCHETYPE)、link（trait_commander_archetype）、link（trait_tactician_archeType）、リンク（trait_zealot_archeType）、またはlink（trait_schemer_archeType）につながる可能性があります。</Translation>
+    <Translation>link(TRAIT_HERO_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE)になる可能性があります。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_COMMERCE</zType>
-    <Translation>{G0：彼：彼女}は商業を勉強します。</Translation>
+    <Translation>{G0:彼:彼女}に商業を学ばせる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_COMMERCE_HELP</zType>
-    <Translation>link(TRAIT_COMMANDER_ARCHETYPE)、リンク（TRAIT_SCHEMER_ARCHETYPE）、LINK（TRAIT_ORATOR_ARCHETYPE）、リンク（TRAIT_BUILDER_ARCHETYPE）、またはLINK（TRAIT_DIPLOMATH_ARCHETYPE）につながる可能性があります。</Translation>
+    <Translation>link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE),  link(TRAIT_DIPLOMAT_ARCHETYPE)になる可能性があります。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_EXPLORING</zType>
-    <Translation>{CHARACTER-SHORT-0}は世界中で学びます。</Translation>
+    <Translation>{CHARACTER-SHORT-0}はもっと世界のことを知るべきであろう</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_COURTIER_NONE</zType>
@@ -1454,7 +1454,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SACRIFICIAL_DEER_1</zType>
-    <Translation>群れでクワガタを保管してください。</Translation>
+    <Translation>茎を群れに保ちます。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SACRIFICIAL_DEER_2</zType>
@@ -1526,7 +1526,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_THE_OTHER_RELIGION_0</zType>
-    <Translation>新しいlink(CONCEPT_STATE_RELIGION)を{RIGHTION-2}にします。</Translation>
+    <Translation>新しいlink(CONCEPT_STATE_RELIGION)を作成します。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_OTHER_RELIGION_1</zType>
@@ -2686,7 +2686,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DEMAND_TRIBUTE_THE_FAITHFUL</zType>
-    <Translation>私たちは私たちの仲間{宗教3,3}からはかかりません。</Translation>
+    <Translation>私たちは私たちの仲間{宗教3,3}から取らないでしょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DEMAND_TRIBUTE_DENOUNCED_0</zType>
@@ -3474,15 +3474,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_A_ROYAL_AFFAIR_0</zType>
-    <Translation>{CHARACTER-SHORT-0}で停止するのはなぜですか？</Translation>
+    <Translation>{CHARACTER-SHORT-0}との関係を止めることなどできようか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_A_ROYAL_AFFAIR_1</zType>
-    <Translation>恋人として{CHARACTER-0}を取る。</Translation>
+    <Translation>{CHARACTER-0}を愛人にする。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_A_ROYAL_AFFAIR_2</zType>
-    <Translation>誘惑に抵抗します。</Translation>
+    <Translation>誘惑に抗う。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_5_KILLS_THREE_TRIBE_CLEARED</zType>
@@ -4094,15 +4094,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_LUDUS_0</zType>
-    <Translation>それは大きくて重要な投資です。</Translation>
+    <Translation>高額だが、重要な投資だ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_LUDUS_1</zType>
-    <Translation>{CHARACTER-SHORT-1}は友達の閉じるグループを持っています。</Translation>
+    <Translation>{CHARACTER-SHORT-1}が仲の良い友人を持てたようで何よりだ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_LUDUS_2</zType>
-    <Translation>{G1：彼の：彼女の時間は{g1：彼の：彼女の研究：彼女自身の研究に焦点を当てるのが良いでしょう。</Translation>
+    <Translation>時間は有限だ。自身の勉学に専念するべきであろう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_BULLA_0</zType>
@@ -4138,15 +4138,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_WATCHING_THE_MASTERS_0</zType>
-    <Translation>{CHARACTER-SHORT-2}に勝利する{CHARACTER-SHORT-1}に尋ねます。</Translation>
+    <Translation>{CHARACTER-SHORT-2}に{CHARACTER-SHORT-1}を教授するよう依頼する。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_WATCHING_THE_MASTERS_1</zType>
-    <Translation>厳密に注意を払うために{CHARACTER-SHORT-1}を奨励します。</Translation>
+    <Translation>{CHARACTER-SHORT-1}に注意深く観察するよう促す。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_WATCHING_THE_MASTERS_2</zType>
-    <Translation>新しい作品を書くための委員会{CHARACTER-SHORT-2}。</Translation>
+    <Translation>{CHARACTER-SHORT-2}に委任して新しい作品を執筆させる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_CLIENTA_0</zType>
@@ -4462,7 +4462,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CONVERT_SELF_BEFORE_GOD_2</zType>
-    <Translation>私たちは&lt;P.IS_SUB.S2 =件名&gt; Ahura Mazda &lt;P = Subject_Religion_Pagan&gt;の前にすべて同じです。</Translation>
+    <Translation>私たちは&lt;P.IS_SUB.S2 =件名&gt; Ahura Mazda &lt;P = Subject_Religion_Pagan&gt;の前にすべて同じです&lt;phere&gt;神&lt;エンド&gt;。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CONVERT_SELF_FOOL_0</zType>
@@ -5026,7 +5026,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RUINS_OLD_SOLDIER_INVITE</zType>
-    <Translation>彼女を私たちの裁判所に招待します。</Translation>
+    <Translation>彼女を宮廷へ招聘せよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RUINS_WEARY_MARAUDERS_LABOR</zType>
@@ -5246,15 +5246,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RUINS_THE_DIVINER_OPTION_0</zType>
-    <Translation>そのようなオファーは無視できません。</Translation>
+    <Translation>看過できぬ提案だ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RUINS_THE_DIVINER_OPTION_1</zType>
-    <Translation>注文書は彼女の予測を集めるためにスクライブを付けます。</Translation>
+    <Translation>書記に命じて彼女の予言を編纂せよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RUINS_THE_DIVINER_OPTION_2</zType>
-    <Translation>神々からのメッセージを要求します。</Translation>
+    <Translation>神託を求む。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RIDDLE_OF_THE_GATE_YES</zType>
@@ -6874,15 +6874,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_CONTACT_WOOD_TRIBE_TRUCE</zType>
-    <Translation>絶大！</Translation>
+    <Translation>すばらしい！</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_CONTACT_WOOD_TRIBE_WAR</zType>
-    <Translation>それらを切る。</Translation>
+    <Translation>斬り捨てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_CONTACT_WOODCUTTING_TRIBE_DEAL</zType>
-    <Translation>そのような細い木は本当に{CITY-0}をトースアップすることができました！</Translation>
+    <Translation>素晴らしい材木により、{CITY-0}を美化することできた!</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_CONTACT_WOODCUTTING_TRIBE_DEAL_HELP</zType>
@@ -6910,7 +6910,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_CONTACT_IRON_TRIBE_DEAL_HELP</zType>
-    <Translation>初期リンクを維持する（diplomacy_truce）。</Translation>
+    <Translation>link(DIPLOMACY_TRUCE)を維持する。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_CONTACT_GOLD_TRIBE_TRUCE</zType>
@@ -6954,7 +6954,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_PEACE_OFFER_TRIBUTE</zType>
-    <Translation>はい、取引をしましょう。</Translation>
+    <Translation>よろしい、取引に応じよう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_PEACE_OFFER_YES</zType>
@@ -6962,7 +6962,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_PEACE_OFFER_NO</zType>
-    <Translation>いいえ、このオファーは十分ではありません。</Translation>
+    <Translation>いや、この提案が十分なものとは思えない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_TRUCE_OFFER_YES</zType>
@@ -9366,11 +9366,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_MISSION_PROMPT_YES</zType>
-    <Translation>私は{CHARACTER-1}との関係を改善するのにいくらかの利益を見ます。</Translation>
+    <Translation>{CHARACTER-1}との関係改善に利ありとみる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_MISSION_PROMPT_NO</zType>
-    <Translation>私はその瞬間に忙しすぎます。</Translation>
+    <Translation>今は忙しすぎる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PLAYER_CHOOSE_WAR_RELIGION_1</zType>
@@ -9458,15 +9458,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BATTLEFIELD_PROMOTION_PROMOTE</zType>
-    <Translation>{UNIT-1}の追加の経験を付与します。</Translation>
+    <Translation>{UNIT-1}にさらなる経験を与える。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BATTLEFIELD_PROMOTION_TRIUMPH</zType>
-    <Translation>{CITY-0}でお祝いをしなさい！</Translation>
+    <Translation>{CITY-0}で祝宴をあげよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BATTLEFIELD_PROMOTION_DECLINE</zType>
-    <Translation>そのような贅沢になる余裕はありません。</Translation>
+    <Translation>贅沢をする余裕はない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_HONOR_AND_GLORY_TRIUMPH</zType>
@@ -9502,11 +9502,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SHATTERED_KNEE_OK</zType>
-    <Translation>少なくとも{G0：彼：彼女の}人生は免れた。</Translation>
+    <Translation>少なくとも{G0:彼:彼女}の死は免れた。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SHATTERED_KNEE_NO</zType>
-    <Translation>私たちは{G0：彼の}のニュースを広くそして広く犠牲にします。</Translation>
+    <Translation>{G0:彼:彼女}の英雄的犠牲を広く世に知らしめる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LOST_SIGHT_OK</zType>
@@ -9518,11 +9518,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_WEAPONS_OF_WAR_OPTION_0</zType>
-    <Translation>来戦争のために私たちの兵士たちを武装させます。</Translation>
+    <Translation>次の戦いのために兵を武装させよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_WEAPONS_OF_WAR_OPTION_1</zType>
-    <Translation>材料のために武器を破る。</Translation>
+    <Translation>武器を破壊し物資とせよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_SECRET_ALLIANCES_OPTION_0</zType>
@@ -9706,15 +9706,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_REBEL_GLADIATORS_OPTION_0</zType>
-    <Translation>結構。あなたの刀は私たちのものです。</Translation>
+    <Translation>よろしい。その剣我らに捧げよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_REBEL_GLADIATORS_OPTION_1</zType>
-    <Translation>あなたは労働として私たちにとってより価値があります。</Translation>
+    <Translation>労働者として我が国に来た方が有益であろう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_REBEL_GLADIATORS_OPTION_2</zType>
-    <Translation>そのようなリーダーシップは無駄にされるべきではありません。</Translation>
+    <Translation>そなたの指揮官としての力量は無駄にするべきではない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRIBE_HORSE_LORDS_OPTION_0</zType>
@@ -10282,7 +10282,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PILLAGED_TILE_COMPENSATION_OPTION_0</zType>
-    <Translation>この荒廃からの財政的な苦難に苦しんでいないと私たちはそれを見るでしょう、{CHARACTER-SHORT-3}。</Translation>
+    <Translation>この荒廃からの財政的な苦難に苦しんでいないと私たちはそれを見るでしょう、{CHARACTER-SHORT-3}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PILLAGED_TILE_COMPENSATION_OPTION_1</zType>
@@ -10290,7 +10290,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PILLAGED_TILE_COMPENSATION_TRIBE_OPTION_0</zType>
-    <Translation>この荒廃からの財政的な苦難に苦しんでいないと私たちはそれを見るでしょう、{CHARACTER-SHORT-3}。</Translation>
+    <Translation>この荒廃からの財政的な苦難に苦しんでいないと私たちはそれを見るでしょう、{CHARACTER-SHORT-3}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PILLAGED_TILE_COMPENSATION_TRIBE_OPTION_1</zType>
@@ -10418,19 +10418,19 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_MATCHMAKER_1_OPTION_0</zType>
-    <Translation>{CHARACTER-2}は合理的な一致です。</Translation>
+    <Translation>{CHARACTER-2}を選ぶのが合理的な選択である。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_MATCHMAKER_1_OPTION_1</zType>
-    <Translation>{CHARACTER-3}は提供することがたくさんあります。</Translation>
+    <Translation>{CHARACTER-3}には婚姻を提案すべき理由が多い。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_MATCHMAKER_1_OPTION_2</zType>
-    <Translation>これらはすべて平凡な選択です。</Translation>
+    <Translation>どちらも選ぶほどの価値はない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_MATCHMAKER_1_OPTION_2_HELP</zType>
-    <Translation>後で平和について話し合いましょう。</Translation>
+    <Translation>和平についての議題は先送りとする。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_MATCHMAKER_2_OPTION_0</zType>
@@ -11218,7 +11218,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SPOUSE_TOO_EXPENSIVE</zType>
-    <Translation>高すぎる。</Translation>
+    <Translation>高額すぎる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SPOUSE_HORSEBACK_RIDING_OK</zType>
@@ -11258,7 +11258,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SPOUSE_DEEPER_MEANING_OK</zType>
-    <Translation>マスター哲学者を雇う。</Translation>
+    <Translation>哲学を修めたものを雇う。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RUMOR_HAS_IT_PETS</zType>
@@ -11366,15 +11366,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHILD_NEW_THOUGHTS_DEFEND</zType>
-    <Translation>私のロイヤルブラッドラインはすべて問題です。</Translation>
+    <Translation>我が王統の存続は万事に優先する。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHILD_NEW_THOUGHTS_PEACE</zType>
-    <Translation>私は平和と美しさの世界に住みたいです。</Translation>
+    <Translation>美と平和に彩られた世界の生を謳歌したい。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHILD_NEW_THOUGHTS_FAMILY</zType>
-    <Translation>家族は追求する価値のある唯一の宝物です。</Translation>
+    <Translation>我が家門こそ至高の宝である。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BULLYING_HEIR_ALLOW</zType>
@@ -11598,7 +11598,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_POTENTIAL_HEIR_YES</zType>
-    <Translation>はい、私の遺産は確保されなければなりません。</Translation>
+    <Translation>よろしい。より盤石な遺産を相続させねばならぬ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_POTENTIAL_HEIR_NO</zType>
@@ -12174,7 +12174,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_GP_OFFENSIVE_BEHAVIOR_OPTION_0</zType>
-    <Translation>一度に{CHARACTER-0}を削除してください！</Translation>
+    <Translation>一度に{CHARACTER-0}を削除してください。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_GP_OFFENSIVE_BEHAVIOR_OPTION_1</zType>
@@ -12442,7 +12442,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHILD_ENLISTMENT_OPTION_1</zType>
-    <Translation>私の任意の子供はリーダーである必要があります。</Translation>
+    <Translation>私の任意の子供はリーダーでなければなりません。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHILD_ENLISTMENT_OPTION_2</zType>
@@ -12794,11 +12794,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELATIONSHIP_A_SPARK_OPTION_0</zType>
-    <Translation>これがどこに行くのかを見てみましょう。</Translation>
+    <Translation>二人の行く末がどうなるのか見届けたい。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELATIONSHIP_A_SPARK_OPTION_1</zType>
-    <Translation>これは素晴らしかったが、今終わらなければならない。</Translation>
+    <Translation>素晴らしい時間だった。しかし、終わりにしなければならない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SOMETHING_REAL_OPTION_0</zType>
@@ -13318,23 +13318,23 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_0</zType>
-    <Translation>サンダーヘッドのSebat。</Translation>
+    <Translation>Thunderhead号のSebatに賭ける。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_2</zType>
-    <Translation>Puzur-Ashur、Phoenix。</Translation>
+    <Translation> Phoenix号のPuzur-Ashurに賭ける。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_3</zType>
-    <Translation>フロッグの顔の顔。</Translation>
+    <Translation>Frog Face号のIldashに賭ける。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_4</zType>
-    <Translation>evestrian：チャンピオンの{CHARACTER-SHORT-1}。</Translation>
+    <Translation>Champion号のEQUESTRIAN: {CHARACTER-SHORT-1}に賭ける。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_5</zType>
-    <Translation>私は賭けをしたくない。</Translation>
+    <Translation>賭け事はしたくない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CULTURE_PRIZE_HORSE_OPTION_0</zType>
@@ -13362,43 +13362,43 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_HERO</zType>
-    <Translation>ヒーロー、勇気のある民俗のアイコン。</Translation>
+    <Translation>Hero。その勇敢さを持って民衆の象徴として才を発揮せよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_COMMANDER</zType>
-    <Translation>司法戦場のリーダーである司令官。</Translation>
+    <Translation>Commander。規律ある前線の指導者としてその才を役立てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_TACTICIAN</zType>
-    <Translation>戦術師、勇敢で賢い軍事心。</Translation>
+    <Translation>Tactician。勇猛さと聡明さを持った軍事的指導者としてその才を役立てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_ZEALOT</zType>
-    <Translation>Zealot、説得力のある、情熱的な信者。</Translation>
+    <Translation>Zealot。情熱的な信仰者の規範としてその才を役立てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_SCHEMER</zType>
-    <Translation>スキーマ、ささやきと裁判所のマスター。</Translation>
+    <Translation>Schemer。宮廷の陰謀と風説を支配するべくその才を役立てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_ORATOR</zType>
-    <Translation>orator、強力で影響力のある政治家。</Translation>
+    <Translation>Orator。力強い影響力のある公人としてその才を役立てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_JUDGE</zType>
-    <Translation>裁判官、人々のための賢明な支持者。</Translation>
+    <Translation>Judge。人民の賢き代弁者としてその才を役立てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_BUILDER</zType>
-    <Translation>ビルダー、勤勉なプランナーとタスクマスター。</Translation>
+    <Translation>Builder。産業の計画監督者としてその才を役立てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_SCHOLAR</zType>
-    <Translation>学者、知識と文化のビーコン。</Translation>
+    <Translation>Scholar。知識と文化の導き手としてその才を役立てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ARCHETYPE_DIPLOMAT</zType>
-    <Translation>外交官、信頼できる、そしてカリスマ的ブローカー。</Translation>
+    <Translation>Diplomat。信頼とカリスマのある仲介者としてその才を役立てよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SCHEMER_SUCCESSION_OPTION_0</zType>
@@ -14302,15 +14302,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_YOUTHFUL_ZEAL_OPTION_0</zType>
-    <Translation>反乱を奨励する。それは{G0：彼：彼女の}をよく役立ちます。</Translation>
+    <Translation>その反骨精神を良しとする。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_YOUTHFUL_ZEAL_OPTION_1</zType>
-    <Translation>{G0：彼の}の{G0：彼の}の{G0：彼女の}場所を警告として思い出させる。</Translation>
+    <Translation>自身の立場を警告する。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_YOUTHFUL_ZEAL_OPTION_2</zType>
-    <Translation>とにかくダンジョンで{G0：彼：彼女の}。</Translation>
+    <Translation>投獄する。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_EAGER_FOR_COMBAT_OPTION_0</zType>
@@ -14566,7 +14566,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRAIT_REKINDLED_LOVE_OPTION_3</zType>
-    <Translation>私の悲しみに私を残してください。</Translation>
+    <Translation>私の悲しみに私を残しなさい。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TRAIT_A_TALE_OF_MISFORTUNE_OPTION_0</zType>
@@ -16046,15 +16046,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_A_TALENT_FOR_GEOMETRY_OPTION_0</zType>
-    <Translation>エンジニアは裁判所で短い供給を受けています。</Translation>
+    <Translation>宮廷にはEngineerが不足している。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_A_TALENT_FOR_GEOMETRY_OPTION_1</zType>
-    <Translation>大工者は多くのことを可能にします。</Translation>
+    <Translation>Carpenterとなれば様々なものを作ることができるようになる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_A_TALENT_FOR_GEOMETRY_OPTION_2</zType>
-    <Translation>丸みを帯びた教育を受けることが重要です。</Translation>
+    <Translation>広く様々なことを学ぶのが重要だ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_UNDER_ARREST_OPTION_0</zType>
@@ -16530,7 +16530,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INHERITANCE_PROUD_OPTION_0</zType>
-    <Translation>誇りは秋の前に来る。</Translation>
+    <Translation>誇りは秋の前に来ます。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INHERITANCE_HUMBLE_OPTION_0</zType>
@@ -16626,7 +16626,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_DISPOSITION_LOW_DISCIPLINE_OPTION_0</zType>
-    <Translation>実際に残念ながら</Translation>
+    <Translation>実に残念なことだ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_DISPOSITION_LOW_WISDOM_OPTION_0</zType>
@@ -16666,7 +16666,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_OF_COUNCIL_AMBASSADOR_OPTION_1</zType>
-    <Translation>{CHARACTER-SHORT-2}を削除するのは私たちの最善の利益にはなりません</Translation>
+    <Translation>{CHARACTER-SHORT-2}を削除するのは私たちの最善の利益にはありません</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_OF_COUNCIL_AMBASSADOR_OPTION_2</zType>
@@ -16678,7 +16678,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_OF_COUNCIL_SPYMASTER_OPTION_1</zType>
-    <Translation>{CHARACTER-SHORT-2}を削除するのは私たちの最善の利益にはなりません</Translation>
+    <Translation>{CHARACTER-SHORT-2}を削除するのは私たちの最善の利益にはありません</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_OF_COUNCIL_SPYMASTER_OPTION_2</zType>
@@ -16690,7 +16690,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_OF_COUNCIL_CHANCELLOR_OPTION_1</zType>
-    <Translation>{CHARACTER-SHORT-2}を削除するのは私たちの最善の利益にはなりません</Translation>
+    <Translation>{CHARACTER-SHORT-2}を削除するのは私たちの最善の利益にはありません</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_OF_COUNCIL_CHANCELLOR_OPTION_2</zType>
@@ -17118,19 +17118,19 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_AGAINST_THE_SOPHISTS_OPTION_0</zType>
-    <Translation>神々は美徳を出す、そして私たちはそれを賢く使わなければなりません。</Translation>
+    <Translation>美徳とは神々が与えたもうた恩寵である。我々は知性によってそれを用いなければならない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_AGAINST_THE_SOPHISTS_OPTION_1</zType>
-    <Translation>美徳の道は長くて硬い道です。</Translation>
+    <Translation>美徳へと至る道は長く険しいものだ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_AGAINST_THE_SOPHISTS_OPTION_2</zType>
-    <Translation>美徳は{G0：MAN：WAIDS}の全合計です。</Translation>
+    <Translation>美徳とは人の総体である。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_AGAINST_THE_SOPHISTS_OPTION_3</zType>
-    <Translation>待って、彼らはあなたが何を勉強していますか？</Translation>
+    <Translation>待て、やつらはお前に何を学ばせようとしているのだ？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_OPPOSING_VIEWS_OPTION_0</zType>
@@ -17706,7 +17706,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_MISSING_ADVENTURE_BLOODTHIRSTY</zType>
-    <Translation>暗殺者として働きながら...血のための味を取得しました。</Translation>
+    <Translation>···アサシンとして働いている間に血液の味を取得した。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_MISSING_ADVENTURE_RANGER</zType>
@@ -18014,7 +18014,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_ONE_YES_HELP_COPY</zType>
-    <Translation>私は彼をさまざまな衣装で会うのを待つことができません、またはおそらくまったく何もない...</Translation>
+    <Translation>私は彼をさまざまな衣装で会うのを待つことができません。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_THREE_YES</zType>
@@ -18238,19 +18238,19 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AMBITION_SPRING_EQUINOX_FREEDOM</zType>
-    <Translation>人間は鎖に住むに値するのはありません。</Translation>
+    <Translation>人が鎖につながれて生きるようなことはあってはならぬ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AMBITION_SPRING_EQUINOX_TYRANNY</zType>
-    <Translation>私は私たちの力を作るでしょう、そしてすべてが私を恐れなければならない。</Translation>
+    <Translation>我が国を強大なものとし、諸国より畏怖を集めねばならぬ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AMBITION_SPRING_EQUINOX_CONSTITUTION</zType>
-    <Translation>私たちは私たちの習慣を伝来しなければならないので、すべてがそれらに従うかもしれません。</Translation>
+    <Translation>我々の慣習を成文化し、すべての人々が従うようにするべきであろう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AMBITION_SUMMER_SOLSTICE_NO</zType>
-    <Translation>いいえ。私は私が持っているものとまったくコンテンツです。</Translation>
+    <Translation>いや、今のままで満足することとしよう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AMBITION_SUMMER_SOLSTICE_NECROPOLIS</zType>
@@ -18402,7 +18402,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AMBITION_WINTER_SOLSTICE_MONETARY_REFORM</zType>
-    <Translation>安定した通貨が必要です。</Translation>
+    <Translation>安定した通貨が必要です！</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SUCCESSION_BURDEN_OF_LEADERS_NO_PHILOSOPHY</zType>
@@ -18598,7 +18598,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_REGAL_INSPIRATION_EXTRAVAGANT</zType>
-    <Translation>エキゾチックなダンサーや訓練を受けたゾウのようなものは何もありません！</Translation>
+    <Translation>エキゾチックなダンサーや訓練を受けたゾウのようなものは何もありません。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_REGAL_INSPIRATION_RIGHTEOUS</zType>
@@ -20174,11 +20174,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CITY_AUTONOMY_YES</zType>
-    <Translation>彼らが彼らの税金を支払う限り彼らに支配しましょう。</Translation>
+    <Translation>納税を続ける限り自治を認めよう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CITY_AUTONOMY_NO</zType>
-    <Translation>一度もない！ {CHARACTER-SHORT-1}の夫の夫を見つけてください。</Translation>
+    <Translation>許さぬ。{PLAYER-2,1}貴族をみつけて{CHARACTER-SHORT-1}と婚姻させよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SAFE_HOUSES_OPTION_0</zType>
@@ -22242,7 +22242,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_FOUNDING_SIGNS_SUCCESS_OK</zType>
-    <Translation>彼らの幸運が続くように。</Translation>
+    <Translation>彼らの幸運を続けるように。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_VIRTUOUS_REFORMERS_LET</zType>
@@ -22854,7 +22854,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_THE_LITERATE_PROPAGANDA</zType>
-    <Translation>私たちの文明のニュースを広めるためにこのシステムを使ってください！</Translation>
+    <Translation>私たちの文明のニュースを広げるためにこのシステムを使ってください！</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PROPAGANDA_CITIZEN</zType>
@@ -23030,7 +23030,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELIGION_YOUR_BLESSING_OPTION_1</zType>
-    <Translation>マニについて教えるためにここに{G1：彼：彼女の}が必要です。</Translation>
+    <Translation>マニについて教えてください。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELIGION_YOUR_BLESSING_OPTION_2</zType>
@@ -24270,7 +24270,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_STUDY_UNCANNY_OPTION_2</zType>
-    <Translation>{g0：彼女の発見：彼女の発見について私は{g0：彼：彼女と話します。</Translation>
+    <Translation>{g0：彼女の発見：彼女の発見。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_HIDDEN_SCROLLS_OPTION_0</zType>
@@ -24446,7 +24446,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INWARD_GAZE_OPTION_2</zType>
-    <Translation>{G1：彼の国の}国の誇りを持っていることを思い出させる{CHARACTER-SHORT-1}。</Translation>
+    <Translation>{G1：彼の国の}国の誇りを持っていることを思い出させる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_IRREPARABLE_DAMAGE_OPTION_0</zType>
@@ -26074,7 +26074,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TUTORIAL_APPOINT_CHANCELLOR_YES</zType>
-    <Translation>私のレルムを管理するのに役立つように、{CHARACTER-0}をlink(COUNCIL_CHANCELLOR)を指定します！</Translation>
+    <Translation>私のレルムを管理するのに役立つように、{CHARACTER-0}をlink(COUNCIL_CHANCELLOR)を指定します。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TUTORIAL_APPOINT_SPYMASTER_YES</zType>
@@ -26374,7 +26374,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHANCELLOR_RELIGION_HEAD_FAMILY_GIFT_MISSION_YES</zType>
-    <Translation>{FAMILY-0,1}に贈り物をしましょう。{宗教-4,3}を喜ばせてください。</Translation>
+    <Translation>{FAMILY-0,1}に贈り物をしましょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AMBASSADOR_TRADE_MISSION_YES</zType>
@@ -26770,7 +26770,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_NEW_AMBITION_FOUR_LIBRARY_3</zType>
-    <Translation>私たちは4つのlink(改善_LIBRARY_3,2)を構築します。ここでは、素晴らしい心がアイデアを共有するために集まります。</Translation>
+    <Translation>私たちは4つのlink(改善_LIBRARY_3,2)を構築します。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_NEW_AMBITION_FOUR_COURTHOUSE_3</zType>
@@ -27186,7 +27186,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_JUDICIAL_OVERREACH_REFUSE</zType>
-    <Translation>{PLAYER-2,1}は{CITY-0}の法律を破った。ここで、{CHARACTER-1}の権限は疑いのないものです。</Translation>
+    <Translation>{PLAYER-2,1}は{CITY-0}の法律を破った。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INTERFAITH_DIALOGUE_CIVICS</zType>
