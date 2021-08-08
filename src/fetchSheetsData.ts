@@ -6,14 +6,17 @@ import { XMLDataStructure } from './sheetsToXML';
  */
 export default async function fetchSheetsData(auth: OAuth2Client, targetSheet: string): Promise<XMLDataStructure[]> {
   const sheets = google.sheets({ version: 'v4', auth })
-  return await new Promise(resolve => {
+  return await new Promise((resolve, reject) => {
     sheets.spreadsheets.values.get(
       {
         spreadsheetId: '1axY7ktG7bJC-MaQD4BsnZ6EWRRb6thkHoeQSlsZQx5k',
         range: targetSheet
       },
       (err, res) => {
-        if (err || !res) return console.log('The API returned an error: ' + err)
+        if (err || !res) {
+          reject(err);
+          return
+        }
         const rows = res.data.values
         if (rows && rows.length) {
           const titleIndex = rows.findIndex(row => row.find(col => col === 'zType'))
