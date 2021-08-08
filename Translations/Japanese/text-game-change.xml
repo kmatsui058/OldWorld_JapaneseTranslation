@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2018 sp1 (x64) (http://www.altova.com) by Joel Bowers (Mohawk Games) -->
+<Root>
+  <Entry>
+    <zType />
+    <Translation />
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_LOST_TEAM_ALLIANCE</zType>
+    <Translation>You are no longer in a link(CONCEPT_ALLIANCE_PLAYER) with {0_team}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_GAINED_TEAM_ALLIANCE</zType>
+    <Translation>You are now in a link(CONCEPT_ALLIANCE_PLAYER) with {0_team}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_LOST_TRIBE_ALLIANCE</zType>
+    <Translation>You are no longer in a link(CONCEPT_ALLIANCE_TRIBE) with the {0_tribe}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_GAINED_TRIBE_ALLIANCE</zType>
+    <Translation>You are now in a link(CONCEPT_ALLIANCE_TRIBE) with the {0_tribe}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_MET_TRIBE</zType>
+    <Translation>You have met the {0_tribe}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TRIBE_NEW_DIPLOMACY</zType>
+    <Translation>{0_team} is now at {1_newDiplomacy} with the {2_tribe}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TRIBE_DIPLOMACY_LOG_DATA</zType>
+    <Translation>{0_barbarians}: {1_newDiplomacy}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TEAM_CONTACT_LOG_DATA</zType>
+    <Translation>You have met {0_team}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TEAM_NEW_DIPLOMACY</zType>
+    <Translation>{true_3:{0_team} declares {1_newDiplomacy} on {2_team}.:{0_team} is now at {1_newDiplomacy} with {2_team}.}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TEAM_FROM_DIPLOMACY_LOG_DATA</zType>
+    <Translation>{true_2:Declared {1_newDiplomacy} on {0_team}:Made {1_newDiplomacy} with {0_team}}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TEAM_TO_DIPLOMACY_LOG_DATA</zType>
+    <Translation>{true_2:{0_team} Declared {1_newDiplomacy} on us:Made {1_newDiplomacy} with {0_team}}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TEAM_ALLIANCE_WAR</zType>
+    <Translation>Because of an link(CONCEPT_ALLIANCE_PLAYER) with {0_team}, {1_player} responds to the link(DIPLOMACY_WAR) Declaration by {2_team} with link(DIPLOMACY_WAR)!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TRIBE_ALLIANCE_WAR</zType>
+    <Translation>Because of an link(CONCEPT_ALLIANCE_TRIBE) with {0_team}, {1_tribe} responds to the link(DIPLOMACY_WAR) Declaration by {2_team} with link(DIPLOMACY_WAR)!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_RELIGION_THEOLOGY</zType>
+    <Translation>{0_religion} has established {1_theology} Theology.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_GAME_OVER_POPUP</zType>
+    <Translation>You have reached the end of the game.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TEAM_DEFEAT_POPUP</zType>
+    <Translation>The nation of {0_player} has been eliminated!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TEAM_DEFEAT_POPUP_NO_HEIR</zType>
+    <Translation>The royal dynasty of {0_player} has come to an end!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_SURRENDER_POPUP</zType>
+    <Translation>{0_player} has surrendered!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_RELIGION_FOUNDED</zType>
+    <Translation>{0_religion} founded in {1_city}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_RELIGION_HEAD</zType>
+    <Translation>{0_character} is now the Head of {1_religion}. (Their Opinion of you is now {2_opinion}.)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_RELIGION_FAMILY</zType>
+    <Translation>The {0_family} Family has converted to {1_religion}. (Their Opinion of you is now {2_opinion}.)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_RELIGION_TRIBE</zType>
+    <Translation>The {0_tribe} have converted to {1_religion}. (Their Opinion of you is now {2_opinion}.)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_RELIGION_PLAYER</zType>
+    <Translation>{0_player} has converted to {1_religion}.{true_2: (Their Opinion of you is now {2_opinion}.)}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_NO_RELIGION_PLAYER</zType>
+    <Translation>{0_player} no longer has a State Religion. (Their Opinion of you is now {1_opinion}.)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_FAMILY_HEAD</zType>
+    <Translation>{0_character} is now Head of the {1_family} Family. (Their Opinion of you is now {2_opinion}.)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_IMPROVEMENT_PILLAGED</zType>
+    <Translation>{0_improvement} will disappear in {1} {2_turnScale}!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_IMPROVEMENT_STARTED</zType>
+    <Translation>{0_player} has begun construction of {1_improvement}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_IMPROVEMENT_COMPLETED</zType>
+    <Translation>{0_improvement} completed by {1_player}!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_RELIGION_SPREAD_TO_CITY</zType>
+    <Translation>{0_religion} spreads to {1_city}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DOOMED_POPUP</zType>
+    <Translation>Your doctors and diviners have warned you that the end is near! Time to get your affairs in order.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_ABDICATION</zType>
+    <Translation>{0_oldLeader} has abdicated the throne.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_NEW_RULER</zType>
+    <Translation>A new ruler, {0_newLeader}, has taken the throne.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_POPUP</zType>
+    <Translation>News has arrived from abroad that {0_oldLeader} is dead. A new ruler, {1_newLeader}, has taken the throne. (Their Opinion of you is now {2_opinion}.)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_ABDICATE_POPUP</zType>
+    <Translation>News has arrived from abroad that {0_oldLeader} has abdicated. A new ruler, {1_newLeader}, has taken the throne. (Their Opinion of you is now {2_opinion}.)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TRIBE_NEW_RULER_POPUP</zType>
+    <Translation>News has arrived from abroad that {0_oldLeader} is dead. {1_newLeader} now leads the {2_tribe}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_NEW_LAW_FOR_HEIR_POPUP</zType>
+    <Translation>Because, under the old laws, your dynasty has no legitimate heir, it switches to {0_law} to enable the ascension of {1_character}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_START_AMBITION</zType>
+    <Translation>{0_character} has started a new Ambition: {1_ambition}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_START_AMBITION_DESIRED</zType>
+    <Translation>
+      <![CDATA[{0_character} is now pursuing <masculine_0>his<feminine>her<end> Desired Ambition: {1_ambition}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_START_QUEST</zType>
+    <Translation>You have started a Quest: {0}{true_1: (within {1} turns)}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_FINISH_AMBITION</zType>
+    <Translation>You have completed an Ambition: {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_FINISH_LEGACY</zType>
+    <Translation>You have completed {true_1:the Legacy of {1_character}:a Legacy}: {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_FINISH_QUEST</zType>
+    <Translation>You have completed a Quest: {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_FAIL_AMBITION</zType>
+    <Translation>You have failed {true_1:a Legacy:an Ambition}: {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_FAIL_QUEST</zType>
+    <Translation>You have failed a Quest: {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_MAKE_LEGACY</zType>
+    <Translation>An old link(CONCEPT_AMBITION), {0_ambition}, is now a link(CONCEPT_LEGACY). You will have {1} {2_turnScale} to complete it.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_MAKE_LEGACIES</zType>
+    <Translation>The following link(CONCEPT_AMBITION,2) are now link(CONCEPT_LEGACY,2):</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_MAKE_LEGACIES_GOAL</zType>
+    <Translation>{0_goal} ({1} {2_turnScale} Left)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_AMBITION_IMPOSSIBLE</zType>
+    <Translation>This {true_1:Legacy:Ambition} is now impossible and has been removed: {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_QUEST_IMPOSSIBLE</zType>
+    <Translation>This Quest is now impossible and has been removed: {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_BARBARIAN_WAVE_COMING_POPUP</zType>
+    <Translation>Your sentries inform you that a link(TRIBE_BARBARIANS,1) Wave is likely to erupt in the coming years.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_COURTIER_JOINED_POPUP</zType>
+    <Translation>{0_character} has joined your Court.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHARACTER_TUTORS_AGE</zType>
+    <Translation>{0_character} is now old enough to be link(CONCEPT_TUTOR,3) by {1,2_Courtier}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHARACTER_ADULT_POPUP</zType>
+    <Translation>{0_character} is now an adult (age {1_age})</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHARACTER_DESIRED_AMBITION</zType>
+    <Translation>{0_character} now has a new Desired Ambition: {1_goal}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHARACTER_CHOOSES_RELIGION</zType>
+    <Translation>{0_character} has converted to {1_religion}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_COVER_DEBTS_LOG_DATA</zType>
+    <Translation>Sold {0_goodsList} to cover debts.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_SHORTFALL_LOG_DATA</zType>
+    <Translation>{0_project} built in {1_city} to avoid {2_yield} shortfall</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_QUEUED_BUILD_BUY_GOODS_LOG_DATA</zType>
+    <Translation>Queued action: Spent {0_money} to buy {1_yields} ({2_improvement})</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_FOUNDED_CITY_LOG_DATA</zType>
+    <Translation>Founded {0_city}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DISCOVERED_TECH_LOG_DATA</zType>
+    <Translation>Discovered {0_tech}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_FINISHED_PROJECT_LOG_DATA</zType>
+    <Translation>{0_city} finished a link(CONCEPT_PROJECT,1): {1_project}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_DEVELOPED_SPECIALIST_LOG_DATA</zType>
+    <Translation>{0_city} developed a link(CONCEPT_SPECIALIST,1): {1_specialist}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_TRAINED_UNIT_LOG_DATA</zType>
+    <Translation>{0_city} trained a Unit: {1_unit}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHARACTER_GAINS_TRAIT</zType>
+    <Translation>{0_character} now has the {1_trait} trait.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHARACTER_LOSES_TRAIT</zType>
+    <Translation>{0_character} no longer has the {1_trait} trait.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHARACTER_RATING_CHANGE</zType>
+    <Translation>{0_character}: {1_value} {2_rating}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_LANDMARK_DISCOVERED</zType>
+    <Translation>Landmark Discovered: {0_name}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_LANDMARK_NAMED</zType>
+    <Translation>You are the first to discover this Landmark. What will you name it?</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TRIBE_RAID_WARNING</zType>
+    <Translation>Reports of a Raid from {0,2_tribe} {1_improvement} near {2_city}!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_BOUNDARY_RAID_WARNING</zType>
+    <Translation>Reports of a Raid from distant lands near {0_city}!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_GIVE_BIRTH_LOG_DATA</zType>
+    <Translation>{0_childName} was born.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_GIVE_BIRTH_LEADER</zType>
+    <Translation>
+      <![CDATA[<true_0>You have<false>Your wife has<end> given birth to a <masculine_1>son<feminine>daughter<end>, {1_childName}!]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_GIVE_BIRTH_LEADER_ILLEGITIMATE</zType>
+    <Translation>
+      <![CDATA[<comment variable 0 is the leader i.e. "you" for gender purposes for foreign languages>You have a new illegitimate <masculine_1>son<feminine>daughter<end>, {1_childName}!]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_GIVE_BIRTH_NON_LEADER</zType>
+    <Translation>
+      <![CDATA[{0_father} and {1_mother} have given birth to a <masculine_2>son<feminine>daughter<end>, {2_childName}!]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_GIVE_BIRTH_NON_LEADER_ILLEGITIMATE</zType>
+    <Translation>
+      <![CDATA[{0_father} has a new illegitimate <masculine_1>son<feminine>daughter<end>, {1_childName}!]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_EVENT_CITY_LOG_DATA</zType>
+    <Translation>{0_event} in {1_city}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TEAM</zType>
+    <Translation>Team {0_teamNum}</Translation>
+  </Entry>
+  <!--Decisions-->
+  <Entry>
+    <zType>TEXT_GAME_DECISION_RETIRING_GENERAL_TITLE</zType>
+    <Translation>Retiring link(CONCEPT_GENERAL)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_RETIRING_GENERAL</zType>
+    <Translation>{0_character}, link(CONCEPT_GENERAL) of the {1_unit} is too old and has retired from the field.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_RETIRING_GENERAL_PROMPT</zType>
+    <Translation>Choose New link(CONCEPT_GENERAL)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_DEAD_COUNCIL_TITLE</zType>
+    <Translation>Death of {0_council}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_DEAD_COUNCIL</zType>
+    <Translation>{0_character}, our {1_council}, has died in office.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_DEAD_COUNCIL_PROMPT</zType>
+    <Translation>Choose New {0_council}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_DEAD_GOVERNOR_TITLE</zType>
+    <Translation>Death of link(CONCEPT_GOVERNOR)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_DEAD_GOVERNOR</zType>
+    <Translation>{0_character}, link(CONCEPT_GOVERNOR) of {1_city}, has died in office.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_DEAD_GOVERNOR_PROMPT</zType>
+    <Translation>Choose New link(CONCEPT_GOVERNOR)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_DEAD_AGENT_TITLE</zType>
+    <Translation>Death of link(CONCEPT_AGENT)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_DEAD_AGENT</zType>
+    <Translation>{0_character}, link(CONCEPT_AGENT) in {1_city}, has died while still serving.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DECISION_DEAD_AGENT_PROMPT</zType>
+    <Translation>Choose New link(CONCEPT_AGENT)</Translation>
+  </Entry>
+  <!--Do Bonus-->
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_PLAYERS</zType>
+    <Translation>All Nations: {0_memory}, {1_value} Opinion</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_TRIBES</zType>
+    <Translation>All Tribes: {0_memory}, {1_value} Opinion</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MEMORY_ALL_FAMILIES</zType>
+    <Translation>All Families: {0_memory}, {1_value} Opinion</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MEMORY_SUBJECT</zType>
+    <Translation>{0_subject}: {1_memory}, {2_value} Opinion</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MEMORY_SUBJECT_TURNS</zType>
+    <Translation>{0_turns} {1_turnScale}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_FORGET_SUBJECT</zType>
+    <Translation>{0_subject}: Forgets {1_memory} (Currently {2_value} Opinion)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_RENAME</zType>
+    <Translation>Renamed {0_name}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_END_ALLIANCE</zType>
+    <Translation>Ends {0_alliance} with {1_subject}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_DIPLOMACY_WITH_PLAYER</zType>
+    <Translation>{0_diplomacy} with {1_player}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_DIPLOMACY_HOSTILE_FROM</zType>
+    <Translation>Declares {0_diplomacy} on {1_player}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_DIPLOMACY_HOSTILE_TO</zType>
+    <Translation>{1_player} declares {0_diplomacy}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_ALLIANCE_WITH</zType>
+    <Translation>{0_player} in Alliance with {1_other}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_OTHER_PLAYER</zType>
+    <Translation>Gain {0_yield} from {1_player}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_SEND_PLAYER</zType>
+    <Translation>Send {0_yield} to {1_player}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_OTHER_PLAYER_DIPLOMACY</zType>
+    <Translation>{0_other} at {1_diplomacy} with {2_target}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_DIPLOMACY_TRIBE</zType>
+    <Translation>{0_diplomacy} with {1_barbarian}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_TRIBE_DIPLOMACY_PLAYER</zType>
+    <Translation>{0_barbarian}: {1_diplomacy} with {2_player}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_ADOPT_RELIGION</zType>
+    <Translation>Adopts {0_religion} as link(CONCEPT_STATE_RELIGION)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_SPREAD_RELIGION</zType>
+    <Translation>{0_religion} Spreads to {1_city}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_REMOVE_RELIGION</zType>
+    <Translation>Removes {0_religion} from {1_city}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_CONVERT_RELIGION</zType>
+    <Translation>{0_character} Converts to {1_religion}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_HEAD_RELIGION</zType>
+    <Translation>{0_character} Becomes Head of {1_religion}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_HEAD_FAMILY</zType>
+    <Translation>{0_character} Becomes Head of {1_family}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_FAMILY_LAW</zType>
+    <Translation>{0_family}: {1_law} Opinion {2_value}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_START_LAW</zType>
+    <Translation>Start {0_law}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_FREE_LAW</zType>
+    <Translation>Free {0_law}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_FREE_THEOLOGY</zType>
+    <Translation>Free {0_theology} ({1_religion})</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_FOUND_RELIGION_CITY</zType>
+    <Translation>Found {0_religion}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_ADD_X</zType>
+    <Translation>Add {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_CITIZENS</zType>
+    <Translation>
+      <![CDATA[{0_value} <singular_0>{1_citizenLink}<plural>{1,2_citizenLink}<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_BORDER_GROWTH</zType>
+    <Translation>
+      <![CDATA[{0_value} Border <singular_0>Tile<plural>Tiles<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_CULTURE_LEVELS</zType>
+    <Translation>
+      <![CDATA[{0_value} <singular_0>{1_culture}<plural>{1,2_culture}<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_DISCONTENT_LEVELS</zType>
+    <Translation>
+      <![CDATA[{0_value} link(YIELD_DISCONTENT) <singular_0>Level<plural>Levels<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_REBEL_UNITS</zType>
+    <Translation>
+      <![CDATA[{0_value} {1_rebel} <singular_0>Unit<plural>Units<end>]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_IMPROVEMENTS_DESTROYED</zType>
+    <Translation>
+      <![CDATA[{0_value} <singular_0>Improvement<plural>Improvements<end> Destroyed]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_HP</zType>
+    <Translation>{0_damage} HP</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_AGENT_CITY</zType>
+    <Translation>{0_character} becomes link(CONCEPT_AGENT)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_DISTANT_RAID</zType>
+    <Translation>Distant Raid</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_PLUS_ONE</zType>
+    <Translation>+1 {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MINUS_ONE</zType>
+    <Translation>-1 {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MEMORY_CHARACTER</zType>
+    <Translation>{0_memory}, {1_value} Opinion</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_FORGET_CHARACTER</zType>
+    <Translation>Forgets {0_memory} (Currently {1_value} Opinion)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_DO_BONUS_DESIRED_AMBITION</zType>
+    <Translation>Desires {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_RANDOM_TRAIT</zType>
+    <Translation>{0_character} becomes {1_trait}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_RANDOM_RELATIONSHIP_LEADER</zType>
+    <Translation>{0_character} is now {1_relationship} {2_leader}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_GAINS</zType>
+    <Translation>Becomes {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_LOSES</zType>
+    <Translation>No longer {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_STARTS_MISSION</zType>
+    <Translation>{0_character} Starts Mission: {1_mission}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_STARTS_MISSION_FREE</zType>
+    <Translation>Free</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_DEFEAT</zType>
+    <Translation>Player Defeat</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_ADD_COURTIER_OTHER</zType>
+    <Translation>{0,1_player} {1_courtier}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_PLAYER_START_LAW</zType>
+    <Translation>{0_player}: Start {1_law}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_PLAYER_END_LAW</zType>
+    <Translation>{0_player}: End {1_law}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_PLAYER_FREE_LAW</zType>
+    <Translation>{0_player}: Free {1_law}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MAKE_GOVERNOR</zType>
+    <Translation>link(CONCEPT_GOVERNOR) of {0_city}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MAKE_GENERAL</zType>
+    <Translation>link(CONCEPT_GENERAL) of {0_unit}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_ADOPTION</zType>
+    <Translation>Adopted by {0_parent}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_MARRIES</zType>
+    <Translation>Marries {0_suitor}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_DIVORCED_BY</zType>
+    <Translation>Divorced by {0_spouse}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_BIRTH_WITH</zType>
+    <Translation>Has Child with {0_parent}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_ABDICATES</zType>
+    <Translation>Abdicates</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_CHOSEN_HEIR</zType>
+    <Translation>Is Chosen Heir</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_KILL_CHARACTER</zType>
+    <Translation>Dies</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_HAS_ILLEGITIMATE_CHILD</zType>
+    <Translation>Has an Illegitimate Child</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_RELATIONSHIP_ADD_REMOVE</zType>
+    <Translation>{0} (Removes {1_list})</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_RELATIONSHIP_REMOVE</zType>
+    <Translation>No longer {0_relationship} {1_character}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_XP</zType>
+    <Translation>{0_value} XP</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_KILL_UNIT</zType>
+    <Translation>Dies</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_REVEAL_RANGE</zType>
+    <Translation>
+      <![CDATA[Reveals All {0_dist} <singular_0>Tile<plural>Tiles<end> Away]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_SET_VEGETATION</zType>
+    <Translation>Set {0_vegetation} on {1_tile}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_SET_RESOURCE</zType>
+    <Translation>Set {0_resource} on {1_tile}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_SET_IMPROVEMENT</zType>
+    <Translation>Set {0_improvement} on {1_tile}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_REMOVE_VEGETATION</zType>
+    <Translation>Remove {0_vegetation} from {1_tile}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_CLEAR_IMPROVEMENT</zType>
+    <Translation>Clear {0_improvement} from {1_tile}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_PILLAGE_IMPROVEMENT</zType>
+    <Translation>Pillage {0_improvement} on {1_tile}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_TRIBE_RAID</zType>
+    <Translation>Raid from {0,1_barbarian} {1_improvement} from {2_tile}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_PLAYER_FREE_THEOLOGY</zType>
+    <Translation>{0_player}: Free {1_theology} ({2_religion})</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_HOLY_CITY_AGENTS</zType>
+    <Translation>{0_player}: Free link(CONCEPT_AGENT) in all Holy Cities</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_FOUND_RELIGION</zType>
+    <Translation>{0_player}: Found {1_religion}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_STATE_RELIGION_END</zType>
+    <Translation>{0_player}: End link(CONCEPT_STATE_RELIGION) ({1_religion})</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_TECH</zType>
+    <Translation>{0_player}: {1_tech} (Tech)</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_POPUP_BONUS_TECH</zType>
+    <Translation>{0_player} discovers a new technology: {1_tech}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_DO_BONUS_LOG_DATA</zType>
+    <Translation>[{0}]</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHARACTER_FINISHED_MISSION</zType>
+    <Translation>{0_character} has finished {1_mission}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHARACTER_MISSION_NO_EFFECT</zType>
+    <Translation>{0_character}: {1_mission} has no effect</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_ATTACK_CRITICAL</zType>
+    <Translation>Critical!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_ATTACK_DAMAGE</zType>
+    <Translation>-{0_damage} HP</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_ATTACK_ENLISTED</zType>
+    <Translation>Enlisted!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_ATTACKED_LOG_DATA</zType>
+    <Translation>{0_city} Attacked by {1,2_owner} {2_unit}. ({3_discontent})</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CAMP_DESTROYED_LOG_DATA</zType>
+    <Translation>{0_barbarian} {1_improvement} Destroyed.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_RAZED_LOG_DATA</zType>
+    <Translation>{0_city} has been razed!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_BREACHED_LOG_DATA</zType>
+    <Translation>{0_city} breached by {1_playerOrTribe}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_CAPTURED_LOG_DATA</zType>
+    <Translation>{0_city} captured by {1_player}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_CANCEL_BUILD_LOG_DATA</zType>
+    <Translation>{0_build} cancelled in {1_city}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_DISCONTENT_CHANGE_LOG_DATA</zType>
+    <Translation>
+      <![CDATA[{0_level} link(YIELD_DISCONTENT) <singular_0>Level<plural>Levels<end> in {1_city}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_ATTACKED_LOG_DATA</zType>
+    <Translation>{0_unit} Attacked by {1,2_owner} {2_unit}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_CRITICAL_LOG_DATA</zType>
+    <Translation>{0_unit} link(CONCEPT_CRITICAL_HIT) by {1,2_owner} {2_unit}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_KILLED_LOG_DATA</zType>
+    <Translation>{0_unit} Killed by {1,2_owner} {2_unit}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_CAPTURED_LOG_DATA</zType>
+    <Translation>{0_unit} Captured by {1,2_owner} {2_unit}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_SEEN</zType>
+    <Translation>Hostile {0_owner} {1_unit} seen.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_MOVE_CANCELLED</zType>
+    <Translation>{0_unit} cancelled auto-move</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_LAUNCH_OFFENSIVE_LOG_DATA</zType>
+    <Translation>{0_unit} launches an Offensive!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_ESTABLISH_THEOLOGY_LOG_DATA</zType>
+    <Translation>{0,1_religion} {1_theology} established by {2_player}.</Translation>
+  </Entry>
+  <!--Tile Renderer-->
+  <Entry>
+    <zType>TEXT_GAME_TILE_CITY_SITE</zType>
+    <Translation>City Site</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TILE_UNREVEALED_SITE</zType>
+    <Translation>Unrevealed Site</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TILE_IMPROVEMENT_DEVELOP</zType>
+    <Translation>({0_name}: {1_turns})</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UPLOADING_GAME_POPUP</zType>
+    <Translation>Game uploading...</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_NOT_CONNECTED_TO_ONLINE_SERVICES_POPUP</zType>
+    <Translation>Not Connected to online services</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UPLOAD_COMPLETE_POPUP</zType>
+    <Translation>Game Upload Complete</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UPLOAD_FAILED_POPUP</zType>
+    <Translation>Game Upload Failed</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_SAVED</zType>
+    <Translation>Game Saved</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_FAILED_TO_SAVE</zType>
+    <Translation>Failed to Save</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHAT_ALL_TAG</zType>
+    <Translation>ALL</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHAT_TEAM_TAG</zType>
+    <Translation>TEAM</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CHAT_MESSAGE_FORMAT</zType>
+    <Translation>{0_fromPlayer}[{1_tag}]: {2_msg}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TILE_NOT_UNLIMBERED</zType>
+    <Translation>Not Unlimbered</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_TILE_REQUIRES_ANCHORED</zType>
+    <Translation>Requires Anchored Ship</Translation>
+  </Entry>
+  <!--Unit-->
+  <Entry>
+    <zType>TEXT_GAME_UNIT_TILE_DAMAGE</zType>
+    <Translation>{0} HP</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_TILE_LEVEL_UP</zType>
+    <Translation>{0} Level</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_TILE_GAIN_XP</zType>
+    <Translation>{0} XP</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_TILE_JOIN_CITY</zType>
+    <Translation>{0} {1,2_citizenLink}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_PILLAGED_IMPROVEMENT_LOG_DATA</zType>
+    <Translation>{0} Pillaged by {1_owner} {2_unit}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PILLAGED__LOG_DATA</zType>
+    <Translation>{0} Pillaged by {1_owner} {2_unit}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION</zType>
+    <Translation>
+      link(CONCEPT_CARAVAN_MISSION) with {0_player} complete: {1_money}
+      <![CDATA[<br>{2_memory}]]>
+    </Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_RECEIVED_CARAVAN_MISSION</zType>
+    <Translation>link(CONCEPT_CARAVAN_MISSION) arrives from {0_player}: {1_money}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_UNIT_STUNNED</zType>
+    <Translation>Stunned</Translation>
+  </Entry>
+  <!--City-->
+  <Entry>
+    <zType>TEXT_GAME_CITY_YIELD_FROM_CULTURE_EVENT</zType>
+    <Translation>From link(CONCEPT_CULTURE_EVENT): {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_REBEL_UNITS_NEAR_CITY</zType>
+    <Translation>link(TRIBE_REBELS) have formed a {0_unit} near {1_city}!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_CITY_CURRY_POPULATION_CITIZENS_COST</zType>
+    <Translation>{0} Citizen(s)</Translation>
+  </Entry>
+  <!--Player-->
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_ACHIEVEMENT_UNLOCKED</zType>
+    <Translation>Achievement Unlocked: {0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_RESOURCE_SHORTFALL</zType>
+    <Translation>Resource Shortfall: Spent {0} to buy {1}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_MISSION_CANCELLED</zType>
+    <Translation>{0}'s Mission is Cancelled: {1}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_YIELD_ORDERS_SOLD_FOR_YIELD</zType>
+    <Translation>{0} is sold for {1}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_YIELD_YIELD_CONVERTED_TO_ORDERS</zType>
+    <Translation>{0} is converted into {1}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_SAVE_AND_RELOAD_TO_PLAY_POPUP</zType>
+    <Translation>No user ID found: Save and reload to play as next player</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_FAILED_TO_UPLOAD_TO_CLOUD_POPUP</zType>
+    <Translation>Failed to upload. Please exit and replay your turn.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_YIELD_GIFT_RECIEVED</zType>
+    <Translation>{0_amount} {1} Received</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_DECLARED_WAR_ON</zType>
+    <Translation>Declared war on {0_strength} {1}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_TRUCE_WITH</zType>
+    <Translation>Declared truce with {0_strength} {1}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_GAME_PLAYER_AI_ORDERS_TO_TEAMMATES</zType>
+    <Translation>{0_player} gifts you {1} unused {2_yield}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_WISDOM_GAIN_1</zType>
+    <Translation>{0} has recently proven {masculine_0:his:her} good sense and insight. {masculine_0:He:She} has gained {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_WISDOM_GAIN_2</zType>
+    <Translation>{0} has reflected on {masculine_0:his:her} recent experiences, and absorbed many important lessons. {masculine_0:He:She} has gained {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_WISDOM_LOSS_1</zType>
+    <Translation>The recent actions of {0} have called into question the soundness of {masculine_0:his:her} judgement. {masculine_0:He:She} has lost {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_WISDOM_LOSS_2</zType>
+    <Translation>{0} has made one mistake after another as of late, and many have begun to question {masculine_0:his:her} judgement. {masculine_0:He:She} has lost {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_CHARISMA_GAIN_1</zType>
+    <Translation>{0} has grown more confident and charming. {masculine_0:He:She} has gained {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_CHARISMA_GAIN_2</zType>
+    <Translation>Self-assured and assertive, {0} exudes an aura of confidence. {masculine_0:He:She} has gained {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_CHARISMA_LOSS_1</zType>
+    <Translation>{0} has lost some of {masculine_0:his:her} confidence and ability to charm. {masculine_0:He:She} has lost {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_CHARISMA_LOSS_2</zType>
+    <Translation>Recent events have shaken the confidence of {0}, and {masculine_0:he:she} has lost some of {masculine_0:his:her} charm. {masculine_0:He:She} has lost {1} {2}.</Translation>
+  </Entry>
+
+  <Entry>
+    <zType>TEXT_RATING_COURAGE_GAIN_1</zType>
+    <Translation>{0} still feels fear, as does any sane {masculine_0:man:woman}, but {masculine_0:he:she} never lets it stop {masculine_0:him:her}. {masculine_0:He:She} has gained {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_COURAGE_GAIN_2</zType>
+    <Translation>More confident than ever in the face of danger, {0} has gained {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_COURAGE_LOSS_1</zType>
+    <Translation>{0} has been overcome by fear, and has lost {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_COURAGE_LOSS_2</zType>
+    <Translation>After recent exposures to danger, {0} has acquired new phobias, and lost {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_DISCIPLINE_GAIN_1</zType>
+    <Translation>{0} follows a strict regime, never taking the easy way if it is not the best way. {masculine_0:He:She} has gained {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_DISCIPLINE_GAIN_2</zType>
+    <Translation>There is no easy day in the life of {0}! {masculine_0:He:She} has gained {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_DISCIPLINE_LOSS_1</zType>
+    <Translation>{0} gives into {masculine_0:his:her} basic desires more often lately. {masculine_0:He:She} has lost {1} {2}.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_RATING_DISCIPLINE_LOSS_2</zType>
+    <Translation>Ever more slothful and lazy, {0} has stopped following {masculine_0:his:her} strict regimen of diet and exercise. {masculine_0:He:She} has lost {1} {2}.</Translation>
+  </Entry>
+
+
+</Root>
