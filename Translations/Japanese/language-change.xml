@@ -4,8 +4,8 @@
     <zType>LANGUAGE_TRANSLATION</zType>
     <Name>TEXT_LANGUAGE_JAPANESE_TRANSLATION</Name>
     <zISOCode>ja</zISOCode>
-    <zThousandsSeparator>。</zThousandsSeparator>
-    <zDecimalSeparator>、</zDecimalSeparator>
+    <zThousandsSeparator>,</zThousandsSeparator>
+    <zDecimalSeparator>.</zDecimalSeparator>
     <zCurrencyPrefix>￥</zCurrencyPrefix>
     <zThousandPostfix>T</zThousandPostfix>
     <zMillionPostfix>M</zMillionPostfix>
