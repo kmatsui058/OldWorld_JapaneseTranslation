@@ -164,7 +164,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_INTOLERANT_GAIN_2</zType>
-    <Translation>{0_character} has no patience for different ways of life. {masculine_0:He:She} is {1_trait}.</Translation>
+    <Translation>{0_character}は自分と異なる生き方を認めることができず、{1_trait}になった。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_SLOTHFUL</zType>
@@ -452,7 +452,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_HORSEBANE_GAIN_1</zType>
-    <Translation>{0_character} is so skilled at fighting against mounted opponents that {masculine_0:he:she} is known as {1_trait}!</Translation>
+    <Translation>{0_character}は対騎乗兵の戦闘に熟練し、{1_trait}として知られるようになった。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_ENGINEER</zType>
@@ -664,15 +664,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_ILL_GAIN_4</zType>
-    <Translation>{0_character} has been feeling quite poor lately, and is now {1_trait}.</Translation>
+    <Translation>{0_character}はこの頃気分がすぐれなくなり、{1_trait}となった。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_ILL_GAIN_5</zType>
-    <Translation>The health of {0_character} has begun to decline, and {masculine_0:he:she} is now {1_trait}.</Translation>
+    <Translation>健康状態が悪化し、{0_character}は{1_trait}になった。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_ILL_LOSS_1</zType>
-    <Translation>{0_character} is no longer {1_trait}, {masculine_0:he:she} has fully recovered!</Translation>
+    <Translation>{0_character}は症状が完治し、{1_trait}ではなくなった。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_ILL_LOSS_2</zType>
@@ -692,11 +692,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_SEVERELY_ILL_GAIN_2</zType>
-    <Translation>{0_character} is {1_trait}, suffering from a high fever and constant shaking, leaving {masculine_0:him:her} barely able to walk.</Translation>
+    <Translation>{0_character}は{1_trait}になった。高熱と震えが止まらず、歩くことも困難な状態である。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_SEVERELY_ILL_GAIN_3</zType>
-    <Translation>{1_trait}, coughing up bloody mucus and suffering from sharp pains in {masculine_0:his:her} chest, {0_character} fears {masculine_0:he:she} does not have much time left.</Translation>
+    <Translation>{1_trait}。血の混じった粘液を咳き込み、胸に鋭い痛みを感じ、{0_character}はもう自分には時間がないのではないかと不安に思った。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_SEVERELY_ILL_GAIN_4</zType>
@@ -904,7 +904,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_MOURNING_LOSS_1</zType>
-    <Translation>The grieving of {0_character} is at an end. {masculine_0:He:She} is no longer {1_trait}.</Translation>
+    <Translation>{0_character}の嘆きのときは終わり、{1_trait}ではなくなった。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_PROPHET</zType>

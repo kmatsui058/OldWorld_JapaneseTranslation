@@ -115,7 +115,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_IMPROVEMENT_COMPLETED</zType>
-    <Translation>{0_improvement} completed by {1_player}!</Translation>
+    <Translation>{1_player}は{0_improvement}の建設を完了した。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_RELIGION_SPREAD_TO_CITY</zType>
@@ -225,7 +225,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_CHARACTER_CHOOSES_RELIGION</zType>
-    <Translation>{0_character} has converted to {1_religion}</Translation>
+    <Translation>{0_character}が{1_religion}に帰依した。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_COVER_DEBTS_LOG_DATA</zType>
@@ -905,7 +905,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_CITY_REBEL_UNITS_NEAR_CITY</zType>
-    <Translation>link(TRIBE_REBELS) have formed a {0_unit} near {1_city}!</Translation>
+    <Translation>link(TRIBE_REBELS)の{0_unit}が{1_city}の近くで結成された。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_CITY_CURRY_POPULATION_CITIZENS_COST</zType>
@@ -962,7 +962,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_RATING_WISDOM_GAIN_2</zType>
-    <Translation>{0} has reflected on {masculine_0:his:her} recent experiences, and absorbed many important lessons. {masculine_0:He:She} has gained {1} {2}.</Translation>
+    <Translation>{0}は自身の経験を反映したり授業に没頭したことで{1} {2}を得ました。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_RATING_WISDOM_LOSS_1</zType>
@@ -974,11 +974,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_RATING_CHARISMA_GAIN_1</zType>
-    <Translation>{0} has grown more confident and charming. {masculine_0:He:She} has gained {1} {2}.</Translation>
+    <Translation>{0}はより魅力的で信頼できる人物へと成長した。{1} {2}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_RATING_CHARISMA_GAIN_2</zType>
-    <Translation>Self-assured and assertive, {0} exudes an aura of confidence. {masculine_0:He:She} has gained {1} {2}.</Translation>
+    <Translation>{0}は自己主張が強く、自信に満ちたオーラを放っています。{1} {2}.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_RATING_CHARISMA_LOSS_1</zType>
@@ -991,7 +991,7 @@
 
   <Entry>
     <zType>TEXT_RATING_COURAGE_GAIN_1</zType>
-    <Translation>{0} still feels fear, as does any sane {masculine_0:man:woman}, but {masculine_0:he:she} never lets it stop {masculine_0:him:her}. {masculine_0:He:She} has gained {1} {2}.</Translation>
+    <Translation>{0}は人並みに恐怖心を感じているが、それに決して負けない胆力を持っている。 {1} {2}.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_RATING_COURAGE_GAIN_2</zType>
@@ -1007,7 +1007,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_RATING_DISCIPLINE_GAIN_1</zType>
-    <Translation>{0} follows a strict regime, never taking the easy way if it is not the best way. {masculine_0:He:She} has gained {1} {2}.</Translation>
+    <Translation>{0}の治世は厳格で、最善ではない安易な手法は取らない。 {1} {2}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_RATING_DISCIPLINE_GAIN_2</zType>
@@ -1015,7 +1015,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_RATING_DISCIPLINE_LOSS_1</zType>
-    <Translation>{0} gives into {masculine_0:his:her} basic desires more often lately. {masculine_0:He:She} has lost {1} {2}.</Translation>
+    <Translation>{0}は最近、基本的な欲望に従ってふるまうようになってしまいました。{1} {2}.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_RATING_DISCIPLINE_LOSS_2</zType>
