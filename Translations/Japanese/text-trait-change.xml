@@ -100,7 +100,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_INTELLIGENT_GAIN_1</zType>
-    <Translation>Easily able to learn and understand new things, {0_character} is {1_trait}.</Translation>
+    <Translation>新しいことを学び、理解することが容易な{0_character}は{1_trait}になった。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_INTELLIGENT_GAIN_2</zType>
@@ -508,7 +508,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_BITTER_GAIN_1</zType>
-    <Translation>{0_character} cannot let go of grievances and is often angry. A most {1_trait} person!</Translation>
+    <Translation>{0_character}は不満を捨てきれず、よく怒るようになった。最も{1_character}な人だ！</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_EDUCATED</zType>
@@ -680,7 +680,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_ILL_LOSS_3</zType>
-    <Translation>{0_character} is thankfully feeling much better now, and is no longer {1_trait}.</Translation>
+    <Translation>{0_character}は、ありがたいことに今はだいぶ良くなっていて、{1_trait}ではなくなっています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_SEVERELY_ILL</zType>

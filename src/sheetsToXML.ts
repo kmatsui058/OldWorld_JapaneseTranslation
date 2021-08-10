@@ -10,7 +10,12 @@ export default function sheetsToXML(data: XMLDataStructure[]): string {
   data.forEach(item => {
     const entry = root.ele('Entry')
     entry.ele('zType', undefined, item.zType)
-    entry.ele('Translation', undefined, item.translation)
+    if (item.translation.includes('<p')) {
+      entry.ele('Translation').dat(item.translation)
+
+    } else {
+      entry.ele('Translation', undefined, item.translation)
+    }
   })
   const xml = root.end({ pretty: true });
   return xml

@@ -87,7 +87,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_RELIGION_FAMILY</zType>
-    <Translation>The {0_family} Family has converted to {1_religion}. (Their Opinion of you is now {2_opinion}.)</Translation>
+    <Translation>{0_family}家は{1_religion}に帰依した。 (彼らのあなたへの評価は{2_opinion}。)</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_RELIGION_TRIBE</zType>
@@ -135,7 +135,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_POPUP</zType>
-    <Translation>News has arrived from abroad that {0_oldLeader} is dead. A new ruler, {1_newLeader}, has taken the throne. (Their Opinion of you is now {2_opinion}.)</Translation>
+    <Translation>国外から{0_oldLeader}が死んだというニュースが届いた。新しい指導者{1_newLeader}が王座についた。(彼らのあなたへの意見は{2_opinion}になりました)。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_OTHER_TEAM_NEW_RULER_ABDICATE_POPUP</zType>
@@ -261,7 +261,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_CHARACTER_GAINS_TRAIT</zType>
-    <Translation>{0_character} now has the {1_trait} trait.</Translation>
+    <Translation>{0_character}は{1_trait}になった。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_CHARACTER_LOSES_TRAIT</zType>
@@ -970,7 +970,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_RATING_WISDOM_LOSS_2</zType>
-    <Translation>{0} has made one mistake after another as of late, and many have begun to question {masculine_0:his:her} judgement. {masculine_0:He:She} has lost {1} {2}.</Translation>
+    <Translation>{0}はここ最近、次々とミスを犯し、多くの人が彼の判断に疑問を持ち始めています。 {1} {2}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_RATING_CHARISMA_GAIN_1</zType>
@@ -1011,7 +1011,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_RATING_DISCIPLINE_GAIN_2</zType>
-    <Translation>There is no easy day in the life of {0}! {masculine_0:He:She} has gained {1} {2}.</Translation>
+    <Translation>{0}の人生に楽な日はない! {1} {2}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_RATING_DISCIPLINE_LOSS_1</zType>

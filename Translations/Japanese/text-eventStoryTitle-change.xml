@@ -174,7 +174,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_HERO_MILD_TITLE</zType>
-    <Translation>アンチヒーロー</Translation>
+    <Translation>反英雄</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_TACTICIAN_MILD_TITLE</zType>
@@ -338,7 +338,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NOWRUZ_TITLE</zType>
-    <Translation>wowruz</Translation>
+    <Translation>wowruz.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WAR_IN_THE_STARS_TITLE</zType>
@@ -1254,7 +1254,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_GOVERNANCE_TITLE</zType>
-    <Translation>ガバナンスの芸術</Translation>
+    <Translation>統治技術</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_FOREIGN_LIT_TITLE</zType>
@@ -1266,7 +1266,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_ON_WEALTH_TITLE</zType>
-    <Translation>富に</Translation>
+    <Translation>富</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_BRIBERY_TITLE</zType>
@@ -1926,7 +1926,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_CONTACT_HAUGHTY_EMISSARY_TITLE</zType>
-    <Translation>傲慢なエミサリ</Translation>
+    <Translation>傲慢な使者</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_CONTACT_GRINNING_EMISSARY_TITLE</zType>
@@ -1994,7 +1994,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_A_LEARNING_OPPORTUNITY_TITLE</zType>
-    <Translation>学習機会</Translation>
+    <Translation>学習する機会</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_BORDER_DISPUTE_TITLE</zType>
@@ -2018,11 +2018,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_THE_INJURED_PLAYER_TITLE</zType>
-    <Translation>負傷した{PLAYER-0,1}</Translation>
+    <Translation>負傷した{PLAYER-0}市民</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_POLITICAL_PRISONER_TITLE</zType>
-    <Translation>政治の囚人</Translation>
+    <Translation>政治犯の虜囚</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_THE_FOOL_TITLE</zType>
@@ -5490,7 +5490,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WASHTUB_PHILOSOPHER_TITLE</zType>
-    <Translation>洗練された哲学者</Translation>
+    <Translation>洗濯だらいの哲学者</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LOCAL_NUISANCE_TITLE</zType>
@@ -5506,7 +5506,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RESIDENT_ARTIST_TITLE</zType>
-    <Translation>居住者アーティスト</Translation>
+    <Translation>市街地の芸術家</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PIRACY_POWERS_TITLE</zType>
@@ -6442,7 +6442,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHARACTERS_MIRACULOUS_RETURN_TITLE</zType>
-    <Translation>{CHARACTER-0}の奇跡的な帰り</Translation>
+    <Translation>{CHARACTER-0}の帰還</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_CLUB_TITLE</zType>
@@ -7022,7 +7022,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HAPPINESS_GIFTED_INVENTOR_TITLE</zType>
-    <Translation>才能者</Translation>
+    <Translation>天才的発明家</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HAPPINESS_DILIGENT_CLERK_TITLE</zType>
@@ -7982,103 +7982,103 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_PYRAMIDS_TITLE</zType>
-    <Translation>ピラミッド</Translation>
+    <Translation>The Pyramids</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_GREAT_ZIGGURAT_TITLE</zType>
-    <Translation>偉大なジグラット</Translation>
+    <Translation>The Great Ziggurat</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_ORACLE_TITLE</zType>
-    <Translation>オラクル</Translation>
+    <Translation>The Oracle</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_HANGING_GARDENS_TITLE</zType>
-    <Translation>ぶら下げ庭園</Translation>
+    <Translation>The Hanging Gardens</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_NECROPOLIS_TITLE</zType>
-    <Translation>ヌクロポリス</Translation>
+    <Translation>The Necropolis</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_ISHTAR_GATE_TITLE</zType>
-    <Translation>イシュタルゲート</Translation>
+    <Translation>The Ishtar Gate</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_LIGHTHOUSE_TITLE</zType>
-    <Translation>灯台</Translation>
+    <Translation>The Lighthouse</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_APADANA_TITLE</zType>
-    <Translation>アパダナ</Translation>
+    <Translation>The Apadana</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_MAUSOLEUM_TITLE</zType>
-    <Translation>霊廟</Translation>
+    <Translation>The Mausoleum</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_ACROPOLIS_TITLE</zType>
-    <Translation>アクロポリス</Translation>
+    <Translation>The Acropolis</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_COLOSSUS_TITLE</zType>
-    <Translation>巨大な</Translation>
+    <Translation>The Colossus</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_MUSAEUM_TITLE</zType>
-    <Translation>台形</Translation>
+    <Translation>The Musaeum</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_CIRCUS_MAXIMUS_TITLE</zType>
-    <Translation>サーカスマキシムス</Translation>
+    <Translation>The Circus Maximus</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_PANTHEON_TITLE</zType>
-    <Translation>パンテオン</Translation>
+    <Translation>The Pantheon</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_HAGIA_SOPHIA_TITLE</zType>
-    <Translation>ハギアソフィア</Translation>
+    <Translation>The Hagia Sophia</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_VIA_RECTA_SOUK_TITLE</zType>
-    <Translation>ビアレドスコーク</Translation>
+    <Translation>The Via Recta Souk</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COLOSSUS_TITLE</zType>
-    <Translation>巨大な</Translation>
+    <Translation>The Colossus</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LIGHTHOUSE_TITLE</zType>
-    <Translation>灯台</Translation>
+    <Translation>The Lighthouse</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HANGING_GARDENS_TITLE</zType>
-    <Translation>ぶら下げ庭園</Translation>
+    <Translation>The Hanging Gardens</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ORACLE_1_TITLE</zType>
-    <Translation>{CITY-0}のOracle</Translation>
+    <Translation>The Oracle of {CITY-0}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ORACLE_2_TITLE</zType>
-    <Translation>{CITY-0}のOracle</Translation>
+    <Translation>The Oracle of {CITY-0}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PYRAMIDS_TITLE</zType>
-    <Translation>ピラミッド</Translation>
+    <Translation>The Pyramids</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ISHTAR_GATE_TITLE</zType>
-    <Translation>イシュタルゲート</Translation>
+    <Translation>The Ishtar Gate</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ACROPOLIS_TITLE</zType>
-    <Translation>アクロポリス</Translation>
+    <Translation>The Acropolis</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NECROPOLIS_TITLE</zType>
-    <Translation>ヌクロポリス</Translation>
+    <Translation>The Necropolis</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ANCIENT_STATUE_TITLE</zType>
@@ -8418,11 +8418,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGION_READING_THE_WORD_TITLE</zType>
-    <Translation>言葉を読む</Translation>
+    <Translation>書に触れる</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGION_THE_APOSTLES_TITLE</zType>
-    <Translation>使徒たち</Translation>
+    <Translation>書に触れる</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGION_KINGDOM_OF_GOD_TITLE</zType>
@@ -8618,7 +8618,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_IN_YOUR_DEBT_TITLE</zType>
-    <Translation>あなたの借金で</Translation>
+    <Translation>借りを返す</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_JEALOUS_RAGE_TITLE</zType>
@@ -9666,7 +9666,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_TRIBE_CAMP_CLEARED_TITLE</zType>
-    <Translation>チュートリアル：部族のサイトはクリアされました</Translation>
+    <Translation>チュートリアル：部族のサイトがクリアされました</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_CITY_CAPTURED_TITLE</zType>
@@ -10102,7 +10102,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_GREAT_AMBITION_TITLE</zType>
-    <Translation>グレート</Translation>
+    <Translation>great</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SILVER_JUBILEE_TITLE</zType>
@@ -10698,7 +10698,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_DIPLOMAT_TITLE</zType>
-    <Translation>チュートリアル：link（trait_diplomat_archetype）link(CONCEPT_ARCHETYPE)</Translation>
+    <Translation>チュートリアル：link(TRAIT_DIPLOMAT_ARCHETYPE)リンク（concept_archeType）</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_JUDGE_TITLE</zType>

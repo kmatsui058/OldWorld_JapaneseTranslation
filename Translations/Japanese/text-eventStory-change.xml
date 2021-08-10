@@ -189,7 +189,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_QUESTION_AUTHORITY</zType>
-    <Translation>link(CONCEPT_GENERAL) {CHARACTER-SHORT-1}は安心感を求めています。{G1:He:She}は、あなたが{G0:his:her}の兵士の命を無茶苦茶にして、彼らを不必要な存在にする事を恐れています。</Translation>
+    <Translation>link(CONCEPT_GENERAL) {CHARACTER-SHORT-1}は安心感を求めています。{G1:He:She}は、あなたが{G0:彼:彼女}の兵士の命を無茶苦茶にして、彼らを不必要な存在にする事を恐れています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_COLLISION_COURSE</zType>
@@ -272,7 +272,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NEVER_ENOUGH</zType>
-    <Translation>時には多すぎても足りない。飽食の{CHARACTER-0}と{G0:his:her}一家は、豊かな生活に満足できず、高級品への欲望を満たすためにさらに多くの輸入品を求めて宮廷に請願しました。絶え間ない消費と無謀な支出は、財務省に負担をかけています。
+    <Translation>時には多すぎても足りない。飽食の{CHARACTER-0}と{G0:彼:彼女}一家は、豊かな生活に満足できず、高級品への欲望を満たすためにさらに多くの輸入品を求めて宮廷に請願しました。絶え間ない消費と無謀な支出は、財務省に負担をかけています。
 
 {FAMILY-1,1}の欲を改善するための一つの選択肢は、{PLAYER-2}の中でこれらのアイテムの生産を増やすことです。あるいは、家臣団のために遠くから出荷し続けることもできます。</Translation>
   </Entry>
@@ -292,7 +292,7 @@
     <zType>TEXT_EVENTSTORY_A_HEROS_FLIGHT</zType>
     <Translation>私たちが{CHARACTER-0}を非難した瞬間から、首都の群衆は兵士や軍人を中心に不快感を表明しています。｛CHARACTER-SHORT-0｝は戦う男女の間で強い支持を得ています。
 
-衛兵が{CHARACTER-SHORT-0}の屋敷に到着すると、{G0:he:she}が{G0:his:her}の家族を連れて逃げ出したことがわかります。逃亡者となった{G0:he:she}は、さらに大きな敵となります。</Translation>
+衛兵が{CHARACTER-SHORT-0}の屋敷に到着すると、{G0:he:she}が{G0:彼:彼女}の家族を連れて逃げ出したことがわかります。逃亡者となった{G0:he:she}は、さらに大きな敵となります。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_A_MEASURED_VOICE</zType>
@@ -320,9 +320,9 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUPPORTING_THE_FAITH</zType>
-    <Translation>&lt;p.is_sub.S0=SUBJECT_ZOROASTRIANISM&gt;Magi&lt;p=SUBJECT_CHRISTIANITY&gt;Bishops&lt;p=SUBJECT_JUDAISM&gt;Kohanim&lt;p=SUBJECT_MANICHAEISM&gt;Elect&lt;else&gt;Priests&lt;end&gt;の中の一人のリーダーが謁見を求めてきた。彼はゆっくりとした静かな声で、リーダーとしてのあなたの義務と、{RELIGION-0,1}信者たちがあなたを手本にしていることを語る。
-&#xD;
-&lt;p.is_sub.S0=SUBJECT_ZOROASTRIANISM&gt;Magus&lt;p=SUBJECT_CHRISTIANITY&gt;Bishop&lt;p=SUBJECT_JUDAISM&gt;Kohen&lt;p=SUBJECT_MANICHAEISM&gt;Elect&lt;else&gt;Priest&lt;end&gt;への支持を示すことが、{RELIGION-0,3}の熱を高め、あなたたち二人を助けることになると提案する。</Translation>
+    <Translation><![CDATA[<p.is_sub.S0=SUBJECT_ZOROASTRIANISM>Magi<p=SUBJECT_CHRISTIANITY>Bishops<p=SUBJECT_JUDAISM>Kohanim<p=SUBJECT_MANICHAEISM>Elect<else>Priests<end>の中の一人のリーダーが謁見を求めてきた。彼はゆっくりとした静かな声で、リーダーとしてのあなたの義務と、{RELIGION-0,1}信者たちがあなたを手本にしていることを語る。
+
+<p.is_sub.S0=SUBJECT_ZOROASTRIANISM>Magus<p=SUBJECT_CHRISTIANITY>Bishop<p=SUBJECT_JUDAISM>Kohen<p=SUBJECT_MANICHAEISM>Elect<else>Priest<end>への支持を示すことが、{RELIGION-0,3}の熱を高め、あなたたち二人を助けることになると提案する。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGIOUS_MOB</zType>
@@ -338,10 +338,10 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGIOUS_GOVERNOR</zType>
-    <Translation>&lt;p.is_sub.S1=SUBJECT_ZOROASTRIANISM&gt;Magi&lt;p=SUBJECT_CHRISTIANITY&gt;Bishops&lt;p=SUBJECT_JUDAISM&gt;Kohanim&lt;p=SUBJECT_MANICHAEISM&gt;Elect&lt;else&gt;Priests&lt;end&gt;の一人があなたの法廷にやってくる。彼は、都市は{RELIGION-1,1}の信仰の努力を支援する指導者の指導を必要としていると言い、{CHARACTER-2}は既に{RELIGION-1,1}の指導者の支援を受けていると大胆にも付け加えました。&#xD;
-&#xD;
-{CHARACTER-2}を{CITY-0}の新しいlink(CONCEPT_GOVERNOR)にしませんか？ &#xD;
-</Translation>
+    <Translation><![CDATA[<p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Magi<p=SUBJECT_CHRISTIANITY>Bishops<p=SUBJECT_JUDAISM>Kohanim<p=SUBJECT_MANICHAEISM>Elect<else>Priests<end>の一人があなたの法廷にやってくる。彼は、都市は{RELIGION-1,1}の信仰の努力を支援する指導者の指導を必要としていると言い、{CHARACTER-2}は既に{RELIGION-1,1}の指導者の支援を受けていると大胆にも付け加えました。
+
+{CHARACTER-2}を{CITY-0}の新しいlink(CONCEPT_GOVERNOR)にしませんか？ 
+]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGIOUS_PRAISE</zType>
@@ -351,9 +351,9 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_A_SCHOLAR_DENOUNCED</zType>
-    <Translation>"気になる "とは、身なりの良い&lt;p.is_sub. S0=SUBJECT_ZOROASTRIANISM&gt;Magus&lt;p=SUBJECT_CHRISTIANITY&gt;Bishop&lt;p=SUBJECT_JUDAISM&gt;Kohen&lt;p=SUBJECT_MANICHAEISM&gt;Elect&lt;else&gt;Priest&lt;end&gt;は{CHARACTER-2}からのメッセージを読み上げ、「あなたの宮廷にいる神を恐れない学者{CHARACTER-1}の最近の発見によって。抑制されていないこれらの思想は、{RELIGION-0}の普及に脅威を与える可能性があります。{G1:his:her}の研究を糾弾し、他の宮廷人もそれに従うべきです。"
+    <Translation><![CDATA["気になる "とは、身なりの良い<p.is_sub. S0=SUBJECT_ZOROASTRIANISM>Magus<p=SUBJECT_CHRISTIANITY>Bishop<p=SUBJECT_JUDAISM>Kohen<p=SUBJECT_MANICHAEISM>Elect<else>Priest<end>は{CHARACTER-2}からのメッセージを読み上げ、「あなたの宮廷にいる神を恐れない学者{CHARACTER-1}の最近の発見によって。抑制されていないこれらの思想は、{RELIGION-0}の普及に脅威を与える可能性があります。{G1:his:her}の研究を糾弾し、他の宮廷人もそれに従うべきです。"
 
-&lt;p.is_sub.S0=SUBJECT_ZOROASTRIANISM&gt;Magus&lt;p=SUBJECT_CHRISTIANITY&gt;Bishop&lt;p=SUBJECT_JUDAISM&gt;Kohen&lt;p=SUBJECT_MANICHAEISM&gt;Elect&lt;else&gt;Priest&lt;end&gt;が期待を込めて見ています。あなたはどう答えますか？</Translation>
+<p.is_sub.S0=SUBJECT_ZOROASTRIANISM>Magus<p=SUBJECT_CHRISTIANITY>Bishop<p=SUBJECT_JUDAISM>Kohen<p=SUBJECT_MANICHAEISM>Elect<else>Priest<end>が期待を込めて見ています。あなたはどう答えますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THOUGHTS_WORDS_DEEDS</zType>
@@ -643,9 +643,9 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FIGHTING_FOR_THE_DIVINE</zType>
-    <Translation>あなたが先頭に立っての長い行軍でした。行軍を終えあなたの軍が歩みを止めた時、あなたは{RELIGION-0,1}の人々に取り巻かれた{CHARACTER-2}を見つけて驚かされます。
+    <Translation><![CDATA[あなたが先頭に立っての長い行軍でした。行軍を終えあなたの軍が歩みを止めた時、あなたは{RELIGION-0,1}の人々に取り巻かれた{CHARACTER-2}を見つけて驚かされます。
 
-「{CHARACTER-SHORT-1}、あなたは優れたlink(CONCEPT_GENERAL)ですが、何があなたの戦いを助けるとお思いですか？　あなたの刃を&lt;p.is_sub.S0=SUBJECT_ZOROASTRIANISM&gt;アフラ・マズダ&lt;p=SUBJECT_RELIGION_PAGAN&gt;神々&lt;else&gt;神&lt;end&gt;に捧げ、{RELIGION-0,1}の名のもとに戦いなさい」</Translation>
+「{CHARACTER-SHORT-1}、あなたは優れたlink(CONCEPT_GENERAL)ですが、何があなたの戦いを助けるとお思いですか？　あなたの刃を<p.is_sub.S0=SUBJECT_ZOROASTRIANISM>アフラ・マズダ<p=SUBJECT_RELIGION_PAGAN>神々<else>神<end>に捧げ、{RELIGION-0,1}の名のもとに戦いなさい」]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ZOROASTRIANISM_FOUNDED_THEM_STATE</zType>
@@ -709,9 +709,9 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_HOLY_ARMY</zType>
-    <Translation>{CHARACTER-SHORT-1}の抱える&lt;p.is_sub.S0=SUBJECT_ZOROASTRIANISM&gt;魔術師&lt;p=SUBJECT_CHRISTIANITY&gt;司教&lt;p=SUBJECT_JUDAISM&gt;祭司&lt;p=SUBJECT_MANICHAEISM&gt;選良者&lt;else&gt;祭司&lt;end&gt;の一人が{G1:彼の:彼女の}伝言を読み上げます。
+    <Translation><![CDATA[{CHARACTER-SHORT-1}の抱える<p.is_sub.S0=SUBJECT_ZOROASTRIANISM>魔術師<p=SUBJECT_CHRISTIANITY>司教<p=SUBJECT_JUDAISM>祭司<p=SUBJECT_MANICHAEISM>選良者<else>祭司<end>の一人が{G1:彼の:彼女の}伝言を読み上げます。
 
-「私は{RELIGION-0,1}の信仰に導かれた戦士たちが栄光を授かる夢を見ました。あなたは&lt;p.is_sub.S0=SUBJECT_ZOROASTRIANISM&gt;アフラ・マズダ&lt;p=SUBJECT_RELIGION_PAGAN&gt;神々&lt;else&gt;神&lt;end&gt;の名に値する軍隊が欲しくありませんか？」</Translation>
+「私は{RELIGION-0,1}の信仰に導かれた戦士たちが栄光を授かる夢を見ました。あなたは<p.is_sub.S0=SUBJECT_ZOROASTRIANISM>アフラ・マズダ<p=SUBJECT_RELIGION_PAGAN>神々<else>神<end>の名に値する軍隊が欲しくありませんか？」]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SLANDEROUS_SPYMASTER</zType>
@@ -797,9 +797,9 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DIVINE_PUNISHMENT</zType>
-    <Translation>{RELIGION-2,3}にとっては{CITY-0}での略奪は、天の裁きであり、&lt;p.is_sub.S2=SUBJECT_ZOROASTRIANISM&gt;アフラ・マズダ&lt;p=SUBJECT_RELIGION_PAGAN&gt;神々&lt;else&gt;神&lt;end&gt; の{PLAYER-3}の人々への怒りの表れだそうです。
+    <Translation><![CDATA[{RELIGION-2,3}にとっては{CITY-0}での略奪は、天の裁きであり、<p.is_sub.S2=SUBJECT_ZOROASTRIANISM>アフラ・マズダ<p=SUBJECT_RELIGION_PAGAN>神々<else>神<end> の{PLAYER-3}の人々への怒りの表れだそうです。
 
-これは本当に天の意思を表しているのでしょうか？</Translation>
+これは本当に天の意思を表しているのでしょうか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RETURNED_TO_THE_FOLD</zType>
@@ -835,9 +835,9 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HOLY_MATRIMONY</zType>
-    <Translation>あなたの{G1:夫:妻}{CHARACTER-1}は{RELIGION-0}の長としての義務に身を捧げてきました。{G1:彼:彼女}は毎日&lt;p.is_sub.S0=SUBJECT_ZOROASTRIANISM&gt;魔術師&lt;p=SUBJECT_CHRISTIANITY&gt;司教&lt;p=SUBJECT_JUDAISM&gt;祭司&lt;p=SUBJECT_MANICHAEISM&gt;選良人&lt;else&gt;祭司&lt;end&gt;たちと会議して組織が円滑に動くようにしています。
+    <Translation><![CDATA[あなたの{G1:夫:妻}{CHARACTER-1}は{RELIGION-0}の長としての義務に身を捧げてきました。{G1:彼:彼女}は毎日<p.is_sub.S0=SUBJECT_ZOROASTRIANISM>魔術師<p=SUBJECT_CHRISTIANITY>司教<p=SUBJECT_JUDAISM>祭司<p=SUBJECT_MANICHAEISM>選良人<else>祭司<end>たちと会議して組織が円滑に動くようにしています。
 
-そんな{CHARACTER-SHORT-1}があなたに助けを求めてきました。{FAMILY-2}家が{G1:彼:彼女}は信仰にかまけて王家の義務を怠っていると苦情を申し立てて来ましたが、{G1:彼:彼女}には宗教的指導者の立場を手放すつもりはないのです。</Translation>
+そんな{CHARACTER-SHORT-1}があなたに助けを求めてきました。{FAMILY-2}家が{G1:彼:彼女}は信仰にかまけて王家の義務を怠っていると苦情を申し立てて来ましたが、{G1:彼:彼女}には宗教的指導者の立場を手放すつもりはないのです。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DEAD_SEA_SCROLLS_1</zType>
@@ -896,9 +896,9 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BONDED_BY_FAITH</zType>
-    <Translation>あなたはあなたの土地の境界線の遠隔寺院で会うために{CHARACTER-1}から頼まれました。あなたの悔い改めに到着して、あなたはその{G1：彼：彼女の}の{PLAYER-2,3}の{CHARACTER-2}であることを見つけることに驚いています。 {CHARACTER-SHORT-1}はあなたの両方を説明しています{G1：彼：彼女：彼女}があなたの2つの国が同盟で結合されることに同意することを期待していて、&lt;p.is_sub.s0 = subject_zoroastrianism&gt; Ahura Mazda &lt;p = subject_religion_pagan&gt;神々&lt;else&gt;神&lt;エンド&gt;。
+    <Translation><![CDATA[あなたはあなたの土地の境界線の遠隔寺院で会うために{CHARACTER-1}から頼まれました。あなたの悔い改めに到着して、あなたはその{G1：彼：彼女の}の{PLAYER-2,3}の{CHARACTER-2}であることを見つけることに驚いています。 {CHARACTER-SHORT-1}はあなたの両方を説明しています{G1：彼：彼女：彼女}があなたの2つの国が同盟で結合されることに同意することを期待していて、<p.is_sub.s0 = subject_zoroastrianism> Ahura Mazda <p = subject_religion_pagan>神々<else>神<エンド>。
 
-{CHARACTER-SHORT-2}、{G2：彼：彼女}は驚いたがアイデアに開かれているようです。どうやって答えますか？</Translation>
+{CHARACTER-SHORT-2}、{G2：彼：彼女}は驚いたがアイデアに開かれているようです。どうやって答えますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BABY_IN_THE_BASKET</zType>
@@ -1004,9 +1004,9 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_PERSONAL_RELIGION</zType>
-    <Translation>{PLAYER-1,1} {PLAYER-0}の頭の頭として、個人的には信仰のテナントや慣行を守ることが見られます。
+    <Translation><![CDATA[{PLAYER-1,1} {PLAYER-0}の頭の頭として、個人的には信仰のテナントや慣行を守ることが見られます。
 
-宗教を毎日社会的および文化生活に密接に統合すること、&lt;p.is_sub.s1 =件名&lt;p.p =件名&gt;司教&lt;p =件名&gt;コハニム&lt;p =件名&gt; &lt;P = TOBEST_MANICHAESISM&gt; &lt;else&gt;司祭&lt;エンド&gt;思い出させるあなたは信仰の欠如があなた自身とあなたの主題の間の距離だけを構築するだけです。彼らは彼らの方法についてあなたに教えることを申し出ます。あなたは受け入れますか？</Translation>
+宗教を毎日社会的および文化生活に密接に統合すること、<p.is_sub.s1 =件名<p.p =件名>司教<p =件名>コハニム<p =件名> <P = TOBEST_MANICHAESISM> <else>司祭<エンド>思い出させるあなたは信仰の欠如があなた自身とあなたの主題の間の距離だけを構築するだけです。彼らは彼らの方法についてあなたに教えることを申し出ます。あなたは受け入れますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RETURNING_THE_FAVOR_CHANCELLOR</zType>
@@ -1056,15 +1056,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGIOUS_INTRIGUE_SUPPORT</zType>
-    <Translation>{宗教-1}の崇拝者の間のあなたのサポートは、あなたの最近の行動で着実に成長していました、{CHARACTER-2}の彼らの愛の絶対的なものでさえも。 &lt;P.IS_SUB.S1 = Subject_Zoroastrianistical&gt;司教&lt;P =件名&gt; Kohanim &lt;P = TOBEST_MANICHAESISM&gt; &lt;P = PROSTER_MANICHAESISM&gt; ELECT &lt;ELSE&gt; PRESTS &lt;エンド&gt;が援助を喜んでいると宣言しましたあなたは必要です。
+    <Translation>{宗教-1}の崇拝者の間のあなたのサポートは、あなたの最近の行動で着実に成長していました。 &lt;P.IS_SUB.S1 = Subject_Zoroastrianistical&gt;司教&lt;P =件名&gt; Kohanim &lt;P = TOBEST_MANICHAESISM&gt; &lt;P = PROSTER_MANICHAESISM&gt; ELECT &lt;ELSE&gt; PRESTS &lt;エンド&gt;が援助を喜んでいると宣言しましたあなたは必要です。
 
 宗教内からのサポートは物事を変えます。ちょっとしたプッシュで、これは{RESTRIP-1}の頭として{CHARACTER-0}をインストールするのに最適な機会かもしれません。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGIOUS_INTRIGUE_INFILTRATION</zType>
-    <Translation>あなたのSpymaster {CHARACTER-3}は、{G3：彼のエージェントが{CHARACTER-1}の世帯を侵害することに成功したというニュースをもたらします。 &lt;P.IS_SUB.S1 = Subject_Zoroastrianisticals&gt; Bishopsの中から{CHARACTER-0}のサポートを握ることができる場合&gt; &lt;p = subject_judisism&gt;コハニム&lt;p = subject_manichaeism&gt; &lt;else&gt;司祭&lt;エンド&gt;、それからこれはあなたの選択された候補を{RIGHTION-1}の頭に置く完璧な機会かもしれません。
+    <Translation><![CDATA[あなたのSpymaster {CHARACTER-3}は、{G3：彼のエージェントが{CHARACTER-1}の世帯を侵害することに成功したというニュースをもたらします。 <P.IS_SUB.S1 = Subject_Zoroastrianisticals> Bishopsの中から{CHARACTER-0}のサポートを握ることができる場合> <p = subject_judisism>コハニム<p = subject_manichaeism> <else>司祭<エンド>、それからこれはあなたの選択された候補を{RIGHTION-1}の頭に置く完璧な機会かもしれません。
 
-{文字-0}オブジェクト暴力を使用し、スキャンダルを引き起こすことを提案することは、{CHARACTER-SHORT-2}を削除するのに効果的です。 {G2：彼：彼女の}生きているのは慈悲深いですが、それは世界で恨みを抱いて敵を残します。あなたは何を指揮しますか？</Translation>
+{文字-0}オブジェクト暴力を使用し、スキャンダルを引き起こすことを提案することは、{CHARACTER-SHORT-2}を削除するのに効果的です。 {G2：彼：彼女の}生きているのは慈悲深いですが、それは世界で恨みを抱いて敵を残します。あなたは何を指揮しますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGIOUS_INTRIGUE_OPPORTUNITY</zType>
@@ -1090,7 +1090,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_RELIGIOUS_SWAY</zType>
-    <Translation>{CHARACTER-0}に影響を与える試みに興味深い機会が発生しました。あなたのアドバイザーの1つは、{CHARACTER-SHORT-0}が現在あなたのlink(ENCTRIP_STATE_RELIGION)の{REGLION-1}になっていないことを指摘しました。 &lt;p.is_sub.s1 =件名&lt;porth_porth_pagan&gt; &lt;p.is_sub.s1 = subject_religion_pagan&gt;神々&gt;神&lt;エンド&gt;の政治的および宗教的な揺れを与える{G0：彼女：彼女の} 。</Translation>
+    <Translation><![CDATA[{CHARACTER-0}に影響を与える試みに興味深い機会が発生しました。あなたのアドバイザーの1つは、{CHARACTER-SHORT-0}が現在あなたのlink(ENCTRIP_STATE_RELIGION)の{REGLION-1}になっていないことを指摘しました。 <p.is_sub.s1 =件名<porth_porth_pagan> <p.is_sub.s1 = subject_religion_pagan>神々>神<エンド>の政治的および宗教的な揺れを与える{G0：彼女：彼女の} 。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_SPREAD</zType>
@@ -1100,7 +1100,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_REJECTED</zType>
-    <Translation>{CHARACTER-0}はあなたの試みに{G0：HIM：HEG}を{RIGHTION-1}に変換しようとしていません。 「あなた自身がそうでないとき、なぜ私は{宗教 -  1}に従うように押されたのはなぜですか？」
+    <Translation>{CHARACTER-0}はあなたの試みに{G0：HIM：HEG}を{RIGHTION-1}に変換しようとしていません、最後にあなたの試みを偽善として呼び出すメッセージを送信します。 「あなた自身がそうでないとき、なぜ私は{宗教 -  1}に従うように押されたのはなぜですか？」
 
 この試みを節約する可能性がまだあります、あなたはどのように{G0：彼：彼女の}を納得させるでしょうか？</Translation>
   </Entry>
@@ -1112,13 +1112,13 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_ZEAL</zType>
-    <Translation>{CHARACTER-0}は水にアヒルとして{RIGHTION-1}にとられました。何でも、{G0：彼：彼女の} Zealは時々強く渡って来ることができます、裁判所内の他の人のいくつかを疎外させることができます。 {CHARACTER-SHORT-0}あなたのガイダンスを尋ねて、{g0：彼：彼女のための最善の方法は何ですか？エンド&gt;？</Translation>
+    <Translation>{CHARACTER-0}は水にアヒルとして{RIGHTION-1}にとられました。何でも{CHARACTER-SHORT-0}あなたのガイダンスを尋ねて、{g0：彼：彼女のための最善の方法は何ですか？エンド&gt;？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_REFUSED</zType>
-    <Translation>{CHARACTER-0}は{G0：彼：彼女の}を奨励しようとした試みを拒否しました{RIGIX-1}に変換します。 {G0：HE：彼女}は&lt;p.is_sub.s3 = subject_zoroastrianisist&gt;司教&lt;p = subject_judaism&gt; Kohanim &lt;P = Subject_Manichaeism&gt; Elect &lt;ELSE&gt;司祭&lt;エンド&gt;宗教3}あなたが積極的に人々を遵守するように積極的に守ることを彼らに警告してください。
+    <Translation><![CDATA[{CHARACTER-0}は{G0：彼：彼女の}を奨励しようとした試みを拒否しました{RIGIX-1}に変換します。 {G0：HE：彼女}は<p.is_sub.s3 = subject_zoroastrianisist>司教<p = subject_judaism> Kohanim <P = Subject_Manichaeism> Elect <ELSE>司祭<エンド>宗教3}あなたが積極的に人々を遵守するように積極的に守ることを彼らに警告してください。
 
-どうやって答えますか？</Translation>
+どうやって答えますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_BAD_BLOOD</zType>
@@ -1136,7 +1136,7 @@
     <zType>TEXT_EVENTSTORY_RIVAL_AT_THE_BRIDGE</zType>
     <Translation>{G0：彼の心：彼女の心：}のためにあなたのために憎しみで死んだ。しかし、{RELIGION-1}のリンクの普及（Theology_redemption）は、{G0：HE：SHE}がAhura Mazdaの目で許されるべきであり、{G0：HE：彼女の}歌の殿堂への道を見つけることを意味します。
 
-あなたのアドバイザーの1つは大胆な提案に近づいています。それは低い打撃でしょうが、{CHARACTER-SHORT-0}の償還がないことがわかっていることがわかっていることを示していることがわかっていることを示していることがわかっている可能性があります。</Translation>
+あなたのアドバイザーの1つは大胆な提案に近づいています。それは低い打撃でしょうが、{CHARACTER-SHORT-0}の償還がないことがわかっていることがわかっていることを示していることがわかっていることを示していることを主張するために{CHARACTER-2}が押される可能性があります。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGIOUS_ABDICATION</zType>
@@ -1152,21 +1152,21 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_SPOUSE_START</zType>
-    <Translation>あなたの{G1：夫：妻}はあなたの会社を特に楽しむことはできませんが、それでは、誰が{G1：彼：彼女の}を責めることができますか？ {G1：彼：彼女：彼女はあなたに結婚するように頼まなかった。それを変える時が来て、{G1：彼：彼女の}を知るようになるために努力を始めましょう。
+    <Translation><![CDATA[あなたの{G1：夫：妻}はあなたの会社を特に楽しむことはできませんが、それでは、誰が{G1：彼：彼女の}を責めることができますか？ {G1：彼：彼女：彼女はあなたに結婚するように頼まなかった。それを変える時が来て、{G1：彼：彼女の}を知るようになるために努力を始めましょう。
 
 "{G1：夫：妻}、何があなたを幸せにしますか？」
 
-{G1：HE：彼女}返信、 "&lt;p.is_sub.s1 = subject_charactype_regal&gt;を習得したい、成長する、作成する、groyへの闘い、勝てる、勝つために！&lt;p = subject_character_archetype_covert&gt;他のみんなを避けて、彼らを私の曲に踊らせる！&lt;else&gt;私は知りません、おそらく賛辞を得るだけ？&lt;エンド&gt;」</Translation>
+{G1：HE：彼女}返信、 "<p.is_sub.s1 = subject_charactype_regal>を習得したい、成長する、作成する、groyへの闘い、勝てる、勝つために！<p = subject_character_archetype_covert>他のみんなを避けて、彼らを私の曲に踊らせる！<else>私は知りません、おそらく賛辞を得るだけ？<エンド>」]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_SPOUSE_INTERESTS</zType>
-    <Translation>{CHARACTER-SHORT-1}との関係を向上させることを望んで、あなたは一緒に1日を整理しました&lt;p.is_sub.s1 =件名&gt;論説を議論する&lt;p =件名_scholar&gt;を議論する&lt;p = subject_orator&gt;賞賛{G1：彼：最新のスピーチ&lt;P =件名&lt;PILLOMATM &lt;P = SUBJECT_DIPLOMATT&gt;最も重要な条約を調べる&lt;P = COBERS_SCHEMER&gt;共通の敵に関する復讐をプロットする&lt;P = SUBJECT_HERO&gt;話している{G1：彼：彼女：彼女の}最大の勝利&lt;p = subject_tactician&gt;古代の再撃モデル兵士との戦い&lt;P =件名&gt;有名な将軍の偉大なキャンペーンを研究する&lt;P =件名&lt;PESUBTER_BUILDER&gt; &lt;P =件名&gt; &lt;P = COBSERT_JUDUDE&gt;歴史的なケース法の分析&lt;else&gt; {G1：HIM：彼女の} &lt;終わり} &gt;。
+    <Translation><![CDATA[{CHARACTER-SHORT-1}との関係を向上させることを望んで、あなたは一緒に1日を整理しました<p.is_sub.s1 =件名>論説を議論する<p =件名_scholar>を議論する<p = subject_orator>賞賛{G1：彼：最新のスピーチ<P =件名<PILLOMATM <P = SUBJECT_DIPLOMATT>最も重要な条約を調べる<P = COBERS_SCHEMER>共通の敵に関する復讐をプロットする<P = SUBJECT_HERO>話している{G1：彼：彼女：彼女の}最大の勝利<p = subject_tactician>古代の再撃モデル兵士との戦い<P =件名>有名な将軍の偉大なキャンペーンを研究する<P =件名<PESUBTER_BUILDER> <P =件名> <P = COBSERT_JUDUDE>歴史的なケース法の分析<else> {G1：HIM：彼女の} <終わり} >。
 
-{CHARACTER-SHORT-1}これが彼らのお気に入りの活動の1つであると宣言しています、そして、彼らはむしろ何もしないことを考えることができます！</Translation>
+{CHARACTER-SHORT-1}これが彼らのお気に入りの活動の1つであると宣言しています、そして、彼らはむしろ何もしないことを考えることができます！]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_SPOUSE_MISMATCH</zType>
-    <Translation>最近あなたはあなたの{G1：夫を作ろうとしていました{G1：彼の日常生活}日常生活の中で幸せになっていましたが、{g1：彼：彼女：彼女のために簡単ではないと言う&lt;p.is_sub.s0 = j-tobural_zealot&gt;プレイスカロール&lt;p = subject_scholar&gt;ブッキッシュイン知識&lt;p = subject_orator&gt;ランブリングウィンドバッグ&lt;p = compect_diplomatut &lt;piplomator&gt; warm-tonguedマニピュレータ&lt;p = subject_schemer&gt;スキームスニーク&lt;p = subject_hero&gt;パフアップBRAGGART &lt;P =件名&gt; &lt;P = Subject_Comander&gt;軍事に夢中になっている狂信者&lt;P = Subject_Builder&gt; Tinkering Obsessive &lt;P = Subject_Judge&gt;判断タイプ&lt;else&gt;ボア&lt;エンド&gt;あなたのように</Translation>
+    <Translation><![CDATA[最近あなたはあなたの{g1：夫を作ろうとしていました。 <p.is_sub.s0 = j-tobural_zealot>プレイスカロール<p = subject_scholar>ブッキッシュイン知識<p = subject_orator>ランブリングウィンドバッグ<p = compect_diplomatut <piplomator> warm-tonguedマニピュレータ<p = subject_schemer>スキームスニーク<p = subject_hero>パフアップBRAGGART <P =件名> <P = Subject_Comander>軍事に夢中になっている狂信者<P = Subject_Builder> Tinkering Obsessive <P = Subject_Judge>判断タイプ<else>ボア<エンド>あなたのように]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_SPOUSE_LOVE</zType>
@@ -1178,9 +1178,9 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_SACRIFICE</zType>
-    <Translation>{CHARACTER-2}は{G2：彼：彼女}があなたの信心を掲げることを通してあなたのキャラクターの質の{CHARACTER-0}を説得することに成功したという言葉を送りました。 TRUEまたはじゃない、執筆または祈りの贈り物は&lt;p.is_sub.s1 = subject_zoroastrianisisの{CHARACTER-SHORT-0}に納得させるでしょう&gt; Ahura Mazda &lt;p = subject_religion_pagan&gt;神々&gt;神&lt;エンド&gt;そして完全にEndear {G0：彼：彼女の}に。
+    <Translation><![CDATA[{CHARACTER-2}は{G2：彼：彼女}があなたの信心を掲げることを通してあなたのキャラクターの質の{CHARACTER-0}を説得することに成功したという言葉を送りました。 TRUEまたはじゃない、執筆または祈りの贈り物は<p.is_sub.s1 = subject_zoroastrianisisの{CHARACTER-SHORT-0}に納得させるでしょう> Ahura Mazda <p = subject_religion_pagan>神々>神<エンド>そして完全にEndear {G0：彼：彼女の}に。
 
-あなたは{CHARACTER-0}を感動させるために余分な距離を望んでいますか？</Translation>
+あなたは{CHARACTER-0}を感動させるために余分な距離を望んでいますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_RELIGION_REJECTED</zType>
@@ -1190,7 +1190,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_FEAST</zType>
-    <Translation>ワインは自由に流れていて、誰もが高精機です。 {CHARACTER-1}はあなたの代わりに{CHARACTER-0}と{CHARACTER-0}と干渉しています。あなたは夕方の夕方を{CHARACTER-SHORT-0}、飲んで笑います。
+    <Translation>ワインは自由に流れていて、誰もが高精機です。 {CHARACTER-1}はあなたの代わりに{CHARACTER-0}と{CHARACTER-0}と干渉しており、この最後のステップは{G1：彼の計画が働いているようです。あなたは夕方の夕方を{CHARACTER-SHORT-0}、飲んで笑います。
 
 あるいは少なくともあなたは、赤頬とスラリングです、{CHARACTER-SHORT-0}はあなたとあなたの家族についての一連の中傷的な発言を不用意にします。笑いはすぐに{g0：彼の目からZieさん、{g0：彼：彼女：彼女：彼女の：彼女は言われたところ、そして誰に。
 
@@ -1234,11 +1234,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_DUEL</zType>
-    <Translation>あなたのしもべは、首都を払いました{FAMILY-2}家族の中で残忍な戦いのニュースをもたらします。
+    <Translation><![CDATA[あなたのしもべは、首都を払いました{FAMILY-2}家族の中で残忍な戦いのニュースをもたらします。
 
-{CHARACTER-SHORT-0}があなたを強調して批判し始めたときの{CHARACTER-1}はあなたに代わって{CHARACTER-0}と話していました。わずかなパスをさせることができません、{CHARACTER-SHORT-1}は彼らが決闘を要求しました。 fight {CHARACTER-SHORT-0} 's &lt;p.is_sub.s0 = subject_corrupt&gt;腐敗&lt;p = subject_prood&gt;誇りに思っています&lt;p = subject_bloodty&gt; BloodThirsty &lt;p = subject_Ruthless&gt; Ruthless &lt;p = subject_greedy&gt;貪欲&lt;else&gt;残虐行為&lt;エンド&gt;自然は{G0：彼：彼女}として明らかにされました。&lt;p = compect_prod&gt;を戦うことができる前に{CHARACTER-SHORT-1}を死に阻止するための警備員を賄賂を贈りました{G0：HIS：HIS：HEX：SHORT-1} &lt;p = stuctor_bloodsty&gt;を意味していても{CHARACTER-SHORT-1}は{G1：HIM：HE：彼女の}へのハッキングを行っています。虐殺&lt;p =件名&lt;gre-1} {G1：HE：彼女}を求めていても{G1：HE：HE：SHEET-1}を求めていた場合でも{CHARACTER-SHORT-1}を獲得していた。家族のfortune &lt;else&gt;殺した{CHARACTER-SHORT-1} &lt;エンド&gt;。
+{CHARACTER-SHORT-0}があなたを強調して批判し始めたときの{CHARACTER-1}はあなたに代わって{CHARACTER-0}と話していました。わずかなパスをさせることができません、{CHARACTER-SHORT-1}は彼らが決闘を要求しました。 fight {CHARACTER-SHORT-0} 's <p.is_sub.s0 = subject_corrupt>腐敗<p = subject_prood>誇りに思っています<p = subject_bloodty> BloodThirsty <p = subject_Ruthless> Ruthless <p = subject_greedy>貪欲<else>残虐行為<エンド>自然は{G0：彼：彼女}として明らかにされました。<p = compect_prod>を戦うことができる前に{CHARACTER-SHORT-1}を死に阻止するための警備員を賄賂を贈りました{G0：HIS：HIS：HEX：SHORT-1} <p = stuctor_bloodsty>を意味していても{CHARACTER-SHORT-1}は{G1：HIM：HE：彼女の}へのハッキングを行っています。虐殺<p =件名<gre-1} {G1：HE：彼女}を求めていても{G1：HE：HE：SHEET-1}を求めていた場合でも{CHARACTER-SHORT-1}が獲得していた家族のfortune <else>殺した{CHARACTER-SHORT-1} <エンド>。
 
-他の家族は貴族の中でそのような暴力でショックを受けていますが、それでもそれがまだあなたの計画であれば{CHARACTER-SHORT-0}を揺動させるのに良いチャンスかもしれません。 {g0：彼：彼女：彼女の前にあなたの前に持ってきて、あなたは何処を決めますか？</Translation>
+他の家族は貴族の中でそのような暴力でショックを受けていますが、それでもそれがまだあなたの計画であれば{CHARACTER-SHORT-0}を揺動させるのに良いチャンスかもしれません。 {g0：彼：彼女：彼女の前にあなたの前に持ってきて、あなたは何処を決めますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_GREED</zType>
@@ -1266,13 +1266,13 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_COMPULSION</zType>
-    <Translation>{CHARACTER-2}は{G2：彼の：彼女の}取消のニュースであなたに返されました。成功しましたが、{CHARACTER-SHORT-2}は{G2：彼：彼}が望ましい結果を得るために行き過ぎ、&lt;p.is_sub.s1 = subject_zoroastrianisism&gt; Ahura Mazdaの怒りを脅かす&lt;p =件名_religion_pagan&gt;神々&gt;神&lt;エンド&gt;。
+    <Translation><![CDATA[{CHARACTER-2}は{G2：彼の：彼女の}取消のニュースであなたに返されました。成功しましたが、{CHARACTER-SHORT-2}は{G2：彼：彼}が望ましい結果を得るために行き過ぎ、<p.is_sub.s1 = subject_zoroastrianisism> Ahura Mazdaの怒りを脅かす<p =件名_religion_pagan>神々>神<エンド>。
 
-存在していた祭司たちは、{CHARACTER-2}へのあなたの影響について心配している{宗教 -  1,3}の間で不満を広げてきました。</Translation>
+存在していた祭司たちは、{CHARACTER-2}へのあなたの影響について心配している{宗教 -  1,3}の間で不満を広げてきました。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_DEBATE</zType>
-    <Translation>{G0：HIM：HEG：HEG：HEG：彼女の原因にゆるみを目的として、{CHARACTER-0}を{CHARACTER-0}で満たしました。ただし、{CHARACTER-SHORT-0} &lt;p.is_sub.s0 = subject_scholar&gt; {CHARACTER-SHORT-2}の背後にある情報源と証拠を疑問視し始めました。議論&lt;p = subject_educated&gt; {G0：HIS：HER}教育からの一連のレッスンを引用した{CHARACTER-SHORT-2}は、&lt;elsely-short-2}が明らかに聞いたことがなかったということは&lt;charactureの性質についての思慮深い質問-short-2} &lt;end&gt;には答えがありませんでした。 {CHARACTER-SHORT-2}は単語の損失に残されていて、何でも{CHARACTER-0}を納得させることができませんでした。 {G2：彼：彼女：彼女は恥ずかしさであなたに戻ります。</Translation>
+    <Translation><![CDATA[{G0：HIM：HEG：HEG：HEG：彼女の原因にゆるみを目的として、{CHARACTER-0}を{CHARACTER-0}で満たしました。ただし、{CHARACTER-SHORT-0} <p.is_sub.s0 = subject_scholar> {CHARACTER-SHORT-2}の背後にある情報源と証拠を疑問視し始めました。議論<p = subject_educated> {G0：HIS：HER}教育からの一連のレッスンを引用した{CHARACTER-SHORT-2}は、<elsely-short-2}が明らかに聞いたことがなかったということは<charactureの性質についての思慮深い質問-short-2} <end>には答えがありませんでした。 {CHARACTER-SHORT-2}は単語の損失に残されていて、何でも{CHARACTER-0}を納得させることができませんでした。 {G2：彼：彼女：彼女は恥ずかしさであなたに戻ります。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_REPLACEMENT</zType>
@@ -1284,11 +1284,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_DONATION</zType>
-    <Translation>メッセージは{CHARACTER-0}から到着します。
+    <Translation><![CDATA[メッセージは{CHARACTER-0}から到着します。
 
-「{CHARACTER-2}があなたに話した多くの種類の言葉の後、私はあなたが{宗教-1}のただフォロワーであると確信しています。 &lt;p.is_sub.s1 =件名&lt;p = subject_religion_pagan&gt; &lt;P.IS_SUB.S1 = P = Subject_Religion_Pagan&gt; &lt;Player-4}のglory glory&gt;
+「{CHARACTER-2}があなたに話した多くの種類の言葉の後、私はあなたが{宗教-1}のただフォロワーであると確信しています。 <p.is_sub.s1 =件名<p = subject_religion_pagan> <P.IS_SUB.S1 = P = Subject_Religion_Pagan> <Player-4}のglory glory>
 
-寛大なオファー、あなたは何を求めるのですか？</Translation>
+寛大なオファー、あなたは何を求めるのですか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_TRUCE</zType>
@@ -1332,7 +1332,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INTERCESSION_CONFUSION</zType>
-    <Translation>{CHARACTER-2}は勝利であなたにやってくる。 「恐れないでください、私はあなたがあなたのために尋ね、{CHARACTER-1}で傍受されたようにしました！」
+    <Translation>{CHARACTER-2}は勝利であなたにやってくる。 「恐れないでください。
 
 ... {CHARACTER-SHORT-1}？
 
@@ -1482,7 +1482,7 @@ hanging {G0：彼：彼女の}頭、{CHARACTER-SHORT-0}はあなたが結婚を�
     <zType>TEXT_EVENTSTORY_DEMAND_TRIBUTE_WAR_VIOLENT</zType>
     <Translation>{PLAYER-0}からの賛辞のためのあなたの要求に対する答えを間違えることはありません。彼ら自身の大使は、{CITY-2}の切断された頭を{CITY-1}の門に渡し、去る前に偶然戦争の宣言を与えます。
 
-{PLAYER-0}がやってくる。</Translation>
+{PLAYER-0}が来ています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DEMAND_TRIBUTE_CUT</zType>
@@ -1546,9 +1546,9 @@ hanging {G0：彼：彼女の}頭、{CHARACTER-SHORT-0}はあなたが結婚を�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_RIVALS</zType>
-    <Translation>{G0：彼：彼女の研究、{CHARACTER-SHORT-0}は{CHARACTER-1}で競争を構築しています。あなたに書いて、{G0：彼：彼女：彼女は{CHARACTER-SHORT-1}が{G1：彼の：彼女の}で常に一歩先にあるようです} &lt;p.is_sub.s0 = subject_study_tactics&gt;バトル戦術と武器の習得ドリル&lt;p = subject_study_retoric&gt;議論の両側を説得力を持つ能力&lt;p = cubject_study_commerce&gt;財政の管理と複雑な方程式の習熟度&lt;p = subject_study_philosophy&gt;哲学的思考の実践と推論の実践&lt;&lt;エンド&gt;
+    <Translation><![CDATA[{G0：彼：彼女の研究、{CHARACTER-SHORT-0}は{CHARACTER-1}で競争を構築しています。あなたに書いて、{G0：彼：彼女：彼女は{CHARACTER-SHORT-1}が{G1：彼の：彼女の}で常に一歩先にあるようです} <p.is_sub.s0 = subject_study_tactics>バトル戦術と武器の習得ドリル<p = subject_study_retoric>議論の両側を説得力を持つ能力<p = cubject_study_commerce>財政の管理と複雑な方程式の習熟度<p = subject_study_philosophy>哲学的思考の実践と推論の実践<<エンド>
 
-{CHARACTER-SHORT-0}は追いつく方法で損失です。あなたは何をしますか？</Translation>
+{CHARACTER-SHORT-0}は追いつく方法で損失です。あなたは何をしますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LATE_NIGHTS</zType>
@@ -1622,7 +1622,7 @@ hanging {G0：彼：彼女の}頭、{CHARACTER-SHORT-0}はあなたが結婚を�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FIRE_OF_THE_GODS</zType>
-    <Translation>物語は、{ランドマーク0}の山が火のハローに囲まれて見られ、それが他の世界のように感じる熱を放射することを広げています。 {宗教-1}の祭司たちは、山の麓にあるカルト寺院を建てるために石の寄付を求めていますが、&lt;p.is_sub.S2 =件名&gt;巨乳&lt;P =件名&gt;司教&lt;P =件名&gt;コハニム&lt;P = TOBEST_MANICHAEASISISM&gt; ELECT &lt;ELES&gt; &lt;END&gt;の&lt;END&gt;火災が神聖な山が邪魔されるべきではないという神の兆候であると主張してください。</Translation>
+    <Translation><![CDATA[物語は、{ランドマーク0}の山が火のハローに囲まれて見られ、それが他の世界のように感じる熱を放射することを広げています。 {宗教-1}の祭司たちは、山の麓にあるカルト寺院を建てるために石の寄付を求めていますが、<p.is_sub.S2 =件名>巨乳<P =件名>司教<P =件名>コハニム<P = TOBEST_MANICHAEASISISM> ELECT <ELES> <END>の<END>火災が神聖な山が邪魔されるべきではないという神の兆候であると主張してください。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RIVER_CROSSING</zType>
@@ -1976,31 +1976,31 @@ hanging {G0：彼：彼女の}頭、{CHARACTER-SHORT-0}はあなたが結婚を�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUCCESSION_THEM</zType>
-    <Translation>ニュースが海外からあなたに到達します。&lt;p = subject_character_max_angry&gt; eache &lt;p = subject_character_max_angry&gt; eacher &lt;else&gt;仲間の定規&lt;エンド&gt; {CHARACTER-1}は死んでいます。彼ら自身の国のリーダー：怒りのフィット感の中で嫉妬深い恋人によって殺害されました：未知の加害者によって殺されました：突然の不幸によって襲われました：突然の病気によって低い抑制：暴走のために殺されました：間違っていました最後にフェスチョッキ傷に屈する：{random_r1：ええと：邪魔の底に：いくつかの部分で：巨大な樽の中で抱えている：浅い墓に急いで埋葬された：ハンツマンが殺される大規模なイノシシ部分的に食べられた：明らかに、神秘的に消え去りの数週間後に拷問を受けた：貴金属の派閥による倒れたこと：貴族のリーダーと滅ぼされた暴動によって殺害された：馬：Aの後に渡す暴力的で不思議な病気：狩猟時の猛烈な動物たちによって引き裂かれました：王様のボディガードによって激しく裏切られました：継承のための苦い闘いの間に殺されました。
+    <Translation><![CDATA[ニュースが海外からあなたに到達します。<p = subject_character_max_angry> eache <p = subject_character_max_angry> eacher <else>仲間の定規<エンド> {CHARACTER-1}は死んでいます。彼ら自身の国のリーダー：怒りのフィット感の中で嫉妬深い恋人によって殺害されました：未知の加害者によって殺されました：突然の不幸によって襲われました：突然の病気によって低い抑制：暴走のために殺されました：間違っていました最後にフェスチョッキ傷に屈する：{RANDOM_R1：ええと：邪魔の底に：いくつかの部分で：巨大な樽の中で抱えている：浅い墓に急いで埋葬された：ハンツマンが殺される大規模なイノシシ部分的に食べられた：明らかに、神秘的に消え去りの数週間後に拷問を受けた：貴金属の派閥による倒れたこと：貴族のリーダーと滅ぼされた暴動によって殺害された：馬：Aの後に渡す暴力的で不思議な病気：狩猟時の猛烈な動物たちによって引き裂かれました：王様のボディガードによって激しく裏切られました：継承のための苦い闘いの間に殺されました：後悔のための苦い闘いで殺されました：けいれんの迷惑な惨めな悔い改めを殺しました}
 
-{CHARACTER-0}は、{CHARACTER-SHORT-1}と{G1によって行われた後継契約に従って、{G0：KING：QUEEN}という名前の{PLAYER-0} &lt;p.is_sub.s0 = subject_player_assyria&gt;を棄権しました。 ：彼の：彼女の家臣。 {CHARACTER-SHORT-0}の碑文と電力は間もなく{PLAYER-0}で間もなく委託されています。
-&lt;p =件名_player_babylonia&gt;。 {G0：彼：彼女}が任命されています{G0：KING：QUEEN}の上に、{CITY-0}の祭司によるルールのために奉献されました。 {CHARACTER-SHORT-0}の保護と成果の碑文はまもなく{PLAYER-0}で上昇しています。
-&lt;P = Subject_Player_Carthage&gt;。 {G0：HE：彼女：彼女は{G0：KING：QUEEN}の{CHARACTER-SHORT-1}の足跡として役立つために選出され、{PLAYER-0}の人々と上院をリードする年。
-&lt;p = subject_player_egypt&gt;。 {G0：彼：彼女：彼女}は、{G0：彼の新しいファラオとしての{G0：HES：HER}ロールとしてのイベントとイベントの年間の鎖とイベントを初めて開始して、直ちに伝統的なごちそうを開催しました。 。
-&lt;p =件名_player_greece&gt;。 {G0：HE：彼女：彼女}はすぐに宣言されました{G0：KING：QUEEN}の{CHARACTER-SHORT-1}の死の将来の将軍によって宣言されました。 SECUREを使用すると、{CHARACTER-SHORT-0}が{PLAYER-0}の人々をリードする準備ができています。
-&lt;P = Subject_Player_Persia&gt;。 {G0：HE：彼女：彼女の寺院に入り、以前にHOLDER {CHARACTER-SHORT-1}によって以前に着用するローブに変更されました。イチジクの儀式の食事の後、イチジクのミルクの後、{G0：HIS：}の新しいタイトルの{G0：KING：QUEEN}の{PLAYER-0}の新しいタイトルを想定しました。
-&lt;p = subject_player_rome&gt;。 {G0：HE：彼女}は、Mighty {PLAYER-0}を導くために力を与えられ、12のLictor BodyGuardsの伝統的な網膜に投資されました。彼らは{CHARACTER-SHORT-0}を新しいリーダーとして{G0：彼：彼女の}座席を取るように片付けます。
-&lt;else&gt; {G0：彼：彼女：彼女}は、強力な{PLAYER-0}を新しい年齢に導くことに力を与えられています。
-&lt;エンド&gt;</Translation>
+{CHARACTER-0}は、{CHARACTER-SHORT-1}と{G1によって行われた後継契約に従って、{G0：KING：QUEEN}という名前の{PLAYER-0} <p.is_sub.s0 = subject_player_assyria>を棄権しました。 ：彼の：彼女の家臣。 {CHARACTER-SHORT-0}の碑文と電力は間もなく{PLAYER-0}で間もなく委託されています。
+<p =件名_player_babylonia>。 {G0：彼：彼女}が任命されています{G0：KING：QUEEN}の上に、{CITY-0}の祭司によるルールのために奉献されました。 {CHARACTER-SHORT-0}の保護と成果の碑文はまもなく{PLAYER-0}で上昇しています。
+<P = Subject_Player_Carthage>。 {G0：HE：彼女：彼女は{G0：KING：QUEEN}の{CHARACTER-SHORT-1}の足跡として役立つために選出され、{PLAYER-0}の人々と上院をリードする年。
+<p = subject_player_egypt>。 {G0：彼：彼女：彼女}は、{G0：彼の新しいファラオとしての{G0：HES：HER}ロールとしてのイベントとイベントの年間の鎖とイベントを初めて開始して、直ちに伝統的なごちそうを開催しました。 。
+<p =件名_player_greece>。 {G0：HE：彼女：彼女}はすぐに宣言されました{G0：KING：QUEEN}の{CHARACTER-SHORT-1}の死の将来の将軍によって宣言されました。 SECUREを使用すると、{CHARACTER-SHORT-0}が{PLAYER-0}の人々をリードする準備ができています。
+<P = Subject_Player_Persia>。 {G0：HE：彼女：彼女の寺院に入り、以前にHOLDER {CHARACTER-SHORT-1}によって以前に着用するローブに変更されました。イチジクの儀式の食事の後、イチジクのミルクの後、{G0：HIS：}の新しいタイトルの{G0：KING：QUEEN}の{PLAYER-0}の新しいタイトルを想定しました。
+<p = subject_player_rome>。 {G0：HE：彼女}は、Mighty {PLAYER-0}を導くために力を与えられ、12のLictor BodyGuardsの伝統的な網膜に投資されました。彼らは{CHARACTER-SHORT-0}を新しいリーダーとして{G0：彼：彼女の}座席を取るように片付けます。
+<else> {G0：彼：彼女：彼女}は、強力な{PLAYER-0}を新しい年齢に導くことに力を与えられています。
+<エンド>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_ABDICATED</zType>
-    <Translation>ニュースは海外からあなたに届きます。驚くべき動きでは、{PLAYER-0}のリーダーとして{CHARACTER-1}が降りてきました。
+    <Translation><![CDATA[ニュースは海外からあなたに届きます。驚くべき動きでは、{PLAYER-0}のリーダーとして{CHARACTER-1}が降りてきました。
 
-{CHARACTER-0}は{G1：彼の：彼女の}場所で{PLAYER-0}をルールするように上回っていました。 &lt;p.is_sub.s0 = subject_player_assyria&gt; {CHARACTER-SHORT-1}と{G1：彼：彼女の} vassalsによって行われた継承契約に従って{G0：KING：QUEEN}という名前が付けられました。 {CHARACTER-SHORT-0}の碑文と電力は間もなく{PLAYER-0}で間もなく委託されています。
-&lt;p =件名_player_babylonia&gt; {G0：HE：彼女}は、他のすべてのものよりも{G0：KING：QUEEN} {CITY-0}の祭司によってルールのために奉献されました。 {CHARACTER-SHORT-0}の保護と成果の碑文はまもなく{PLAYER-0}で上昇しています。
-&lt;p =件名_player_carthage&gt; {G0：HE：彼女}は、{G0：KING：QUEEN}の{CHARACTER-SHORT-1}の足跡を提供し、人々と上院をリードするための{G0：QUEEN}のように選出されました。新しい時代に0}。
-&lt;P = Subject_Player_egypt&gt; {G0：HE：HE：SHE}は、{G0：HIS：HIS：HER}のロールを初めて、{G0：HES：HER：HES：HER：HER}ロールを初めて開始して、 {PLAYER-0}。
-&lt;p =件名_player_greece&gt; {G0：HE：HE：彼女}は、貴族と将来の{G0：KING：QUEEN} {CHARACTER-SHORT-1}の死の範囲で宣言されました。 SECUREを使用すると、{CHARACTER-SHORT-0}が{PLAYER-0}の人々をリードする準備ができています。
-&lt;P = Subject_Player_Persia&gt; {G0：HE：彼女：彼女の寺院に入って、以前に{CHARACTER-SHORT-1}によって以前に着用するローブに変更されました。イチジクの儀式の食事の後、イチジクのミルクの後、{G0：HIS：}の新しいタイトルの{G0：KING：QUEEN}の{PLAYER-0}の新しいタイトルを想定しました。
-&lt;P =件名_player_rome&gt; {G0：HE：彼女：彼女}は、Mighty {PLAYER-0}を導くために権限を与え、12のLictor Bodyguardsの伝統的な網膜に投資されました。彼らは{CHARACTER-SHORT-0}を新しいリーダーとして{G0：彼：彼女の}座席を取るように片付けます。
-&lt;else&gt; {G0：彼：彼女：彼女}は、強力な{PLAYER-0}を新しい年齢に導くことに力を与えられています。
-&lt;エンド&gt;</Translation>
+{CHARACTER-0}は{G1：彼の：彼女の}場所で{PLAYER-0}をルールするように上回っていました。 <p.is_sub.s0 = subject_player_assyria> {CHARACTER-SHORT-1}と{G1：彼：彼女の} vassalsによって行われた継承契約に従って{G0：KING：QUEEN}という名前が付けられました。 {CHARACTER-SHORT-0}の碑文と電力は間もなく{PLAYER-0}で間もなく委託されています。
+<p =件名_player_babylonia> {G0：HE：彼女}は、他のすべてのものよりも{G0：KING：QUEEN} {CITY-0}の祭司によってルールのために奉献されました。 {CHARACTER-SHORT-0}の保護と成果の碑文はまもなく{PLAYER-0}で上昇しています。
+<p =件名_player_carthage> {G0：HE：彼女}は、{G0：KING：QUEEN}の{CHARACTER-SHORT-1}の足跡を提供し、人々と上院をリードするための{G0：QUEEN}のように選出されました。新しい時代に0}。
+<P = Subject_Player_egypt> {G0：HE：HE：SHE}は、{G0：HIS：HIS：HER}のロールを初めて、{G0：HES：HER：HES：HER：HER}ロールを初めて開始して、 {PLAYER-0}。
+<p =件名_player_greece> {G0：HE：HE：彼女}は、貴族と将来の{G0：KING：QUEEN} {CHARACTER-SHORT-1}の死の範囲で宣言されました。 SECUREを使用すると、{CHARACTER-SHORT-0}が{PLAYER-0}の人々をリードする準備ができています。
+<P = Subject_Player_Persia> {G0：HE：彼女：彼女の寺院に入って、以前に{CHARACTER-SHORT-1}によって以前に着用するローブに変更されました。イチジクの儀式の食事の後、イチジクのミルクの後、{G0：HIS：}の新しいタイトルの{G0：KING：QUEEN}の{PLAYER-0}の新しいタイトルを想定しました。
+<P =件名_player_rome> {G0：HE：彼女：彼女}は、Mighty {PLAYER-0}を導くために権限を与え、12のLictor Bodyguardsの伝統的な網膜に投資されました。彼らは{CHARACTER-SHORT-0}を新しいリーダーとして{G0：彼：彼女の}座席を取るように片付けます。
+<else> {G0：彼：彼女：彼女}は、強力な{PLAYER-0}を新しい年齢に導くことに力を与えられています。
+<エンド>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_AFFAIR</zType>
@@ -2034,7 +2034,7 @@ hanging {G0：彼：彼女の}頭、{CHARACTER-SHORT-0}はあなたが結婚を�
     <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_GUIDANCE</zType>
     <Translation>{P.IS_SUB.S4 =件名_CHARACTER_DEAD__THEM：DEATH：ABDICATION}の{CHARACTER-4}のルールは{CHARACTER-0}に渡されました。
 
-新しい支配者は{G0：彼のASCENSIONの後すぐにあなたにメッセージを送り、支配する最善の方法でガイダンスを求めてください。あなたは{PLAYER-1}の新しいリーダーを支援しますか？</Translation>
+新しい支配者は{G0：彼のASCENSIONの後すぐにあなたにメッセージを送ります。あなたは{PLAYER-1}の新しいリーダーを支援しますか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_PEACE</zType>
@@ -2064,7 +2064,7 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
     <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_TRIBUTE</zType>
     <Translation>{P.IS_SUB.S3 = SUBJECT_CHARACTER_DEAD_THEM：DEATH：ABDICATION}の{CHARACTER-0}のルールは{CHARACTER-0}に渡されました。
 
-新しい支配者は{G0：彼の}の存在を求めて時間を浪費していません。 {PLAYER-0,1} Thugsはあなたの前に{CHARACTER-SHORT-0}の需要をもたらします。
+新しい支配者は{G0：彼の}の存在を求めて時間を浪費しており、あなたと扱うために 'doplomats'の大武装コホートを送っています。 {PLAYER-0,1} Thugsはあなたの前に{CHARACTER-SHORT-0}の需要をもたらします。
 
 "{PLAYER-0}はあなたと寛大にされていましたが、もうありません。あなたは金または鉄の賛辞を支払います、それとも戦争になるでしょう。」</Translation>
   </Entry>
@@ -2082,9 +2082,9 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_FRIENDS</zType>
-    <Translation>{P.IS_SUB.S2 = SUBJECT_CHARACTER_DEAD_DEAD_THEM：DEATH：ABDICATION}の{PLAYER-0}のルールは{CHARACTER-0}に渡されました。
+    <Translation><![CDATA[{P.IS_SUB.S2 = SUBJECT_CHARACTER_DEAD_DEAD_THEM：DEATH：ABDICATION}の{PLAYER-0}のルールは{CHARACTER-0}に渡されました。
 
-新しい定規はメッセージを説明しています{G0：彼：彼女の}のための相互愛を送ります&lt;p.is_sub.s1 = subject_zealot&gt;神学について議論する&lt;p = subject_scholar&gt;&gt;数学と履歴の研究&lt;p = subject_orator&gt; Rhetoric &lt;p =の実践subject_diplomatt&gt;他の国々との扱い&lt;p = compute_schemer&gt;工学計画&lt;P =件名&gt;戦いの厚さに飛び込む&lt;p =件名&lt;pactician&gt;戦闘のための複雑な計画を作成する&lt;p =件名&gt; &lt;p = subject_comander&gt; p =件名_juding&gt;幻想的な建物の設計&lt;p =件名&gt;ルール&lt;else&gt;の法則を決定する&lt;エンド&gt;を判断し、あなたの2人があなたの国の間のコラボレーションを整理できることを願っています。</Translation>
+新しい定規はメッセージを説明しています{G0：彼：彼女の}のための相互愛を送ります<p.is_sub.s1 = subject_zealot>神学について議論する<p = subject_scholar>>数学と履歴の研究<p = subject_orator> Rhetoric <p =の実践subject_diplomatt>他の国々との扱い<p = compute_schemer>工学計画<P =件名>戦いの厚さに飛び込む<p =件名<pactician>戦闘のための複雑な計画を作成する<p =件名> <p = subject_comander> p =件名_juding>幻想的な建物の設計<p =件名>ルール<else>の法則を決定する<エンド>を判断し、あなたの2人があなたの国の間のコラボレーションを整理できることを願っています。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_AFFAIR</zType>
@@ -2098,7 +2098,7 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
     <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_AGENT</zType>
     <Translation>{P.IS_SUB.S2 = SUBJECT_CHARACTER_DEAD_DEAD_THEM：DEATH：ABDICATION}の{PLAYER-0}のルールは{CHARACTER-0}に渡されました。
 
-{CHARACTER-SHORT-0}の翌週はリーダーと名付けられています、あなたの警備員は招待されたと主張した宮殿のしもべに参加した{PLAYER-0,1}エージェントをキャッチしました。 {CHARACTER-SHORT-0}が{G0：彼の}エージェントを実現する前に限られた時間がかかりました。</Translation>
+{CHARACTER-SHORT-0}の翌週はリーダーと名付けられています。 {CHARACTER-SHORT-0}が{G0：彼の}エージェントを実現する前に限られた時間がかかりました。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_HONOR</zType>
@@ -2122,15 +2122,15 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_NATION_OF_FAITH</zType>
-    <Translation>{CITY-2}からの私達の商人のいくつかは、道路上の見知らぬ人のグループを満たしています。彼らは{PLAYER-0}と呼ばれる遠く離陸の人々です。私たちの商人は自分の都市に見知らぬ人と一緒に旅行している間、私たちの商人は&lt;P.is_Sub.S3 = Subject_Zoroastrianismの宗教的慣行を観察しています。神&lt;P =件名_judaism&gt;毎週集まって、彼らの神の教えを学ぶために&lt;p =件名_manichaeisis&gt;預言者Mani &lt;ELSE&gt;の言葉を研究する&lt;エンド&gt;。
+    <Translation><![CDATA[{CITY-2}からの私達の商人のいくつかは、道路上の見知らぬ人のグループを満たしています。彼らは{PLAYER-0}と呼ばれる遠く離陸の人々です。私たちの商人は自分の都市に見知らぬ人と一緒に旅行している間、私たちの商人は<P.is_Sub.S3 = Subject_Zoroastrianismの宗教的慣行を観察しています。神<P =件名_judaism>毎週集まって、彼らの神の教えを学ぶために<p =件名_manichaeisis>預言者Mani <ELSE>の言葉を研究する<エンド>。
 
-{PLAYER-4}のあなた自身の商人の物語によって興味がある、{PLAYER-0}の人々はあなたの人々の間に関係を構築するために{RIGIGION-3,1}の委任を送りたいです。</Translation>
+{PLAYER-4}のあなた自身の商人の物語によって興味がある、{PLAYER-0}の人々はあなたの人々の間に関係を構築するために{RIGIGION-3,1}の委任を送りたいです。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_ART_AND_FAITH</zType>
-    <Translation>{CITY-2}の市場は新しいトレンドを持つ魅力的です。 {PLAYER-0}と呼ばれる遠く離陸の貿易業者は、お守りや衣料品を備えた{宗教 -  3,1} &lt;p.is_sub.s3 = subject_zoroastrianism&gt; &lt;p = subject_cristianity&gt;クロスのイメージP = Subject_JUDAISM&gt; Davidの星の記号&lt;P = TOBEST_MANICHAEISISS&gt;太陽クロス&lt;else&gt;宗教記号&lt;エンド&gt;。
+    <Translation><![CDATA[{CITY-2}の市場は新しいトレンドを持つ魅力的です。 {PLAYER-0}と呼ばれる遠く離陸の貿易業者は、お守りや衣料品を備えた{宗教 -  3,1} <p.is_sub.s3 = subject_zoroastrianism> <p = subject_cristianity>クロスのイメージP = Subject_JUDAISM> Davidの星の記号<P = TOBEST_MANICHAEISISS>太陽クロス<else>宗教記号<エンド>。
 
-これらの{PLAYER-0,1} Waresへの欲求は、{PLAYER-4}で広がることを脅かすことです。あなたは何をしますか？</Translation>
+これらの{PLAYER-0,1} Waresへの欲求は、{PLAYER-4}で広がることを脅かすことです。あなたは何をしますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_ZEALOT</zType>
@@ -2140,11 +2140,11 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_TROUBLE_ON_THE_ROAD</zType>
-    <Translation>探検しながら、あなたのスカウトは猛烈なダウンパーターに巻き込まれています。絶望的に暴風されて嵐によって殴られた、彼らは突然奇妙な旅行者によって近づいています。最初に緊張したスタンドオフの後、外国人はあなたのスカウトに援助を提供し、彼らが{PLAYER-0}の遠く離陸からであると共有しています。
+    <Translation><![CDATA[探検しながら、あなたのスカウトは猛烈なダウンパーターに巻き込まれています。絶望的に暴風されて嵐によって殴られた、彼らは突然奇妙な旅行者によって近づいています。最初に緊張したスタンドオフの後、外国人はあなたのスカウトに援助を提供し、彼らが{PLAYER-0}の遠く離陸からであると共有しています。
 
-これらの獣医は、{RIGHTION-3}の信奉者であることを説明しています。&lt;p.is_sub.s3 = subject_zoroastrianists&gt; Ahura Mazdaへの勇気と忠誠心を奨励する&lt;p =件名&lt;p =件名&gt; &lt;p = compect_judaism&gt; &lt;p = subject_judaism&gt;を助けることが促進されますAID &lt;P = Subject_Manichaeisism&gt;他の&lt;else&gt;の慣行&lt;else&gt;優しさ&lt;エンド&gt;の行為を奨励する。彼らはあなたのスカウトを近くの遺跡に導き、嵐が通過するまで一緒に避難する。
+これらの獣医は、{RIGHTION-3}の信奉者であることを説明しています。<p.is_sub.s3 = subject_zoroastrianists> Ahura Mazdaへの勇気と忠誠心を奨励する<p =件名<p =件名> <p = compect_judaism> <p = subject_judaism>を助けることが促進されますAID <P = Subject_Manichaeisism>他の<else>の慣行<else>優しさ<エンド>の行為を奨励する。彼らはあなたのスカウトを近くの遺跡に導き、嵐が通過するまで一緒に避難する。
 
-どのようにあなたはこれらの種類の外国人の物語にどのように反応しますか？</Translation>
+どのようにあなたはこれらの種類の外国人の物語にどのように反応しますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_YOUNG_RULER_PARENTAL_WISDOM</zType>
@@ -2230,7 +2230,7 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_YOUNG_RULER_COUP</zType>
-    <Translation>空気中にシフトがあるとき、あなたは王座の部屋に裁判所を持っています。叫び声の叫び声と犯罪不可能な暴力の音は、部屋に向かって急激に急上昇しています{CHARACTER-2}が部隊の潮の潮の潮汐、ブレードを描く。 「あなたの時間は上がっています、{CHARACTER-SHORT-0}！私はあなたが小さな値に値する王位を放棄しないならば、私は私の命令を攻撃する準備ができています。」
+    <Translation>空気中にシフトがあるとき、あなたは王座の部屋に裁判所を持っています。叫び声の叫び声と犯罪不可能な暴力の音は、部屋に向かって急激に急上昇しています。 「あなたの時間は上がっています、{CHARACTER-SHORT-0}！私はあなたが小さな値に値する王位を放棄しないならば、私は私の命令を攻撃する準備ができています。」
 
 あなたの警備員は戦う準備ができています。彼らはおそらく{CHARACTER-SHORT-2}をキャプチャすることができますが、さらなる暴力は避けられないでしょう。</Translation>
   </Entry>
@@ -2308,11 +2308,11 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_GOVERNANCE</zType>
-    <Translation>{G0：彼：彼女の研究に加えて、{CHARACTER-SHORT-0}は会議やあなたの義務の芸術を学ぶためにあなたの職務を遮蔽しています。
-
-あなたは{CITY-1}から長期の寛容で鈍い会議に閉じ込められています。これは、都市を監督するために任命されることを要求している。みんなの驚きに、それは突然話す{CHARACTER-SHORT-0}です。
-
-{CHARACTER-SHORT-0}は必要な責任までステップアップします。{g1：Him：彼女のためにまだ早すぎるのですか？</Translation>
+    <Translation>日頃の勉強に加えて、{CHARACTER-SHORT-0}は、統治の技術を学ぶために、会議や職務であなたに随行しています。&#xD;
+&#xD;
+ある日あなたは、{CITY-1}の長老の代表団との長く退屈な会議に束縛されてしまいます。彼らは、都市を監督するために総督を任命することを要求しています。驚いたことに、{CHARACTER-SHORT-0}が突然発言し、{CHARACTER-2}か{CHARACTER-3}のどちらかが良い候補者ではないかと提案したのです。&#xD;
+&#xD;
+果たして{CHARACTER-SHORT-0}は責任を果たしているでしょうか、それともまだ時期尚早でしょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_FOREIGN_LIT</zType>
@@ -2324,15 +2324,15 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
     <zType>TEXT_EVENTSTORY_STUDY_PINCER_ATTACK</zType>
     <Translation>{G0：彼：彼女：彼女の戦術的研究、{CHARACTER-SHORT-0}が誤って戦争を始めました。 {G0：彼：彼女の両方で訓練することができるなら、大声であなたに尋ねると、{G0：彼：彼女：彼女}がそれらを意味すると仮定した。
 
-今、あなたは2つの将軍が部屋を横切ってアプローチするにつれてピンセット攻撃に巻き込まれています。 {CHARACTER-SHORT-0}はあなたのリードの危険と時計を認識します。
+今、あなたは2つの将軍が部屋を横切ってアプローチするにつれてピンセット攻撃に巻き込まれています、右から左から来る{文字 -  SHORT-1}。 {CHARACTER-SHORT-0}はあなたのリードの危険と時計を認識します。
 
 あなたはこのトリッキーな状況からどのように抜け出すのでしょうか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_ON_WEALTH</zType>
-    <Translation>{CHARACTER-SHORT-0}の哲学的研究、{G0：彼：彼女の}が{G0：彼の忠実な人たちによってプッシュされました。結論{G0：HE：彼女の：彼女}が達成されたということは、重要な商品が本当の目的のわずかな気が散ることだけであるということです。
-
-{G0：彼：彼女の}アイデアは、{CHARACTER-SHORT-0}があなたの意見を求めることに興奮しています。</Translation>
+    <Translation>{CHARACTER-SHORT-0}はその哲学的研究の中で、家庭教師から良い人生の本質を問うように勧められました。彼がたどり着いた結論は、物質的なものは真の存在目的を阻害するものに過ぎないというものでした。&#xD;
+&#xD;
+この問題について自分の考えを発表したいと思っている{CHARACTER-SHORT-0}は、富についてあなたの意見を求めています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_BRIBERY</zType>
@@ -2344,9 +2344,9 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_PATERFAMILIAS</zType>
-    <Translation>Tutorsのように貴重なものとして、ローマ社会では最終的には子供の教育を監督することが最終的には両親の義務です。ビジネスと国内のスキルの基本に加えて、ローマの良い市民を作る道徳的および市民の責任を教えることが重要です。
-
-{CHARACTER-SHORT-1}はあなたが{G1：彼：彼女の}を教えたことをすぐに習得していて、もっと尋ねます。この食欲を学ぶためにどのようにしていますか？</Translation>
+    <Translation>家庭教師は貴重な存在ですが、ローマ社会では子供の教育を監督するのは最終的には親の義務です。仕事や家事の基本に加えて、ローマ市民としての道徳的、市民的責任を教えることが重要です。&#xD;
+&#xD;
+{CHARACTER-SHORT-1}は、あなたが教えたことをすぐにマスターし、もっと教えてほしいと言っています。あなたはどのようにしてこの学習意欲を満たしますか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_LUDUS</zType>
@@ -2426,7 +2426,7 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
     <zType>TEXT_EVENTSTORY_STUDY_MILITARY_DIPLOMACY</zType>
     <Translation>{G1：HIS：彼女の}の間に{CHARACTER-SHORT-1}に近づく理論的な状況を通して実行されている家庭教師が見つけられました。 「川のほとりに壁の街がいるとします。あなた自身のリソースが不足する前にそれらを降伏させるよう説得するのに短い時間があります。あなたは何をしますか？"
 
-{キャラクター - ショート -  1}は困惑してからあなたに会ったときに点灯します。</Translation>
+{キャラクター - ショート -  1}は困惑してからあなたに会ったときに点灯します、{g1：彼：彼女の疑問視力疑問はパズルへの答えを探しています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_CURSE_OF_AGADE</zType>
@@ -2516,8 +2516,8 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_SELF_RELIGIOUS_TEACHINGS</zType>
-    <Translation>あなたが試したのと同じくらい、{宗教-1}の中心部のアイデアの理解はあなたを享受し続けます。 &lt;p.is_sub.s1 =件名の小さな委任&gt; Magi &lt;p =件名&gt;司教&lt;P =件名&gt;コハニム&lt;P =件名&gt; &lt;ELSE&gt;司祭&lt;エンド&gt;あなたにアプローチ、家庭教師への提供難解な知識の複雑さ...価格のために...
-</Translation>
+    <Translation><![CDATA[あなたが試したのと同じくらい、{宗教-1}の中心部のアイデアの理解はあなたを享受し続けます。 <p.is_sub.s1 =件名の小さな委任> Magi <p =件名>司教<P =件名>コハニム<P =件名> <ELSE>司祭<エンド>あなたにアプローチ、家庭教師への提供難解な知識の複雑さ...価格のために...
+]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_SELF_BEFORE_GOD</zType>
@@ -2563,15 +2563,15 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_SELF_EARLY_TEMPTATION</zType>
-    <Translation>{CHARACTER-3}は{宗教-1}の宗教的慣行を研究している仕事の努力を見つけます。あなたの隣に沈む{G3：彼：彼女：彼女：彼女はあなたがこれを通してあなた自身を置いている理由を頼むことを尋ねます。 "{宗教-1}は衰退しています。 {PLAYER-0}は、将来私たちに会うために強い{宗教2,1}リーダーを必要としています。慎重に検討してください。」
+    <Translation><![CDATA[{CHARACTER-3}は{宗教-1}の宗教的慣行を研究している仕事の努力を見つけます。あなたの隣に沈む{G3：彼：彼女：彼女：彼女はあなたがこれを通してあなた自身を置いている理由を頼むことを尋ねます。 "{宗教-1}は衰退しています。 {PLAYER-0}は、将来私たちに会うために強い{宗教2,1}リーダーを必要としています。慎重に検討してください。」
 
-{CHARACTER-SHORT-3}右、またはあなたの心はすでに&lt;p.is_sub.s1 = subject_zoroastrianismに属しています。</Translation>
+{CHARACTER-SHORT-3}右、またはあなたの心はすでに<p.is_sub.s1 = subject_zoroastrianismに属しています。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_SELF_DEMANDS_OF_FAITH</zType>
-    <Translation>{CHARACTER-SHORT-0}、{RIGIX-1}の先頭にメッセージを送信します。
+    <Translation><![CDATA[{CHARACTER-SHORT-0}、{RIGIX-1}の先頭にメッセージを送信します。
 
-「顕著な{CHARACTER-2}、私はあなたが{RESTRIP-1}の方法を入力したことを聞いてうれしいです。しかし、私が必要とするものがあります。 wayward {FAMILY-3}ファミリーはあなたの土地であまりにも揺れすぎる。彼らの宗教的な方法を公に非難するか、私は&lt;p.is_sub.s1 = subject_zoroastrianisisを防止することを余儀なくされます&lt;p =件名&gt;司教会&lt;P = cobers_judaism&gt;コハニム&lt;p = subject_manichaeism&gt; &lt;else&gt;司祭&lt;エンド&gt;投与からあなたへ。 &lt;P.IS_SUB.S1 = Subject_Zoroastrianism&gt; Ahura Mazda &lt;P = Subject_Religion_Pagan&gt;神々&gt;神&lt;エンド&gt;。</Translation>
+「顕著な{CHARACTER-2}、私はあなたが{RESTRIP-1}の方法を入力したことを聞いてうれしいです。しかし、私が必要とするものがあります。 wayward {FAMILY-3}ファミリーはあなたの土地であまりにも揺れすぎる。彼らの宗教的な方法を公に非難するか、私は<p.is_sub.s1 = subject_zoroastrianisisを防止することを余儀なくされます<p =件名>司教会<P = cobers_judaism>コハニム<p = subject_manichaeism> <else>司祭<エンド>投与からあなたへ。 <P.IS_SUB.S1 = Subject_Zoroastrianism> Ahura Mazda <P = Subject_Religion_Pagan>神々>神<エンド>。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_SCHISM</zType>
@@ -3280,9 +3280,9 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_EXPLORING_PILGRIMAGE</zType>
-    <Translation>あなたは最近{宗教-1}から疎外されたと感じました。 &lt;P.IS_SUB.S1 = Subject_Zoroastrianisism&gt; Link（expection_holiy_site_chriestianity）&lt;p = subject_judaism&gt;link(EXPECTION_HOLY_SITE_JUDISISTIC)&lt;p = porthment_holy_site_judaism）&lt;p = p = subject_site_judaism）&lt;p = Subject_Manichaeism&gt;リンク（改善_hothe_site_manichaeism）&lt;else&gt;リンク（即席_holy_site_zoroastrianisism）&lt;エンド&gt;、{PLAYER-3,1} holy都市の聖都市の聖都市で、あなたの信仰の炎をやり直してください。
+    <Translation><![CDATA[あなたは最近{宗教-1}から疎外されたと感じました。 <P.IS_SUB.S1 = Subject_Zoroastrianisism> Link（expection_holiy_site_chriestianity）<p = subject_judaism>link(EXPECTION_HOLY_SITE_JUDISISTIC)<p = porthment_holy_site_judaism）<p = p = subject_site_judaism）<p = Subject_Manichaeism>リンク（改善_hothe_site_manichaeism）<else>リンク（即席_holy_site_zoroastrianisism）<エンド>、{PLAYER-3,1} holy都市の聖都市の聖都市で、あなたの信仰の炎をやり直してください。
 
-{CITY-2}に巡礼をしましたか？</Translation>
+{CITY-2}に巡礼をしましたか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_EXPLORING_PILGRIMAGE_HOLY_CITY</zType>
@@ -3292,17 +3292,17 @@ Emissariesのリーダーはあなたの前に来て、あなたが{CHARACTER-0}
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_EXPLORING_WONDER</zType>
-    <Translation>強力な君主ではありますが、あなたは世界の素晴らしい不思議のあなたの無知を感じます。すべてのリーダーは世界の素晴らしい建築的成果を知っておくべきであり、あなたはそれらを説明して探索することを熱望しています。
-&lt;p.is_sub.s2 = subject_city_pyramids&gt; link（excoment_grate_gract_garacle&gt; link（excoment_oracle）&lt;p = subject_city_hanging_gardens&gt; link（excoment_hanging_gardent_garding_gardens）&lt;p = p = subject_hanging_gardens&gt; link（excoment_alacle）&lt;p = subject_gary_hanging_gardens&gt; link（intrivement_hanging_gardens） subject_city_necropolis&gt; link（excity_ISHTAR_GATE&gt;link(EXPECTION_ISHTAR_GATE)&lt;p = subject_city_lighthouse&gt;リンク（expection_lighthouse）&lt;p = subject_city_apadana&gt;リンク（expection_apadana）&lt;p = subject_city_mausoleum&gt;リンク（expection_mausoleum）&lt;p = subject_city_acropolis&gt;リンク（expection_action_acity_action_action_acropolis&gt;リンク）&lt;P = SUBJECT_CITY_COLOSSUS&gt;リンク（IMPROVEMENT_COLOSSUS）&lt;P = SUBJECT_CITY_MUSAEUM&gt;リンク（IMPROVEMENT_MUSAEUM）&lt;P = SUBJECT_CITY_CIRCUS_MAXIMUS&gt;リンク（IMPROVEMENT_CIRCUS_MAXIMUS）&lt;P = SUBJECT_CITY_PANTHEON&gt;リンク（IMPROVEMENT_PANTHEON）&lt;P = SUBJECT_CITY_HAGIA_SOPHIA&gt;リンク（IMPROVEMENT_HAGIA_SOPHIA）&lt;P = SUBJECT_CITY_VIA_RECTA_SOUK &gt;リンク（即席_via_recta_souk）&lt;else&gt;リンク（intrivement_pyramids）&lt;CITY-2}の都市の&lt;エンド&gt;。毎日、あなたは街を訪れるという考えにこれまでに描かれていると思います。宮殿の職務のムンダナニティからの唯一の気晴らしです。
+    <Translation><![CDATA[強力な君主ではありますが、あなたは世界の素晴らしい不思議のあなたの無知を感じます。すべてのリーダーは世界の素晴らしい建築的成果を知っておくべきであり、あなたはそれらを説明して探索することを熱望しています。
+<p.is_sub.s2 = subject_city_pyramids> link（excoment_grate_gract_garacle> link（excoment_oracle）<p = subject_city_hanging_gardens> link（excoment_hanging_gardent_garding_gardens）<p = p = subject_hanging_gardens> link（excoment_alacle）<p = subject_gary_hanging_gardens> link（intrivement_hanging_gardens） subject_city_necropolis> link（excity_ISHTAR_GATE>link(EXPECTION_ISHTAR_GATE)<p = subject_city_lighthouse>リンク（expection_lighthouse）<p = subject_city_apadana>リンク（expection_apadana）<p = subject_city_mausoleum>リンク（expection_mausoleum）<p = subject_city_acropolis>リンク（expection_action_acity_action_action_acropolis>リンク）<P = SUBJECT_CITY_COLOSSUS>リンク（IMPROVEMENT_COLOSSUS）<P = SUBJECT_CITY_MUSAEUM>リンク（IMPROVEMENT_MUSAEUM）<P = SUBJECT_CITY_CIRCUS_MAXIMUS>リンク（IMPROVEMENT_CIRCUS_MAXIMUS）<P = SUBJECT_CITY_PANTHEON>リンク（IMPROVEMENT_PANTHEON）<P = SUBJECT_CITY_HAGIA_SOPHIA>リンク（IMPROVEMENT_HAGIA_SOPHIA）<P = SUBJECT_CITY_VIA_RECTA_SOUK >リンク（即席_via_recta_souk）<else>リンク（intrivement_pyramids）<CITY-2}の都市の<エンド>。毎日、あなたは街を訪れるという考えにこれまでに描かれていると思います。宮殿の職務のムンダナニティからの唯一の気晴らしです。
 
-&lt;p.is_sub.s2 = subject_city_pyramids&gt;リンク（expection_pyramids）&lt;p = subject_gity_great_ziggurat&gt;リンク（expection_great_gity_oracle&gt;リンク（expection_oracle）&lt;p = subject_city_hanging_gardens&gt; link（expection_hanging_gardens） p = subject_city_necropolis&gt; link（expecte_city_ishtar_gate&gt;リンク（expection_ixtar_gate）&lt;p = subject_lity_lighthouse&gt;リンク（expection_lighthouse）&lt;p = subject_city_apadana&gt;リンク（epprest_apadana）&lt;p = subject_city_mausoleum&gt;リンク（expection_mausoleum）&lt;p = subject_city_acropolis&gt;リンク（展開_Colossus）&lt;P = Subject_City_Colossus&gt;リンク（展開_Colossus）&lt;P = Subject_City_Musaeum&gt;リンク（extrapement_city_circus_maximus&gt; link（excoment_ciry_pantheon&gt;リンク（extraphement_pantheon）&lt;p = subject_city_hagia_sophia&gt;リンク（expement_hagia_sophia）&lt;p = subject_city_via_recta_souk&gt;リンク（即席_via_recta_souk）&lt;else&gt; link（即席_pyramids）&lt;エンド&gt;？</Translation>
+<p.is_sub.s2 = subject_city_pyramids>リンク（expection_pyramids）<p = subject_gity_great_ziggurat>リンク（expection_great_gity_oracle>リンク（expection_oracle）<p = subject_city_hanging_gardens> link（expection_hanging_gardens） p = subject_city_necropolis> link（expecte_city_ishtar_gate>リンク（expection_ixtar_gate）<p = subject_lity_lighthouse>リンク（expection_lighthouse）<p = subject_city_apadana>リンク（epprest_apadana）<p = subject_city_mausoleum>リンク（expection_mausoleum）<p = subject_city_acropolis>リンク（展開_Colossus）<P = Subject_City_Colossus>リンク（展開_Colossus）<P = Subject_City_Musaeum>リンク（extrapement_city_circus_maximus> link（excoment_ciry_pantheon>リンク（extraphement_pantheon）<p = subject_city_hagia_sophia>リンク（expement_hagia_sophia）<p = subject_city_via_recta_souk>リンク（即席_via_recta_souk）<else> link（即席_pyramids）<エンド>？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_EXPLORING_ARCHETYPE</zType>
-    <Translation>最近、あなたは一定の落ち着きのなさを感じたことがあります。あなたは単に家庭で待つためのコンテンツではなく、宮殿の義務と裁判の儀式のムラのムラによって退屈しています。
-
-&lt;P.IS_SUB.S0 = Subject_Tactician&gt;link(TRAIT_TACTICIAN_ARCHETYPE)である、あなたは世界に旅行して、外国の土地の偉大な戦略主義者から学びます。&lt;p = subject_judge&gt;リンク（trait_judge_archetype）、あなたは熱心に世界に旅行し、外国の土地の法制系を勉強するために。&lt;P = Subject_RETOR&gt;リンク（TRAIT_ORATOR_ARCHETYPE）、あなたは世界中に旅行し、そして外国の土地の偉大な話者や外交官から学ぶことが熱心です。&lt; P = Subject_Scholar&gt;リンク（trait_scholar_archeType）は、世界の素晴らしい本とライブラリを勉強するために遠くそして幅広く旅行することに熱心です。世界の素晴らしい建築家の建築方法。&lt;P = Subject_Schemer&gt;リンク（TRAIT_SCHEMER_ARCHETYPE）、SUBTERFUGEとSKULDUGRERSで新しい方法を研究するための鋭い目で世界中に旅行することが熱心です。&lt;P =件名_Comandander&gt;リンク（ TRAIT_COMMANDER_ARCHETYPE）、あなたは熱心です外国の軍事役員やアカデミーを訪問し、彼らの指導的スタイルを勉強するために。&lt;p =件名_ Zealot&gt;リンク（trait_zealot_archeType）、あなたは彼らがあるかもしれないところに敬意を表して世界中に旅行することを熱望しています。&lt;p = subject_diplomat;リンク（trait_diplomatt_archeType）、あなたは世界中に旅行し、外国の裁判所であなたの外交技能を磨くことを熱望しています。&lt;p = subject_hero&gt;リンク（trait_hero_archeType）、あなたは冒険と危険を求めて世界に旅行することを熱望しています。&lt; else&gt;リンク（TRAIT_TACTICIN_ARCHETYPE）、あなたは世界に旅行して、外国の土地の偉大な戦略主義者から学ぶことが熱心です。&lt;エンド&gt;
-Grand Adventureでは、世界に区切られましょうか。</Translation>
+    <Translation><![CDATA[最近、あなたは何か落ち着かない気持ちになっています。宮仕えや宮廷の儀式のような平凡な生活に飽き足らず、家でじっとしていることができないのだ。
+                
+<p.is_sub.S0=SUBJECT_TACTICIAN> a link(TRAIT_TACTICIAN_ARCHETYPE)であるあなたは、世界を旅して異国の偉大な戦略家から学びたいと思っている。<p=SUBJECT_JUDGE> a link(TRAIT_JUDGE_ARCHETYPE)であるあなたは、世界を旅して異国の法制度を学びたいと思っている。 <p=SUBJECT_ORATOR> an link(TRAIT_ORATOR_ARCHETYPE)であるあなたは、世界を旅して、外国の偉大なスピーカーや外交官から学ぶことを熱望している。 <p=SUBJECT_SCHOLAR> a link(TRAIT_SCHOLAR_ARCHETYPE)であるあなたは世界の偉大な書物や図書館を研究するために、遠くまで旅をしたいと思っています。<p=SUBJECT_BUILDER> a link(TRAIT_BUILDER_ARCHETYPE)であるあなたは、世界の偉大な建築家の建築方法を研究するために、遠くまで旅をしたいと思っています。<p=SUBJECT_SCHEMER> a link(TRAIT_SCHEMER_ARCHETYPE)であるあなたは、裏切りと策略の新しい手法を研究する鋭い目を持って、世界に旅立つことを熱望しています。 <p=SUBJECT_COMMANDER> a link(TRAIT_COMMANDER_ARCHETYPE)であるあなたは、外国の軍人や士官学校を訪問し、彼らのリーダーシップスタイルを研究することを熱望している。<p=SUBJECT_ZEALOT> a link(TRAIT_ZEALOT_ARCHETYPE)であるあなたは世界を旅して、どこにいても敬虔な人たちに会うことを熱望している。 <p=SUBJECT_DIPLOMAT> a link(TRAIT_DIPLOMAT_ARCHETYPE)であるあなたは、世界を旅して、外国の宮廷で外交手腕を磨きたいと考えている。 <p=SUBJECT_HERO> a link(TRAIT_HERO_ARCHETYPE)であるあなたは、冒険と危険を求めて世界を旅することを熱望している。<else> a link(TRAIT_TACTICIAN_ARCHETYPE)であるあなたは世界を旅して、異国の偉大な戦略家から学ぶことを熱望している。<end>
+                壮大な冒険のために、世界に飛び出してみませんか？        ]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_CHOOSE_WAR_SPOUSE</zType>
@@ -3356,9 +3356,9 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_CONTACT_HAUGHTY_EMISSARY</zType>
-    <Translation>傲慢な野蛮なヴァルロードが裁判所に推移し、観客を要求します。 {G0：彼：彼女：彼女} {TRIBE-0}が彼らを友達にすることを許可することを宣言しますが、あなたが彼らの優位性を認識した場合に限ります。
+    <Translation>傲慢で野蛮な武将が宮廷に乗り込み、謁見を要求します。 {G0:彼:彼女} は、{TRIBE-0}が我が国との友好を望んでいるが、それは彼らの優位性を認めた場合に限ると宣言しています。
 
-我々は如何に対応すべきであろうか？</Translation>
+私たちはどう答えるべきでしょうか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_CONTACT_GRINNING_EMISSARY</zType>
@@ -3432,7 +3432,7 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NEIGHBORS_HUMBLE_ASSYRIA_TRIBUTE</zType>
-    <Translation>Stern {PLAYER-0,1}は裁判所の声明に到着します。「時間は時間です。あなたは戦いの分野であなたの国の価値を証明する準備ができていますか？」
+    <Translation>Stern {PLAYER-0,1}は裁判所の声明に到着しました。
 
 私たちはどのように答えますか？</Translation>
   </Entry>
@@ -3564,7 +3564,7 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NEIGHBORS_FRIENDLY_ROME_GUIDE</zType>
-    <Translation>{PLAYER-0,0}の上院議員は今回の援助を求める。 「私たちは血の間に深刻な脅威に直面しています。
+    <Translation>{PLAYER-0,0}の上院議員は今回の援助を求める。 「私たちは血の間には深刻な脅威に直面しています{TRIBE-2}。私の以前の訪問にあなたの注意と優しさを大いに感謝しました。私たちの兵士の紛争で私たちの兵士たちを供給するのを手伝ってくれますか？」
 
 我々は如何に対応すべきであろうか？</Translation>
   </Entry>
@@ -3738,9 +3738,9 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_A_LEARNING_OPPORTUNITY</zType>
-    <Translation>裁判所は最近の{TRIBE-0}の発見に分けられます！私たちの学者たちは私たちの理解を深めるために{TRIBE-0,1}文化を勉強したいが、私たちの将軍はこれらの野蛮人がそのような尊敬に値すると主張しています。
-
-私たちの同情が嘘をつくように裁判所に明確にしなければなりません。</Translation>
+    <Translation>最近発見された{TRIBE-0}を巡って宮廷は分裂しています 我々の学者は{TRIBE-0,1}の文化を研究して理解を深めたいと考えていますが、将軍たちは野蛮人に敬意を払う資格はないと主張しています。&#xD;
+&#xD;
+どちらに賛同するか宮廷に示す必要があります。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_BORDER_DISPUTE</zType>
@@ -3840,15 +3840,15 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_THE_INJURED_PLAYER</zType>
-    <Translation>木から叫ぶ！私たちの男性は騒音に向かって急いで汚れた{PLAYER-0,1}が汚れに横たわっています。彼の仲間は彼の傷を扱うために必死に働きます。
-
-男性によると、彼らのキャラバンは、彼らが盗賊によって攻撃されたときに、最も近い{PLAYER-0,1}市に商品を輸送していました。彼らは攻撃者を撃退し、上質なワインの彼らの貨物を救うことに成功しました。</Translation>
+    <Translation>木々の間から叫び声が聞こえる。慌てて音のする方へ行くと、負傷した{PLAYER-0}の民が土の上に倒れています。仲間は必死に傷の手当てをしています。&#xD;
+&#xD;
+彼らの話によると、最寄りの{PLAYER-0}の市に荷物を運んでいたところ、盗賊に襲われたとのことです。なんとか撃退して、積み荷の高級ワインを救い出したところです。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_POLITICAL_PRISONER</zType>
-    <Translation>私たちのスカウトは、彼の手首や足首に縛られた男を鞭打ちます{PLAYER-0,1}兵士のパーティーに遭遇します。戦士たちは、揺動した反乱の人を非難しており、王室の家族のスースキングのメンバーと財務省に侵入しようとしています。しかし、被害者は彼が犯罪の無実であると主張しています。
-
-{PLAYER-0,3}は、私たちの男性が彼らのビジネスに沿って移動して気にするように促します。</Translation>
+    <Translation>我が国の斥候は、{PLAYER-0}の兵士の一団が、手首と足首を縛られた男を鞭打っているところに遭遇した。兵士たちは、この男が反乱を扇動し、王族をつけ回し、国庫に潜入しようとしていると非難しています。しかし、被害者は自分が無実であると主張しています。&#xD;
+&#xD;
+{PLAYER-0}は、我々の部下に、自分の仕事に集中して立ちさるよう促してきました。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_THE_FOOL</zType>
@@ -3908,7 +3908,7 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
     <zType>TEXT_EVENTSTORY_CHARACTER_IMMUNITY</zType>
     <Translation>酔って紛争が残忍な殺人につながる！ {PLAYER-0,1}裁判所代理店、{G2：男：女性} {G2：女性：MAN}の愛情の上に刺された{CHARACTER-SHORT-2}は非難されました。目撃者は犯罪の現場で{G2：彼：彼女の}を手に入れます。
 
-「{キャラクター - ショート -  2}は想起されています」と間違いでした。</Translation>
+「{キャラクター - ショート -  2}は想起されています」と間違いでした。私は狂気の腰に巻き込まれました。私はここで私の免疫を与えます！」</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_FINAL_MESSAGE</zType>
@@ -3997,7 +3997,7 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_STARTS_PLOTTING_INSANE</zType>
-    <Translation>{TRIBE-0}で取引する商人は、厄介なニュースをもたらします。 {G2：彼：彼女の}非難を発表しました。{RANDOM_R1：A {RANDOM_R0：魔女：犬：犬：犬：犬：幽霊：呪われた子供：恐ろしい幻影：ゴールデンアイドル：ホラーVOIDから：月}}}}に{G2：彼：彼女の}に言った：私達はチーズを食べる：{G2：彼：彼女} {RANDOM_R2：失われた：勝利：{G2：彼：彼女：彼女：彼女：彼女：彼女：彼女：彼女：彼女：彼女：彼女：私たちは、左利きの人々が生きることを許可します：私たちは年に2回以上入浴します。私たちの支配家族の収穫と子供たちの肉を食べる：私たちは木に従うことはありません：偉大なDEMON XXHUGAUDGコマンド}。</Translation>
+    <Translation>{TRIBE-0}で取引する商人は、厄介なニュースをもたらします。 {G2：彼：彼女の}非難を発表しました。{RANDOM_R1：A {RANDOM_R0：魔女：犬：犬：犬：犬：幽霊：呪われた子供：恐ろしい幻影：ゴールデンアイドル：ホラーVOIDから：月}}}}に{G2：彼：彼女の}に言った：私達はチーズを食べる：{G2：彼：彼女} {random_r2：失われた：勝利：{g2：彼：彼女：彼女：彼女：彼女：彼女：彼女：彼女：彼女：彼女：彼女：私たちは、左利きの人々が生きることを許可します：私たちは年に2回以上浸っています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_ALLIANCE_THEM_ZEALOT</zType>
@@ -4245,7 +4245,7 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ASSASSINATION_OF_MONARCH_HOLE</zType>
-    <Translation>{PLAYER-0,3}は、結婚のために{CHARACTER-3}を連れ戻すようにもっと多くの男性を送りました。</Translation>
+    <Translation>{PLAYER-0,3}は、結婚のために{CHARACTER-3}を連れ戻すようにもっと多くの男性を送りました。{PLAYER-0,3}の運命を知らない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ASSASSINATION_OF_MONARCH_SUCCESS</zType>
@@ -4407,45 +4407,45 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WAR_OFFER_CLOSING</zType>
-    <Translation>&lt;P.IS_SUB.S1 = Subject_foolish&gt;「運命づけています！これで終わりだ！"あなたは叫び、あなたの廷臣の間である程度のパニックを引き起こします。
-&lt;p =件名_slothful&gt; "ugh"あなたはこれを聞いて上げました。 「これはとても面倒です！」
-&lt;P =件名_corropt&gt;「きっと私たちは単にそれらを賄賂することができます。贈収賄はほとんどいつも働きます！」あなたは不快な景気議会議員に叫んでいます。
-&lt;P =件名_ブレア&gt;「心配するものは何もない！」あなたは裁判所を発表し、「軍を勝利に導くよ！」
-&lt;P =件名_bold&gt;「私たちは最初に攻撃しなければなりません！幸運は大胆なものです！」あなたは叫んで、劇的に身振りです。
-&lt;p = compect_warlike&gt;「最後に、戦うもの！」あなたは興奮して泣きます。
-&lt;p = subject_inspiring&gt; "{PLAYER-1}の力は不可能です、{PLAYER-0}は私たちを脅かすことを望むことができません！」あなたはあなたの廷臣を安心させます。多くの人が目に見えて安心しています。
-&lt;p = subject_robust&gt; "ha！" 「私は私に挑戦できる{PLAYER-0,1}を見たいのですが。」
-&lt;p =件名vigilant&gt;「このようなものを知っていました」「あなたはそれを発表しました」とそれの準備ができています！」
-&lt;P = Subject_strict&gt;「重要なことは危険に直面して懲戒を維持することです」あなたはあなたのよく注文された礼儀を教えてください。
-&lt;P =件名vigilant&gt;「戦いに！」おそらく驚くべき裁判所への絶対に叫ぶ。
-&lt;P = Subject_equestrian&gt;「私たちの最初の優先順位はより多くの馬を確保しなければならない」これを検討していなかった裁判所に発表します。
-&lt;p = compect_swift&gt;「無駄にする時間がない！」あなたは叫んで、あなたの足にジャンプします。
-&lt;P =件名筆記&gt;「私たちは優勢で、私たちは私たちの側に正しいです！」あなたはあなたの緊張的な礼儀を宣言します。
-&lt;P = TOBEST_CRUEL&gt;「私はすべての{PLAYER-0,1}が短いステークに衝撃を与えたいです。」あなたはショックを受けた裁判所に発表します。
-&lt;p =件名_INTRERANT&gt;「それらの{PLAYER-0,1}スカムを信頼したことがない！」あなたはあなたのアドバイザーに叫んでいます。
-&lt;P =件名&gt;「私たち全員がただ仲良くすることはできませんか？」あなたは裁判所に熟考します。
-&lt;p = subject_eloquent&gt; "{CHARACTER-SHORT-0}が良い例ではない場合、{G0：HE：彼女}は恐ろしい警告となるでしょう！」あなたはあなたの廷臣に叫んでいます。
-&lt;p = subject_intelligent&gt; "{CHARACTER-SHORT-0}はクリア思想家ではありません！"あなたは裁判所に叫んでいます。
-&lt;p = compent_prospepers&gt;「これからお金を稼ぐために何らかの方法があるはずです」と声を出して反映しています。
-&lt;P =件名_フルカラ&gt;「ひどい！これはそのようなお金の無駄です！」あなたはあなたの裁判所に不平を言っています。
-&lt;P = Subject_Extravagant&gt;「ビジネスの最初の順序は1000のゴールデンスピアーを注文する予定です。」あなたはあなたの疲れた礼儀を叫んでいます。
-&lt;P = Subject_DealMaker&gt;「確かに私たちは{CHARACTER-SHORT-0}で取引をすることができますか？」あなたの博物館。
-&lt;P = Subject_DebaUched&gt;あなたの決断を下す前に、今夜の乱交のためのオリーブ油の秩序を2倍にするための精神的な音符を作りましょう。
-&lt;P = Subject_UnCouth&gt;このニュースで怒っているストリームを解き放ちますので、いくつかの頼みがかすかな、1つの議員が涙に爆発し、裁判所のQuillの店員は炎に爆発します。
-&lt;P = Subject_Carpenter&gt;「マスター大工を送ってください、私はこれが終わった前に船や包囲エンジンが必要な場合は、あなたが発表し、あなたの評議員と審議するために引退します。
-&lt;P =件名_pathfinder&gt;「hide hide velary-0}の力を狩りにします！」あなたは裁判所を発表します。
-&lt;P =件名_cultivator&gt;「今年は良い収穫を期待しています。それは私たちに軍隊のためのたくさんの物資を与えるでしょう！」あなたは裁判所を発表します。
-&lt;p =件名 "&gt;「私たちは木材生産を2倍にする必要がありますが、私たちの森林は決して回復することは決してないかもしれません」とあなたの好きな森林地帯を考えています。
-&lt;p = compent_delver&gt;「鉱山は生産を増やす必要があります」と、裁判所に発表し、「いくつかの新しいシャフトを計画します」。
-&lt;else&gt;「何が気になる！」あなたは裁判所を発表します。&lt;エンド&gt;</Translation>
+    <Translation><![CDATA[<P.IS_SUB.S1 = Subject_foolish>「運命づけています！これで終わりだ！"あなたは叫び、あなたの廷臣の間である程度のパニックを引き起こします。
+<p =件名_slothful> "ugh"あなたはこれを聞いて上げました。 「これはとても面倒です！」
+<P =件名_corropt>「きっと私たちは単にそれらを賄賂することができます。贈収賄はほとんどいつも働きます！」あなたは不快な景気議会議員に叫んでいます。
+<P =件名_ブレア>「心配するものは何もない！」あなたは裁判所を発表し、「軍を勝利に導くよ！」
+<P =件名_bold>「私たちは最初に攻撃しなければなりません！幸運は大胆なものです！」あなたは叫んで、劇的に身振りです。
+<p = compect_warlike>「最後に、戦うもの！」あなたは興奮して泣きます。
+<p = subject_inspiring> "{PLAYER-1}の力は不可能です、{PLAYER-0}は私たちを脅かすことを望むことができません！」あなたはあなたの廷臣を安心させます。多くの人が目に見えて安心しています。
+<p = subject_robust> "ha！" 「私は私に挑戦できる{PLAYER-0,1}を見たいのですが。」
+<p =件名vigilant>「このようなものを知っていました」「あなたはそれを発表しました」とそれの準備ができています！」
+<P = Subject_strict>「重要なことは危険に直面して懲戒を維持することです」あなたはあなたのよく注文された礼儀を教えてください。
+<P =件名vigilant>「戦いに！」おそらく驚くべき裁判所への絶対に叫ぶ。
+<P = Subject_equestrian>「私たちの最初の優先順位はより多くの馬を確保しなければならない」これを検討していなかった裁判所に発表します。
+<p = compect_swift>「無駄にする時間がない！」あなたは叫んで、あなたの足にジャンプします。
+<P =件名筆記>「私たちは優勢で、私たちは私たちの側に正しいです！」あなたはあなたの緊張的な礼儀を宣言します。
+<P = TOBEST_CRUEL>「私はすべての{PLAYER-0,1}が短いステークに衝撃を与えたいです。」あなたはショックを受けた裁判所に発表します。
+<p =件名_INTRERANT>「それらの{PLAYER-0,1}スカムを信頼したことがない！」あなたはあなたのアドバイザーに叫んでいます。
+<P =件名>「私たち全員がただ仲良くすることはできませんか？」あなたは裁判所に熟考します。
+<p = subject_eloquent> "{CHARACTER-SHORT-0}が良い例ではない場合、{G0：HE：彼女}は恐ろしい警告となるでしょう！」あなたはあなたの廷臣に叫んでいます。
+<p = subject_intelligent> "{CHARACTER-SHORT-0}はクリア思想家ではありません！"あなたは裁判所に叫んでいます。
+<p = compent_prospepers>「これからお金を稼ぐために何らかの方法があるはずです」と声を出して反映しています。
+<P =件名_フルカラ>「ひどい！これはそのようなお金の無駄です！」あなたはあなたの裁判所に不平を言っています。
+<P = Subject_Extravagant>「ビジネスの最初の順序は1000のゴールデンスピアーを注文する予定です。」あなたはあなたの疲れた礼儀を叫んでいます。
+<P = Subject_DealMaker>「確かに私たちは{CHARACTER-SHORT-0}で取引をすることができますか？」あなたの博物館。
+<P = Subject_DebaUched>あなたの決断を下す前に、今夜の乱交のためのオリーブ油の秩序を2倍にするための精神的な音符を作りましょう。
+<P = Subject_UnCouth>このニュースで怒っているストリームを解き放ちますので、いくつかの頼みがかすかな、1つの議員が涙に爆発し、裁判所のQuillの店員は炎に爆発します。
+<P = Subject_Carpenter>「マスター大工を送ってください、私はこれが終わった前に船や包囲エンジンが必要な場合は、あなたが発表し、あなたの評議員と審議するために引退します。
+<P =件名_pathfinder>「hide hide velary-0}の力を狩りにします！」あなたは裁判所を発表します。
+<P =件名_cultivator>「今年は良い収穫を期待しています。それは私たちに軍隊のためのたくさんの物資を与えるでしょう！」あなたは裁判所を発表します。
+<p =件名 ">「私たちは木材生産を2倍にする必要がありますが、私たちの森林は決して回復することは決してないかもしれません」とあなたの好きな森林地帯を考えています。
+<p = compent_delver>「鉱山は生産を増やす必要があります」と、裁判所に発表し、「いくつかの新しいシャフトを計画します」。
+<else>「何が気になる！」あなたは裁判所を発表します。<エンド>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_HERO</zType>
-    <Translation>{PLAYER-0,3}が私たちを攻撃することを計画しているという言葉が私たちに達しました。彼らの支配者、素晴らしいlink(TRAIT_HERO_ARCHETYPE){CHARACTER-SHORT-0}は私たちの軍隊を粉砕し、私たちの都市を{G0：彼の：彼女の}裸の手を握って破った。
+    <Translation>{PLAYER-0,3}が我々への攻撃を計画しているとの情報が入りました。彼らの支配者である偉大な link(TRAIT_HERO_ARCHETYPE) {CHARACTER-SHORT-0} は、{G0:彼:彼女}の素手で我々の軍隊を粉砕し、我々の都市を破壊すると宣言しました。
 
-それでも、この戦争を支払って推進し、{G0：His：彼女のEGO）を支払うことで、まだ可能であるかもしれません。
+しかし、貢ぎ物をしてなだめることで、まだこの戦争を回避することができるかもしれません。
 
-{TEXT_EVENTSTORY_WAR_OFFER_CLOSE}</Translation>
+{TEXT_EVENTSTORY_WAR_OFFER_CLOSING}</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_ZEALOT</zType>
@@ -4787,7 +4787,7 @@ Grand Adventureでは、世界に区切られましょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_WAR_DECLARE_PLOTTING_AGAINST</zType>
-    <Translation>私たちは私たちの疑いがありましたが、今真実が出てくる。数ヶ月間あなたに向かってプロットした後、{PLAYER-1}とその人々についての戦争を最後に選択しました。
+    <Translation>私たちは私たちの疑いがありましたが、今真実が出てきます。数ヶ月間あなたに向かってプロットした後、{PLAYER-1}とその人々についての戦争を最後に選択しました。
 
 それは{CHARACTER-SHORT-2}が個人的なVendettaを国民の危機に変えなければならないという恥です。</Translation>
   </Entry>
@@ -4855,7 +4855,7 @@ Link（diplomacy_war）{PLAYER-0}からのアンバサダーにはUltimatumが�
     <zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_HERO</zType>
     <Translation>{PLAYER-0}の宗教的チャンピオンズは、私たちの人々を{RESTRIP-3}に変換するキャンペーンの先駆者として{CITY-2}に来ました。
 
-英雄{キャラクター-4}は、これが{宗教-3}を受け入れるのが簡単なルートであると警告しています。</Translation>
+英雄{キャラクター-4}は、これが{宗教-3}を受け入れるのが簡単なルートであると警告しています、{G4：HE：彼女}は、代替手段ははるかに楽しいとなるでしょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_TACTICIAN</zType>
@@ -4867,7 +4867,7 @@ Great Tactician {CHARACTER-4}は、これが{宗教-3}を受け入れるのが�
     <zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_COMMANDER</zType>
     <Translation>{PLAYER-0}の宗教的チャンピオンズは、私たちの人々を{RESTRIP-3}に変換するキャンペーンの先駆者として{CITY-2}に来ました。
 
-華麗な司令官{キャラクター-4}は、これが{RIGHTION-3}を受け入れるのが簡単なルートであることを警告しています。</Translation>
+華麗な司令官{キャラクター-4}は、これが{RIGHTION-3}を受け入れるのが簡単なルートであることを警告しています。{G4：彼：彼女}は、代替手段ははるかに楽しいとなるでしょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DIPLO_OFFER_RELIGION_SPREAD_JUDGE</zType>
@@ -4917,7 +4917,7 @@ Great Tactician {CHARACTER-4}は、これが{宗教-3}を受け入れるのが�
 
 私たちの敵は、私たちの木の備蓄を感染させて台無しにするために、Ployの中でいくつかの種類の貪欲な木の食べたカブトムシで私たちの最新の木材出荷を妨害したようです。これらのカブトムシはまた悪意のあるものであり、毒素であるので、エージェントは私たちの男性のどれでも出荷に近づきすぎることを勧めない。甲虫は、木材が単に捨てられた場合に私たちの土地を通して広がる非常に急速な再生者であり、そしてまた燃やされた場合には有害な煙を作ります。
 
-このエージェントには1つの解決策があります。彼女は、木の出荷を{PLAYER-0}にリダイレクトし、そこで木とカブトムシを無害に溶かして溶かすことができる特別な酸があります。 {G2：彼：彼女の} {G2：彼女の} envevices encesは、見返りに何も尋ねません。確かに{g2：彼：彼女：彼女はそのような詐欺師を破壊する機会に感謝しています。</Translation>
+エージェントには1つの解決策があります。 {G2：彼：彼女の} {G2：彼女の} envevices encesは、見返りに何も尋ねません。確かに{g2：彼：彼女：彼女はそのような詐欺師を破壊する機会に感謝しています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_SCHEMER_INVESTMENT</zType>
@@ -4931,14 +4931,14 @@ Great Tactician {CHARACTER-4}は、これが{宗教-3}を受け入れるのが�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_BUILDER</zType>
-    <Translation>{PLAYER-0}からのエミソリーが要求に応じて到着しました。 {CHARACTER-2}は{G2：彼の最新のプロジェクト}のためのリソースに急激に短いです、&lt;p.is_sub.s2 =件名_warlike&gt;不可能な要塞。
-&lt;p =件名_intelligent&gt;大規模な展望台。
-&lt;P = Subject_Insane&gt;アンダーワールドへのゲートウェイ。
-&lt;p = subject_inspiring&gt;感動的な彫刻。
-&lt;p =件名_cruel&gt;囚人を破砕するための広大な臼歯。
-&lt;P = TOBEST_PROUD&gt; {G2：自分自身：HERESELF}の大規模な像。
-&lt;else&gt;壮大な寺院。&lt;エンド&gt;
-{G2：HIM：HE：HE：HE：彼女：彼女}が非常に感謝することができるならば！</Translation>
+    <Translation><![CDATA[{PLAYER-0}からのエミソリーが要求に応じて到着しました。 {CHARACTER-2}は{G2：彼の最新のプロジェクト}のためのリソースに急激に短いです、<p.is_sub.s2 =件名_warlike>不可能な要塞。
+<p =件名_intelligent>大規模な展望台。
+<P = Subject_Insane>アンダーワールドへのゲートウェイ。
+<p = subject_inspiring>感動的な彫刻。
+<p =件名_cruel>囚人を破砕するための広大な臼歯。
+<P = TOBEST_PROUD> {G2：自分自身：HERESELF}の大規模な像。
+<else>壮大な寺院。<エンド>
+{G2：HIM：HE：HE：HE：彼女：彼女}が非常に感謝することができるならば！]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DIPLO_OFFER_ASK_FAVOR_SCHOLAR</zType>
@@ -4988,19 +4988,19 @@ Great Tactician {CHARACTER-4}は、これが{宗教-3}を受け入れるのが�
     <zType>TEXT_EVENTSTORY_FRIENDS_FIGHT_BRIBE</zType>
     <Translation>{PLAYER-0}からのuns {CHARACTER-0}が{PLAYER-1}との継続的な慣習的な関係に非常に怒っていることをあなたに伝えるようになった。
 
-「{PLAYER-1}の愚か者のためのあなたの継続的な寛容性は、「{G2：He：彼女」と言います。「しかし、贈り物はこれを受け入れやすくするでしょう」と述べています。</Translation>
+「{PLAYER-1}の愚か者のためのあなたの継続的な寛容性は、「{G2：He：彼女」と言います。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FRIENDS_FIGHT_TRIBUTE_STRONGER</zType>
-    <Translation>{PLAYER-0}からのエミソリーはディレニュースをもたらします。 {PLAYER-1}との関係は、{CHARACTER-1}との友情のために私たちとの友好関係を維持できないと感じるポイントに悪化しました。
+    <Translation><![CDATA[{PLAYER-0}からのエミソリーはディレニュースをもたらします。 {PLAYER-1}との関係は、{CHARACTER-1}との友情のために私たちとの友好関係を維持できないと感じるポイントに悪化しました。
 
-「どのように&lt;p.is_sub.s1 = subject_zealot&gt;敬虔な愚か者&lt;p = subject_scholar&gt;ブッキッシュ知識&lt;p =件名&gt;ランブリングウィンドバッグ&lt;p = subject_diplomatt&gt;ワーム - 舌止めマニピュレータ&lt;p = subject_schemer&gt;スキームスニーク&lt;p =件名&lt;P =件名&gt; &lt;P = COVESTICIAN&gt;を吹き飛ばしたボア&lt;p =件名&gt;軍事 - 洗練された狂信者&lt;P =件名&lt;p = &lt;p = abuds&gt; Tinkering obsessive &lt;P =件名&gt;判定型&lt;else&gt;個性なしのボア&lt;エンド&gt;、{文字短縮-1}？」 「私たちはあなたが{G1：彼：彼女の}すぐに非難することを要求しなければならない」と尋ねる。</Translation>
+「どのように<p.is_sub.s1 = subject_zealot>敬虔な愚か者<p = subject_scholar>ブッキッシュ知識<p =件名>ランブリングウィンドバッグ<p = subject_diplomatt>ワーム - 舌止めマニピュレータ<p = subject_schemer>スキームスニーク<p =件名<P =件名> <P = COVESTICIAN>を吹き飛ばしたボア<p =件名>軍事 - 洗練された狂信者<P =件名<p = <p = abuds> Tinkering obsessive <P =件名>判定型<else>個性なしのボア<エンド>、{文字短縮-1}？」 「私たちはあなたが{G1：彼：彼女の}すぐに非難することを要求しなければならない」と尋ねる。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FRIENDS_FIGHT_TRIBUTE_WEAKER</zType>
-    <Translation>{PLAYER-0}からの放浪者は緊急の要求をもたらします。 {PLAYER-1}との関係は、彼らが私たちに{CHARACTER-1}との友情を終わらせるように頼まなければならないと感じるポイントに悪化しました。
+    <Translation><![CDATA[{PLAYER-0}からの放浪者は緊急の要求をもたらします。 {PLAYER-1}との関係は、彼らが私たちに{CHARACTER-1}との友情を終わらせるように頼まなければならないと感じるポイントに悪化しました。
 
-「どのように&lt;p.is_sub.s1 = subject_zealot&gt;敬虔な愚か者&lt;p = subject_scholar&gt;ブッキッシュ知識&lt;p =件名&gt;ランブリングウィンドバッグ&lt;p = subject_diplomatt&gt;ワーム - 舌止めマニピュレータ&lt;p = subject_schemer&gt;スキームスニーク&lt;p =件名&lt;P =件名&gt; &lt;P = COVESTICIAN&gt;を吹き飛ばしたボア&lt;p =件名&gt;軍事 - 洗練された狂信者&lt;P =件名&lt;p = &lt;p = abuds&gt; Tinkering obsessive &lt;P =件名&gt;判定型&lt;else&gt;個性なしのボア&lt;エンド&gt;、{文字短縮-1}？」エミソリーに尋ねる、「私たちは{G1：彼：彼女の}をすぐに非難させるように要求しなければならない、そして私たちはあなたのしばらくする価値があるように準備されています。」</Translation>
+「どのように<p.is_sub.s1 = subject_zealot>敬虔な愚か者<p = subject_scholar>ブッキッシュ知識<p =件名>ランブリングウィンドバッグ<p = subject_diplomatt>ワーム - 舌止めマニピュレータ<p = subject_schemer>スキームスニーク<p =件名<P =件名> <P = COVESTICIAN>を吹き飛ばしたボア<p =件名>軍事 - 洗練された狂信者<P =件名<p = <p = abuds> Tinkering obsessive <P =件名>判定型<else>個性なしのボア<エンド>、{文字短縮-1}？」エミソリーに尋ねる、「私たちは{G1：彼：彼女の}をすぐに非難させるように要求しなければならない、そして私たちはあなたのしばらくする価値があるように準備されています。」]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DIPLO_OFFER_FAMILY_RELIGION_DENOUNCE</zType>
@@ -5150,7 +5150,7 @@ Great Tactician {CHARACTER-4}は、これが{宗教-3}を受け入れるのが�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUSPECTED_SPY</zType>
-    <Translation>{ファミリー-2}の私達のエージェントの1つは、囚人が家族のダンジョンに密かに開催されていることを報告しています。キャプティブは{PLAYER-0}からの大使で、首都への道路上の警備員に遭遇しました。彼らは彼を鎮め、今彼をスパイとして持っています。
+    <Translation>{ファミリー-2}の私達のエージェントの1つは、囚人が家族のダンジョンに密かに開催されていることを報告しています。キャプティブは{PLAYER-0}からの大使で、首都への道路上の警備員に遭遇した{FAMILY-2,0}警備員からの大使です。彼らは彼を鎮め、今彼をスパイとして持っています。
 
 私たちは今毎日{PLAYER-0}から怒っているメッセージを受け取ることを期待してください。</Translation>
   </Entry>
@@ -5332,7 +5332,7 @@ embolded、{CHARACTER-SHORT-0}将来のミッションのサポートを要求�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_WAR_OFFER_ENEMY_TRAIT_BUILDER_FURIOUS</zType>
-    <Translation>{CHARACTER-0}は、強力な帝国のlink(TRAIT_BUILDER_ARCHETYPE)ですが、{G0：HIS：HER}定義プロジェクトは原材料の不要な流れを要求します。 {G0：彼：彼女}今{G0：彼の：彼女の}私たちのリソースに向かって貪欲な目。私たちは{G0：彼：彼女の}私たちの帝国の憎しみが知られています。
+    <Translation>{CHARACTER-0}は、強力な帝国のlink(TRAIT_BUILDER_ARCHETYPE)ですが、{G0：HIS：HER}定義プロジェクトは原材料の不要な流れを要求します。 {G0：彼：彼女}今{G0：彼の：彼女の}私たちのリソースに向かって貪欲な目。私たちは{G0：彼：彼女の}私たちの帝国の憎しみが知られていることによる明らかなターゲットです。
 
 私たちがすぐに豊かな賛美を提供しない限り、戦争は確かです。
 
@@ -5436,21 +5436,21 @@ embolded、{CHARACTER-SHORT-0}将来のミッションのサポートを要求�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_CONTACT_ARCHETYPE_OPPOSITE</zType>
-    <Translation>{PLAYER-0}のレルムから人々に遭遇しました。彼らは{CHARACTER-0}、a &lt;p.is_sub.s0 = subject_zealot&gt;のリードである&lt;p = subject_scholar&gt;ブッキッシュ知識&lt;p =件名&gt;ランブリングウィンドバッグ&lt;p = compect_diplomatt &lt;pipromation&gt; warm-tonguedマニピュレータ&lt;p = subject_schemer&gt; Scheak &lt;P =件名&gt;パフアップブラッグポート&lt;P =件名&gt; &lt;P = COVESTAL_COMANDIAN&gt;ミリタリーインスピラシ&lt;P = Subject_Builder&gt; Tinkering Obsessive &lt;P = Subject_Judge&gt;判定タイプ&lt;else&gt;個性のない穴&lt;エンド&gt; &lt;P.IS_SUB.S0 =件名&gt;米国での説教を説教する可能性が高いです&lt;p =件名_scholar&gt; Rhetoric &lt;P = Subject_orator&gt;故意に警告&lt;p = subject_diplomat &lt;pipromat &lt;piplomat &lt;piplomat &lt;piplomat &lt;piplomat &lt;piplomat &lt;p = P = Subject_Diplomation&gt; &lt;P = Subject_hero&gt;姿勢脅威に脅かす&lt;p =件名&lt;p件名&gt; &lt;p = compute_tactician&gt;すべての大きな戦いで解決できると思います&lt;p =件名_comander&gt; 3月常に&lt;p = subject_builder&gt;リソースを懇願しています&lt;p = subject_judge&gt;完全に実用的な行動を非難する&lt;else&gt;はうんざりして中立&lt;エンド&gt;になります。
+    <Translation><![CDATA[{PLAYER-0}のレルムから人々に遭遇しました。彼らは{CHARACTER-0}、a <p.is_sub.s0 = subject_zealot>のリードである<p = subject_scholar>ブッキッシュ知識<p =件名>ランブリングウィンドバッグ<p = compect_diplomatt <pipromation> warm-tonguedマニピュレータ<p = subject_schemer> Scheak <P =件名>パフアップブラッグポート<P =件名> <P = COVESTAL_COMANDIAN>ミリタリーインスピラシ<P = Subject_Builder> Tinkering Obsessive <P = Subject_Judge>判定タイプ<else>個性のない穴<エンド> <P.IS_SUB.S0 =件名>米国での説教を説教する可能性が高いです<p =件名_scholar> Rhetoric <P = Subject_orator>故意に警告<p = subject_diplomat <pipromat <piplomat <piplomat <piplomat <piplomat <piplomat <p = P = Subject_Diplomation> <P = Subject_hero>姿勢脅威に脅かす<p =件名<p件名> <p = compute_tactician>すべての大きな戦いで解決できると思います<p =件名_comander> 3月常に<p = subject_builder>リソースを懇願しています<p = subject_judge>完全に実用的な行動を非難する<else>はうんざりして中立<エンド>になります。
 
-{PLAYER-0,3}にどのように近づきますか？</Translation>
+{PLAYER-0,3}にどのように近づきますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_CONTACT_ARCHETYPE_SAME</zType>
-    <Translation>{PLAYER-0}のレルムから人々に遭遇しました。それらは{CHARACTER-0}、{G0：男：女性}によってリードされます。 &lt;p = cobers_schemer&gt;素晴らしい狡猾さ&lt;p =件名&gt;ファーム&lt;p =件名&gt;戦場の才能&lt;p =件名&gt;戦略的Genius &lt;P =件名&lt;P =件名&gt;創造的能力&lt;P =件名&gt;音声判定&lt;else&gt;良い&gt;良い&lt;エンド&gt;に見えますが、{G0：HIM：HEG：彼女の}を尊重することはできません。
+    <Translation><![CDATA[{PLAYER-0}のレルムから人々に遭遇しました。それらは{CHARACTER-0}、{G0：男：女性}によってリードされます。 <p = cobers_schemer>素晴らしい狡猾さ<p =件名>ファーム<p =件名>戦場の才能<p =件名>戦略的Genius <P =件名<P =件名>創造的能力<P =件名>音声判定<else>良い>良い<エンド>に見えますが、{G0：HIM：HEG：彼女の}を尊重することはできません。
 
-{PLAYER-0,3}にどのように近づきますか？</Translation>
+{PLAYER-0,3}にどのように近づきますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_CONTACT_ARCHETYPE_OTHER</zType>
-    <Translation>{PLAYER-0}のレルムから人々に遭遇しました。 &lt;p.is_sub.s0 = subject_zealot&gt;link(TRAIT_ZEALOT_ARCHELETYPE)&lt;p = subject_scholar&gt;リンク（trait_scholar_archetype）&lt;p = subject_archetype）&lt;p = subject_archetype）&lt;p = subject_dipletype） &gt;リンク（trait_diplomat_archeType）&lt;p = subject_schemer&gt;リンク（trait_schemer_archeType）&lt;p = subject_hero&gt; Aリンク（trait_hero_artictype）&lt;p = subject_tactician&gt; Aリンク（trait_tactician_archeType）&lt;p = subject_commander&gt; Aリンク（trait_commander_archetype）&lt;p = subject_builder &gt;リンク（trait_builder_archeType）&lt;p = subject_judge&gt;リンク（trait_judge_archetype）&lt;else&gt;定義しないリーダー&lt;エンド&gt;。
+    <Translation><![CDATA[{PLAYER-0}のレルムから人々に遭遇しました。 <p.is_sub.s0 = subject_zealot>link(TRAIT_ZEALOT_ARCHELETYPE)<p = subject_scholar>リンク（trait_scholar_archetype）<p = subject_archetype）<p = subject_archetype）<p = subject_dipletype） >リンク（trait_diplomat_archeType）<p = subject_schemer>リンク（trait_schemer_archeType）<p = subject_hero> Aリンク（trait_hero_artictype）<p = subject_tactician> Aリンク（trait_tactician_archeType）<p = subject_commander> Aリンク（trait_commander_archetype）<p = subject_builder >リンク（trait_builder_archeType）<p = subject_judge>リンク（trait_judge_archetype）<else>定義しないリーダー<エンド>。
 
-{PLAYER-0,3}にどのように近づきますか？</Translation>
+{PLAYER-0,3}にどのように近づきますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_POACHED_CITY</zType>
@@ -5484,7 +5484,7 @@ embolded、{CHARACTER-SHORT-0}将来のミッションのサポートを要求�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PLAYER_FRIENDS_FIGHT_COPPER</zType>
-    <Translation>大使が{PLAYER-1}と尋ねる{PLAYER-0}が{PLAYER-1}との友好的な関係を終わらせるために到着しました。
+    <Translation>大使が{PLAYER-1}と尋ねる{PLAYER-0}から到着しました。
 
 「彼らは私たちのメッセンジャーを軽蔑しなさい！」 {g2：彼：私たちが彼らを負っている銀の唯一の巨大なミナのために、彼らはそのような方法で私たちに話すことを自由に感じる！」</Translation>
   </Entry>
@@ -5522,9 +5522,9 @@ Pagan {PLAYER-4,3}に対して{PLAYER-3,1} holy戦争に参加しましょうか
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_IMPRISON_MISSION_PROMPT</zType>
-    <Translation>{CHARACTER-1}はあなたとかなり怒っています。あなたのlink(COUNCIL_CHANCELLOR)、{CHARACTER-SHORT-0}は、あなたが{G1：彼：彼女の}を邪魔するためのリンク（mission_imprison）ミッションを実行するかもしれないことを静かに提案しました。これは{G1：彼の意見を改善することは多くのことをしませんが、それはあなたの政治を妨げることができません{G1：彼：彼女の}を作るでしょう。
+    <Translation>{CHARACTER-1}はあなたに強い怒りの感情を持つようになりました。link(COUNCIL_CHANCELLOR), {CHARACTER-SHORT-0}はあなたにlink(MISSION_IMPRISON)を実行し、{G1:彼:彼女}の自由を奪うことを提案してきました。このような行いは{G1:彼:彼女}との関係改善にはつながりませんが、{G1:彼:彼女}に邪魔される心配はなくなります。
 
-（Mission_imprison）{CHARACTER-1}リンクをリンクしましょうか。</Translation>
+link(MISSION_IMPRISON)を{CHARACTER-1}に実行しますか?"</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES</zType>
@@ -5754,15 +5754,15 @@ Pagan {PLAYER-4,3}に対して{PLAYER-3,1} holy戦争に参加しましょうか
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PILLAGED_TILE_TEMPLE</zType>
-    <Translation>私たちの聖なる{宗教2,11} {CITY-1}の略奪{INDIFITION-0}link(EXCEPT_IMPROVEMENT)が、Player-4,3}の手で{INTIFIM-0}リンク（concept_improvement）を受けました！ {RESTRIP-2}の頭の{G2：HIS：彼女の} &lt;p.is_sub.s2 = subject_zoroastrianism&gt;の安全性に関心があります。リンク内のMagi（intivement_temple_zoroastrianist）&lt;p =件名リンク（改善_TEMPLE_CRISTINITINE）&lt;P = Subject_JUDAISM&gt; Kohanim（展開_temple_judisism）&lt;P = Subject_Manichaeism&gt; Link（ediphentment_temple_manichaeism）&lt;else&gt; magi（即席_temple_zoroastrianis）&lt;エンド&gt;近くに表示されます。
+    <Translation><![CDATA[私たちの聖なる{宗教2,11} {CITY-1}の略奪{INDIFITION-0}link(EXCEPT_IMPROVEMENT)が、Player-4,3}の手で{INTIFIM-0}リンク（concept_improvement）を受けました！ {RESTRIP-2}の頭の{G2：HIS：彼女の} <p.is_sub.s2 = subject_zoroastrianism>の安全性に関心があります。リンク内のMagi（intivement_temple_zoroastrianist）<P =件名>ビショップリンク（改善_TEMPLE_CRISTINITINE）<P = Subject_JUDAISM> Kohanim（展開_temple_judisism）<P = Subject_Manichaeism> Link（ediphentment_temple_manichaeism）<else> magi（即席_temple_zoroastrianis）<エンド>近くに表示されます。
 
-そのように、{G3：彼：彼女：彼女}は都市を守るために忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠誠心から勧誘することを提供していますが、彼らは彼らの機器と維持のための資金を必要とするでしょう。 。</Translation>
+そのように、{G3：彼：彼女：彼女}は都市を守るために忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠誠心から勧誘することを提供していますが、彼らは彼らの機器と維持のための資金を必要とするでしょう。 。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PILLAGED_TILE_TEMPLE_TRIBE</zType>
-    <Translation>私たちの聖{宗教2,1} {CITY-1}の都市{INDIFIDE-0}link(CONCEPT_IMPROVEMENT)が、テイビア -  4,3}の手で略奪されました。 {RESTRIP-2}の頭の{G2：HIS：彼女の} &lt;p.is_sub.s2 = subject_zoroastrianism&gt;の安全性に関心があります。リンク内のMagi（intivement_temple_zoroastrianist）&lt;p =件名リンク（改善_TEMPLE_CRISTINITINE）&lt;P = Subject_JUDAISM&gt; Kohanim（展開_temple_judisism）&lt;P = Subject_Manichaeism&gt; Link（ediphentment_temple_manichaeism）&lt;else&gt; magi（即席_temple_zoroastrianis）&lt;エンド&gt;近くに表示されます。
+    <Translation><![CDATA[私たちの聖{宗教2,1} {CITY-1}の都市{INDIFIDE-0}link(CONCEPT_IMPROVEMENT)が、テイビア -  4,3}の手で略奪されました。 {RESTRIP-2}の頭の{G2：HIS：彼女の} <p.is_sub.s2 = subject_zoroastrianism>の安全性に関心があります。リンク内のMagi（intivement_temple_zoroastrianist）<P =件名>ビショップリンク（改善_TEMPLE_CRISTINITINE）<P = Subject_JUDAISM> Kohanim（展開_temple_judisism）<P = Subject_Manichaeism> Link（ediphentment_temple_manichaeism）<else> magi（即席_temple_zoroastrianis）<エンド>近くに表示されます。
 
-そのように、{G3：彼：彼女：彼女}は都市を守るために忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠誠心から勧誘することを提供していますが、彼らは彼らの機器と維持のための資金を必要とするでしょう。 。</Translation>
+そのように、{G3：彼：彼女：彼女}は都市を守るために忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠実な忠誠心から勧誘することを提供していますが、彼らは彼らの機器と維持のための資金を必要とするでしょう。 。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_REBEL_GLADIATORS</zType>
@@ -5920,7 +5920,7 @@ link(CONCEPT_GENERAL){CHARACTER-SHORT-0}は、カオスで怪我をしたもの�
 
 戦闘はあなたを温めて、あなたを安定したリズムにし、{CHARACTER-SHORT-1}に向かって突き刺し、あなたの盾との攻撃をブロックして、それから魅力的な吹き出しを吹き付けます。あなたがスリップして地面に衝突するように災害が発生します。 {CHARACTER-SHORT-1}はクーデタデグラスを提供しているだけでなく、毛皮のぼやけ、犬の攻撃を怒らせ、{CHARACTER-SHORT-1}を殺します。
 
-あなたの毛皮の友人はあなたに這っています、ささやく、彼の震えの脇に埋め込まれた血まみれの刀。</Translation>
+あなたの毛皮の友人はあなたに這っています、ささやく、彼の震えの脇に埋め込まれた血まみれの刀</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SPOLIA_OPIMA_BETRAYAL</zType>
@@ -6346,7 +6346,7 @@ Recompenseとして、{CITY-2}の都市の全額を完全に与えることを�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NEW_COURTIER_MINISTER</zType>
-    <Translation>新たな link(COURTIER_MINISTER)である {CHARACTER-SHORT-0},が宮廷に加わりました。 国事に関する{G0:His:Her}の才能は{PLAYER-0}を前進させ続けるでしょう。</Translation>
+    <Translation>新たな link(COURTIER_MINISTER)である {CHARACTER-SHORT-0},が宮廷に加わりました。 国事に関する{G0:彼:彼女}の才能は{PLAYER-0}を前進させ続けるでしょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NEW_COURTIER_MERCHANT</zType>
@@ -6354,7 +6354,7 @@ Recompenseとして、{CITY-2}の都市の全額を完全に与えることを�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NEW_COURTIER_SCIENTIST</zType>
-    <Translation>新しい link(Courtier_Scientist) である {character-short-0} が宮廷に参加しました。 {G0:His:Her} の好奇心と洞察は、世界の謎を解明する際に {Player-0} を助けるでしょう。</Translation>
+    <Translation>新しいlink(COURTIER_SCIENTIST)である{CHARACTER-SHORT-0}が宮廷に参加しました。{G0:彼:彼女}の好奇心と洞察力は{PLAYER-0}が世界の謎を解き明かす助けとなるでしょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DELICIOUS_DRINKS</zType>
@@ -6416,7 +6416,7 @@ Recompenseとして、{CITY-2}の都市の全額を完全に与えることを�
     <zType>TEXT_EVENTSTORY_LEADER_CURSED_LAW</zType>
     <Translation>最近の議案として知られるようになる最近の試みでは、{RANDOM_R0：{RANDOM_R1：蜂蜜：蜂蜜：日程：イチジクの販売に関するもの：致命的なトカゲ：致命的なもの：香辛料：オリーブ油：香辛料：染料：香辛料：食用の昆虫：上布：貴重な石}：結婚ガイドライン：建築規制：{RANDOM_R2：メジャー：マイナー：マイナー}犯罪のための処罰。
 
-残念ながら、アドバイザーはあなたにそれを知らされてきました。{RANDOM_R3：不正なお金貸し手の暴徒の暴徒：保守的な農家：ベルス祭司：自己資格的な貴族：あなた自身の家族}}を利用している{RANDOM_R4：ENRICHE SUBSTRATE：宗教的な景色をサポートする：あなたの裁判所の強力な人々から恩恵を受ける：あなたの権威を損なう}。</Translation>
+残念ながら、アドバイザーはあなたにそれを知らされてきました。 {RANDOM_R4：ENRICHE SUBSTRATE：宗教的な景色をサポートする：あなたの裁判所の強力な人々から恩恵を受ける：あなたの権威を損なう}。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_BLESSED_LAW</zType>
@@ -7088,7 +7088,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THEOLOGY_LAW</zType>
-    <Translation>{THEOLOGY-0}のアイデアが{RELIGION-2}で保留されているので、&lt;p.is_sub.s2 = subject_zoroastrianist&gt;司教&lt;P =件名&gt;コハニム&lt;p =件名&gt; &lt;p =件名&gt; &gt;祭司&lt;エンド&gt;は{LAW-1}の実践を採用し始めました。これは宗教的な代表団がフルレガリアに到着するまで、&lt;P.IS_SUB.S2 = Subject_Zoroastianity&gt;ビショップ&lt;P = Subject_JUDAISM&gt; Kohanim &lt;P = Subject_Manichaeism&gt; Elect&gt; &lt;else&gt;祭司&lt;エンド&gt;それはあなたに採用するhot {LAW-1}のスーツに従うように頼みます。</Translation>
+    <Translation><![CDATA[{THEOLOGY-0}のアイデアが{RELIGION-2}で保留されているので、<p.is_sub.s2 = subject_zoroastrianist>司教<P =件名>コハニム<p =件名> <p =件名> >祭司<エンド>は{LAW-1}の実践を採用し始めました。これは宗教的な代表団がフルレガリアに到着するまで、<P.IS_SUB.S2 = Subject_Zoroastianity>ビショップ<P = Subject_JUDAISM> Kohanim <P = Subject_Manichaeism> Elect> <else>祭司<エンド>それはあなたに採用するhot {LAW-1}のスーツに従うように頼みます。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HOMELESS_CHILDREN</zType>
@@ -7300,7 +7300,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_GP_MERCHANT_TOWN</zType>
-    <Translation>{CITY-2}の影響力のある家族は首都に到着しており、{CHARACTER-0}からアドバイスを求めています。彼らは、{CITY-2}を宣言したいと思います。これは都市の経済成長を増大させるだろうが、文化的なハブとしての役割を減らすだろう。
+    <Translation>{CITY-2}の影響力のある家族は首都に到着しており、{CHARACTER-0}からアドバイスを求めています。彼らは、{CITY-2}を宣言したいと思います。{CITY-2}コミュニティは、周辺地域に商品やサービスを提供することに焦点を当てたコミュニティです。これは都市の経済成長を増大させるだろうが、文化的なハブとしての役割を減らすだろう。
 
 {CHARACTER-0}アイデアと一緒に撮影されます。</Translation>
   </Entry>
@@ -7516,7 +7516,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_OPPORTUNISTS</zType>
-    <Translation>あなたの最近の損失は{FAMILY-1}ファミリーを非難しました。これは、その影響をアサートするための適切な時間を待っています。 {CHARACTER-2}裁判所、{G2：彼の}都市のための厳しいサ​​ポートを訪問します。 {G2：彼：彼女：彼女は主張していると主張していると主張し、その{g2：彼：彼女の人々の福祉は無視されています。
+    <Translation>あなたの最近の損失は{FAMILY-1}ファミリーを非難しました。 {CHARACTER-2}裁判所、{G2：彼の}都市のための厳しいサ​​ポートを訪問します。 {G2：彼：彼女：彼女は主張していると主張していると主張し、その{g2：彼：彼女の人々の福祉は無視されています。
 
 {CHARACTER-2}の要求にどのように対応しますか？</Translation>
   </Entry>
@@ -7670,7 +7670,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_MASTER_ORATION</zType>
-    <Translation>最近の修辞学アカデミーへの訪問では、議論に参加する議会に参加します。 {G0：彼：彼女の}スキルは途方もないで、あなたは賞賛以外何も聞いたことがありません。
+    <Translation>最近の修辞学アカデミーへの訪問では、議論に参加する議会に参加します。{RELATEL-0} {CHARACTER-0}が参加します。 {G0：彼：彼女の}スキルは途方もないで、あなたは賞賛以外何も聞いたことがありません。
 
 おそらく、呼び出しを選択するために{CHARACTER-0}のために来ました。</Translation>
   </Entry>
@@ -7782,7 +7782,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_GOWNS_OF_SILK</zType>
-    <Translation>あなたの{G1：兄弟：姉妹}サーバントにはリクエストが付属しています。 {G1：彼：彼女：彼女の尊厳に必要なことを主張しています。</Translation>
+    <Translation>あなたの{G1:兄弟:姉妹}の召使が依頼を持ってきました：{CHARACTER-SHORT-1}は、新しい装身具のための絹を購入するために、国庫から金を調達したいと考えています。彼は、王族の地位の尊厳のために必要だと主張しています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FAMILY_FIRST</zType>
@@ -7858,7 +7858,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_FRIENDLY_VISIT</zType>
-    <Translation>家族ぐるみの友人が{CHARACTER-0}の学校を訪れ、後継者の成長ぶりについて素晴らしい評価を送ってきました。 {G0:He:She} は幸せかつ健康に見え、家に帰り宮廷で{G0:his:her}ための役職につくことにワクワクしています。
+    <Translation>家族ぐるみの友人が{CHARACTER-0}の学校を訪れ、後継者の成長ぶりについて素晴らしい評価を送ってきました。 {G0:He:She} は幸せかつ健康に見え、家に帰り宮廷で{G0:彼:彼女}ための役職につくことにワクワクしています。
 
 その将来は明るいでしょう！</Translation>
   </Entry>
@@ -8014,7 +8014,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
     <zType>TEXT_EVENTSTORY_SCHEMER_SUCCESSION_SPOUSE</zType>
     <Translation>もう一人の死は裁判所を揺り動かします。別の...殺人。
 
-私たちのスパイは、{CHARACTER-2}が{CHARACTER-1}の衝撃的な殺害の背後にあることを示唆しています{G2：彼：彼女の} {G0：夫：妻}、{CHARACTER-0}、近い王位に。</Translation>
+私たちのスパイは、{CHARACTER-2}が{CHARACTER-1}の衝撃的な殺害の背後にあることを示唆しています。王位に。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHARACTER_BITE_THE_HAND</zType>
@@ -8050,7 +8050,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
     <zType>TEXT_EVENTSTORY_CHARACTER_THE_OLD_GUARD</zType>
     <Translation>一連のエスカレートの引数と認識は、裁判所での占めています。 {CHARACTER-0}は、私たちの軍隊を無駄で、古くなった軍事戦術で誤解させる{CHARACTER-1}を非難しました。 {G0：彼：彼女：彼女の兵士の間で行われていない場合、私たちの兵士たちの間で創出を刺激することを脅かす。
 
-最終的には、この紛争を解決するのは私たちにいます。私たちは{CHARACTER-SHORT-0}をappeaseしたり、{CHARACTER-SHORT-1}を立ち上げたりしますか？</Translation>
+最終的には、この紛争を解決するのは私たちにあります。私たちは{CHARACTER-SHORT-0}をappeaseしたり、{CHARACTER-SHORT-1}を立ち上げたりしますか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHARACTER_AFFAIRS_OF_THE_HEART</zType>
@@ -8150,7 +8150,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_PEACE_UPKEEP</zType>
-    <Translation>{TRIBE-0}は、新しい定規、{CHARACTER-SHORT-0}を持ち、link(CONCECT_TRIBE)と疑問に出す。私たちのリンク（diplomacy_peace）の更新を確実にするために、この新しく戴冠されたチーチンに手を差し伸べましょう。</Translation>
+    <Translation>{TRIBE-0}は、新しい定規、{CHARACTER-SHORT-0}を持っています。私たちのlink(DIPLOMACY_PEACE)の更新を確実にするために、この新しく戴冠されたチーチンに手を差し伸べましょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRIBE_PEACE_OPINION</zType>
@@ -8262,7 +8262,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_INSIDER</zType>
-    <Translation>メッセージは{CHARACTER-0}から到着します。 {G0：HE：彼女：彼女は、{PLAYER-0}のラジカルで協力していることを学びました。 {PLAYER-0}と{PLAYER-1}の間の良い関係を維持することを望みます。
+    <Translation>メッセージは{CHARACTER-0}から到着します。 {G0：HE：彼女：彼女は、{PLAYER-0}のラジカルで協力していることを学びました。 {PLAYER-0}と{PLAYER-1}の間に良い関係を維持することを望みます。{CHARACTER-SHORT-2}をすぐに思い出す必要があります。
 
 「私たちは一度友達だった」とメッセージは言います。 「手を差し伸べないでください。{キャラクター - ショート -  2}が行かなければならない！」</Translation>
   </Entry>
@@ -8322,7 +8322,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTOR_COMBAT_TRAINING</zType>
-    <Translation>若くて汚さ、{キャラクター - ショート -  0}は絶えず宮殿のしもべの子供たちと戦ってレスリングしています。それは{g0：彼：彼女のために時間です。
+    <Translation>若くて汚さ、{キャラクター - ショート -  0}は絶えず宮殿のしもべの子供たちと戦ってレスリングしています。それは{G0：彼：彼女の}のための時間です。その余分なエネルギーをすべて利用し、それを生産的な端に向けて向けます。
 
 {CHARACTER-SHORT-1}は戦闘の芸術で{G0：彼：彼女の}を訓練するでしょう。どのスタイルの戦いが{G1：彼：彼女：彼女の}を強調するべきですか？</Translation>
   </Entry>
@@ -8466,7 +8466,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_DARK_ARTS</zType>
-    <Translation>{CHARACTER-1}はあなたの相続人、{CHARACTER-2}に非常に感銘を受けています、そして{g2：彼を持っていたいです。</Translation>
+    <Translation>{CHARACTER-1}はあなたの相続人、{CHARACTER-2}に非常に感銘を受けています、そして{g2：彼を持っていたいです{g2：彼女はスパイの暗い芸術を研究します。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_A_NEW_GENERAL</zType>
@@ -8474,7 +8474,7 @@ hobbyは{G0：彼：彼女の}を追求するのを奨励しますか？</Transl
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONFIRMATION</zType>
-    <Translation>{CHARACTER-1}は需要に沿って近づきます。 「他の多くのことについて旋回する噂は私に連絡を取った、そして私は私たちの{G2：娘}の未来を心配しています。 。」</Translation>
+    <Translation>{CHARACTER-1}は需要に沿って近づきます。 「他の多くのことについて旋回する噂は私に連絡を取った、そして私は私たちの{G2：娘}の未来を心配しています。 "</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_UNFAITHFUL_TIDINGS</zType>
@@ -8868,7 +8868,7 @@ entrailは話されています。</Translation>
     <zType>TEXT_EVENTSTORY_LEFT_FOR_DEAD</zType>
     <Translation>重度の鼓動を受けた後、あなたはあなたの元仲間を脱出し、夜に逃げることを管理します。
 
-数日後、あなたは{CITY-1}に到着します。ここで、あなたは健康に留められ、王位に上昇しています。あなたはあなたの試練から誰もいないことを話します。</Translation>
+数日後、あなたは{CITY-1}に到着します。あなたはあなたの試練から誰もいないことを話します。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_UNCHALLENGED</zType>
@@ -8944,7 +8944,7 @@ entrailは話されています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_ONE_WRONG_MOVE</zType>
-    <Translation>あなたと{CHARACTER-SHORT-1}はあなたの繊細なユーモアのバランスをとるために仕事をしています。ナイフは、そしてあなたは重要な臓器をニックします。床の上に血のプール、そして{G1：彼：彼の最もよい努力にもかかわらず、{CHARACTER-SHORT-1}は流れを抑えることができません。
+    <Translation>あなたと{CHARACTER-SHORT-1}はあなたの繊細なユーモアのバランスをとるために仕事をしています。床の上に血のプール、そして{G1：彼：彼の最もよい努力にもかかわらず、{CHARACTER-SHORT-1}は流れを抑えることができません。
 
 あなたの本質からあなたの本質が空のときにあなたが見る最後のことは、開いているウィンドウを通して夏の日の青です。</Translation>
   </Entry>
@@ -9034,7 +9034,7 @@ entrailは話されています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CURED_BY_THE_PAW_REVENGE_DEATH</zType>
-    <Translation>今朝あなたの{G1：息子：娘}、{CHARACTER-SHORT-1}、起きなかった。怪我や病気の兆候は見つかりませんが、{G1：HIS：HER}顔は恐怖の表現で鍵と{G1：彼の：彼女の} &lt;p.is_sub.s1 = subject_baby&gt; Tiny &lt;p = subject_toddler&gt;小さい&lt;P =件名_child&gt; RTATEL &lt;else&gt;噛み合った&lt;エンド&gt;手はあなたの猿の足と同じ形で丸まっています...</Translation>
+    <Translation><![CDATA[今朝あなたの{G1：息子：娘}、{CHARACTER-SHORT-1}、起きなかった。怪我や病気の兆候は見つかりませんが、{G1：HIS：HER}顔は恐怖の表現で鍵と{G1：彼の：彼女の} <p.is_sub.s1 = subject_baby> Tiny <p = subject_toddler>小さい<P =件名_child> RTATEL <else>噛み合った<エンド>手はあなたの猿の足と同じ形で丸まっています...]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_A_FAMILY_AFFAIR</zType>
@@ -9050,7 +9050,7 @@ entrailは話されています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SILVER_TONGUE</zType>
-    <Translation>クルーンが悲劇の物語に熱心に聞いているので、狡猾さと詐欺師の果実のあなたのスキルはもう一度やり直しています。あなたはgreuesomeの詳細を描く{CHARACTER-SHORT-1}の死を描いています。
+    <Translation>クルーンが悲劇の物語に熱心に聞いているので、狡猾さと詐欺師の果実のあなたのスキルはもう一度やり直しています。あなたはgreuesomeの詳細を描く{CHARACTER-SHORT-1}の死を描いています。クルーンが涙のプールで衰弱するまであらゆる心の詳細を説明します。
 
 あなたの謝罪を懇願し、あなたに将来的にもっと良い幸運を祈ります、クルーンは宮殿が空の手渡されたところに出発します。</Translation>
   </Entry>
@@ -9244,7 +9244,7 @@ entrailは話されています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LOYAL_COMPANION</zType>
-    <Translation>猛烈な吠え声があなたを目覚しい！数分以内に、宮殿はその眠りからかき混ぜる。あなたの信頼できる犬は子供の頃からあなたと一緒に、中庭に武装した見知らぬ人をコーナー化しました。
+    <Translation>猛烈な吠え声があなたを目覚しい！数分以内に、宮殿はその眠りからかき混ぜます。あなたの信頼できる犬は子供の頃からあなたと一緒に、中庭に武装した見知らぬ人をコーナー化しました。
 
 それはあなたが寝たときにあなたを叩くためにここで{PLAYER-1}からの暗殺者です。あなたが鑑賞してあなたの犬の仲間を断ったので、警備員はフィンディを取り除きます。</Translation>
   </Entry>
@@ -9292,27 +9292,27 @@ entrailは話されています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_SHOEMAKER</zType>
-    <Translation>{CHARACTER-0}と{G0:his:her}の友人たちは、繁華街の路地裏に立ち入ることは許されていないので、周辺の市場で博識な靴屋とそのグループである「商人の哲学者」たちと一緒に、哲学と討論の技術を学ぶ日々を送っていました。&#xD;
+    <Translation>{CHARACTER-0}と{G0:彼:彼女}の友人たちは、繁華街の路地裏に立ち入ることは許されていないので、周辺の市場で博識な靴屋とそのグループである「商人の哲学者」たちと一緒に、哲学と討論の技術を学ぶ日々を送っていました。&#xD;
 &#xD;
 多くの格式ばった学者はこのような勉強法を認めようとしませんが、{CHARACTER-SHORT-0}はこのような経験によって豊かになったようです。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_IN_SEARCH_OF_TRUTH</zType>
-    <Translation>裁判所の追求には興味がない、{G1：彼：彼女の}トレーニングを辞めて、近くの都市の居住地に居住しています。 {G1：HE：彼女：彼女}は、国内のトラブルを助けるために{G1：彼：彼女の知識を使用して、国内のトラブル - エスラング兄弟、結婚、そして時折の政治的紛争。月のうちに、{G1：彼：彼女}が人々に最愛になるようになります。
-
-あなたは{CHARACTER-SHORT-1}に多くの投資しましたが、哲学はそれがそれが導く真実に従うべき各人に励まします。</Translation>
+    <Translation>宮廷生活に興味のない{CHARACTER-1}は王室の教育を離れ、近くの都市{CITY-0}に住みはじめました。{G1:彼:彼女}は{G1:彼:彼女}の知識を使って、離ればなれになった兄弟や結婚、時には政治的な争いなど、家庭内のトラブルを解決しています。数ヶ月のうちに、{G1:彼:彼女}は人々から愛されるようになりました。&#xD;
+&#xD;
+あなたは{CHARACTER-SHORT-1}に多くの投資をしましたが、哲学は、各人が真理の導くところに従うことを奨励します。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WASHTUB_PHILOSOPHER</zType>
-    <Translation>長年の面白い行動の後、{CHARACTER-1}、有名なアスケティはさらに偏心と絶縁にさえも後退します。 {G1：彼：彼女：彼女の中心部の中心に放棄された洗面ーバブの中に居住しています。
+    <Translation>興味深い行動を何年も続けてきた有名な禁欲主義者{CHARACTER-1}は、さらに奇抜さと孤独の中に引きこもってしまいます。{CITY-0}の中心部にある廃墟の洗濯だるの中に住んでいるようです。
 
-貴族の多くは{CHARACTER-SHORT-1}の存在によって怒っているように見えますが、{G1：彼：彼女}は貧しい人々の間で非常に人気があります。</Translation>
+貴族の多くは{CHARACTER-SHORT-1}の存在に苛立っているようですが、貧しい人々や貧乏人の間ではかなり人気があります。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LOCAL_NUISANCE</zType>
-    <Translation>{CITY-0}の市民は、{CHARACTER-1}のAnticsを十分に持っていました。通りを通って裸のパレード。ラットとの議論都市の高齢者の恥ずかしがり屋。 {G1：彼：彼女の}シニシズムは{G1：彼：彼女の}に対して公衆を駆り立てました。
+    <Translation>{CITY-0}の市民は{CHARACTER-1}のふざけた行動にうんざりしています。裸で街を練り歩くこと。ネズミとの喧嘩。街の長老たちを公然と辱めること。{G1:彼:彼女}のシニシズムは、人々を遠ざけました。
 
-月のない夜、地元のブリガンドのバンドは{g1：彼から洗礼し、東に向かって東に向かって海に向かって海賊を販売しています。</Translation>
+月のない夜、地元の山賊が {CHARACTER-SHORT-1} を洗濯だらいから連れだし、東の海に向かう海賊に売り渡しました。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_MAN_OF_THE_PEOPLE</zType>
@@ -9328,9 +9328,9 @@ entrailは話されています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RESIDENT_ARTIST</zType>
-    <Translation>長年の後退労働と全献身の後、{CHARACTER-0}はついに完了しました{G0：彼：彼女の巨大な公共絵画、本当の芸術作品。近隣の都市からの訪問者はすでに展望台を歩き、壮大な壁画を見るために{CITY-1}に細流化し始めています。
-
-裁判所は{CHARACTER-SHORT-0}の成果を誇りに思っており、{G0：HE：彼女}が政府によって参加されるべきかどうかについてのいくつかの議論があります。</Translation>
+    <Translation>何年にもわたる骨の折れる作業と献身的な努力の結果、{CHARACTER-0}はついに大規模な公共芸術を完成させました、まさに芸術作品です。近隣の都市からの観光客は、すでに{CITY-1}のプロムナードを歩き、この壮大な壁画を見るためにぞろぞろと訪れ始めています。&#xD;
+&#xD;
+宮廷では{CHARACTER-SHORT-0}の功績を誇りに思っており、政府に徴用すべきかどうかについても議論されています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PIRACY_POWERS</zType>
@@ -9394,13 +9394,13 @@ entrailは話されています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_OVERBOARD_SUCCESS</zType>
-    <Translation>あなたは{CHARACTER-1}と会うことに同意することに同意します。翌日、あなたは秘密の島の目的地に縛られて船に乗っています。
+    <Translation>あなたは{CHARACTER-1}と会うことに同意することに同意します。
 
 航海中に、あなたの退職者は武装した攻撃者によって悩まされています、そしてあなたはスラッシング波に船外を投げます。あなたが海の凍った抱擁に屈する前に、あなたは船のデッキからあなたを笑ってglimpse {CHARACTER-0}を垣間見る。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_OVERBOARD_FAILURE</zType>
-    <Translation>あなたは{CHARACTER-1}と会うことに同意することに同意します。翌日、あなたは秘密の島の目的地に縛られて船に乗っています。航海中に、あなたの退職者は武装した攻撃者によって悩まされています、そしてあなたはスラッシング波に船外を投げます。
+    <Translation>あなたは{CHARACTER-1}と会うことに同意することに同意します。航海中に、あなたの退職者は武装した攻撃者によって悩まされています、そしてあなたはスラッシング波に船外を投げます。
 
 あなたは寒海の中で一人で死んでいないと決心しています。船の路線を登ると、あなたはクルーを嫌悪の暗殺者を撃退するのを助けます。 Dead：{CHARACTER-0}の間で彼らのリングリーダーの本体を後で発見しますか。</Translation>
   </Entry>
@@ -9788,7 +9788,7 @@ TryOonous {CHARACTER-SHORT-0}が登場します。 「あなたは自分でこ�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_TRIBE_BRIDE</zType>
-    <Translation>{CHARACTER-0}のニュースは首都に登録されてお祝いに到着します。{G2：新郎：花嫁}のアイデンティティを学ぶまで。 {CHARACTER-SHORT-0}が{G0：彼の}の役割として{G0：彼の役割を放棄しましたYOUNG {部族1,1} {G2：BACHELOR：MAIDEN}名前付き{CHARACTER-SHORT -2}。
+    <Translation>{CHARACTER-0}のニュースは首都に登録されてお祝いに到着します。 {CHARACTER-SHORT-0}が{G0：彼の}の役割として{G0：彼の役割を放棄しましたYOUNG {部族1,1} {G2：BACHELOR：MAIDEN}名前付き{CHARACTER-SHORT -2}。
 
 未知の間、この組合はその利点を持つかもしれません。</Translation>
   </Entry>
@@ -10086,7 +10086,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_OF_MONEY</zType>
-    <Translation>{CHARACTER-1}はあなたと個人的にあなたと話すように頼み、あなたと一緒に人里離れた廊下に努力します。しもべ廷臣は、ワイドホールで彼らのビジネスについて続けています。
+    <Translation>{CHARACTER-1}はあなたと個人的にあなたと話すように頼みます。しもべ廷臣は、ワイドホールで彼らのビジネスについて続けています。
 
 「あなたの陛下は私に興味を持っています、 "{CHARACTER-1}は練習された簡単な笑顔を言う。 「しかし、代わりに私は自分の政治的支援のために収益率の支持を得ることを望みます。」</Translation>
   </Entry>
@@ -10098,7 +10098,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_OF_COUNCIL_SPYMASTER</zType>
-    <Translation>{CHARACTER-1}は裁判所に行進し、シングルサーバントが牽引されています。あなたの前に低い{G1：彼：彼女のサポートを求めます。私は一つの条件にあなたをサポートします：{CHARACTER-2}を削除し、私に{G2：彼：彼女の}ポジション（council_spymaster） 。」
+    <Translation>{CHARACTER-1}は裁判所に行進し、シングルサーバントが牽引されています。あなたの前に低い{g1：彼：彼女のサポートを求めます。私は一つの状態にあなたをサポートします。 "
 
 この繊細な問題を解決するにはどうでしょうか。</Translation>
   </Entry>
@@ -10112,13 +10112,13 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
     <zType>TEXT_EVENTSTORY_INFLUENCE_OF_GOVERNORS</zType>
     <Translation>あなたの廷臣との夕食の間に、{CHARACTER-2}はあなたを鮮明な夜の空気に取り入れて、音楽と歓迎の中に行きます。
 
-「私はあなたのメッセージを受け取りましたか？ 「私は一つの条件であなたをサポートします -  {CITY-0}の総督。」
+「私はあなたのメッセージを受け取りましたか... "{CHARACTER-SHORT-2} Drums {G2：彼：彼女の親指で{G2：彼の：彼女の手） 「私は一つの条件であなたをサポートします -  {CITY-0}の総督。」
 
 これにより、現在のlink(CONCEPT_GOVERNOR)、{CHARACTER-3}を混乱させます。我々は如何に対応すべきであろうか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_REJECTION_OF_INFLUENCE</zType>
-    <Translation>ダースの武装警備員は裁判所に嵐を守ります。 {CHARACTER-1}は力、怒り、怒りを{G1：彼の目に囲みます。 "あなたが{CHARACTER-SHORT-0}、あなたの邪魔をしています！
+    <Translation>ダースの武装警備員は裁判所に嵐を守ります。 {CHARACTER-1}は力、怒り、怒りを{G1：彼の目に囲みます。 "あなたが{CHARACTER-SHORT-0}、あなたのザバスターズへのいまいましい！私はあなたのようなおいしみに支払わない！このようないたずらや別の方法で終わるでしょう！」
 
 我々は如何に対応すべきであろうか？</Translation>
   </Entry>
@@ -10138,7 +10138,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DIVORCE_RECOGNITION_OF_LOVER</zType>
-    <Translation>朝早く、{CHARACTER-2}はオファーであなたにやってくる。 {G2：彼：彼女：彼女は{G2：彼：彼女の}を離婚しないことを求めています。代わりに、{G2：彼：彼女}は{G2：HE：彼女の}と結婚したままであることを提案しています。{G0：夫：夫：妻}。
+    <Translation>朝早く、{CHARACTER-2}はオファーであなたにやってくる。 {G2：彼：彼女：彼女は{G2：彼：彼女の}を離婚しないことを求めています。代わりに、{G2：彼：彼女}は{G2：HE：彼女の}と結婚したままであることを提案しています。
 
 このオファーを受け入れましょうか。</Translation>
   </Entry>
@@ -10289,13 +10289,13 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_LOVED_BRAVE_BOASTS</zType>
-    <Translation>社会的な集まりであなたはerrange-doの物語を持つ友達を読み終えました。
+    <Translation>社会的な集まりであなたはerrange-doの物語を持つ友達を読み終えました。{CHARACTER-SHORT-1}があなたに近づいたときにderring-do。
 
 "{CHARACTER-SHORT-0}、あなたは勇敢な{G0：MAN：女性}私は今まで会ったことがあります！」彼らは「おそらく私たちは一緒に食事をすることができ、あなたは私にあなたの英雄的な行為をもっと教えてもらうことができますか？」</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_LOVED_BOLD_BOASTS</zType>
-    <Translation>社会的な集まりであなたはerrange-doの物語を持つ友達を読み終えました。
+    <Translation>社会的な集まりであなたはerrange-doの物語を持つ友達を読み終えました。{CHARACTER-SHORT-1}があなたに近づいたときにderring-do。
 
 "{CHARACTER-SHORT-0}、あなたは最も大胆な{G0：男：女性}私は今まで会ったことがあります！」 {g1：彼：彼女：おそらく私たちは一緒に食事をすることができ、あなたは私にあなたの英雄的な行為をもっと教えてくれることができましたか？」</Translation>
   </Entry>
@@ -10303,7 +10303,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
     <zType>TEXT_EVENTSTORY_LEADER_LOVED_FISHER</zType>
     <Translation>「 - そしてその後、ロッドは半分に清潔になった！私は今までに夢中になったと逃げた最大の魚の魚！」あなたはあなたの最新の釣り物語を締めくくります。あなたのピアのいくつかはあなたと交流しますが、{CHARACTER-SHORT-1}が際立っています。
 
-「あなたのロッドについてのそのような恥」{G1：彼：彼女：彼女：}は言う。</Translation>
+「あなたのロッドについてのそのような恥」{G1：彼：彼女：彼女：}は言います。「あなたの心をそれから考えていくためにできることはありますか？」</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_LOVED_ROBUST</zType>
@@ -10315,7 +10315,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
     <zType>TEXT_EVENTSTORY_LEADER_LOVED_HORSING_AROUND</zType>
     <Translation>過去数週間のあなたの習慣だったように、あなたはあなたの毎日の乗車のために牧草地で{CHARACTER-SHORT-1}を満たしています。今日は{G1：彼：彼女：彼女}が緊張しているようです。
 
-"hello {CHARACTER-SHORT-0}、" {g1：彼：彼女]は言う。「私は疑問に思っていました、あなたは安定した関係の準備ができていますか？」</Translation>
+"hello {CHARACTER-SHORT-0}、" {g1：彼：彼女]は言います。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_LOVED_NIGHT_TERRORS</zType>
@@ -10535,15 +10535,15 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_SPREADING_FIVE</zType>
-    <Translation>{CHARACTER-SHORT-0}は私的にあなたと話すように頼まれました。 {G0：彼：彼女}はあなたを居心地の良い隅に導き、「{CHARACTER-SHORT-1}、私はあなたに私がどのように感じなければなりません。あなたはそのような&lt;p.is_sub.s1 = subject_zealot&gt;強信仰&lt;p =件名&gt; &lt;p =件名&gt;単語のある方法&lt;p = subject_diplomation&gt; &lt;P =件名_schemer&gt;素晴らしい狡猾な&lt;P = PROSTICIAN&gt;戦場の植物&lt;P =件名&gt;戦略的Genius &lt;P = Propect_Builder&gt;創造的能力&lt;P = Subject_Judge&gt;健全な判断&lt;else&gt;こんしく探している&lt;エンド&gt;。私はこれがあなたにとって驚きでなければならないことを知っているので、私が言ったことについて考えるのに時間を与えます。」
+    <Translation><![CDATA[{CHARACTER-SHORT-0}は私的にあなたと話すように頼まれました。 {G0：彼：彼女}はあなたを居心地の良い隅に導き、「{CHARACTER-SHORT-1}、私はあなたに私がどのように感じなければなりません。あなたはそのような<p.is_sub.s1 = subject_zealot>強信仰<p =件名> <p =件名>単語のある方法<p = subject_diplomation> <P =件名_schemer>素晴らしい狡猾な<P = PROSTICIAN>戦場の植物<P =件名>戦略的Genius <P = Propect_Builder>創造的能力<P = Subject_Judge>健全な判断<else>こんしく探している<エンド>。私はこれがあなたにとって驚きでなければならないことを知っているので、私が言ったことについて考えるのに時間を与えます。」
 
-{G0：彼：彼女：彼女}はあなたに好きな笑顔を与えて歩きます。</Translation>
+{G0：彼：彼女：彼女}はあなたに好きな笑顔を与えて歩きます。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_SPREADING_SIX</zType>
-    <Translation>あなたにほとんど怒っているように見えます、{CHARACTER-SHORT-0}私的であなたと話すことを要求します。一度{G0：彼：彼女}はあなたと一人でいます{G0：彼：彼女}さえ腹が立てているようです。集まって{G0：彼自身：彼女自身}、{G0：彼：彼女}はあなたに激しく話せます、「私は私が&lt;p.is_sub.s1 = subject_zealot&gt;敬虔なばか&gt;を降ると思ったことはありません&gt;敬虔なばか&lt;p = subject_scholar&gt;ブッキッシュ知識&lt;p =件名&gt;ランブリングウィンドバッグ&lt;P =件名&lt;PILLOMATOM &lt;P = COBEST_SCHEMER&gt;スキームスニーク&lt;P = Subject_hero&gt;パフアップブラッグアート&lt;P =件名&gt; &lt;P =件名&gt; &lt;p =件名&gt;軍事的に取りつかれた狂信者&gt; Tinkering Oubsessive &lt;p = compent_judge&gt;判定型タイプ&lt;else&gt;個性なしのボア&lt;エンド&gt;あなたのようなものですが、何らかの理由で！今あなたは&lt;p.is_sub.s1 =件名&gt;説教&lt;p =件名_scholar&gt;帳簿&lt;p =件名&gt;ランブリング&lt;p = compute_dipromat &lt;piplomat &lt;piplomat &lt;piplomat &lt;piplomat &lt;p =件名&gt; Sneaky &lt;p = subject_hero&gt;自慢&lt;p = subject_tactician&gt;戦略的&lt;P =件名&gt;戦略&lt;P =件名&gt; FIDDLY &lt;p =件名&gt;判断&lt;else&gt;退屈な&lt;エンド&gt;ばか」
+    <Translation><![CDATA[あなたにほとんど怒っているように見えます、{CHARACTER-SHORT-0}私的であなたと話すことを要求します。一度{G0：彼：彼女}はあなたと一人でいます{G0：彼：彼女}さえ腹が立てているようです。集まって{G0：彼自身：彼女自身}、{G0：彼：彼女}はあなたに激しく話せます、「私は私が<p.is_sub.s1 = subject_zealot>敬虔なばか>を降ると思ったことはありません>敬虔なばか<p = subject_scholar>ブッキッシュ知識<p =件名>ランブリングウィンドバッグ<P =件名<PILLOMATOM <P = COBEST_SCHEMER>スキームスニーク<P = Subject_hero>パフアップブラッグアート<P =件名> <P =件名> <p =件名>軍事的に取りつかれた狂信者> Tinkering Oubsessive <p = compent_judge>判定型タイプ<else>個性なしのボア<エンド>あなたのようなものですが、何らかの理由で！今あなたは<p.is_sub.s1 =件名>説教<p =件名_scholar>帳簿<p =件名>ランブリング<p = compute_dipromat <piplomat <piplomat <piplomat <piplomat <p =件名> Sneaky <p = subject_hero>自慢<p = subject_tactician>戦略的<P =件名>戦略<P =件名> FIDDLY <p =件名>判断<else>退屈な<エンド>ばか」
 
-{G0：彼：彼女の}ピース、{CHARACTER-SHORT-0}嵐が降りる。</Translation>
+{G0：彼：彼女の}ピース、{CHARACTER-SHORT-0}嵐が降りる。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_WANTON</zType>
@@ -10681,9 +10681,9 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_PROPHETS_REBUKE</zType>
-    <Translation>{G1：He：He：He：He：He：He：He：His：His：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：His：His：His：His：His：He：He：He：He：He：He：His：His：His：He：His：His：His：His：He：His：His：His：He：He：His：Heg：His：His：His：His：His：Heg：His：His：His：Heg： 「神の言葉を聞いて！あなたは彼の命令を放棄し、彼の方法であなたの背中を変えました。彼があなただけが彼の命令を維持するならば、彼は約束したが、あなたは大いに罪を犯した！」
+    <Translation><![CDATA[{G1：He：He：He：He：He：He：He：His：His：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：He：His：His：His：His：His：He：He：He：He：He：He：His：His：His：He：His：His：His：His：He：His：His：His：He：He：His：Heg：His：His：His：His：His：Heg：His：His：His：Heg： 「神の言葉を聞いて！あなたは彼の命令を放棄し、彼の方法であなたの背中を変えました。彼があなただけが彼の命令を維持するならば、彼は約束したが、あなたは大いに罪を犯した！」
 
-{G1：HE：彼女}集められた裁判所に変わります、{G1：彼：彼女の}はほとんどの墓に顔を顔に顔をします。 "&lt;P.IS_SUB.S0 = Subject_Character_Carnal&gt;あなたは街で貧しい人々が死にかけていても、人生のすべての肉欲的な欲求に夢中になっています。&lt;p = subject_character_weak&gt;あなたはBlathering Imbecilicとして行動し、裁判所には誰もいません。あなたの弱いルールに立ち向かいます！&lt;p = subject_character_villainous&gt;あなたの親切な自然は土地の市民を驚き、この安定したロバの安定した牛を盗みます！&lt;p = cobers_character_vain&gt;あなたの香りの費用と贅沢はあなたの下に腐敗しているとしてさえ、人々を負担します！ &lt;p = compect_character_conspirator&gt;あなたの絶え間ない方式とプロットは悪のエピトームの近くに上昇し、何のために上昇しますか？力？栄光？あなたはこれらを追いかけるのはばかです！&lt;p = subject_character_perify&gt;あなたは牛を求める雄牛ですそれからあなたのあなたにとっては、あなたより弱い人を踏み込むことについての切手、あなたはあなたよりも弱いものを踏み込むことを目立たせます、しかしあなたは失われた魂のためには気にかけています。&lt;p = subject_character_seven_sins&gt;あなたが不機嫌にされていないかのように裁判所についての注意を向いている、千&lt;他に&gt;あなたはあなたの多くの罪で神の心を嘆くこと、そして人々はそれに苦しんでいます。&lt;エンド&gt;私の{G0：KING：QUEEN}、私はあなたに頼みます。神に戻って、あなたの罪深い方法をご覧ください。」</Translation>
+{G1：HE：彼女}集められた裁判所に変わります、{G1：彼：彼女の}はほとんどの墓に顔を顔に顔をします。 "<P.IS_SUB.S0 = Subject_Character_Carnal>あなたは街で貧しい人々が死にかけていても、人生のすべての肉欲的な欲求に夢中になっています。<p = subject_character_weak>あなたはBlathering Imbecilicとして行動し、裁判所には誰もいません。あなたの弱いルールに立ち向かいます！<p = subject_character_villainous>あなたの親切な自然は土地の市民を驚き、この安定したロバの安定した牛を盗みます！<p = cobers_character_vain>あなたの香りの費用と贅沢はあなたの下に腐敗しているとしてさえ、人々を負担します！ <p = compect_character_conspirator>あなたの絶え間ない方式とプロットは悪のエピトームの近くに上昇し、何のために上昇しますか？力？栄光？あなたはこれらを追いかけるのはばかです！<p = subject_character_perify>あなたは牛を求める雄牛ですそれからあなたのあなたにとっては、あなたより弱い人を踏み込むことについての切手、あなたはあなたよりも弱いものを踏み込むことを目立たせます、しかしあなたは失われた魂のためには気にかけています。<p = subject_character_seven_sins>あなたが不機嫌にされていないかのように裁判所についての注意を向いている、千<他に>あなたはあなたの多くの罪で神の心を嘆くこと、そして人々はそれに苦しんでいます。<エンド>私の{G0：KING：QUEEN}、私はあなたに頼みます。神に戻って、あなたの罪深い方法をご覧ください。」]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INFLUENCE_OF_TERROR</zType>
@@ -10709,9 +10709,9 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHARACTERS_MIRACULOUS_RETURN</zType>
-    <Translation>{CHARACTER-0}が到着するにつれて裁判所の上の香りが降ります。塩の汚れ{G0：彼：彼女の攻撃、あざけりやスクラップの{G0：彼の牛の腕と顔。 {G0：彼：彼女の}見やすい仲間を目がって警戒を神経質に目に見えます。
+    <Translation>{CHARACTER-0}が到着すると、宮廷は静寂に包まれました。破れた服には塩がつき、腕や顔にはあざや擦り傷があります。ぼろぼろになった{G0:彼:彼女}の同行者は、不安げに警備員を見ています。
 
-「私のリエージュ、それはまたあなたにまた会える祝福です。時々、私はあなたに戻る前に死ぬだろうと思いました。」 {CHARACTER-SHORT-0}は息を取り、着実に{G0：彼：彼女の}の声をかけます。 「あなたは私が言わなければならない物語を信じないでしょう。私は...」</Translation>
+「閣下、またお会いできて光栄です。時には、あなたのもとに戻る前に死んでしまうのではないかと思いました」。{CHARACTER-SHORT-0}は一息ついて、声を落ち着かせます。「あなたは私が語る物語を信じないでしょう。私は...」</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_CLUB</zType>
@@ -10817,7 +10817,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_ROCK_LIVE</zType>
-    <Translation>ブロックはあなたを軽く見逃しています。</Translation>
+    <Translation>ブロックはあなたを軽く見逃しています、それはあなたの露出した肌に痛みを伴う皮を鎮めたがそれ以外の場合はあなたを無傷のままにします。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_ROCK_DIE</zType>
@@ -10953,7 +10953,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_AMBITION_WINTER_SOLSTICE</zType>
-    <Translation>それは冬です、そしてあなたの足の下に雪が鳴っています。太陽は空の中で低く休んでおり、風はあなたの服の間で笛を吹き、彼らの触感で肌を凍らせます。あなたの家族や裁判所のメンバーは、冬至の耐震性を祝うために集まり、暖かさの年間帰還のために祈りました。闇は勝利を治世しますが、裁判所が暗闇の没落を嬉しく祝うようにしてください。
+    <Translation>それは冬です、そしてあなたの足の下に雪が鳴っています。太陽は空の中で低く休んでおり、風はあなたの服の間で笛を吹き、彼らの触感で肌を凍らせます。あなたの家族や裁判所のメンバーは、冬至の耐震性を祝うために集まっています。闇は勝利を治世しますが、裁判所が暗闇の没落を嬉しく祝うようにしてください。
 
 私たちはこの傲慢な日を覚えていて、将来の世代が同じことを楽しむことができることを確認しますか？</Translation>
   </Entry>
@@ -10965,17 +10965,17 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INSPIRED_BY_COURT</zType>
-    <Translation>若い{G0：KING：QUEEN}として、あなたはあなたが裁判所の方法について学ぶために多くのことを理解しています。 &lt;P.IS_SUB.S0 = Subject_Character_archeType_Regal&gt;微妙な電力の方法は常にあなたの尊重を描画しています。小さな子供としては、復讐のゴシップと議論が激しい騒音とノーベルの不快に区別されて議論を見ます。
+    <Translation><![CDATA[若い{G0：KING：QUEEN}として、あなたはあなたが裁判所の方法について学ぶために多くのことを理解しています。 <P.IS_SUB.S0 = Subject_Character_archeType_Regal>微妙な電力の方法は常にあなたの尊重を描画しています。小さな子供としては、復讐のゴシップと議論が激しい騒音とノーベルの不快に区別されて議論を見ます。
 
-今、あなたは裁判所のより巧妙な芸術を学ぶことを望むあなた自身を見つけます。&lt;p =件名_character_archetype_martial&gt;軍は常にあなたの目を引く。小さな子供としてさえ、あなたがマーチング兵士と干し馬を怒らせて、戦場での彼らの素晴らしい勝利を想像しています。
+今、あなたは裁判所のより巧妙な芸術を学ぶことを望むあなた自身を見つけます。<p =件名_character_archetype_martial>軍は常にあなたの目を引く。小さな子供としてさえ、あなたがマーチング兵士と干し馬を怒らせて、戦場での彼らの素晴らしい勝利を想像しています。
 
-&lt;P = cobers_character_archetype_covert&gt;宮殿の陰謀の背景の方法は常にあなたの通知を引き付けました。毒の微妙な暴露。隠された刃を持つアサシンの笑い。目に見えない力を持つ闇施設の交渉。
+<P = cobers_character_archetype_covert>宮殿の陰謀の背景の方法は常にあなたの通知を引き付けました。毒の微妙な暴露。隠された刃を持つアサシンの笑い。目に見えない力を持つ闇施設の交渉。
 
-&lt;else&gt;それはすべてとても鈍いです。 [これを見れば、Zorbazに連絡する！このイベントの何かが間違っていました！&lt;エンド&gt;</Translation>
+<else>それはすべてとても鈍いです。 [これを見れば、Zorbazに連絡する！このイベントの何かが間違っていました！<エンド>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BENEFICIAL_FLAWS_DEBAUCHED_PARTY</zType>
-    <Translation>パーティーはフルスイング中で、乱交はクライマックスに達しており、ワインの噴水は乾いていてすでに2回補充されました。 {RANDOM_R0：LIVE EELSの他のタンク：2番目のロバのタンク：ロイヤルガードのチーム：それらの奇妙なきのこ：いくつかのロープ：オイルの別のバレル：矮星のレスリングチーム：図PUDDINGの盆地：半ダースの卵：あなたの革のフード：あなたの最高の鞭} {CHARACTER-SHORT-1}があなたに近づくとき、{RANDOM_R1：腰に取り除きます：鞭マークで覆われています。主として酔って：疲れから半死体を探している：非常に大きな男の腕の中で運ばれる：{G1：彼の}背中に乗って素晴らしくブキソムの女性を持っています。
+    <Translation>パーティーはフルスイング中で、乱交はクライマックスに達しており、ワインの噴水は乾いていてすでに2回補充されました。 {RANDOM_R0：LIVE EELSの他のタンク：2番目のロバのタンク：ロイヤルガードのチーム：それらの奇妙なきのこ：いくつかのロープ：オイルの別の樽：矮星のレスリングチーム：半ダースの卵：あなたの革のフード：あなたの最高の鞭} {CHARACTER-SHORT-1}があなたに近づくとき、{RANDOM_R1：腰に取り除きます：鞭マークで覆われています。主として酔って：疲れから半死体を探している：非常に大きな男の腕の中で運ばれる：{G1：彼の}背中に乗って素晴らしくブキソムの女性を持っています。
 
 「私は言う、{CHARACTER-SHORT-0}、 "{G1：彼：彼女} exceliaMを叫ぶ"これは何年もの間に行ったことがあるパーティーです！ありがとうございました！」
 
@@ -11047,7 +11047,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COMPANIONSHIP_INTELLIGENT</zType>
-    <Translation>Woo {CHARACTER-1}への努力で、あなたは{g1：彼を見て過ごした数の数回に気づいていましたが問題を解決し、{g1：彼：彼女：彼女：彼女：彼女：彼女のために何かがあるかもしれないという熱い解決策でそれを解決します。ライフスタイル。 {G1：He：彼女：彼女：彼女は洞察に満ちた方法で最も結び目のある問題でさえ解決することがどのように管理されています。
+    <Translation>Woo {CHARACTER-1}への努力で、あなたは{g1：彼を見て過ごした数の数回に気づいた。ライフスタイル。 {G1：He：彼女：彼女：彼女は洞察に満ちた方法で最も結び目のある問題でさえ解決することがどのように管理されています。
 
 あなたはこの問題を追求し、あなたの借金に{CHARACTER-1}を配置しましょうか。</Translation>
   </Entry>
@@ -11131,7 +11131,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COMPANIONSHIP_STRICT</zType>
-    <Translation>woo to {CHARACTER-1}への努力では、粥と冷たい水を越えて銀の朝の朝の会議の間に実現しました。 {G0：KING：QUEEN}をコントロールできない場合は{G0：彼女の}気温、それからどのように{G0：KING：QUEEN}をコントロールすることができますか？
+    <Translation>woo to {CHARACTER-1}への努力では、粥と冷たい水を越えて銀の朝の朝の会議の間に実現しました。{G1：彼の}ライフスタイルに何かがあるかもしれません。 {G0：KING：QUEEN}をコントロールできない場合は{G0：彼女の}気温、それからどのように{G0：KING：QUEEN}をコントロールすることができますか？
 
 あなたはこの問題を追求し、あなたの借金に{CHARACTER-1}を配置しましょうか。</Translation>
   </Entry>
@@ -11227,7 +11227,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COMPANIONSHIP_HIGHLANDER</zType>
-    <Translation>woo to {CHARACTER-1}への努力では、あなたは山と丘の栄光を探検して{G1：彼のライフスタイルにするかもしれない山と丘の栄光を探検しました。 {G0：KING：QUEEN}が山の上に生き続けることはできないなら、彼らはどのように彼らは裁判所を生き残ることができるのでしょうか？
+    <Translation>woo to {CHARACTER-1}への努力では、あなたは山と丘の栄光を探検して{G1：彼のライフスタイルにするかもしれない山と丘の栄光を探検しました。 {G0：KING：QUEEN}が山の上に生き続けることはできません。
 
 あなたはこの問題を追求し、あなたの借金に{CHARACTER-1}を配置しましょうか。</Translation>
   </Entry>
@@ -11395,7 +11395,7 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_YOU_OWE_ME_FAMILY</zType>
-    <Translation>{CHARACTER-2}はあなたのチャンバーの外側を止めなさい{G2：彼の：彼女の目：彼女の目。 「あなたは私があなたをサポートするために{CHARACTER-1}を得るために私がしなければならなかったことをわかりません。私は何日も毎日！{G1：彼の}サイドをもたらします{G1：彼：彼女の}周り。 {キャラクター-2}はあなたの胸に指を握ります。 「あなたはこれのために私に負っています。あなたは私に大きな負っています。」
+    <Translation>{CHARACTER-2}はあなたのチャンバーの外側を止めなさい{G2：彼の：彼女の目：彼女の目。 「あなたは私があなたをサポートするために{CHARACTER-1}を得るために私がしなければならなかったことをわかりません。私は何日も毎日！ {キャラクター-2}はあなたの胸に指を握ります。 「あなたはこれのために私に負っています。あなたは私に大きな負っています。」
 
 どうやって答えますか？</Translation>
   </Entry>
@@ -11415,27 +11415,27 @@ POSTスクリプトが読む文字の終わりに、「お金を惜しむこと�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FAUX_PAS_REGAL</zType>
-    <Translation>裁判所の会議の後、あなたは自分が宮殿のスタッフのメンバーでわずかな状況に巻き込まれたと思います。 {CHARACTER-1}はあなたにつまずく、あなたに知ることを知ることができます。
+    <Translation><![CDATA[裁判所の会議の後、あなたは自分が宮殿のスタッフのメンバーでわずかな状況に巻き込まれたと思います。 {CHARACTER-1}はあなたにつまずく、あなたに知ることを知ることができます。
 
 「私たちの唇は私たちの間の理解のために密封されています、 "{G1：彼：彼女の}が去っているように言う。
 
-{CHARACTER-1}がこの&lt;p.is_sub.s0 = subject_debauched&gt; hylertine revelry&gt;恥知らないしたけています。 &lt;else&gt;設定。&lt;エンド&gt;</Translation>
+{CHARACTER-1}がこの<p.is_sub.s0 = subject_debauched> hylertine revelry>恥知らないしたけています。 <else>設定。<エンド>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FAUX_PAS_MARTIAL</zType>
-    <Translation>あなたの将軍の集まりでは、あなたは自分自身を受け入れられない位置に見つけます。あなたの将軍はあなたが提案するすべての計画で犯罪を受けます、{CHARACTER-1}が皆を満足させる代替の解決策を提供します。
+    <Translation><![CDATA[あなたの将軍の集まりでは、あなたは自分自身を受け入れられない位置に見つけます。あなたの将軍はあなたが提案するすべての計画で犯罪を受けます、{CHARACTER-1}が皆を満足させる代替の解決策を提供します。
 
 会議の後、{CHARACTER-1}が停止します。 「あなたの殿下、私はあなたがそこに戻って救いました。あなたは私を借りている」
 
-{CHARACTER-1}がこの&lt;p.is_sub.s0 = subject_coWardly&gt; usernessにunchestrence&gt; usernestを翻訳したのか疑問に思います。&lt;p = subject_spoiled&gt;お気に入りのペストリーをもたらす不本意あなたの将軍。&lt;p = subject_foolish&gt;戦いの前にカエルに相談したくない。&lt;else&gt;設定。&lt;エンド&gt;</Translation>
+{CHARACTER-1}がこの<p.is_sub.s0 = subject_coWardly> usernessにunchestrence> usernestを翻訳したのか疑問に思います。<p = subject_spoiled>お気に入りのペストリーをもたらす不本意あなたの将軍。<p = subject_foolish>戦いの前にカエルに相談したくない。<else>設定。<エンド>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FAUX_PAS_COVERT</zType>
-    <Translation>あなたの隠れ家の1つで、あなたは自分自身を致命的な状況で見つけます。 &lt;p.is_sub.S0 =件名_corropt&gt;違法財の最新の出荷が到着しましたが、{CHARACTER-1}によって発見されました。&lt;P =件名_greedy&gt;キャラバン税から少しお金をスキミングしていましたが、発見されました&lt;character-1}。&lt;p =件名_bloodsty&gt;あなたが疑わしい敵エージェントを拷問している間に、あなたは{CHARACTER-1}によって発見されました。&lt;p =件名は敵エージェントに問い合わせている間、あなたは{YER ENERYエージェントに問い合わせていましたが、あなたは{ CHARACTER-1} &lt;else&gt;黒市場を訪問した後、あなたは{CHARACTER-1}によって発見されました。&lt;エンド&gt;
+    <Translation><![CDATA[あなたの隠れ家の1つで、あなたは自分自身を致命的な状況で見つけます。 <p.is_sub.S0 =件名_corropt>違法財の最新の出荷が到着しましたが、{CHARACTER-1}によって発見されました。<P =件名_greedy>キャラバン税から少しお金をスキミングしていましたが、発見されました<character-1}。<p =件名_bloodsty>あなたが疑わしい敵エージェントを拷問している間に、あなたは{CHARACTER-1}によって発見されました。<p =件名は敵エージェントに問い合わせている間、あなたは{YER ENERYエージェントに問い合わせていましたが、あなたは{ CHARACTER-1} <else>黒市場を訪問した後、あなたは{CHARACTER-1}によって発見されました。<エンド>
 
 「私はこれについて聞いたのであれば、人々が考えているのだろうか、「{g1：彼：彼女」と言っています。 「この汚れた小さな秘密の上に配置に来るの？」
 
-あなたは助けることはできませんが、{CHARACTER-1}がこの窮地にあなたを置くために全体のビジネスを調整したかどうか疑問に思います。</Translation>
+あなたは助けることはできませんが、{CHARACTER-1}がこの窮地にあなたを置くために全体のビジネスを調整したかどうか疑問に思います。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_AS_IRON_SHARPENS_IRON_HONORABLE</zType>
@@ -11843,9 +11843,9 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HAPPINESS_GIFTED_INVENTOR</zType>
-    <Translation>{CITY-0}の才能者は国民的な際立っている、裁判所の興味を捉えました。
-
-この注目すべき個人をどのように雇用しますか？</Translation>
+    <Translation>{CITY-0}の天才的な発明家が全国的に有名になり、宮廷の関心を集めています。&#xD;
+&#xD;
+この優秀な人材をどのように採用しますか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HAPPINESS_DILIGENT_CLERK</zType>
@@ -12161,11 +12161,11 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGION_OPINION</zType>
-    <Translation>{宗教-0,1} &lt;P.IS_SUB.S0 = PROSS_ZORASTIANIST&gt; MAGI &lt;P = Subject_JUDAISM&gt; Kohanim &lt;P = Subject_Manichaeism&gt; Elect &lt;else&gt;祭司&lt;エンド&gt;と{宗教 -  1、 &lt;P =件名&gt; &lt;P =件名&gt;司教&lt;P = TOBEST_MANICHASISC&gt; &lt;P =件名&lt;PROST_MANICHAESISM&gt; ELECT &lt;ELSE&gt; &lt;エンド&gt;は、聖なる物体の重要性についての教義の議論でロックされています神の。
+    <Translation><![CDATA[{宗教-0,1} <P.IS_SUB.S0 = PROSS_ZORASTIANIST> MAGI <P = Subject_JUDAISM> Kohanim <P = Subject_Manichaeism> Elect <else>祭司<エンド>と{宗教 -  1、 <P =件名> <P =件名>司教<P = TOBEST_MANICHASISC> <P =件名<PROST_MANICHAESISM> ELECT <ELSE> <エンド>は、聖なる物体の重要性についての教義の議論でロックされています神の。
 
-&lt;P.IS_SUB.S0 =件名&lt;PROSTER_ZORAISTRIANISM&gt;は、オブジェクト自体が神聖な霊と美徳の表現だけではないと主張しています。司教たちは、イエスと聖人によって残された遺物がそれらに有形のつながりを与えると信じています&lt; P = COBEST_JUDAISM&gt;コハニムは、彼らのテキストをコピーするときに、非常に行動が聖なるものであり、それが神聖なオーラをスクロールに貸していると&lt;p = subject_manichaeisiss&gt;物件が暗闇の世界に属し、精神的な世界だけが聖&lt;else&gt;司祭たちは神の像が聖なるものであることを示唆していますが、職人によって完成した後にのみ、&lt;p.is_sub.s1 = subject_zoroastrianisism&gt; Magiはそのオブジェクト自体を主張しています神聖な精神や美徳の表現だけを表現することはできません。&lt;p =件名&lt;p =件名&gt;司教たちと聖母と聖人が残したレックスが彼らに有形のつながりを与えると信じています&lt;p = cobers_judaism&gt;コハニム彼らのテキストをコピーするとき、非常に行為は聖なるものであり、神聖なオーラをスクロールに貸している&lt;p =件名_manichaeisis&gt;素材のオブジェクトが暗闇の世界に属し、精神的な世界だけが聖なる&lt;聖者であることを示唆している神の像は聖人ですが、職人によって完成した後にのみ、特別な儀式で奉献された&lt;エンド&gt;。
+<P.IS_SUB.S0 =件名<PROSTER_ZORAISTRIANISM>は、オブジェクト自体が神聖な霊と美徳の表現だけではないと主張しています。司教たちは、イエスと聖人によって残された遺物がそれらに有形のつながりを与えると信じています< P = COBEST_JUDAISM>コハニムは、彼らのテキストをコピーするときに、非常に行動が聖なるものであり、それが神聖なオーラをスクロールに貸していると<p = subject_manichaeisiss>物件が暗闇の世界に属し、精神的な世界だけが聖<else>司祭たちは神の像が聖なるものであることを示唆していますが、職人によって完成した後にのみ、<p.is_sub.s1 = subject_zoroastrianisism> Magiはそのオブジェクト自体を主張しています神聖な精神や美徳の表現だけを表現することはできません。<p =件名<p =件名>司教たちと聖母と聖人が残したレックスが彼らに有形のつながりを与えると信じています<p = cobers_judaism>コハニム彼らのテキストをコピーするとき、非常に行為は聖なるものであり、神聖なオーラをスクロールに貸している<p =件名_manichaeisis>素材のオブジェクトが暗闇の世界に属し、精神的な世界だけが聖なる<聖者であることを示唆している神の像は聖人ですが、職人によって完成した後にのみ、特別な儀式で奉献された<エンド>。
 
-誰が好きですか？</Translation>
+誰が好きですか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BLESSING_OF_THE_GODS</zType>
@@ -12355,7 +12355,7 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
     <zType>TEXT_EVENTSTORY_BLESSING_OF_HVAR_KHSHAITA</zType>
     <Translation>正午の日光は裁判所に流れ、acolytesの行列を照らします。 {CHARACTER-2}は黄金の太陽の紋章でキャップされたリーガルスタッフを持っている彼らの頭に立っています。
 
-「HVAR Khshaitaの祝福、太陽の神の神はあなたの上に輝く、私の{G3：KING：QUEEN}。」 {G2：彼：彼女：彼女}あなたの前に低く弓します。 「私は{CITY-0}からの招待状をもたらします。彼らはlink(改善_SHRINE_HVAR_KHAITA)を祝い、あなたが参加することを願います。私たちは光の中であなたに会いましょう。」</Translation>
+「HVAR Khshaitaの祝福、太陽の神の神はあなたの上に輝く、私の{G3：KING：QUEEN}。 " {G2：彼：彼女：彼女}あなたの前に低く弓します。 「私は{CITY-0}からの招待状をもたらします。彼らはlink(改善_SHRINE_HVAR_KHAITA)を祝い、あなたが参加することを願います。私たちは光の中であなたに会いましょう。」</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DEDICATION_OF_HVAR_KHSHAITA</zType>
@@ -12441,7 +12441,7 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
     <zType>TEXT_EVENTSTORY_DISPLEASURE_OF_ISHTAR</zType>
     <Translation>{キャラクター-2}、よく筋肉内の男性と大胆に服を着た女性は裁判所で掃除され、彼らの美しさは北洋として遠い、そして愚かなものとして。彼らの侮辱と官能性は侮辱された恋人だけで知っているでしょう。
 
-「最愛の人、本当に私が言わなければならないものです」 {CHARACTER-2}が不愉快に一時停止して笑顔をします。 「女神のような怒りは叱られた。
+「最愛の人、本当に私が言わなければならないものです」 {CHARACTER-2}が不愉快に一時停止して笑顔をします。 「女神のような怒りは叱られました。私はあなたが{CITY-0}で停止し、新しいlink(改善_SHRINE_ISHTAR)での女神でプロンプトをすることをお勧めします。 "
 
 警官を通して警官が波打つ。どうやって答えますか？</Translation>
   </Entry>
@@ -12481,7 +12481,7 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
     <zType>TEXT_EVENTSTORY_DISPLEASURE_OF_VENUS</zType>
     <Translation>{キャラクター-2}、よく筋肉内の男性と大胆に服を着た女性は裁判所で掃除され、彼らの美しさは北洋として遠い、そして愚かなものとして。彼らの侮辱と官能性は侮辱された恋人だけで知っているでしょう。
 
-「最愛の人、本当に私が言わなければならないものです」 {CHARACTER-2}が不愉快に一時停止して笑顔をします。 「女神のような怒りは叱られた。
+「最愛の人、本当に私が言わなければならないものです」 {CHARACTER-2}が不愉快に一時停止して笑顔をします。 「女神のような怒りは叱られました。私はあなたが{CITY-0}で停止し、新しいlink(改善_SHRINE_ISHTAR)での女神でプロンプトをすることをお勧めします。 "
 
 警官を通して警官が波打つ。どうやって答えますか？</Translation>
   </Entry>
@@ -12525,7 +12525,7 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
     <zType>TEXT_EVENTSTORY_BLESSING_OF_HADES</zType>
     <Translation>厳粛で黒い歯のacolytesは王位に近づきます。 {CHARACTER-2}忘れられたドラムのビートに、忘れられた死者の嘆きを警戒している。
 
-頭蓋骨は{G2：彼の手の手の中に開催されます。 「すべての{G3：男性：女性}、私の{G3：KING：QUEN：QUEN：QUEN：QUEEN}。{CITY-0}に参加して、忘れられて忘れて忘れた人を覚えています。」</Translation>
+頭蓋骨は{G2：彼の手の手の中に開催されます。 「すべての{G3：男性：女性}、私の{G3：KING：QUEN：QUEN：QUEN：QUEEN}。{CITY-0}に参加して、忘れられて忘れて忘れた人を覚えています"</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DEDICATION_OF_HADES</zType>
@@ -12575,7 +12575,7 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BLESSING_OF_ASHUR</zType>
-    <Translation>{CHARACTER-2}は裁判所に入り、あなたの前に弓を入れる。 4つのacolyctesはAshurの兆候の一つを負担します：翼から吊り下げた円、そして武賞。
+    <Translation>{CHARACTER-2}は裁判所に入り、あなたの前に弓を入れる。 4つのacolyctesはAshurの兆候の一つを負担します。
 
 「あなたの陛下は、おそらく嫉妬のつなぐことであなたを見下ろします。私は謙虚にあなたに頼み、リンクで膝を曲げてください。神々はあなたを祝福しません。あなたの謙虚さ」</Translation>
   </Entry>
@@ -12759,7 +12759,7 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
     <zType>TEXT_EVENTSTORY_CARRYING_THE_TORCH_PLEASED</zType>
     <Translation>{CHARACTER-3}の最近の死のため、{RESTRIP-1}のリーダーのマントルを取った後、あなたと会います。あなたが犠牲に出席した後に宮殿園を散歩するように、{CHARACTER-SHORT-2}はついに問題の中心に達します。
 
-「私の前身、{CHARACTER-SHORT-3}、神の休息{G3：彼：彼女の}魂は、私が読んだすべての対応に基づいてあなたにかなり満足しました。 。」
+「私の前身、{CHARACTER-SHORT-3}、神の休息{G3：彼：彼女の}魂は、私が読んだすべての対応に基づいてあなたにかなり満足しました。 "
 
 どのようにあなたはこれに答えますか？</Translation>
   </Entry>
@@ -12767,7 +12767,7 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
     <zType>TEXT_EVENTSTORY_CARRYING_THE_TORCH_CAUTIOUS</zType>
     <Translation>{CHARACTER-3}の最近の死のため、{RESTRIP-1}のリーダーのマントルを取った後、あなたと会います。あなたが犠牲に出席した後に宮殿園を散歩するように、{CHARACTER-SHORT-2}はついに問題の中心に達します。
 
-"私の前身、{CHARACTER-SHORT-3}、神の休息{g3：彼：彼女の魂は、私が読んだすべての対応に基づいてあなたからどちらかとかなり離れていました。私はあなたがどんな種類の人のために私自身のためにここに来ました。」
+"私の前身、{CHARACTER-SHORT-3}、神の休息{g3：彼：彼女の魂は、私が読んだすべての対応に基づいてあなたからどちらかとかなり離れていました。私はあなたがどんな種類の人のために私自身のためにここに来ました"
 
 どのようにあなたはこれに答えますか？</Translation>
   </Entry>
@@ -12783,7 +12783,7 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
     <zType>TEXT_EVENTSTORY_CARRYING_THE_TORCH_FURIOUS</zType>
     <Translation>{CHARACTER-3}の最近の死のため、{RESTRIP-1}のリーダーのマントルを取った後、あなたと会います。あなたが犠牲に出席した後に宮殿園を散歩するように、{CHARACTER-SHORT-2}はついに問題の中心に達します。
 
-「私の前身、{CHARACTER-SHORT-3}、神の休み{g3：彼：彼女の魂は、いつかgroudで腐敗しているのを望んでいました。私はあなたがどんな種類の人のためにここに見えました。」
+「私の前身、{CHARACTER-SHORT-3}、神の休み{g3：彼：彼女の魂は、いつかgroudで腐敗しているのを望んでいました。私はあなたがどんな種類の人のためにここに見えました"
 
 どのようにあなたはこれに答えますか？</Translation>
   </Entry>
@@ -12823,7 +12823,7 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
     <zType>TEXT_EVENTSTORY_LEADING_THE_NEXT_GENERATION_FURIOUS</zType>
     <Translation>{CHARACTER-3}の最近の死のために、{FAMILY-1}のファミリーヘッドとしてマントルを受け入れた後にあなたと会います。宮殿の庭を散歩するように、{CHARACTER-SHORT-2}はついに問題の中心に達します。
 
-「私の前任者、{CHARACTER-SHORT-3}、神の休息{G3：彼女：彼女の魂は、いつか地元で腐敗しているのを見る以上に何も望んでいました。私はあなたがどんな種類の人のために私自身のためにここに来ました。」
+「私の前任者、{CHARACTER-SHORT-3}、神の休息{G3：彼女：彼女の魂は、いつか地元で腐敗しているのを見る以上に何も望んでいました。私はあなたがどんな種類の人のために私自身のためにここに来ました"
 
 どのようにあなたはこれに答えますか？</Translation>
   </Entry>
@@ -12959,9 +12959,9 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_REIGN_OF_TERROR</zType>
-    <Translation>廷臣は宮殿の壁の中からあなたから逃げ、あなたの恐ろしい評判の悪化をしています。おそらく私たちはこれを私たちの利点に使うことができました。軍はあなたと立っています、私の{G0：KING：QUEEN}。それぞれの家族からの人質をつかみ、彼らがあなたに対して上昇することは決してないようにしましょう
-
-すべての雹、私たちの暴君{CHARACTER-0}！</Translation>
+    <Translation>廷臣たちは宮殿の中であなたに隠れてあなたの恐ろしい評判をささやいています。これを利用することができるかもしれません。軍はあなたの味方です、王。各家から人質を取り、決してあなたに反抗しないようにしましょう。彼らの愛する者やあなたの支配に逆らう者をいつでも殺せるようにするのです。&#xD;
+&#xD;
+我らが暴君{CHARACTER-0}よ、万歳!</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RULE_WITH_AN_IRON_FIST</zType>
@@ -13059,11 +13059,11 @@ harriedしもべが裁判所に急いでいます。 「私の謝罪、私の{G0
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_AGE_OF_WONDERS</zType>
-    <Translation>私の{G0：KING：QUEEN}、{CITY-2}のために{CITY-1}と同じくらい素晴らしい都市、都市は{CITY-1}と同じくらい素晴らしいものでもありませんでした。私たちの帝国の王冠の宝石は、カウントを超えて不思議に満ちています！遠くの砂漠と冷凍土地の部族は、私たちの素晴らしさの畏敬の念の中でささやきます。 &lt;P.IS_SUB.S1 = SUBJECTUS_PYRAMIDS&gt;link(展開_PYRAMIDS)&lt;P = Subject_City_Great_Gyt_Ziggurat&gt; Link（excoment_city_hanging_gardens）&lt;p = subject_gary_garcing_gardens&gt; link（excoment_hanging_gardens）&lt;p = porther_city_hanging_gardens&gt; link（intrive_hanging_gardens）&lt;p = porthment_gary_garcing_gardens&gt; link subject_city_necropolis&gt; link（excity_ISHTAR_GATE&gt;リンク（expection_ISHTAR_GATE）&lt;p = subject_city_lighthouse&gt;リンク（expection_lighthouse）&lt;p = subject_city_apadana&gt;リンク（expection_apadana）&lt;p = subject_city_mausoleum&gt;リンク（expection_mausoleum）&lt;p = subject_city_acropolis&gt;リンク（expection_action_acity_action_action_acropolis&gt;リンク）&lt;P = SUBJECT_CITY_COLOSSUS&gt;リンク（IMPROVEMENT_COLOSSUS）&lt;P = SUBJECT_CITY_MUSAEUM&gt;リンク（IMPROVEMENT_MUSAEUM）&lt;P = SUBJECT_CITY_CIRCUS_MAXIMUS&gt;リンク（IMPROVEMENT_CIRCUS_MAXIMUS）&lt;P = SUBJECT_CITY_PANTHEON&gt;リンク（IMPROVEMENT_PANTHEON）&lt;P = SUBJECT_CITY_HAGIA_SOPHIA&gt;リンク（IMPROVEMENT_HAGIA_SOPHIA）&lt;P = SUBJECT_CITY_VIA_RECTA_SOUK &gt;リンク（即席_via_recta_souk）&lt;else&gt; &lt;city-1}のWonders &lt;エンド&gt;。
+    <Translation><![CDATA[私の{G0：KING：QUEEN}、{CITY-2}のために{CITY-1}と同じくらい素晴らしい都市、都市は{CITY-1}と同じくらい素晴らしいものでもありませんでした。私たちの帝国の王冠の宝石は、カウントを超えて不思議に満ちています！遠くの砂漠と冷凍土地の部族は、私たちの素晴らしさの畏敬の念の中でささやきます。 <P.IS_SUB.S1 = SUBJECTUS_PYRAMIDS>link(展開_PYRAMIDS)<P = Subject_City_Great_Gyt_Ziggurat> Link（excoment_city_hanging_gardens）<p = subject_gary_garcing_gardens> link（excoment_hanging_gardens）<p = porther_city_hanging_gardens> link（intrive_hanging_gardens）<p = porthment_gary_garcing_gardens> link subject_city_necropolis> link（excity_ISHTAR_GATE>リンク（expection_ISHTAR_GATE）<p = subject_city_lighthouse>リンク（expection_lighthouse）<p = subject_city_apadana>リンク（expection_apadana）<p = subject_city_mausoleum>リンク（expection_mausoleum）<p = subject_city_acropolis>リンク（expection_action_acity_action_action_acropolis>リンク）<P = SUBJECT_CITY_COLOSSUS>リンク（IMPROVEMENT_COLOSSUS）<P = SUBJECT_CITY_MUSAEUM>リンク（IMPROVEMENT_MUSAEUM）<P = SUBJECT_CITY_CIRCUS_MAXIMUS>リンク（IMPROVEMENT_CIRCUS_MAXIMUS）<P = SUBJECT_CITY_PANTHEON>リンク（IMPROVEMENT_PANTHEON）<P = SUBJECT_CITY_HAGIA_SOPHIA>リンク（IMPROVEMENT_HAGIA_SOPHIA）<P = SUBJECT_CITY_VIA_RECTA_SOUK >リンク（即席_via_recta_souk）<else> <city-1}のWonders <エンド>。
 
-地元の人々が&lt;p.is_sub.s2 = subject_city_via_recta_souk&gt;リンク（expection_via_hagia_sophia&gt;リンク（expection_hagia_sophia）&lt;p = subject_city_panthia）&lt;p = subject_city_panthia&gt;リンク（展開_CIRSEON）&lt;P = Subject_City_CIRCUS_MAXIMUS&gt;リンク（登録版_CITY_MASAEUM&gt;リンク（展開_MUSAEUM）&lt;P = Subject_City_Colossus&gt;リンク（展開_Colossus）&lt;P = Subject_City_acysolis&gt;リンク（改善_achity_city_mausoleum&gt;リンク（expection_mausoleum）&lt;p = subject_pata_apadana&gt;リンク（expection_pasanata）&lt;p = subject_lity_lighthouse&gt;リンク（expection_light_ishtar_gate&gt;リンク（expection_ishtar_gate）&lt;p = subject_city_necropolis&gt;リンク（expemal_city_hanging_gardens&gt;リンク（expection_hanging_gardens）&lt;p = subject_city_oracle&gt; intiffment_oracle） &lt;p = subject_city_great_ziggurat&gt; indifition_great_ziggurat）&lt;p = subject_city_pyramids&gt;リンク（evere&gt; wonders &lt;エンド&gt;そのCitの終わりy、彼らはそうするべきであるように！
+地元の人々が<p.is_sub.s2 = subject_city_via_recta_souk>リンク（expection_via_hagia_sophia>リンク（expection_hagia_sophia）<p = subject_city_panthia）<p = subject_city_panthia>リンク（展開_CIRSEON）<P = Subject_City_CIRCUS_MAXIMUS>リンク（登録版_CITY_MASAEUM>リンク（展開_MUSAEUM）<P = Subject_City_Colossus>リンク（展開_Colossus）<P = Subject_City_acysolis>リンク（改善_achity_city_mausoleum>リンク（expection_mausoleum）<p = subject_pata_apadana>リンク（expection_pasanata）<p = subject_lity_lighthouse>リンク（expection_light_ishtar_gate>リンク（expection_ishtar_gate）<p = subject_city_necropolis>リンク（expemal_city_hanging_gardens>リンク（expection_hanging_gardens）<p = subject_city_oracle> intiffment_oracle） <p = subject_city_great_ziggurat> indifition_great_ziggurat）<p = subject_city_pyramids>リンク（evere> wonders <エンド>そのCitの終わりy、彼らはそうするべきであるように！
 
-私たちは雑誌の帝国として{PLAYER-3}の栄光の評判をどのように装飾しますか？</Translation>
+私たちは雑誌の帝国として{PLAYER-3}の栄光の評判をどのように装飾しますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ERA_OF_CORRUPTION</zType>
@@ -13262,11 +13262,11 @@ link(LAW_GUILDS)とリンク（Law_ELITES）の間で選択する時が来まし
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HOLY_SITE_ZOROASTRIANISM</zType>
-    <Translation>されております…
+    <Translation>終わったのだ...。
 
-Ahura Mazdaの不幸な聖火は、それがマイルの周りに見ることができるピークの上に座って、山頂神殿の新しい家に持ってきました。リモートではあるが、寺院はすでに巡礼を求めて忠実な熱が寺院の外側からさえも感じることができます。
+アフラ・マズダの不滅の聖なる火は、周囲を見渡せる山頂の寺院に新たに持ち込まれました。辺境の地ではあるが、この寺院はすでに巡礼を求める信徒たちの目印となっており、その猛烈な熱気は寺院の外からも感じられる。 
 
-Link（evellion_zoroastrianism、1）のリンクのビーコンとして立ちます。</Translation>
+link(IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM)は、link(RELIGION_ZOROASTRIANISM)の信仰者のための道しるべとなるだろう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HOLY_SITE_JUDAISM</zType>
@@ -13282,7 +13282,7 @@ link(改善_HOLY_SITE_JUDAISM)は、リンクのビーコン（resirion_judaism�
 
 石造りの心の中心部にあるイエス様の十字架の敷地の上に立っている。あなたは入り口の冷たい色合いに入り、そしてドームへのこぼれる光にあなたの目を持ち上げ、そして尊敬と畏敬の念の中でチャンバーを埋める。
 
-link(EVELRIP_CHRISTIANITY、1)忠実なリンクのビーコンとして立ちます（revirion_criestianity、1）。</Translation>
+link(EVELRIP_CHRISTIANITY、1)忠実なリンクのビーコンとして立ちます。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HOLY_SITE_MANICHAEISM</zType>
@@ -13486,45 +13486,45 @@ link(改善_VIA_RECTA_SOUK)は、今日の私たちの業績の象徴とまだ�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PRIESTLY_DWELLING_ASSYRIA</zType>
-    <Translation>{RELIGION-1}の先頭である{CHARACTER-2}は、&lt;p.is_sub.s0 = subject_shrine_shamash&gt; link（expection_shrine_shamash）の追加の土地を要求するために裁判所を訪問しました&gt;link(EXPECTION_SHRINE_NUSKA)&lt;p = subject_city_shrine_ashur&gt; link（ever&gt; link（eversement_shrine_ninurta）&lt;elles&gt; link（indifition_shrine_nuska）&lt;end&gt; {CITY-0}。地元の崇拝者は、&lt;P.IS_SUB.S0 = Subject_City_Shrine_Shamash&gt;を尊重し、農家の神の神を尊重し、農業、狩猟、戦争、そして彼の&lt;P =件名_shrine_ashur&gt;翼を刺された太陽の神を展開します。彼の&lt;p = subject_city_shrine_nuska&gt;を伸ばして、軽い火と火の神の神を拡大し、彼の&lt;else&gt;神を拡大し、彼らの&lt;エンド&gt;影響を拡大します。
+    <Translation><![CDATA[{RELIGION-1}の先頭である{CHARACTER-2}は、<p.is_sub.s0 = subject_shrine_shamash> link（expection_shrine_shamash）の追加の土地を要求するために裁判所を訪問しました>link(EXPECTION_SHRINE_NUSKA)<p = subject_city_shrine_ashur> link（ever> link（eversement_shrine_ninurta）<elles> link（indifition_shrine_nuska）<end> {CITY-0}。地元の崇拝者は、<P.IS_SUB.S0 = Subject_City_Shrine_Shamash>を尊重し、農家の神の神を尊重し、農業、狩猟、戦争、そして彼の<P =件名_shrine_ashur>翼を刺された太陽の神を展開します。彼の<p = subject_city_shrine_nuska>を伸ばして、軽い火と火の神の神を拡大し、彼の<else>神を拡大し、彼らの<エンド>影響を拡大します。
 
-1人の神はどのくらいの土地を必要としていますか？</Translation>
+1人の神はどのくらいの土地を必要としていますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PRIESTLY_DWELLING_BABYLONIA</zType>
-    <Translation>{RELIGION-1}の先頭である{CHARACTER-2}は、&lt;p.is_sub.s0 = subject_city_shrine_nabu&gt;link(EXPECTION_SHRINE_NABU)&lt;p = subject_city_shrine_marduk&gt;リンク（expection_shrine_marduk）&lt;p = subject_city_shrine_ishtar&gt;リンク（ever&gt; link（indement_shrine_ereshkigal）&lt;ELES&gt;リンク（CITY-0}のリンク（即席_shrine_ereshkigal）&lt;END&gt;を参照してください。&lt;p = subject_shrine_shrine_ereshkigal&gt; link地元の崇拝者たちは、&lt;pis_sub.s0 =件名_shrine_nabu&gt;を象徴していて、神々の神々を展開し、彼の神々の王を展開し、愛の女神を展開し、彼女を拡大します。&lt;&lt;p = subject_city_shrine_ishtar&gt; P = Subject_City_Shrine_ereshkigal&gt;アンダーワールドの女神、そして彼女の&lt;else&gt;神を広げ、そして&lt;エンド&gt;影響を展開します。
+    <Translation><![CDATA[{RELIGION-1}の先頭である{CHARACTER-2}は、<p.is_sub.s0 = subject_city_shrine_nabu>link(EXPECTION_SHRINE_NABU)<p = subject_city_shrine_marduk>リンク（expection_shrine_marduk）<p = subject_city_shrine_ishtar>リンク（ever> link（indement_shrine_ereshkigal）<ELES>リンク（CITY-0}のリンク（即席_shrine_ereshkigal）<END>を参照してください。<p = subject_shrine_shrine_ereshkigal> link地元の崇拝者たちは、<pis_sub.s0 =件名_shrine_nabu>を象徴していて、神々の神々を展開し、彼の神々の王を展開し、愛の女神を展開し、彼女を拡大します。<<p = subject_city_shrine_ishtar> P = Subject_City_Shrine_ereshkigal>アンダーワールドの女神、そして彼女の<else>神を広げ、そして<エンド>影響を展開します。
 
-1人の神はどのくらいの土地を必要としていますか？</Translation>
+1人の神はどのくらいの土地を必要としていますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PRIESTLY_DWELLING_CARTHAGE</zType>
-    <Translation>{CHARACTER-2}、{RELIGION-1}の頭は&lt;p.is_sub.s0 = subject_city_shrine_tanit&gt; link（extagement_shrine_tanit）&lt;p = subject_city_shrine_melqart&gt; link（expection_shrine_melqart）&lt;p = subject_city_shrine_eshmun&gt; link（evere&gt; link（indement_shrine_astarte）&lt;ELSE（inderment_shrine_astarte）&lt;end&gt; {CITY-0}のinelse&gt; link（everment_shrine_astarte）&lt;エンド&gt;。地元の崇拝者たちは、&lt;p.is_sub.s0 = subject_city_shrine_tanit&gt;母親の女神を尊重し、&lt;P = Subject_City_Shrine_Melqart&gt; &lt;P = Subject_City_Shrine_Melqart&gt; of tireとBaalの息子を展開し、癒しの神の神を拡大し、彼の&lt;P = Subject_City_Shrine_Artare&gt;愛と戦争の女神を展開し、彼女の&lt;else&gt;神を広げ、&lt;エンド&gt;の影響を展開します。
+    <Translation><![CDATA[{CHARACTER-2}、{RELIGION-1}の頭は<p.is_sub.s0 = subject_city_shrine_tanit> link（extagement_shrine_tanit）<p = subject_city_shrine_melqart> link（expection_shrine_melqart）<p = subject_city_shrine_eshmun> link（evere> link（indement_shrine_astarte）<ELSE（inderment_shrine_astarte）<end> {CITY-0}のinelse> link（everment_shrine_astarte）<エンド>。地元の崇拝者たちは、<p.is_sub.s0 = subject_city_shrine_tanit>母親の女神を尊重し、<P = Subject_City_Shrine_Melqart> <P = Subject_City_Shrine_Melqart> of tireとBaalの息子を展開し、癒しの神の神を拡大し、彼の<P = Subject_City_Shrine_Artare>愛と戦争の女神を展開し、彼女の<else>神を広げ、<エンド>の影響を展開します。
 
-1人の神はどのくらいの土地を必要としていますか？</Translation>
+1人の神はどのくらいの土地を必要としていますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PRIESTLY_DWELLING_EGYPT</zType>
-    <Translation>{RELIGION-1}の先頭である{CHARACTER-2}は、&lt;p.is_sub.s0 = subject_city_shrine_ra&gt;link(EXPECTION_SHRINE_RA)&lt;p = subject_city_shrine_osiris&gt;リンク（expection_shrine_osiris）&lt;p =を訪問しました。 subject_city_shrine_neith&gt; link（reputment_shrine_isis）&lt;p = subject_city_isis）&lt;else&gt; link（ever&gt; link（edent_shrine_isis）&lt;エンド&gt; {CITY-0}地元の崇拝者たちは、太陽の神の神の神を尊重し、彼の神の神の神の神を尊重し、死亡、出生率、農業の神を拡大し、そして彼の知恵の女神を拡大する&gt; &lt;p = subject_city_shrine_solis&gt;そして、彼女の癒しの女神を展開し、彼女の&lt;else&gt;神を広げ、&lt;エンド&gt;の影響を展開します&lt;p = subject_city_shrine_isis&gt;を展開します。
+    <Translation><![CDATA[{RELIGION-1}の先頭である{CHARACTER-2}は、<p.is_sub.s0 = subject_city_shrine_ra>link(EXPECTION_SHRINE_RA)<p = subject_city_shrine_osiris>リンク（expection_shrine_osiris）<p =を訪問しました。 subject_city_shrine_neith> link（reputment_shrine_isis）<p = subject_city_isis）<else> link（ever> link（edent_shrine_isis）<エンド> {CITY-0}地元の崇拝者たちは、太陽の神の神の神を尊重し、彼の神の神の神の神を尊重し、死亡、出生率、農業の神を拡大し、そして彼の知恵の女神を拡大する> <p = subject_city_shrine_solis>そして、彼女の癒しの女神を展開し、彼女の<else>神を広げ、<エンド>の影響を展開します<p = subject_city_shrine_isis>を展開します。
 
-1人の神はどのくらいの土地を必要としていますか？</Translation>
+1人の神はどのくらいの土地を必要としていますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PRIESTLY_DWELLING_GREEK</zType>
-    <Translation>{RELIGION-1}の{CHARACTER-2}は、&lt;p.is_sub.s0 = subject_city_shrine_athena&gt; link（expection_shrine_ashrine_zeus&gt; link（informing_shrine_zeus）&lt;p =を要求するために裁判所を訪問しました。 subject_city_shrine_poseIdon&gt;link(EVER&gt; LINK（INDERMENT_SHRINE_POSEIDON)&lt;expere&gt; link（inderment_shrine_poseidon）&lt;end&gt; {CITY-0}のリンク（即席_shrine_poseidon）&lt;エンド&gt;。地元の崇拝者たちは、&lt;P.IS_SUB.S0 =件名_CITY_SHRINE_ATHAA&gt;知恵の女神を称えることに熱心で、雷の神の神の神を展開し、海の神の神の神の神を展開し、彼の&lt;aを拡大します。&lt;p = subject_city_shrine_poseidon&gt;を拡大します。 P = Subject_City_Shrine_hades&gt;死者の神、そして彼の&lt;else&gt;神を拡大し、&lt;エンド&gt;影響を伸ばします。
+    <Translation><![CDATA[{RELIGION-1}の{CHARACTER-2}は、<p.is_sub.s0 = subject_city_shrine_athena> link（expection_shrine_ashrine_zeus> link（informing_shrine_zeus）<p =を要求するために裁判所を訪問しました。 subject_city_shrine_poseIdon>link(EVER> LINK（INDERMENT_SHRINE_POSEIDON)<expere> link（inderment_shrine_poseidon）<end> {CITY-0}のリンク（即席_shrine_poseidon）<エンド>。地元の崇拝者たちは、<P.IS_SUB.S0 =件名_CITY_SHRINE_ATHAA>知恵の女神を称えることに熱心で、雷の神の神の神を展開し、海の神の神の神の神を展開し、彼の<aを拡大します。<p = subject_city_shrine_poseidon>を拡大します。 P = Subject_City_Shrine_hades>死者の神、そして彼の<else>神を拡大し、<エンド>影響を伸ばします。
 
-1人の神はどのくらいの土地を必要としていますか？</Translation>
+1人の神はどのくらいの土地を必要としていますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PRIESTLY_DWELLING_ROME</zType>
-    <Translation>{RELIGION-1}の先頭である{CHARACTER-2}は、&lt;p.is_sub.s0 = subject_city_vulcan&gt;link(EXPECTION_SHRINE_VULCAN)の追加の土地を要求するために裁判所を訪問しました&gt;リンク（expection_shrine_vesta）&lt;p = subject_city_shrine_venus&gt; link（agdement_shrine_venus）&lt;p = subject_city_shrine_mars&gt;リンク（ildement_shrine_mars）&lt;else&gt; link（indifition_shrine_mars）&lt;エンド&gt; {CITY-0}地元の崇拝者たちは、&lt;P.IS_SUB.S0 =件名_越して&lt;P.IS_SUB.S0 = Subject_City_Shrine_vulcanと鍛造、鍛造、暖炉と家の女神と家を展開し、&lt;P =件名_shrine_venus&gt;愛の女神、そして、彼女の戦争の神の神の神を展開し、彼の&lt;else&gt;神を拡大し、&lt;エンド&gt;の影響を広げます。
+    <Translation><![CDATA[{RELIGION-1}の先頭である{CHARACTER-2}は、<p.is_sub.s0 = subject_city_vulcan>link(EXPECTION_SHRINE_VULCAN)の追加の土地を要求するために裁判所を訪問しました>リンク（expection_shrine_vesta）<p = subject_city_shrine_venus> link（agdement_shrine_venus）<p = subject_city_shrine_mars>リンク（ildement_shrine_mars）<else> link（indifition_shrine_mars）<エンド> {CITY-0}地元の崇拝者たちは、<P.IS_SUB.S0 =件名_越して<P.IS_SUB.S0 = Subject_City_Shrine_vulcanと鍛造、鍛造、暖炉と家の女神と家を展開し、<P =件名_shrine_venus>愛の女神、そして、彼女の戦争の神の神の神を展開し、彼の<else>神を拡大し、<エンド>の影響を広げます。
 
-1人の神はどのくらいの土地を必要としていますか？</Translation>
+1人の神はどのくらいの土地を必要としていますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PRIESTLY_DWELLING_PERSIA</zType>
-    <Translation>{RELIGION-1}の先頭である{CHARACTER-2}は&lt;p.is_sub.s0 = subject_shrine_hvar_khshaita&gt;link(EXTRAPEMENT_SHRINE_HVAR_KHAITA)&lt;p = subject_city_shrine_mithra&gt; link（expement_shrine_mithra）&lt;p = subject_city_shrine_anahita&gt;リンク（ever&gt;リンク（eversement_shrine_atar）&lt;elles&gt; link（eledement_shrine_anahita）&lt;end&gt; {CITY-0}。地元の崇拝者たちは、&lt;p.is_sub.S0 =件名_city_shrine_hvar_khshaita&gt;神の神を称えるようになり、彼の水の女神の女神を展開し、彼女の燃焼と未燃の神を展開します。火、そして彼の真実と光の神の神の神を拡大し、彼らの&lt;else&gt;神を拡大し、彼らの&lt;エンド&gt;影響を展開します。
+    <Translation><![CDATA[{RELIGION-1}の先頭である{CHARACTER-2}は<p.is_sub.s0 = subject_shrine_hvar_khshaita>link(EXTRAPEMENT_SHRINE_HVAR_KHAITA)<p = subject_city_shrine_mithra> link（expement_shrine_mithra）<p = subject_city_shrine_anahita>リンク（ever>リンク（eversement_shrine_atar）<elles> link（eledement_shrine_anahita）<end> {CITY-0}。地元の崇拝者たちは、<p.is_sub.S0 =件名_city_shrine_hvar_khshaita>神の神を称えるようになり、彼の水の女神の女神を展開し、彼女の燃焼と未燃の神を展開します。火、そして彼の真実と光の神の神の神を拡大し、彼らの<else>神を拡大し、彼らの<エンド>影響を展開します。
 
-1人の神はどのくらいの土地を必要としていますか？</Translation>
+1人の神はどのくらいの土地を必要としていますか？]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_VETERAN_COLONIES</zType>
@@ -13845,7 +13845,7 @@ link(改善_VIA_RECTA_SOUK)は、今日の私たちの業績の象徴とまだ�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WONDER_WARM_RELATIONS</zType>
-    <Translation>ノーブルファミリーは最近完成した浴場を利用する最初のものになるように並んでいます。一緒に時間がかかるでしょう。
+    <Translation>ノーブルファミリーは最近完成した浴場を利用する最初のものになるように並んでいます。一緒に時間があるであろう、アライアンスと勝利のサポートについて議論する完璧な機会を提供します。
 
 この貴重な招待状を延長すべき家族には？</Translation>
   </Entry>
@@ -13905,9 +13905,9 @@ link(改善_VIA_RECTA_SOUK)は、今日の私たちの業績の象徴とまだ�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGION_READING_THE_WORD</zType>
-    <Translation>{CHARACTER-1}東からの旅行者に{G1：HE：HEAR}に与えられた新しいテキストについての裁判所にやってきます。 「聖書」とも呼ばれる聖書の執筆の編集は、学者によって学ばれた{宗教2,1}神の教えです。
+    <Translation>{CHARACTER-1}は、東方からの旅人からもらった新しいテキストを絶賛して宮廷にやってきました。「聖典」とも呼ばれるこの書物は、時代を超えて学者たちが記録してきた{RELIGION-2}の神の教えをまとめたものです。
 
-興味がある、あなたは自分のためにそれのいくつかを読んだ...</Translation>
+興味を持ったあなたは、その一部を読んでみることにしました。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGION_THE_APOSTLES</zType>
@@ -14193,9 +14193,9 @@ link(改善_VIA_RECTA_SOUK)は、今日の私たちの業績の象徴とまだ�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_IN_YOUR_DEBT</zType>
-    <Translation>{FAMILY-2}ファミリーの{CHARACTER-4}との関係は数ヶ月間衰退していますが、幸いなことに私たちは同盟国を持っています。あなたがお支持を負っていると主張していると主張している人は、私たちに代わって{CHARACTER-4}に照会することを志願しました。 {G0：He：彼女：彼女の違いは、いくつかのDeft Deplomacyで治癒することができると考えています。
+    <Translation>{FAMILY-2}家の{CHARACTER-4}との関係は何ヶ月も前から悪化していますが、幸いにも私たちには味方がいます。あなたに借りがあるという{CHARACTER-0}が、私たちに代わって{CHARACTER-4}に懇願することを志願しました。巧みな交渉によって溝を修復することができると考えているようです。
 
-続行するには{G0：彼：彼女の}をどのように伝えますか？</Translation>
+{G0:彼:彼女}に何をさせるよう伝えますか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_JEALOUS_RAGE</zType>
@@ -14207,7 +14207,7 @@ link(改善_VIA_RECTA_SOUK)は、今日の私たちの業績の象徴とまだ�
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_GOLDEN_OPPORTUNITY</zType>
     <Translation>{CHITE-0} {CITY-2}の黄金の機会を持つプライベートで私たちに来ました。 {G0：彼：彼女：彼女}は家族の土地の大規模な貯蔵施設を構築しています。スペースを望むならば、追加商品のための部屋がたくさんあるでしょう。もちろん、{G0：彼：彼女}はあなたの二人の間でこれを保存したいので、他の家族は見つけられません。
 
-商品の一部を集めることも、投資することもできます。</Translation>
+商品の一部を集めることも、投資することもできます。{G0：彼の：彼女の}企業を獲得するために{CHARACTER-0}を育てることができます。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_BAD_BLOOD</zType>
@@ -14305,7 +14305,7 @@ link(改善_VIA_RECTA_SOUK)は、今日の私たちの業績の象徴とまだ�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGION_OUR_ALLEGIANCE</zType>
-    <Translation>{PLAYER-1}の間でミリタリーキャンプで犯罪者の銃を聞くことができます。リンクの上昇（relipion_zoroastrianist）では、そのアドリーブの多くは、彼らがAhura Mazdaの「兵士」であると主張しています。そのような大胆な声明は他の男性を邪魔しています。alligianceを誓約しました、{CHARACTER-SHORT-1}。
+    <Translation>{PLAYER-1}の間でミリタリーキャンプで犯罪者の銃を聞くことができます。リンクの上昇（relipion_zoroastrianist）では、そのアドリーブの多くは、彼らがAhura Mazdaの「兵士」であると主張しています。そのような大胆な声明は他の男性を邪魔しています。
 
 私たちの軍隊は誰のために戦いますか？私たちの{G1：王：女王}、または私たちの神？</Translation>
   </Entry>
@@ -14563,13 +14563,13 @@ link(改善_VIA_RECTA_SOUK)は、今日の私たちの業績の象徴とまだ�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_MYSTERIOUS_SICKNESS</zType>
-    <Translation>{CITY-0}の市民は非常に不思議な病気の荒廃に苦しんでいます。その起源は未知のままですが、犠牲者はすべて肌に署名のポックマークを共有しています。
+    <Translation>{CITY-0}の市民は非常に不思議な病気の荒廃に苦しんでおり、それは感染している人々のうち5人で1を殺すと言われています。その起源は未知のままですが、犠牲者はすべて肌に署名のポックマークを共有しています。
 
 私たちの科学者は即時の行動を要求します。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_POX_SPREADS</zType>
-    <Translation>致命的なPOXは、その人口の多くの大部分を敷設して、{CITY-0}を破壊し続けています。さらに悪いことに、{CITY-1}の個人が症状を示すようになりました。
+    <Translation>致命的なPOXは、その人口の多くの大部分を敷設しています。さらに悪いことに、{CITY-1}の個人が症状を示すようになりました。
 
 {キャラクター - ショート3}と{キャラクターショート4}の両方がそれらのベッドにとられました。裁判所でも安全ではありません...</Translation>
   </Entry>
@@ -15195,7 +15195,7 @@ Wordは間もなく{CHARACTER-SHORT-0}が{G0：彼の：彼女の} hostageで{CI
     <zType>TEXT_EVENTSTORY_INSURRECTION_OUT_OF_TOUCH</zType>
     <Translation>数週間、{CHARACTER-1}とのコミュニケーションは遅く、一連の気象イベントとメッセンジャーの不足によって挑戦されました。
 
-しかし、最新のアップデートが到着したときだけ真実を学びます。{CHARACTER-SHORT-1}は{PLAYER-2,1}裁判所に陥った。私たちのエージェントを使えば、暴動のためのプロットはありません。</Translation>
+しかし、最新のアップデートが到着したときだけ真実を学びましょう。私たちのエージェントを使えば、暴動のためのプロットはありません。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_INSURRECTION_EAGER_PLAYER</zType>
@@ -15387,7 +15387,7 @@ Wordは間もなく{CHARACTER-SHORT-0}が{G0：彼の：彼女の} hostageで{CI
     <zType>TEXT_EVENTSTORY_MIGHT_OF_NATIONS</zType>
     <Translation>{G0：彼：彼女の旅の多くの旅行とキャンペーンは、他の部族や国のうちの多くを直接目撃しました。今{G0：HE：彼女：彼女は私たちの軍人の採用を拡大して{PLAYER-2}に住んでいる外国人を含めることを要求しました。
 
-もちろん、{CHARACTER-1}は私たちの国境の外で生まれた人々とは関係ありません。 {G1：彼：彼女}は{CHARACTER-SHORT-0}の提案でグラテーションします。</Translation>
+もちろん、{CHARACTER-1}は私たちの国境の外で生まれた人々とは関係なく、最悪のスパイでスロブや臆病者であることを最善で信じています。 {G1：彼：彼女}は{CHARACTER-SHORT-0}の提案でグラテーションします。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TENTACLES_OF_CORRUPTION</zType>
@@ -15519,7 +15519,7 @@ Wordは間もなく{CHARACTER-SHORT-0}が{G0：彼の：彼女の} hostageで{CI
     <zType>TEXT_EVENTSTORY_ORIGINAL_OWNER_UPSET</zType>
     <Translation>オリジナルの{PLAYER-2,1} {CITY-0}の市民は、外国の卵黄の下で暮らしています。彼らは{PLAYER-1,1}のルールについてのすべてを憤慨し、そして私たちの政府を公然とします。彼らのlink(EIGHT_DISCONTENT)はコントロールから抜け出すことを脅かしていて、すぐに反乱につながるかもしれません。
 
-私たちは{PLAYER-2,1}市民の怒りを金の贈り物で怒らせることも、彼らを亡命してこの脅威を取り除くことができました。あなたの新しい科目でこの問題を解決するのでしょうか？</Translation>
+私たちは{PLAYER-2,1}市民の怒りを金の贈り物で怒らせることも、彼らを亡命してこの脅威を取り除くことができました。あなたの新しい科目でこの問題を解決するのでしょうか。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ORIGINAL_OWNER_NEW_COLONISTS_UPSET</zType>
@@ -15811,7 +15811,7 @@ Link（concept_agent）ミッションは、いくつかのリンク（eight_ord
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_UNDO</zType>
-    <Translation>あなたは、動き、戦闘行動、建築link(CONCEPT_IMPROVEMENT、2)、そして5年までのイベントの選択肢を含めて、あなたが望む限り多くの決定をリンクすることができます。</Translation>
+    <Translation>あなたは、動き、戦闘行動、建築link(CONCEPT_IMPROVEMENT、2)、そして5年までのイベントの選択肢を含めて、あなたが望む限り多くの決定をリンク（concept_undo）にすることができます。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_OUT_OF_ORDERS</zType>
@@ -16030,7 +16030,7 @@ urbanリンク（concept_specialist、2）は、リンク（SpecialistClass_acol
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DELENDA_EST</zType>
-    <Translation>議会議事堂{CHARACTER-0}は波を作っていました。</Translation>
+    <Translation>議会議事堂{CHARACTER-0}は波を作っていました、{PLAYER-1}の危険なライバル国の国を根絶するための呼びかけを持つ声を使ってすべての{g0：彼女のスピーチ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_AMBASSADOR_TRADE_MISSION</zType>
@@ -16359,7 +16359,7 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
 
 {キャラクター - ショート -  2}は山を襲撃、義の怒りが彼の目で燃えていて、神聖な祭司たちに群衆の喜びに立ち向かう。
 
-「私の人々は、選択してください。エホバが最高の場合は彼に従ってください。これらの神々が最高のものであれば、彼らに従ってください。2つの雄牛を持ってきてください。
+「私の人々は、選択してください。エホバが最高の場合は彼に従ってください。これらの神々が最高のものであるならば、彼らに従ってください。2つの雄牛を持ってきてください。2つの雄牛でそれらを屠殺しますが、火をつけないでください。」
 
 {CHARACTER-SHORT-2}は、野生の目で、瞬間的に一時停止します。 「あなたの神々に電話をかけ、私はエホバを呼びます。真の神に火で答えましょう！」</Translation>
   </Entry>
@@ -16661,7 +16661,7 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
     <zType>TEXT_EVENTSTORY_VICTORY_FOR_THE_LEADER</zType>
     <Translation>勝利の後、{CHARACTER-1}は{G1：彼の兵士のためのスピーチを保持しており、あなたに勝利を捧げて、{CHARACTER-0}。
 
-それは戦うために勇敢な兵士を取ります、{g1：彼：彼女は言うこと、そして献身的な一般的な将軍は言うが、国の戦いが繁栄とより明るい未来をもたらすという賢明なリーダーとだけです。</Translation>
+それは戦うために勇敢な兵士を取ります、{g1：彼：彼女は言う。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_OFF_TO_THE_RACES</zType>
@@ -16785,15 +16785,15 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PUBLIC_SCROLLS</zType>
-    <Translation>{CITY-0}の新しいlink(EVELMENT_LIBRARY_1)は、学ぶことを望むすべての人を歓迎する準備ができています。間に合うように、それは{PLAYER-1}の全ての学習の最も高い場所の1つになるべきです。
-
-洗練された学者としてのあなた自身の評判、そしてあなたがあなた自身のコレクションからいくつかの作品を移動させることを許可するならば、すべての権威になるでしょう。 {CITY-0}の人々に利用できるようになるべきですか？</Translation>
+    <Translation>興味深い行動を何年も続けてきた有名な禁欲主義者{CHARACTER-1}は、さらに奇抜さと孤独の中に引きこもってしまいます。{CITY-0}の中心部にある廃墟の洗濯だらいの中に住んでいるようです。&#xD;
+&#xD;
+貴族の多くは{CHARACTER-SHORT-1}の存在に苛立っているようですが、貧しい人々や貧乏人の間ではかなり人気があります。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_FESTIVAL_OF_DIONYSUS</zType>
-    <Translation>今年の都市のディオニサイアはすべての口座によって注目に値する祭りで、最高の{CITY-1}が生きているメモリで見ました。プロセスは巨大で、Choregoiの服は寝ました。彫りや賛美歌が通りを満たしていたように犠牲にされました。
+    <Translation><![CDATA[今年の都市のディオニサイアはすべての口座によって注目に値する祭りで、最高の{CITY-1}が生きているメモリで見ました。プロセスは巨大で、Choregoiの服は寝ました。彫りや賛美歌が通りを満たしていたように犠牲にされました。
 
-翌日の劇的な公演は確かに劇場に恵まれています。最初の場所は&lt;p.is_sub.s3 =件名&gt; agathon &lt;else&gt; &lt;p.is_sub.s4 = subject_male&gt; sophocles &lt;else&gt; Euripidides &lt;End&gt; &lt;エンド&gt;で、熟練した文章は{CITY- 1}。</Translation>
+翌日の劇的な公演は確かに劇場に恵まれています。最初の場所は<p.is_sub.s3 =件名> agathon <else> <p.is_sub.s4 = subject_male> sophocles <else> Euripidides <End> <エンド>で、熟練した文章は{CITY- 1}。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BATTLE_IN_THE_SKIES</zType>
@@ -16841,7 +16841,7 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
     <zType>TEXT_EVENTSTORY_SAVED_IN_THE_LAST_HOUR</zType>
     <Translation>あなたのSpymaster {CHARACTER-0}は王座の部屋に急いで、すべての装飾が忘れられています。
 
-{CHARACTER-SHORT-0}はあなたを殺害するためにプロットしているhoverheard {CHARACTER-1}を持っていました！ {CHARACTER-SHORT-1}はコードで話したとしても、意味はあなたの警戒したスパイマスターを回避しませんでした。 「フィールドを描く」は暗殺自体のコードであり、プロッタは「誰か」としてあなたを指すように注意していました。たった1時間前、{CHARACTER-SHORT-1}は「夕食の時間」と言った、あなたの人生の試みは差し迫っていました！
+{CHARACTER-SHORT-0}はあなたを殺害するためにプロットしています！ {CHARACTER-SHORT-1}はコードで話したとしても、意味はあなたの警戒したスパイマスターを回避しませんでした。 「フィールドを描く」は暗殺自体のコードであり、プロッタは「誰か」としてあなたを指すように注意していました。たった1時間前、{CHARACTER-SHORT-1}は「夕食の時間」と言った、あなたの人生の試みは差し迫っていました！
 
 心配しないで、{CHARACTER-0}は個人的にプロットを大事にしました。 {G0：彼：彼女：彼女は、最後の瞬間に節約するために、追加の支払いが保証されていると考えています。もちろん尋ねるのはとても程度ですが、{CHARACTER-SHORT-0}は王位の救い主に選ばれたいと思います。そして果物のボウルを持っています。</Translation>
   </Entry>
@@ -16861,7 +16861,7 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELIGIOUS_PILGRIMS_WAR_BRAWLS</zType>
-    <Translation>{CITY-1,1} {CITY-0}の巡礼はうまくいきませんでした。巡礼者は{PLAYER-2,3}が{CITY-0}で歓迎されていない怒っている住民によって会いました。
+    <Translation>{CITY-1,1} {CITY-0}の巡礼はうまくいきませんでした。巡礼者は{PLAYER-2,3}が{CITY-0}で歓迎されていない怒っている住民によって会いました、そして叫びの一致は間もなく露出しました。
 
 巡礼者のいくつか{P.IS_SUB.S1 =件名：それらに投げられた十字架を持っていた：果実}で揚髄し、そして少数が殴打された。都市の警備隊は戦いを破った、後で{PLAYER-2,1}男が燃えている居酒屋を燃やしようとしている。</Translation>
   </Entry>
@@ -16879,7 +16879,7 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
     <zType>TEXT_EVENTSTORY_TOUGH_NEGOTIATION</zType>
     <Translation>あなたの直感は正しかった。 {PLAYER-2,1} ilgrimsが{CITY-0}に向かって見えていませんでしたが、{P.IS_SUB.S2 = SUBJECT_PLAYER_ROME：上院議員}など、いくつかの重要な人々がそれらの間であることが判明しました。 {P.IS_SUB.S2 = SUBJECT_PLAYER_EGYPT：PYRAMID ARCHITECT：裁判所のための建築家}。
 
-私たちの特使が厳しくて不快な交渉として説明したことの後、{PLAYER-2}は私たちに賛辞を支払うことを喜んでいて、人質の安全な返品と引き換えに戦って戦っています。</Translation>
+私たちの特使が厳しくて不快な交渉として説明したことの後、{PLAYER-2}は私たちに賛辞を支払うことを望んでいます。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HELP_FOR_THE_RIGHTEOUS</zType>
@@ -16942,9 +16942,9 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RAID_EARLY_WARNING</zType>
-    <Translation>{PLAYER-1,1}メッセンジャーは、組み立てられた裁判所の前に話し、彼らの代理人が米国への攻撃の準備で既知の世界のエッジを超えて集まる素晴らしいホストを聞いたことを警告しています。&#xD;
-&#xD;
-{PLAYER-1}この警告を彼らの友情の兆候として提供してください -  {CITY-0}は来年攻撃されます。この情報をどのように使用する必要がありますか？</Translation>
+    <Translation>{PLAYER-1}の使者は、宮廷の聴衆に対し、彼らの工作員が、{CITY-0}への大規模な攻撃の準備が行われているとの情報をつかんだことを報告しました。。
+
+カルタゴはこの警告を友好の証として提供します-{CITY-0}は来年攻撃されます。この情報をどのように使うべきでしょうか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RAID_FOREWARNED_HOUR</zType>
@@ -16958,7 +16958,7 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RAID_FRIENDS_IN_FAR_PLACES</zType>
-    <Translation>{CHARACTER-1}はパニックであなたにやって来て、{G1：彼の：彼女の過去が{G1：彼：彼女：彼女の}に巻き込まれました。何が起こったのか尋ねることができる前に、{G1：彼の}の物語に入ることができる{G1：彼女の}若い日の探検、偉大な{G1：QUEEN：KING}の年間をはるかに超えています。既知の世界のエッジ。&#xD;
+    <Translation>{CHARACTER-1}はパニックであなたにやって来て、{G1：彼の：彼女の過去が{G1：彼：彼女：彼女の}に巻き込まれました。何が起こったのか尋ねることができる前に、{G1：彼の}の物語に入ることができます。既知の世界のエッジ。&#xD;
 &#xD;
 {CHARACTER-SHORT-1}結婚を逃げ、{G1：彼：彼女の背後にあることを考えたが、この古い炎が{CITY-0}を除去するためにarialを送ることを脅かしているという言葉を受け取っただけで、{CHITE-SHORT -1} {G1：彼女：彼の}側に戻ります。&#xD;
 &#xD;
@@ -17138,7 +17138,7 @@ weeping、{CHARACTER-SHORT-0}あなたの前に膝を付けます。 「この�
     <zType>TEXT_EVENTSTORY_CARRYING_THE_TORCH_UPSET</zType>
     <Translation>{G2：HE：彼女}は最近{CHARACTER-3}の死を目覚めに{宗教 -  1}のリーダーのマントルを取り上げたので、霊的問題について議論するためにあなたと会います。 {G2：彼：彼女：彼女はあなたがついに問題の中心になるまで、犠牲に出席した後に宮殿の庭を散歩するようにさまざまな問題についてあなたと会話します。&#xD;
 &#xD;
-「私の先行者、{CHARACTER-SHORT-3}、5月{G3：HE：彼女}安心して休んで、私が読んだすべての対応に基づいて喜んでいました。私はあなたがどんな種類の人のために私自身のためにここに来ました。」&#xD;
+「私の先行者、{CHARACTER-SHORT-3}、5月{G3：HE：彼女}安心して休んで、私が読んだすべての対応に基づいて喜んでいました。私はあなたがどんな種類の人のために私自身のためにここに来ました"&#xD;
 &#xD;
 どのようにあなたはこれに答えますか？</Translation>
   </Entry>
@@ -17266,7 +17266,7 @@ link（trait_hero_archeType）文字はまた、リーダーが彼らの国が�
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_JUDGE</zType>
-    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_JUDGE_ARCHETYPE)リンク（concept_archetype）です。リンク（EffectPlayer_trait_judge_archeType）は、法コストを切り替えるために50％の割引を受け取り、リンク（concept_upgrade_improvents）を受信できます。彼らはまたリンク（Mission_hold_Court）のミッションを行うことができます。</Translation>
+    <Translation>あなたのリーダー{CHARACTER-0}はlink(TRAIT_JUDGE_ARCHETYPE)リンク（concept_archetype）です。リンク（EffectPlayer_trait_judge_archeType）は、法コストを切り替えるために50％の割引を受け取り、リンク（concept_upgrade_improvents）を受信します。彼らはまたリンク（Mission_hold_Court）のミッションを行うことができます。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_BUILDER</zType>
