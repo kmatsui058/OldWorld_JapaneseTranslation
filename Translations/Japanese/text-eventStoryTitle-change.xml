@@ -338,7 +338,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NOWRUZ_TITLE</zType>
-    <Translation>wowruz.</Translation>
+    <Translation>wowruz</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WAR_IN_THE_STARS_TITLE</zType>
@@ -4270,7 +4270,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HEIR_THE_CALLING_TITLE</zType>
-    <Translation>呼びだし</Translation>
+    <Translation>呼び出し</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHILD_KILLED_IN_ACTION_TITLE</zType>
@@ -8714,7 +8714,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ZOROASTRIANISM_TEMPLES_TITLE</zType>
-    <Translation>崇拝の地</Translation>
+    <Translation>礼拝の場</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ZOROASTRIANISM_FOUNDED_TITLE</zType>
@@ -8734,15 +8734,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_JUDAISM_TEMPLES_TITLE</zType>
-    <Translation>崇拝の地</Translation>
+    <Translation>礼拝の場</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHRISTIAN_CATHEDRALS_TITLE</zType>
-    <Translation>崇拝の地</Translation>
+    <Translation>礼拝の場</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_MANICHAEISM_CATHEDRALS_TITLE</zType>
-    <Translation>崇拝の地</Translation>
+    <Translation>礼拝の場</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHARACTER_CREATURES_OF_THE_COAST_TITLE</zType>
@@ -9666,7 +9666,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_TRIBE_CAMP_CLEARED_TITLE</zType>
-    <Translation>チュートリアル：部族のサイトがクリアされました</Translation>
+    <Translation>チュートリアル：部族のサイトはクリアされました</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_CITY_CAPTURED_TITLE</zType>
@@ -10723,5 +10723,317 @@
   <Entry>
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_DIPLOMATIC_MISSTEP_TITLE</zType>
     <Translation>外交的な誤って</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_HARVEST_MYTHICAL_BEASTS_TITLE</zType>
+    <Translation>神話の獣</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_ABDICATED_WAR_TITLE</zType>
+    <Translation>{CHARACTER-0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_AGENT_WAR_TITLE</zType>
+    <Translation>{キャラクター - ショート0}代理店</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_SUCCESSION_THEM_BOAST_WAR_TITLE</zType>
+    <Translation>{CHARACTER-SHORT-0}の誇り</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_INTERCESSION_MISSION_PROMPT_FAMILY_TITLE</zType>
+    <Translation>家族の信用</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_SITUATION_TITLE</zType>
+    <Translation>dis dis</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_ARMING_YOUR_BROTHERS_TITLE</zType>
+    <Translation>あなたの兄弟たちを武装させる</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_SCROLL_AND_SPEAR_TITLE</zType>
+    <Translation>スクロールと槍</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_TRIBUTE_TITLE</zType>
+    <Translation>技術賛辞</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_DEBT_OF_SCIENCE_TITLE</zType>
+    <Translation>科学の借金</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_TITLE</zType>
+    <Translation>知識のための嘆願</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_WISDOM_OF_PEACE_TITLE</zType>
+    <Translation>平和の知恵</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_GIFTS_OF_THE_SEA_TITLE</zType>
+    <Translation>海の贈り物</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_LURE_OF_KNOWLEDGE_TITLE</zType>
+    <Translation>知識のルアー</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_FOOD_FOR_THOUGHT_TITLE</zType>
+    <Translation>思考の糧</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_UNDER_THE_TABLE_TITLE</zType>
+    <Translation>テーブルの下に</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_WRONG_HANDS_TITLE</zType>
+    <Translation>間違った手で</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_STOLEN_SCROLLS_TITLE</zType>
+    <Translation>盗まれたスクロール</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE</zType>
+    <Translation>相互利益？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE_COPY</zType>
+    <Translation>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_ASSYRIA_TITLE</zType>
+    <Translation>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_CARTHAGE_TITLE</zType>
+    <Translation>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_EGYPT_TITLE</zType>
+    <Translation>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_PERSIA_TITLE</zType>
+    <Translation>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_ROME_TITLE</zType>
+    <Translation>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_MURDER_TITLE</zType>
+    <Translation>isinheritこれを！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER_TITLE</zType>
+    <Translation>favor</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER_NO_SPOUSE_TITLE</zType>
+    <Translation>favor</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_MURDER_TITLE</zType>
+    <Translation>プリテンダー</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_IMPRISON_TITLE</zType>
+    <Translation>プリテンダー</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_EXILE_TITLE</zType>
+    <Translation>プリテンダー</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_CORRECT_PROTOCOL_TITLE</zType>
+    <Translation>プロトコル結婚</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_MEDJAY_TITLE</zType>
+    <Translation>Medjay.</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_SACRED_BAND_TITLE</zType>
+    <Translation>神聖なバンド</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_IMMORTALS_TITLE</zType>
+    <Translation>不滅</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_COMPANIONS_TITLE</zType>
+    <Translation>仲間</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_NUMERUS_BATAVORUM_TITLE</zType>
+    <Translation>数字のバタバム</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_SILVER_SHIELDS_TITLE</zType>
+    <Translation>シルバーシールド</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_HARII_TITLE</zType>
+    <Translation>harii</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_PAINTED_WARRIORS_TITLE</zType>
+    <Translation>塗られた悪魔</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_WARRIORS_OF_GOD_TITLE</zType>
+    <Translation>神の戦士</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_THE_TERRORS_1_TITLE</zType>
+    <Translation>テラター</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_THE_TERRORS_2_TITLE</zType>
+    <Translation>テラター</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NAMED_UNIT_SACRED_BAND</zType>
+    <Translation>彼らの名前を私たちの敵に恐れるようにしましょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_THE_FURIES_TITLE</zType>
+    <Translation>毛皮</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS_TITLE</zType>
+    <Translation>2つの土地の賛美</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NAMED_UNIT_WILD_HUNTERS_TITLE</zType>
+    <Translation>野生のハンター</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_TRADE_OFF_TITLE</zType>
+    <Translation>トレード・オフ</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_TITLE</zType>
+    <Translation>寡頭教師</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_STUDY_POLITICS_ARCHETYPES_TITLE</zType>
+    <Translation>政治研究</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_INFLUENCE_OF_IDEAS_TITLE</zType>
+    <Translation>影響力のあるアイデア</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_VENGEFUL_TO_PLOTTING_TITLE</zType>
+    <Translation>プロットは厚くなります</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_ENCHANTING_CONVERSATION_FOLLOWUP_TITLE</zType>
+    <Translation>翌朝</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_TITLE</zType>
+    <Translation>若くて恋に</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AUTONOMOUS_VASSAL_TITLE</zType>
+    <Translation>自律的な家臣</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_DEMAND_FOR_AUTONOMY_TITLE</zType>
+    <Translation>自治の需要</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_INDEPENDENT_CITY_TITLE</zType>
+    <Translation>独立都市</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RECLAIMING_CONTROL_TITLE</zType>
+    <Translation>再生制御</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_DRILLMASTER_TITLE</zType>
+    <Translation>ドリルマスター</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_INTERCESSOR_TITLE</zType>
+    <Translation>仲間</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_SETTLER_TITLE</zType>
+    <Translation>入植者</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_EXPLORER_TITLE</zType>
+    <Translation>エクスプローラ</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_INTREPID_TITLE</zType>
+    <Translation>腸の</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_ENLIGHTENED_TITLE</zType>
+    <Translation>啓発された</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_WEAK_TITLE</zType>
+    <Translation>弱い</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_STRONG_TITLE</zType>
+    <Translation>強い</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_MARRIAGE_UNBOUND_TITLE</zType>
+    <Translation>結婚の未結合</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_KISS_MARRY_KILL_TITLE</zType>
+    <Translation>キス、結婚、殺害</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LOVER_CONFRONTED_TITLE</zType>
+    <Translation>恋人が直面した</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_DECLARATION_OF_LOVE_TITLE</zType>
+    <Translation>愛の宣言</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_OFFER_AMBASSADOR_TITLE</zType>
+    <Translation> {キャラクター - ショートポーズ0}物々交換</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_KNOWLEDGE_OF_POWER_TITLE</zType>
+    <Translation>力の知識</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TECH_THE_LAST_PIECE_TITLE</zType>
+    <Translation>最後の作品</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LEADER_DECEITFUL_ONE_TITLE</zType>
+    <Translation>「修正」をする</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LEADER_DECEITFUL_TWO_TITLE</zType>
+    <Translation>come come</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LEADER_DECEITFUL_FAMILY_LIES_TITLE</zType>
+    <Translation>真実は痛い</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_THE_BEST_DOG_TITLE</zType>
+    <Translation>最高の仲間</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_CHANCE_ENCOUNTER_TITLE</zType>
+    <Translation>自己作られた{G1：男：女性}</Translation>
   </Entry>
 </Root>

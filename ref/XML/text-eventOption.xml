@@ -350,11 +350,11 @@
 		<English>Can lead to link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), or link(TRAIT_SCHOLAR_ARCHETYPE)</English>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_RHETORIC</zType>
-		<English>{G0:He:She} will study Rhetoric.</English>
+		<zType>TEXT_EVENTOPTION_STUDY_POLITICS</zType>
+		<English>{G0:He:She} will study Politics.</English>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTOPTION_STUDY_RHETORIC_HELP</zType>
+		<zType>TEXT_EVENTOPTION_STUDY_POLITICS_HELP</zType>
 		<English>Can lead to link(TRAIT_HERO_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), or link(TRAIT_DIPLOMAT_ARCHETYPE)</English>
 	</Entry>
 	<Entry>
@@ -2300,7 +2300,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEMAND_TRIBUTE_CHILD_1</zType>
-		<English>Teaching {CHARACTER-SHORT-3} our ways could be useful in the future. </English>
+		<English>Teaching {CHARACTER-SHORT-4} our ways could be useful in the future. </English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DEMAND_TRIBUTE_HEATHENS</zType>
@@ -2816,7 +2816,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FREE_FOR_A_FAVOR_1</zType>
-		<English>Keep {CHARACTER-SHORT-2} in your debt.</English>
+		<English>Keep {CHARACTER-SHORT-1} in your debt.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MISSING_WOUNDED_0</zType>
@@ -3534,7 +3534,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_DIRE_WARNING_RHETORIC</zType>
-		<English>Maybe rhetoric is a better route for {G1:him:her}.</English>
+		<English>Maybe politics is a better route for {G1:him:her}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_DIRE_WARNING_NO</zType>
@@ -3907,11 +3907,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BIAS_OF_FAITH_0</zType>
-		<English>{CHARACTER-SHORT-2} is {PLAYER-1}’s puppet.</English>
+		<English>{CHARACTER-SHORT-1} is {PLAYER-2}’s puppet.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BIAS_OF_FAITH_1</zType>
-		<English>{PLAYER-0} must be shown the error of their ways.</English>
+		<English>{PLAYER-3} must be shown the error of their ways.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CONVERT_SELF_DONATION_MONEY</zType>
@@ -4345,6 +4345,14 @@
 		<zType>TEXT_EVENTOPTION_SLAVE_REVOLT_AFTERMATH_CAPTURED_1</zType>
 		<English>Refuse to punish the one that stood against you.</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3</zType>
+		<English>Publically condemn the tribe, but meet with them in secret.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WHAT_IS_ART_OPTION_3</zType>
+		<English>This is beyond compare! A Masterpiece!</English>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTOPTION_RUINS_SURVIVORS_INVITE</zType>
 		<English>Invite them to resettle in our nation.</English>
@@ -4512,6 +4520,10 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_WEARY_MARAUDERS_FIGHT</zType>
 		<English>We could use help against the {TRIBE-1}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_WEARY_MARAUDERS_OPTION_2</zType>
+		<English>Promise them a job, then use them in the riskiest areas while your own troops stay safe.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_GREAT_MIGRATION_OPTION_0</zType>
@@ -4720,6 +4732,10 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_PROPHECY_OPTION_2</zType>
 		<English>It is a coincidence, nothing more.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RUINS_PROPHECY_OPTION_3</zType>
+		<English>I knew this would be here, I have divine powers!</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RUINS_THE_DIVINER_OPTION_0</zType>
@@ -5260,6 +5276,18 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_PLAYER_CHOOSE_WAR_GENERIC_2</zType>
 		<English>Joining {CHARACTER-SHORT-0} in {G0:his:her} war with the {PLAYER-1,3} is agreeable to me. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_MYTHICAL_BEASTS_0</zType>
+		<English>Use their likeness on our coins as a symbol of power.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_MYTHICAL_BEASTS_1</zType>
+		<English>Order more research on these fascinating creatures.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HARVEST_MYTHICAL_BEASTS_2</zType>
+		<English>To inspire such fear must mean an affinity to the divine.</English>
 	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTOPTION_TRIBE_CONTACT_CALM_EMISSARY_TRUCE</zType>
@@ -8680,6 +8708,262 @@
 		<zType>TEXT_EVENTOPTION_PLAYER_STOLE_CITY_SITE_MEMORY_FOUR</zType>
 		<English>See that you do.</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUCCESSION_THEM_AGENT_WAR0</zType>
+		<English>Bribe the agent to provide {CHARACTER-SHORT-0} with false information.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUCCESSION_THEM_AGENT_WAR1</zType>
+		<English>Have the agent 'disappear'.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUCCESSION_THEM_AGENT_WAR2</zType>
+		<English>Return his head to {CHARACTER-0}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUCCESSION_THEM_BOAST_WAR_1</zType>
+		<English>Declare a curse upon {CHARACTER-SHORT-0}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUCCESSION_THEM_BOAST_WAR_2</zType>
+		<English>We will continue to conduct our war with {PLAYER-0} as we have done.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_INTERCESSION_MISSION_PROMPT_FAMILY_YES</zType>
+		<English>Have {CHARACTER-0} intercess upon {CHARACTER-1} on my behalf.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_INTERCESSION_MISSION_PROMPT_FAMILY_NO</zType>
+		<English>I'm too busy for that at the moment.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE</zType>
+		<English>Let us reconcile with {CHARACTER-SHORT-1}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_SITUATION_IMPRISION</zType>
+		<English>I cannot bring myself to harm {CHARACTER-SHORT-1}, but {G1:he:she} is too dangerous to be free.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_SITUATION_ASSASSINATE</zType>
+		<English>There's only one way to be be sure...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_0</zType>
+		<English>Give them what they want.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_1</zType>
+		<English>Placate them with a gift of iron instead.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_2</zType>
+		<English>No, we cannot let {PLAYER-0} become too powerful. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_SCROLL_AND_SPEAR_0</zType>
+		<English>Send them our findings.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_SCROLL_AND_SPEAR_1</zType>
+		<English>Then it is war.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_TRIBUTE</zType>
+		<English>Accept this gift of knowledge.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_DEBT_OF_SCIENCE_0</zType>
+		<English>Let us make this an equal trade between friends. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_DEBT_OF_SCIENCE_1</zType>
+		<English>Accept this repayment. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_DEBT_OF_SCIENCE_2</zType>
+		<English>Hold on to the favor, for now...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_0</zType>
+		<English>We are happy to share with our neighbors.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_1</zType>
+		<English>Agree to their request... for a price.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_2</zType>
+		<English>Refuse to entertain such an idea.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_WISDOM_OF_PEACE_0</zType>
+		<English>Let us be bonded by a contract of peace.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_WISDOM_OF_PEACE_1</zType>
+		<English>We cannot accept at this time.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_WISDOM_OF_PEACE_2</zType>
+		<English>This request shows their weakness. Ready for war!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_GIFTS_OF_THE_SEA_0</zType>
+		<English>Research their methods of navigation.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_GIFTS_OF_THE_SEA_1</zType>
+		<English>Learn how to read the waves and tides for fishing. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_0</zType>
+		<English>Summon the troops. To war!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_1</zType>
+		<English>This is not our fight.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_2</zType>
+		<English>Lie and promise your aid to get your hands on the technology.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_OFFER_AMBASSADOR_0</zType>
+		<English>This opportunity can't be missed!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_OFFER_AMBASSADOR_1</zType>
+		<English>Refuse the deal, but praise {CHARACTER-SHORT-POSS-0} effort.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_FOOD_FOR_THOUGHT_0</zType>
+		<English>We will send them a gift of food.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_FOOD_FOR_THOUGHT_1</zType>
+		<English>Encourage our farmers to share our techniques to save the animals they have.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_FOOD_FOR_THOUGHT_2</zType>
+		<English>This is not our problem.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_UNDER_THE_TABLE_0</zType>
+		<English>Such treachery is unforgivable.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_UNDER_THE_TABLE_1</zType>
+		<English>Let the spy go with a message, that such actions will not be tolerated again.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_UNDER_THE_TABLE_2</zType>
+		<English>Share freely with your allies, offering to tell them as much as they need to know.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_STOLEN_SCROLLS_0</zType>
+		<English>Such treachery must be met with war. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_STOLEN_SCROLLS_1</zType>
+		<English>Tell {CHARACTER-0} that {G0:he:she} need only ask next time.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_STOLEN_SCROLLS_2</zType>
+		<English>Demand repayment for their theft.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_WRONG_HANDS_0</zType>
+		<English>Curses! We must stay vigilant!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GREEK_UNIT_YES</zType>
+		<English>An excellent offer!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_UNIT_NO</zType>
+		<English>We do not want your soldiers.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BABYLONIAN_UNIT_YES</zType>
+		<English>{TEXT_EVENTOPTION_GREEK_UNIT_YES}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_ASSYRIAN_UNIT_YES</zType>
+		<English>{TEXT_EVENTOPTION_GREEK_UNIT_YES}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_CARTHAGE_UNIT_YES</zType>
+		<English>{TEXT_EVENTOPTION_GREEK_UNIT_YES}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EGYPTIAN_UNIT_YES</zType>
+		<English>{TEXT_EVENTOPTION_GREEK_UNIT_YES}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_PERSIAN_UNIT_YES</zType>
+		<English>{TEXT_EVENTOPTION_GREEK_UNIT_YES}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_ROMAN_UNIT_YES</zType>
+		<English>{TEXT_EVENTOPTION_GREEK_UNIT_YES}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_MURDER_EXILE</zType>
+		<English>Get {CHARACTER-SHORT-1} out of my sight! What a senseless tragedy.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_MURDER_IMPRISON</zType>
+		<English>I cannot bring myself to execute {CHARACTER-SHORT-1}, but {G1:he:she} is too dangerous to be free.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_MURDER_KILL</zType>
+		<English>Only one punishment befits such a heinous crime.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER</zType>
+		<English>{PLAYER-0} falls under the reign of a mad{G2:man:woman}...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER_NO_SPOUSE</zType>
+		<English>{PLAYER-0} falls under the reign of a mad{G2:man:woman}...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_LEADER_MURDER</zType>
+		<English>{PLAYER-0} falls under the reign of a mad{G1:man:woman}...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_LEADER_IMPRISON</zType>
+		<English>{PLAYER-0} falls under the reign of a pretender...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_HEIR_BYPASSED_LEADER_EXILE</zType>
+		<English>{PLAYER-0} falls under the reign of a pretender...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_CORRECT_PROTOCOL_0</zType>
+		<English>{CHARACTER-3} will be a better match.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_CORRECT_PROTOCOL_1</zType>
+		<English>{CHARACTER-4} will strengthen our relations with {PLAYER-2}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_CORRECT_PROTOCOL_2</zType>
+		<English>Turn down both offers.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_NATION_FAMILY_NATION</zType>
+		<English>This marriage is a matter of diplomacy, and above the {FAMILY-2,1}' petty squabbles.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_NATION_FAMILY_FAMILY</zType>
+		<English>We should not miss this opportunity to keep the families happy.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_NATION_FAMILY_NO</zType>
+		<English>Neither are suitable for {CHARACTER-SHORT-0}.</English>
+	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTOPTION_LEADER_SMITING_FOES_STATUE</zType>
 		<English>Erect a statue in the capital.</English>
@@ -9612,6 +9896,61 @@
 		<zType>TEXT_EVENTOPTION_PILLAGED_TILE_PLUNDER_DUEL_US_OPTION_1</zType>
 		<English>I see you take me for a fool, {CHARACTER-SHORT-1}! I won't throw away my life this way. </English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_NO</zType>
+		<English>No, such titles will distract from their training.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_MEDJAY</zType>
+		<English>Grant them this honor.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_COMPANIONS</zType>
+		<English>Yes, let us ride together!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_NUMERUS_BATAVORUM</zType>
+		<English>My guards will be loyal only to my dynasty.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_SILVER_SHIELDS</zType>
+		<English>Honor those who defend {PLAYER-2}. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_HARII</zType>
+		<English>All shall fear the Harii!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_PAINTED_WARRIORS</zType>
+		<English>Go forth and spread fear!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_WARRIORS_OF_GOD</zType>
+		<English>Go forth in the name of God!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_THE_TERRORS_1</zType>
+		<English>We must put an end to these rumors, and to these warriors. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_THE_TERRORS_2</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_IMMORTALS</zType>
+		<English>The Immortals will always stand to protect {PLAYER-2}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_THE_FURIES</zType>
+		<English>Pursue those that would wrong us!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS</zType>
+		<English>Let this ship be a symbol to the rest of our fleet.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_WILD_HUNTERS</zType>
+		<English>Go forth, my hunters!</English>
+	</Entry>
 	<Entry beginGroup="Family">
 		<zType>TEXT_EVENTOPTION_FAMILY_GIFT_YES</zType>
 		<English>If they are willing to play this game, then so am I.</English>
@@ -9906,11 +10245,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0</zType>
-		<English>Remove {CHARACTER-SHORT-1}, and the {FAMILY-2,1} will fall.</English>
+		<English>Remove {CHARACTER-SHORT-0}, and the {FAMILY-1,1} will fall.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_1</zType>
-		<English>Expose the family and win over {CHARACTER-SHORT-1}.</English>
+		<English>Expose the family and win over {CHARACTER-SHORT-0}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0</zType>
@@ -10720,6 +11059,30 @@
 		<zType>TEXT_EVENTOPTION_TRAIT_FAMILY_RETREAT_OPTION_2</zType>
 		<English>I will earn their trust and then strike.</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_TRADE_OFF_0</zType>
+		<English>The reward is worth the risk.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_TRADE_OFF_1</zType>
+		<English>The {FAMILY-1} are right. We must be cautious.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_TRADE_OFF_2</zType>
+		<English>Offer to pay for the technology instead.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_0</zType>
+		<English>{CHARACTER-2} is more suited to be a {G2:king:queen}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_1</zType>
+		<English>I will not stand in the way of their marriage.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_2</zType>
+		<English>Who said anything about marriage?</English>
+	</Entry>
 	<Entry beginGroup="Character">
 		<zType>TEXT_EVENTOPTION_NEW_COURTIER</zType>
 		<English>Welcome, {CHARACTER-0}.</English>
@@ -11226,15 +11589,15 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0</zType>
-		<English>We have no choice but to yield to {G2:him:her}.</English>
+		<English>We have no choice but to yield to {G0:him:her}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_1</zType>
-		<English>Let {G2:him:her} make demands until {G2:he:she} is blue in the face.</English>
+		<English>Let {G0:him:her} make demands until {G0:he:she} is blue in the face.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_2</zType>
-		<English>Only one title is good enough for {G2:him:her}: horse's ass.</English>
+		<English>Only one title is good enough for {G0:him:her}: horse's ass.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_0</zType>
@@ -11246,7 +11609,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_2</zType>
-		<English>I will slay the traitor {CHARACTER-2} myself!</English>
+		<English>I will slay the traitor {CHARACTER-0} myself!</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_03_OPTION_0</zType>
@@ -11258,7 +11621,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_03_OPTION_2</zType>
-		<English>Scrub all mentions of {CHARACTER-2} from history.</English>
+		<English>Scrub all mentions of {CHARACTER-0} from history.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_0</zType>
@@ -13050,7 +13413,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_AIRY_AND_MENDACIOUS_STYLE_OPTION_0</zType>
-		<English>It is the purpose of rhetoric to teach persuasion.</English>
+		<English>It is the purpose of politics to teach persuasion.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STUDY_AIRY_AND_MENDACIOUS_STYLE_OPTION_1</zType>
@@ -15539,6 +15902,42 @@
 		<zType>TEXT_EVENTOPTION_INFLUENCE_SUBJECT_VENGEFUL</zType>
 		<English>Revenge against me is a dish best not served at all!</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_INFLUENCE_OF_IDEAS_0</zType>
+		<English>Mistake or not, a punishment is necessary. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_INFLUENCE_OF_IDEAS_1</zType>
+		<English>Brand {CHARACTER-SHORT-3} a traitor to {PLAYER-1}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_INFLUENCE_OF_IDEAS_2</zType>
+		<English>Offer forgiveness for the mistake.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_VENGEFUL_TO_PLOTTING</zType>
+		<English><![CDATA[<p.is_sub.S1=SUBJECT_ZEALOT>The gods shall protect me!<p=SUBJECT_SCHOLAR>I shall research counters to common schemes.<p=SUBJECT_ORATOR>Perhaps I can talk {G0:him:her} out of it?<p=SUBJECT_DIPLOMAT>Perhaps I can talk {G0:him:her} out of it?<p=SUBJECT_SCHEMER>{G0:He:She} cannot out-plot me!<p=SUBJECT_HERO>{G0:He:She} dares plot against me?!<p=SUBJECT_TACTICIAN>{G0:He:She} can be easily out-maneuvered<p=SUBJECT_COMMANDER>{G0:He:She} is no threat to me!<p=SUBJECT_BUILDER>I hate these distractions from my great works.<p=SUBJECT_JUDGE>But… that’s illegal!<else>Worrisome.<end>]]></English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_1</zType>
+		<English>What a wonderful night!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_2</zType>
+		<English>What a wonderful night!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_3</zType>
+		<English>Curses upon them all!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_0</zType>
+		<English>Allow the match.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_1</zType>
+		<English>Refuse to entertain this marriage offer.</English>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTOPTION_HAPPINESS_IMMIGRANTS_YES</zType>
 		<English>Let them settle in {CITY-0}.</English>
@@ -16362,6 +16761,38 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_HUNGER_IN_CITY_OPTION_2</zType>
 		<English>We will not take action.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AUTONOMOUS_VASSAL_0</zType>
+		<English>I trust {CHARACTER-SHORT-1} to guide the city well. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AUTONOMOUS_VASSAL_1</zType>
+		<English>Laws can be rewritten if needed.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMAND_FOR_AUTONOMY_0</zType>
+		<English>The crown relinquishes our control of the city.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEMAND_FOR_AUTONOMY_1</zType>
+		<English>We cannot risk the {FAMILY-0,1} gaining more power.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_INDEPENDENT_CITY_0</zType>
+		<English>Refuse to indulge the rabble. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_INDEPENDENT_CITY_1</zType>
+		<English>Very well, let them rule themselves.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RECLAIMING_CONTROL_0</zType>
+		<English>Welcome {CITY-0} back into the fold.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RECLAIMING_CONTROL_1</zType>
+		<English>Permit their own rule. </English>
 	</Entry>
 	<Entry beginGroup="Religion">
 		<zType>TEXT_EVENTOPTION_GODS_AND_MONSTERS_OPTION_0</zType>
@@ -17778,6 +18209,18 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_2</zType>
 		<English>This is not worth it.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_RELIGIOUS_COMPANION_0</zType>
+		<English>Agree to wed {CHARACTER-2}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_RELIGIOUS_COMPANION_1</zType>
+		<English>{CHARACTER-3} will make a fine {G3:husband:wife}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_RELIGIOUS_COMPANION_2</zType>
+		<English>Reject their offer.</English>
 	</Entry>
 	<Entry beginGroup="Law">
 		<zType>TEXT_EVENTOPTION_THREAT_OF_MUTINY_OPTION_0</zType>
@@ -22035,6 +22478,10 @@
 		<zType>TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_COMMANDER_OK</zType>
 		<English>I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_SUCCESSION_THEM_OKAY_WAR</zType>
+		<English>May {G0:he:she} lead {G0:his:her} people to ruin.</English>
+	</Entry>
 	<Entry beginGroup="Community">
 		<zType>TEXT_EVENTOPTION_GOT_YOUR_NOSE_0</zType>
 		<English>Laugh.</English>
@@ -22757,7 +23204,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_PROPHET_STRIKES_BACK_OPTION_1</zType>
-		<English>We cannot condone this. {CHARACTER-SHORT-2} must be exiled.</English>
+		<English>We cannot condone this. {CHARACTER-SHORT-1} must be exiled.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_THE_PROPHET_STRIKES_BACK_OPTION_2</zType>
@@ -23677,7 +24124,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COMPANIONS_AND_CAPTIVES_OPTION_0</zType>
-		<English>These people are beneath contempt. Instead, I shall reward my valiant companion, {CHARACTER-SHORT-5}.</English>
+		<English>These people are beneath contempt. Instead, I shall reward my valiant companion, {CHARACTER-SHORT-3}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COMPANIONS_AND_CAPTIVES_OPTION_1</zType>
@@ -23689,11 +24136,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FESTIVAL_FOR_THE_FREED_OPTION_0</zType>
-		<English>We should bring {G6:him:her} to court.</English>
+		<English>We should bring {G5:him:her} to court.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FESTIVAL_FOR_THE_FREED_OPTION_1</zType>
-		<English>{G6:He:She} must be mine and mine alone!</English>
+		<English>{G5:He:She} must be mine and mine alone!</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FESTIVAL_FOR_THE_FREED_OPTION_2</zType>
@@ -23870,6 +24317,154 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_SLAVERY_OPTION_FREEDOM</zType>
 		<English>I’ve made a huge mistake.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_NO</zType>
+		<English>{random_R1:I am not feeling ambitious right now:There are other tasks to focus on:There will be time for such pursuits later}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_SHRINES</zType>
+		<English>We will gain the support of the gods of {PLAYER-0} for our wars!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_TREASURIES</zType>
+		<English>Treasuries will hold the goods we seize from foreign lands!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_STOCKPILE</zType>
+		<English>None shall compare to the training of our armies!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_ENGINEERING</zType>
+		<English>I will use my skills to build our cities into the envy of the world!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_DOCTORS</zType>
+		<English>There won’t always be peace, train medical specialists to care for our people!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_CONVOYS</zType>
+		<English>This will be remembered as an age of trade and prosperity!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_TECH</zType>
+		<English>We will use this quiet to research and experiment!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_LUXURIES</zType>
+		<English>My diplomacy will secure the finest of goods for our families!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_SETTLER_WALLS</zType>
+		<English>The walls of our cities will stand for all time!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_SETTLER_RANGED</zType>
+		<English>We will train soldiers to protect our cities!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_SETTLER_GOVERNORS</zType>
+		<English>Governors will oversee the administration of our nation!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_SETTLER_CARAVANS</zType>
+		<English>We will reach out to other nations and trade with their cities!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_EXPLORER_LUXURIES</zType>
+		<English>Gifts will make friends of those we have met on our travels!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_EXPLORER_CITIES</zType>
+		<English>Our cities will cover this land!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_EXPLORER_REVEAL</zType>
+		<English>We will discover ever more of the world! </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_EXPLORER_MINERS</zType>
+		<English>The earth shall yield its riches to our specialists! </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_INTREPID_ALLIANCE</zType>
+		<English>We will find allies amongst those we have met!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_INTREPID_URBAN</zType>
+		<English>I will turn my gaze back home and develop our cities!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_INTREPID_CONNECTED</zType>
+		<English>A network of roads and ships will allow travel for all!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_INTREPID_RELIGION</zType>
+		<English>Let us look beyond the earth and seek to understand the divine!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_ENLIGHTENED_MUSAEUM</zType>
+		<English>I will commission a center that holds learning and wisdom sacred!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_ENLIGHTENED_LIBRARY</zType>
+		<English>We will spread our knowledge throughout our cities!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_ENLIGHTENED_COURTIERS</zType>
+		<English>The best minds will be gathered together at my court!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_ENLIGHTENED_PHILOSOPHERS</zType>
+		<English>Challenging thought and debate will lead to further discoveries!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_WEAK_REDEMPTION</zType>
+		<English>We will seek redemption and protection in the divine!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_WEAK_REPAIRS</zType>
+		<English>We will rebuild that which has been lost!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_WEAK_RECAPTURE</zType>
+		<English>I will not rest until we take back our land!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_WEAK_KILLS</zType>
+		<English>Everyone who comes for us will be destroyed!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_WEAK_PROMOTIONS</zType>
+		<English>Strengthen our armies so that none may stand before us!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_WEAK_YIELDS</zType>
+		<English>My legacy will be a land of plenty and of strong production!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_STRONG_YIELDS</zType>
+		<English>A strong economy will support our people for generations to come!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_STRONG_STRONG_CITIES</zType>
+		<English>Our cities are the lifeblood of our nation!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_STRONG_GENERALS</zType>
+		<English>I will gather people I can trust to be extensions of my will!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_STRONG_CAPTURE_CITIES</zType>
+		<English>We will seize the lands of our enemies! </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_STRONG_LUXURIES</zType>
+		<English>I will gather the support of the noble families!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_STRONG_CAPITAL</zType>
+		<English>Only a strike at the heart will prove our strength!</English>
 	</Entry>
 	<Entry beginGroup="Tribe">
 		<zType>TEXT_EVENTOPTION_RAID_MERCENARIES_0</zType>
@@ -24718,6 +25313,18 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRIBAL_INVASION_CHOSEN_CHILD</zType>
 		<English>If.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_TRIBE_FAMILY_TRIBE</zType>
+		<English>Ignore the {FAMILY-2,1}' intolerance and take {CHARACTER-SHORT-3} as {G3:husband:wife}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_TRIBE_FAMILY_NO</zType>
+		<English>Turn both away.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_TRIBE_FAMILY_FAMILY</zType>
+		<English>Agree to marry into the {FAMILY-2,1}.</English>
 	</Entry>
 	<Entry beginGroup="Royalty">
 		<zType>TEXT_EVENTOPTION_LEGITIMIZE_SPOUSES_HONORS_OPTION_0</zType>
@@ -26639,6 +27246,50 @@
 		<zType>TEXT_EVENTOPTION_ADOPTED_SUCCESSOR_1</zType>
 		<English>{CHARACTER-SHORT-0} is your {G0:son:daughter} no matter {G0:his:her} blood and will inherit as such.  </English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_UNBOUND_0</zType>
+		<English>{CHARACTER-1} means nothing to me.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_UNBOUND_1</zType>
+		<English>Even without love, {CHARACTER-1} is my partner.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_KISS_MARRY_KILL_0</zType>
+		<English>Order {CHARACTER-POSS-2} execution.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_KISS_MARRY_KILL_1</zType>
+		<English>Refuse to partake in their plot.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_KISS_MARRY_KILL_2</zType>
+		<English>You're both absolutely mad!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOVER_CONFRONTED_0</zType>
+		<English>I want to be with {CHARACTER-SHORT-0}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOVER_CONFRONTED_1</zType>
+		<English>Stay with {CHARACTER-SHORT-1}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOVER_CONFRONTED_2</zType>
+		<English>Demand that they both leave your sight.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DECLARATION_OF_LOVE_0</zType>
+		<English>Profess your feelings and ask to be wed.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DECLARATION_OF_LOVE_1</zType>
+		<English>Carefully explain that you want things to remain as they are.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DECLARATION_OF_LOVE_2</zType>
+		<English>Step back, this is a mistake.</English>
+	</Entry>
 	<Entry beginGroup="Courtier">
 		<zType>TEXT_EVENTOPTION_CALENDAR_AND_SEASONS_OPTION_0</zType>
 		<English>{CHARACTER-SHORT-0} shall investigate and come back with a correction.</English>
@@ -26853,11 +27504,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TUTOR_ART_OF_WAR_OPTION_0</zType>
-		<English>{G1:He:She} should study the leadership of great generals.</English>
+		<English>{G0:He:She} should study the leadership of great generals.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TUTOR_ART_OF_WAR_OPTION_1</zType>
-		<English>{G1:He:She} should memorize combat drills and tactics.</English>
+		<English>{G0:He:She} should memorize combat drills and tactics.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TUTOR_OUTDOOR_LESSON_OPTION_0</zType>
@@ -27345,7 +27996,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_1</zType>
-		<English>Have our spymaster plan an "accident" for {CHARACTER-SHORT-0}.</English>
+		<English>Have our Spymaster plan an "accident" for {CHARACTER-SHORT-0}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_2</zType>
@@ -27466,6 +28117,26 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_TRAIT_A_TIME_TO_REAP_OPTION_3</zType>
 		<English>Let {G1:him:her} go.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_KNOWLEDGE_OF_POWER_0</zType>
+		<English>Send {G0:him:her} to learn what {G0:he:she} can.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_KNOWLEDGE_OF_POWER_1</zType>
+		<English>{CHARACTER-SHORT-POSS-0} time is better spent training our troops.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_THE_LAST_PIECE_0</zType>
+		<English>Very well, {G1:he:she} is yours!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_THE_LAST_PIECE_1</zType>
+		<English>We refuse to part with {CHARACTER-SHORT-1}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TECH_THE_LAST_PIECE_2</zType>
+		<English>Send your agents to steal their reseach for {CHARACTER-SHORT-1} to complete.</English>
 	</Entry>
 	<Entry beginGroup="Leader">
 		<zType>TEXT_EVENTOPTION_COVERT_MARRIAGE_LEADER_0</zType>
@@ -27992,6 +28663,14 @@
 		<English>Carefully thank them both and invite them to visit you.</English>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_YOUNG_RULER_DISPUTE_3</zType>
+		<English>I will decide later, await my word.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_YOUNG_RULER_DISPUTE_3_HELP</zType>
+		<English>Contact them both, separately. Assure each they are your favorite but they must keep quiet about it to avoid the plots of their rival.</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_YOUNG_RULER_LEGACY_0</zType>
 		<English>I will not tolerate this insult.</English>
 	</Entry>
@@ -28182,5 +28861,45 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_STRANGE_SCROLL_ONE_CONTINUE_HELP</zType>
 		<English>I'm so close. I'm on the verge of greatness!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEADER_DECEITFUL_ONE</zType>
+		<English>Nothing can go wrong with this plan!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEADER_DECEITFUL_TWO</zType>
+		<English>How could this have happened?</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEADER_DECEITFUL_FAMILY_LIES_LIE</zType>
+		<English>Brilliant! Amazing! The best ever!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEADER_DECEITFUL_FAMILY_LIES_TRUTH</zType>
+		<English>Honestly, I dislike it.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_BEST_DOG_PET</zType>
+		<English>Relax under a tree, petting your dog and watching the world pass by.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_BEST_DOG_PLAY</zType>
+		<English>Spend the time running together, playing and hunting as you go.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_BEST_DOG_MISERABLE</zType>
+		<English>Time to process and good company. Maybe things aren't so bad?</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_0</zType>
+		<English>{CHARACTER-0} and {CHARACTER-1} shall be wed!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_1</zType>
+		<English>Refuse the marriage.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_2</zType>
+		<English>Placate the families with shows of gratitude for their understanding. </English>
 	</Entry>
 </Root>

@@ -651,7 +651,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RHETORICAL_QUESTIONS_TITLE</zType>
-		<English>Rhetorical Questions</English>
+		<English>Political Questions</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TEEN_IDOL_TITLE</zType>
@@ -1723,6 +1723,10 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<zType>TEXT_EVENTSTORY_PLAYER_CHOOSE_WAR_GENERIC_TITLE</zType>
 		<English>No Neutral Option</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HARVEST_MYTHICAL_BEASTS_TITLE</zType>
+		<English>Mythical Beasts</English>
+	</Entry>
 	<Entry beginGroup="Contact">
 		<zType>TEXT_EVENTSTORY_TRIBE_CONTACT_CALM_EMISSARY_TITLE</zType>
 		<English>Calm Emissary</English>
@@ -2743,6 +2747,130 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<zType>TEXT_EVENTSTORY_PLAYER_STOLE_CITY_SITE_FOUR_TITLE</zType>
 		<English>The Note</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SUCCESSION_THEM_ABDICATED_WAR_TITLE</zType>
+		<English>{CHARACTER-0}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SUCCESSION_THEM_AGENT_WAR_TITLE</zType>
+		<English>{CHARACTER-SHORT-0}'s Agent</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_SUCCESSION_THEM_BOAST_WAR_TITLE</zType>
+		<English>The Pride of {CHARACTER-SHORT-0}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INTERCESSION_MISSION_PROMPT_FAMILY_TITLE</zType>
+		<English>Family Intercession</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEIR_BYPASSED_SITUATION_TITLE</zType>
+		<English>Disinherited</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_ARMING_YOUR_BROTHERS_TITLE</zType>
+		<English>Arming Your Brothers</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_SCROLL_AND_SPEAR_TITLE</zType>
+		<English>The Scroll and the Spear</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_TRIBUTE_TITLE</zType>
+		<English>Technological Tribute</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_DEBT_OF_SCIENCE_TITLE</zType>
+		<English>The Debt of Science</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_TITLE</zType>
+		<English>A Plea for Knowledge</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_WISDOM_OF_PEACE_TITLE</zType>
+		<English>The Wisdom of Peace</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_GIFTS_OF_THE_SEA_TITLE</zType>
+		<English>Gifts of the Sea</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_LURE_OF_KNOWLEDGE_TITLE</zType>
+		<English>The Lure of Knowledge</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_FOOD_FOR_THOUGHT_TITLE</zType>
+		<English>Food for Thought</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_UNDER_THE_TABLE_TITLE</zType>
+		<English>Under the Table</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_WRONG_HANDS_TITLE</zType>
+		<English>In the Wrong Hands</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_STOLEN_SCROLLS_TITLE</zType>
+		<English>The Stolen Scrolls</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE</zType>
+		<English>Mutual Benefit?</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE_COPY</zType>
+		<English>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_ASSYRIA_TITLE</zType>
+		<English>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_CARTHAGE_TITLE</zType>
+		<English>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_EGYPT_TITLE</zType>
+		<English>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_PERSIA_TITLE</zType>
+		<English>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_ROME_TITLE</zType>
+		<English>{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEIR_BYPASSED_MURDER_TITLE</zType>
+		<English>Disinherit This!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER_TITLE</zType>
+		<English>Favored One</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER_NO_SPOUSE_TITLE</zType>
+		<English>Favored One</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_MURDER_TITLE</zType>
+		<English>The Pretender</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_IMPRISON_TITLE</zType>
+		<English>The Pretender</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_EXILE_TITLE</zType>
+		<English>The Pretender</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_CORRECT_PROTOCOL_TITLE</zType>
+		<English>Protocol Marriage</English>
+	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES_TITLE</zType>
 		<English>Smiting Foes</English>
@@ -3115,6 +3243,66 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<zType>TEXT_EVENTSTORY_PILLAGED_TILE_PLUNDER_DUEL_US_TITLE</zType>
 		<English>A Matter of Honor</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_MEDJAY_TITLE</zType>
+		<English>The Medjay</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_SACRED_BAND_TITLE</zType>
+		<English>The Sacred Band</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_IMMORTALS_TITLE</zType>
+		<English>The Immortals</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_COMPANIONS_TITLE</zType>
+		<English>The Companions</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_NUMERUS_BATAVORUM_TITLE</zType>
+		<English>The Numerus Batavorum</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_SILVER_SHIELDS_TITLE</zType>
+		<English>The Silver Shields</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_HARII_TITLE</zType>
+		<English>The Harii</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_PAINTED_WARRIORS_TITLE</zType>
+		<English>The Painted Demons</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_WARRIORS_OF_GOD_TITLE</zType>
+		<English>The Warriors of God</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_THE_TERRORS_1_TITLE</zType>
+		<English>The Terrors</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_THE_TERRORS_2_TITLE</zType>
+		<English>The Terrors</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NAMED_UNIT_SACRED_BAND</zType>
+		<English>Let their name bring fear to our enemies.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_THE_FURIES_TITLE</zType>
+		<English>The Furies</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS_TITLE</zType>
+		<English>Praise of the Two Lands</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NAMED_UNIT_WILD_HUNTERS_TITLE</zType>
+		<English>The Wild Hunters</English>
+	</Entry>
 	<Entry beginGroup="Family">
 		<zType>TEXT_EVENTSTORY_FAMILY_GIFT_TITLE</zType>
 		<English>A Kind Gesture</English>
@@ -3453,7 +3641,7 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_CONTEST_OF_RHETORIC_TITLE</zType>
-		<English>Contest of Rhetoric</English>
+		<English>Contest of Politics</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RADICAL_PHILOSOPHER_TITLE</zType>
@@ -3498,6 +3686,14 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_FAMILY_RETREAT_TITLE</zType>
 		<English>Family Retreat</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_TRADE_OFF_TITLE</zType>
+		<English>Trade-Off</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_TITLE</zType>
+		<English>The Oligarch's Betrothed</English>
 	</Entry>
 	<Entry beginGroup="Character">
 		<zType>TEXT_EVENTSTORY_NEW_COURTIER_TITLE</zType>
@@ -3744,8 +3940,8 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<English>Tactics Studies</English>
 	</Entry>
 	<Entry>
-		<zType>TEXT_EVENTSTORY_STUDY_RHETORIC_ARCHETYPES_TITLE</zType>
-		<English>Rhetoric Studies</English>
+		<zType>TEXT_EVENTSTORY_STUDY_POLITICS_ARCHETYPES_TITLE</zType>
+		<English>Politics Studies</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_COMMERCE_ARCHETYPES_TITLE</zType>
@@ -4589,19 +4785,19 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_INSPIRED_ZOROASTRIAN_HOLY_SITE_TITLE</zType>
-		<English>Inspired by link(IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM) of {CITY-2}.</English>
+		<English>Inspired by link(IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM) of {CITY-2}</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_INSPIRED_JUDAISM_HOLY_SITE_TITLE</zType>
-		<English>Inspired by link(IMPROVEMENT_HOLY_SITE_JUDAISM) of {CITY-2}.</English>
+		<English>Inspired by link(IMPROVEMENT_HOLY_SITE_JUDAISM) of {CITY-2}</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_INSPIRED_CHRISTIAN_HOLY_SITE_TITLE</zType>
-		<English>Inspired by link(IMPROVEMENT_HOLY_SITE_CHRISTIANITY) of {CITY-2}.</English>
+		<English>Inspired by link(IMPROVEMENT_HOLY_SITE_CHRISTIANITY) of {CITY-2}</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STUDY_INSPIRED_MANICHAEAN_HOLY_SITE_TITLE</zType>
-		<English>Inspired by link(IMPROVEMENT_HOLY_SITE_MANICHAEISM) of {CITY-2}.</English>
+		<English>Inspired by link(IMPROVEMENT_HOLY_SITE_MANICHAEISM) of {CITY-2}</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_THE_PROPHETS_REBUKE_TITLE</zType>
@@ -4866,6 +5062,22 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	<Entry>
 		<zType>TEXT_EVENTSTORY_INFLUENCE_SUBJECT_VENGEFUL_TITLE</zType>
 		<English>Vengeance abated </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_INFLUENCE_OF_IDEAS_TITLE</zType>
+		<English>Influential Ideas</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_VENGEFUL_TO_PLOTTING_TITLE</zType>
+		<English>The Plot Thickens</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_ENCHANTING_CONVERSATION_FOLLOWUP_TITLE</zType>
+		<English>The Next Morning</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_TITLE</zType>
+		<English>Young and In Love</English>
 	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
@@ -5170,6 +5382,22 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TRAIT_HUNGER_IN_CITY_TITLE</zType>
 		<English>Hunger in {CITY-1}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AUTONOMOUS_VASSAL_TITLE</zType>
+		<English>Autonomous Vassal</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEMAND_FOR_AUTONOMY_TITLE</zType>
+		<English>Demand for Autonomy</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_INDEPENDENT_CITY_TITLE</zType>
+		<English>Independent City</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RECLAIMING_CONTROL_TITLE</zType>
+		<English>Reclaiming Control</English>
 	</Entry>
 	<Entry beginGroup="Religion">
 		<zType>TEXT_EVENTSTORY_GODS_AND_MONSTERS_TITLE</zType>
@@ -8523,6 +8751,38 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<zType>TEXT_EVENTSTORY_AMBITION_FINISHED_SLAVERY_TITLE</zType>
 		<English>A New Resource</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_DRILLMASTER_TITLE</zType>
+		<English>The Drillmaster</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_INTERCESSOR_TITLE</zType>
+		<English>The Intercessor</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_SETTLER_TITLE</zType>
+		<English>The Settler</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_EXPLORER_TITLE</zType>
+		<English>The Explorer</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_INTREPID_TITLE</zType>
+		<English>The Intrepid</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_ENLIGHTENED_TITLE</zType>
+		<English>The Enlightened</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_WEAK_TITLE</zType>
+		<English>The Weak</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_STRONG_TITLE</zType>
+		<English>The Strong</English>
+	</Entry>
 	<Entry beginGroup="Tribe">
 		<zType>TEXT_EVENTSTORY_RAID_MERCENARIES_TITLE</zType>
 		<English>Mercenary Raid</English>
@@ -10071,6 +10331,22 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<zType>TEXT_EVENTSTORY_ADOPTED_SUCCESSOR_TITLE</zType>
 		<English>Adopted Successor</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MARRIAGE_UNBOUND_TITLE</zType>
+		<English>Marriage Unbound</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_KISS_MARRY_KILL_TITLE</zType>
+		<English>Kiss, Marry, Kill</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOVER_CONFRONTED_TITLE</zType>
+		<English>Lover Confronted</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DECLARATION_OF_LOVE_TITLE</zType>
+		<English>Declaration of Love</English>
+	</Entry>
 	<Entry beginGroup="Courtier">
 		<zType>TEXT_EVENTSTORY_CALENDAR_AND_SEASONS_TITLE</zType>
 		<English>Calendar and Seasons</English>
@@ -10383,6 +10659,18 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<zType>TEXT_EVENTSTORY_TRAIT_A_TIME_TO_REAP_TITLE</zType>
 		<English>A Time to Reap</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_OFFER_AMBASSADOR_TITLE</zType>
+		<English> {CHARACTER-SHORT-POSS-0} Barter</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_KNOWLEDGE_OF_POWER_TITLE</zType>
+		<English>Knowledge of Power</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TECH_THE_LAST_PIECE_TITLE</zType>
+		<English>The Last Piece</English>
+	</Entry>
 	<Entry beginGroup="Leader">
 		<zType>TEXT_EVENTSTORY_COVERT_MARRIAGE_LEADER_TITLE</zType>
 		<English>Marrying for Love</English>
@@ -10690,5 +10978,25 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	<Entry>
 		<zType>TEXT_EVENTSTORY_STRANGE_SCROLL_ONE_TITLE</zType>
 		<English>Strange Scroll: Translation</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_DECEITFUL_ONE_TITLE</zType>
+		<English>Making “Amends”</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_DECEITFUL_TWO_TITLE</zType>
+		<English>Comeuppance</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEADER_DECEITFUL_FAMILY_LIES_TITLE</zType>
+		<English>The Truth Hurts</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_BEST_DOG_TITLE</zType>
+		<English>The Best Companion</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_CHANCE_ENCOUNTER_TITLE</zType>
+		<English>A Self Made {G1:Man:Woman}</English>
 	</Entry>
 </Root>
