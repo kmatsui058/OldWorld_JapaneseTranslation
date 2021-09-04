@@ -59,7 +59,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_RELIGION_THEOLOGY</zType>
-    <Translation>{0_religion} has established {1_theology} Theology.</Translation>
+    <Translation>{0_religion}は{1_theology}の教義を確立した。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_GAME_OVER_POPUP</zType>
@@ -213,7 +213,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_GAME_CHARACTER_TUTORS_AGE</zType>
-    <Translation>{0_character} is now old enough to be link(CONCEPT_TUTOR,3) by {1,2_Courtier}.</Translation>
+    <Translation>{0_character}は{1,2_Courtier}にlink(CONCEPT_TUTOR,3)してもらえる年齢になりました。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_GAME_CHARACTER_ADULT_POPUP</zType>

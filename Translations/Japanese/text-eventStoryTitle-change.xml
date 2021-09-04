@@ -338,7 +338,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NOWRUZ_TITLE</zType>
-    <Translation>wowruz</Translation>
+    <Translation>wowruz.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WAR_IN_THE_STARS_TITLE</zType>
@@ -1410,7 +1410,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_SELF_DONATION_TITLE</zType>
-    <Translation>信仰のための資金</Translation>
+    <Translation>信仰の資金調達</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONVERT_SELF_ALL_THINGS_TITLE</zType>
@@ -2026,7 +2026,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_THE_FOOL_TITLE</zType>
-    <Translation>ばか</Translation>
+    <Translation>愚者</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CONTACT_PIEFACES_LESSONS_TITLE</zType>
@@ -2314,7 +2314,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BOASTFUL_HEIR_TITLE</zType>
-    <Translation>自慢の相続人</Translation>
+    <Translation>傲慢な後継者</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SEEKING_KNOWLEDGE_TITLE</zType>
@@ -2394,7 +2394,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRADE_OFFER_TITLE</zType>
-    <Translation>トレードオファー</Translation>
+    <Translation>貿易交渉</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CANCEL_TRADE_DEMAND_TITLE</zType>
@@ -2614,11 +2614,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DINNER_WITH_A_RIVAL_TITLE</zType>
-    <Translation>ライバルとの夕食</Translation>
+    <Translation>仇敵との会食</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DINNER_WITH_RIVALS_TITLE</zType>
-    <Translation>ライバルとの夕食</Translation>
+    <Translation>仇敵との会食</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_BETWEEN_US_TITLE</zType>
@@ -3958,11 +3958,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUCCESSION_CHANCE_FOR_PEACE_TITLE</zType>
-    <Translation>平和のチャンス</Translation>
+    <Translation>和平の機会</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUCCESSION_SNAKE_SIGNS_TITLE</zType>
-    <Translation>ヘビサイン</Translation>
+    <Translation>凶兆の蛇</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SUCCESSION_CORONATION_FESTIVAL_TITLE</zType>
@@ -4130,7 +4130,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COURTIER_B1_TITLE</zType>
-    <Translation>偉大思想家</Translation>
+    <Translation>偉大な思想家たち</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COURTIER_B2_TITLE</zType>
@@ -4450,7 +4450,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_MASTER_ORATION_TITLE</zType>
-    <Translation>マスターオカレーション</Translation>
+    <Translation>熟練弁士</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_DISCIPLINARY_ACTION_TITLE</zType>
@@ -4478,7 +4478,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_GRADUATE_A_RAISED_VOICE_TITLE</zType>
-    <Translation>上げられた声</Translation>
+    <Translation>扇動の声</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DEAR_PARENT_TITLE</zType>
@@ -5458,7 +5458,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_YOUNG_MASTER_TITLE</zType>
-    <Translation>若いマスター</Translation>
+    <Translation>若き修士</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STREET_DEBATE_TITLE</zType>
@@ -5470,7 +5470,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_MEDIATOR_TITLE</zType>
-    <Translation>仲立ち</Translation>
+    <Translation>調停者</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_STUDENT_EMPORIUM_TITLE</zType>
@@ -5826,7 +5826,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_STUDY_LETTER_FOR_TOOLS_TITLE</zType>
-    <Translation>ツールの要求</Translation>
+    <Translation>勉強道具の無心</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TRAIT_LONELINESS_ABROAD_TITLE</zType>
@@ -6854,7 +6854,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_A_FRIENDLY_FACE_TITLE</zType>
-    <Translation>フレンドリーな顔</Translation>
+    <Translation>愛らしい顔</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_A_PAWED_DISASTER_TITLE</zType>
@@ -6862,7 +6862,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CAMELS_AND_PAWS_TITLE</zType>
-    <Translation>ラクダと足</Translation>
+    <Translation>ラクダと肉球</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PAWS_AND_TAILS_TITLE</zType>
@@ -7018,7 +7018,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HAPPINESS_VALUABLE_EXPERIENCE_TITLE</zType>
-    <Translation>貴重な経験</Translation>
+    <Translation>価値ある経験</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HAPPINESS_GIFTED_INVENTOR_TITLE</zType>
@@ -7134,7 +7134,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CULTURE_OPPORTUNITIES_FOR_ALL_TITLE</zType>
-    <Translation>すべての機会</Translation>
+    <Translation>万人へ機会を</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CULTURE_A_BEACON_TITLE</zType>
@@ -7166,7 +7166,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HEIR_EXPERTISE_PATHFINDER_TITLE</zType>
-    <Translation>フィッシャーの専門知識</Translation>
+    <Translation>漁師の専門知識</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_GLADIATOR_GAMES_TITLE</zType>
@@ -7426,7 +7426,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DEDICATION_OF_ISHTAR_TITLE</zType>
-    <Translation>イシュタールの献身</Translation>
+    <Translation>イシュタルの献身</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DISPLEASURE_OF_ISHTAR_TITLE</zType>
@@ -7954,7 +7954,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_VIRTUOUS_REFORMERS_TITLE</zType>
-    <Translation>善意の改革者</Translation>
+    <Translation>徳のある改革者たち</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_UNHAPPY_PEASANTS_TITLE</zType>
@@ -8102,7 +8102,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COTTAGE_DECOR_TITLE</zType>
-    <Translation>コテージの装飾</Translation>
+    <Translation>小屋の装飾</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RUNAWAY_SLAVE_TITLE</zType>
@@ -8794,7 +8794,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_GUEST_OF_HONOR_TITLE</zType>
-    <Translation>名誉のゲスト</Translation>
+    <Translation>賓客</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_RELATIONSHIP_VISITING_PRINCESS_TITLE</zType>
@@ -9770,7 +9770,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_USE_SPYMASTER_TITLE</zType>
-    <Translation>チュートリアル：Spymaster Missions.</Translation>
+    <Translation>チュートリアル：Spymaster Missions</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_TUTORIAL_APPOINT_AMBASSADOR_TITLE</zType>
@@ -10042,11 +10042,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CALENDAR_AND_SEASONS_TITLE</zType>
-    <Translation>カレンダーとシーズン</Translation>
+    <Translation>暦と四季</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_PASSAGE_OF_THE_MOON_TITLE</zType>
-    <Translation>月の通過</Translation>
+    <Translation>月の通り道</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_THE_PROPHET_FROM_THE_SEA_TITLE</zType>
@@ -10106,7 +10106,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_SILVER_JUBILEE_TITLE</zType>
-    <Translation>シルバージュビリー</Translation>
+    <Translation>Silver Jubilee</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_GOLD_JUBILEE_TITLE</zType>
@@ -10826,7 +10826,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_MURDER_TITLE</zType>
-    <Translation>isinheritこれを！</Translation>
+    <Translation>これをisinherit！</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER_TITLE</zType>

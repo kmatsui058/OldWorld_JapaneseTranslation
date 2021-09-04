@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSpy v2019 rel. 3 sp1 (x64) (http://www.altova.com) by Andy Auseon (Mohawk Games) -->
+<Root>
+  <Entry>
+    <zType />
+    <English />
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_HUMAN_DESCRIPTION</zType>
+    <English>You have sent an envoy with a link(CONCEPT_ALLIANCE_PLAYER) Proposal.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_PEACE_HUMAN_DESCRIPTION</zType>
+    <English>You have sent an envoy with a link(DIPLOMACY_PEACE) Proposal.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_HUMAN_DESCRIPTION</zType>
+    <English>You have sent an envoy with a link(DIPLOMACY_TRUCE) Proposal.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RALLY_TROOPS_DESCRIPTION</zType>
+    <English>You have rallied the military, resulting in higher morale and discipline.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RALLY_TROOPS_EVENT_DESCRIPTION</zType>
+    <English>The Rally Troops Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HOLD_COURT_DESCRIPTION</zType>
+    <English>You have held court, handing out wise judgements and important reforms.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HOLD_COURT_EVENT_DESCRIPTION</zType>
+    <English>The Hold Court Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFLUENCE_DESCRIPTION</zType>
+    <English>You have successfully exerted your influence upon {CHARACTER-TARGET}.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFLUENCE_WEAKEN_DESCRIPTION</zType>
+    <English>You have successfully exerted your influence upon {CHARACTER-TARGET} but appear weak in the process.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFLUENCE_EVENT_DESCRIPTION</zType>
+    <English>The Influence Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CONVERT_SELF_DESCRIPTION</zType>
+    <English>You have successfully converted to a new Religion.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CONVERT_SELF_EVENT_DESCRIPTION</zType>
+    <English>The Convert Self Mission has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_DESCRIPTION</zType>
+    <English>You have successfully converted {CHARACTER-TARGET} to your link(CONCEPT_STATE_RELIGION).</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT_DESCRIPTION</zType>
+    <English>The Convert Religion Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INTERCESSION_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully intercessed upon {CHARACTER-TARGET} on your behalf.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INTERCESSION_WEAKEN_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully intercessed upon {CHARACTER-TARGET} on your behalf but also exposes your weakness.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INTERCESSION_EVENT_DESCRIPTION</zType>
+    <English>The Intercession Mission of {CHARACTER-SUBJECT} to {CHARACTER-TARGET} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully infiltrated your rival's territory.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully infiltrated your rival's territory, but was exposed in the process.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFILTRATE_EVENT_DESCRIPTION</zType>
+    <English>The Infiltrate Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully slandered your rival.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully slandered your rival, but was exposed in the process.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_SLANDER_EVENT_DESCRIPTION</zType>
+    <English>The Slander Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully stolen research from your rival.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully stolen research from your rival but was exposed in the process.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_EVENT_DESCRIPTION</zType>
+    <English>The Steal Research Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_DESCRIPTION</zType>
+    <English>You have successfully assassinated {CHARACTER-TARGET}, and no one suspects a thing...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED_DESCRIPTION</zType>
+    <English>Your assassins successfully eliminated {CHARACTER-TARGET}, but evidence has been traced back to you.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED_DESCRIPTION</zType>
+    <English>Your assassins have failed to kill {CHARACTER-TARGET}. Worse yet, your ignoble plot has been exposed.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ASSASSINATE_EVENT_DESCRIPTION</zType>
+    <English>The Assassinate Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TREACHERY_SUCCESS_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully weakened the city's defenses.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TREACHERY_FAILURE_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has failed to weaken the city's defenses.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TREACHERY_EVENT_DESCRIPTION</zType>
+    <English>The Treachery Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INSURRECTION_REVOLT_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully started a local uprising.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has successfully stirred up local resentment.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has failed to start a local uprising.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INSURRECTION_EVENT_DESCRIPTION</zType>
+    <English>The Insurrection Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HIGH_SYNOD_SUCCESS_DESCRIPTION</zType>
+    <English>The High Synond organized by {CHARACTER-SUBJECT} has improved our standing with the clergy.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HIGH_SYNOD_FAILURE_DESCRIPTION</zType>
+    <English>The High Synond of {CHARACTER-SUBJECT} has ended prematurely in discord.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HIGH_SYNOD_EVENT_DESCRIPTION</zType>
+    <English>The High Synod Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_DESCRIPTION</zType>
+    <English>Your vassal family appreciates the gifts that {CHARACTER-SUBJECT} brought from you.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN_DESCRIPTION</zType>
+    <English>あなたの家臣団は{CHARACTER-SUBJECT}が持ってきた贈り物に感謝していますが、あなたの他の臣下はこの迎合を弱さの表れと見ています。</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_FAMILY_GIFT_EVENT_DESCRIPTION</zType>
+    <English>The Family Gift Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT).</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN_DESCRIPTION</zType>
+    <English>{CHARACTER-SUBJECT} has listened to the grievances of the city's rulers and has reduced link(YIELD_DISCONTENT), but this pandering has weakened your reputation.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PACIFY_CITY_EVENT_DESCRIPTION</zType>
+    <English>The Pacify City Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_IMPRISON_JUST_DESCRIPTION</zType>
+    <English>{CHARACTER-TARGET} has been imprisoned on charges that are generally agreed to be just.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_IMPRISON_UNJUST_DESCRIPTION</zType>
+    <English>{CHARACTER-TARGET} has been imprisoned on blatantly spurious charges. Some are accusing you of tyranny.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_IMPRISON_ESCAPE_DESCRIPTION</zType>
+    <English>{CHARACTER-TARGET} has escaped arrest and is now on the run!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_IMPRISON_EVENT_DESCRIPTION</zType>
+    <English>The Imprison Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RELEASE_GRATEFUL_DESCRIPTION</zType>
+    <English>
+      <![CDATA[{CHARACTER-SUBJECT} has been released from prison. Grateful to be free again, <masculine_CHARACTER-SUBJECT>he<feminine>she<end> has forgiven your past slights against <masculine_CHARACTER-SUBJECT>him<feminine>her<end>.]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RELEASE_BITTER_DESCRIPTION</zType>
+    <English>
+      <![CDATA[{CHARACTER-SUBJECT} has been released from prison, but harbors a bitter resentment against you for <masculine_CHARACTER-SUBJECT>his<feminine>her<end> imprisonment.]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RELEASE_UNJUST_DESCRIPTION</zType>
+    <English>
+      <![CDATA[{CHARACTER-SUBJECT} has been released from prison, and has not been shy about complaining of <masculine_CHARACTER-SUBJECT>his<feminine>her<end> unjust imprisonment.]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CAPTURE_SURRENDER_DESCRIPTION</zType>
+    <English>
+      <![CDATA[Your efforts to capture {CHARACTER-SUBJECT} have been successful. <masculine_CHARACTER-SUBJECT>He<feminine>She<end> has surrendered and is being held in captivity.]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CAPTURE_KILLED_DESCRIPTION</zType>
+    <English>
+      <![CDATA[{CHARACTER-SUBJECT} refused to surrender to the party you sent to capture <masculine_CHARACTER-SUBJECT>him<feminine>her<end>, choosing death over captivity.]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CAPTURE_FLEE_DESCRIPTION</zType>
+    <English>
+      <![CDATA[{CHARACTER-SUBJECT} has eluded your tracking party and escaped the country! <masculine_CHARACTER-SUBJECT>He<feminine>She<end> is now hiding somewhere beyond your reach...]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PAY_RANSOM_DESCRIPTION</zType>
+    <English>
+      <![CDATA[You have paid the ransom for {CHARACTER-SUBJECT} and secured <masculine_CHARACTER-SUBJECT>his<feminine>her<end> release!]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_MARRY_COURTIER_DESCRIPTION</zType>
+    <English>Good news: {CHARACTER-TARGET} has agreed to your marriage proposal. Congratulations!</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_DIVORCE_DESCRIPTION</zType>
+    <English>After some persuading, {CHARACTER-TARGET} has agreed to a divorce agreement.</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_DIVORCE_EVENT_DESCRIPTION</zType>
+    <English>The Divorce Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_WISDOM_DESCRIPTION</zType>
+    <English>
+      <![CDATA[{CHARACTER-SUBJECT} has tutored {CHARACTER-TARGET}, improving <masculine_CHARACTER-TARGET>his<feminine>her<end> link(RATING_WISDOM)!]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_CHARISMA_DESCRIPTION</zType>
+    <English>
+      <![CDATA[{CHARACTER-SUBJECT} has tutored {CHARACTER-TARGET}, improving <masculine_CHARACTER-TARGET>his<feminine>her<end> link(RATING_CHARISMA)!]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_COURAGE_DESCRIPTION</zType>
+    <English>
+      <![CDATA[{CHARACTER-SUBJECT} has tutored {CHARACTER-TARGET}, improving <masculine_CHARACTER-TARGET>his<feminine>her<end> link(RATING_COURAGE)!]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_DISCIPLINE_DESCRIPTION</zType>
+    <English>
+      <![CDATA[{CHARACTER-SUBJECT} has tutored {CHARACTER-TARGET}, improving <masculine_CHARACTER-TARGET>his<feminine>her<end> link(RATING_DISCIPLINE)!]]>
+    </English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_EVENT_DESCRIPTION</zType>
+    <English>The link(CONCEPT_TUTOR) Mission of {CHARACTER-SUBJECT} has led to an event...</English>
+  </Entry>
+  <!--Result Name-->
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_AMBASSADOR</zType>
+    <English>link(COUNCIL_AMBASSADOR)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CHANCELLOR</zType>
+    <English>link(COUNCIL_CHANCELLOR)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_SPYMASTER</zType>
+    <English>link(COUNCIL_SPYMASTER)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_LEAVE_COUNCIL</zType>
+    <English>Leave Council</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_EVENT</zType>
+    <English>link(CONCEPT_ALLIANCE_PLAYER) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TEAM_ALLIANCE_HUMAN_EVENT</zType>
+    <English>link(CONCEPT_ALLIANCE_PLAYER) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_PEACE_EVENT</zType>
+    <English>link(DIPLOMACY_PEACE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_PEACE_OFFER_EVENT</zType>
+    <English>Offer Tribute for link(DIPLOMACY_PEACE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_PEACE_NO_EVENT</zType>
+    <English>Ask for link(DIPLOMACY_PEACE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_PEACE_DEMAND_EVENT</zType>
+    <English>Demand Tribute for link(DIPLOMACY_PEACE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_PEACE_HUMAN_EVENT</zType>
+    <English>link(DIPLOMACY_PEACE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_EVENT</zType>
+    <English>link(DIPLOMACY_TRUCE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_OFFER_EVENT</zType>
+    <English>Offer Tribute for link(DIPLOMACY_PEACE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_NO_EVENT</zType>
+    <English>Ask for link(DIPLOMACY_PEACE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_DEMAND_EVENT</zType>
+    <English>Demand Tribute for link(DIPLOMACY_PEACE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_TRUCE_HUMAN_EVENT</zType>
+    <English>link(DIPLOMACY_TRUCE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_EVENT</zType>
+    <English>Declare link(DIPLOMACY_WAR)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_BREAK_PEACE_EVENT</zType>
+    <English>Break link(DIPLOMACY_PEACE)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_END_ALLIANCE_EVENT</zType>
+    <English>End link(CONCEPT_ALLIANCE_PLAYER)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_CANCEL_TRADE_EVENT</zType>
+    <English>Cancel Trade</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TRIBE_ALLIANCE_EVENT</zType>
+    <English>Alliance Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TRIBE_PEACE_EVENT</zType>
+    <English>link(DIPLOMACY_PEACE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TRIBE_TRUCE_EVENT</zType>
+    <English>link(DIPLOMACY_TRUCE) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TRIBE_DECLARE_WAR_EVENT</zType>
+    <English>Declare link(DIPLOMACY_WAR)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TRIBE_BREAK_PEACE_EVENT</zType>
+    <English>Break link(DIPLOMACY_PEACE)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TRIBE_END_ALLIANCE_EVENT</zType>
+    <English>End link(CONCEPT_ALLIANCE_TRIBE)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ADOPT_RELIGION_EVENT</zType>
+    <English>Adopt link(CONCEPT_STATE_RELIGION)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_LEAVE_RELIGION</zType>
+    <English>Leave link(CONCEPT_STATE_RELIGION)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_MARRIAGE_EVENT</zType>
+    <English>Foreign Marriage</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TRIBE_MARRIAGE_EVENT</zType>
+    <English>Tribal Marriage</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_FAMILY_MARRIAGE_EVENT</zType>
+    <English>Family Marriage</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RALLY_TROOPS</zType>
+    <English>Troops Rallied</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RALLY_TROOPS_EVENT</zType>
+    <English>Rally Troops Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HOLD_COURT</zType>
+    <English>Hold Court</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HOLD_COURT_EVENT</zType>
+    <English>Hold Court Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ABDICATE</zType>
+    <English>Abdicates</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFLUENCE</zType>
+    <English>Influence Exerted</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFLUENCE_WEAKEN</zType>
+    <English>Influence Exposes our Weakeness</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFLUENCE_EVENT</zType>
+    <English>Influence Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CONVERT_SELF</zType>
+    <English>Converted Your Religion</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CONVERT_SELF_EVENT</zType>
+    <English>Convert Your Religion Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CONVERT_RELIGION</zType>
+    <English>Converted Character to link(CONCEPT_STATE_RELIGION)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT</zType>
+    <English>Convert Character Religion Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INTERCESSION_WEAKEN</zType>
+    <English>Intercession Exposes our Weakeness</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INTERCESSION</zType>
+    <English>Intercession Finished</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INTERCESSION_EVENT</zType>
+    <English>Intercession Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ADOPT</zType>
+    <English>Adopted</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ADOPT_EVENT</zType>
+    <English>Adopted Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_LEGITIMIZE</zType>
+    <English>Legitimized</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_LEGITIMIZE_EVENT</zType>
+    <English>Legitimized Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CHOSEN_HEIR</zType>
+    <English>Heir Chosen</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CHOSEN_HEIR_EVENT</zType>
+    <English>Heir Chosen Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL</zType>
+    <English>Territory Infiltrated</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED</zType>
+    <English>Territory Infiltrated, Effort Exposed</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INFILTRATE_EVENT</zType>
+    <English>Infiltrate Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS</zType>
+    <English>Slander Spread</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED</zType>
+    <English>Slander Spread, Effort Exposed</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_SLANDER_EVENT</zType>
+    <English>Slander Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS</zType>
+    <English>Research Stolen</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED</zType>
+    <English>Research Stolen, Effort Exposed</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_STEAL_RESEARCH_EVENT</zType>
+    <English>Steal Research Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL</zType>
+    <English>Target Killed</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED</zType>
+    <English>Target Killed, Plot Exposed</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED</zType>
+    <English>Target Survives, Plot Exposed</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_ASSASSINATE_EVENT</zType>
+    <English>Assassination Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TREACHERY_SUCCESS</zType>
+    <English>link(BONUS_MISSIONRESULT_TREACHERY_SUCCESS)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TREACHERY_FAILURE</zType>
+    <English>link(BONUS_MISSIONRESULT_TREACHERY_FAILURE)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TREACHERY_EVENT</zType>
+    <English>Treachery Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INSURRECTION_REVOLT</zType>
+    <English>link(BONUS_MISSIONRESULT_INSURRECTION_REVOLT)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT</zType>
+    <English>link(BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INSURRECTION_FAILURE</zType>
+    <English>link(BONUS_MISSIONRESULT_INSURRECTION_FAILURE)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_INSURRECTION_EVENT</zType>
+    <English>Insurrection Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_DEMAND_TRIBUTE_EVENT</zType>
+    <English>Demand Tribute Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TRADE_MISSION_EVENT</zType>
+    <English>Trade Mission Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HIGH_SYNOD_SUCCESS</zType>
+    <English>Religious Concord is Found</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HIGH_SYNOD_FAILURE</zType>
+    <English>Religious Tensions are Worse</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_HIGH_SYNOD_EVENT</zType>
+    <English>High Synod Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS</zType>
+    <English>Gifts Please the Family</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN</zType>
+    <English>Gifts Expose our Weakness</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_FAMILY_GIFT_EVENT</zType>
+    <English>Family Gift Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS</zType>
+    <English>Pacification Successful</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN</zType>
+    <English>Pacification Exposes our Weakness</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PACIFY_CITY_EVENT</zType>
+    <English>Pacify City Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_IMPRISON_JUST</zType>
+    <English>Target Justly link(TRAIT_IMPRISONED)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_IMPRISON_UNJUST</zType>
+    <English>Target Unjustly link(TRAIT_IMPRISONED)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_IMPRISON_ESCAPE</zType>
+    <English>Target Escapes</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_IMPRISON_EVENT</zType>
+    <English>Imprison Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RELEASE_GRATEFUL</zType>
+    <English>Target is Grateful</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RELEASE_BITTER</zType>
+    <English>Target Remains Bitter</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_RELEASE_UNJUST</zType>
+    <English>Release Considered Unjust</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CAPTURE_SURRENDER</zType>
+    <English>Target Surrenders</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CAPTURE_KILLED</zType>
+    <English>Target Killed Resisting Capture</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_CAPTURE_FLEE</zType>
+    <English>Target Flees Country</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PAY_RANSOM</zType>
+    <English>Ransom Paid</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_MARRY_COURTIER</zType>
+    <English>Marriage</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_DIVORCE</zType>
+    <English>Divorce</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_DIVORCE_EVENT</zType>
+    <English>Divorce Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_WISDOM</zType>
+    <English>Improve link(RATING_WISDOM)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_CHARISMA</zType>
+    <English>Improve link(RATING_CHARISMA)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_COURAGE</zType>
+    <English>Improve link(RATING_COURAGE)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_DISCIPLINE</zType>
+    <English>Improve link(RATING_DISCIPLINE)</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TUTOR_EVENT</zType>
+    <English>link(CONCEPT_TUTOR) Event</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_TRIBE_PLAYER_WAR_EVENT</zType>
+    <English>Ask a Tribe to Declare link(DIPLOMACY_WAR) on a Nation</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_TRIBE_WAR_EVENT</zType>
+    <English>Ask a Nation to Declare link(DIPLOMACY_WAR) on a Tribe</English>
+  </Entry>
+  <Entry>
+    <zType>TEXT_MISSIONRESULT_PLAYER_PLAYER_WAR_EVENT</zType>
+    <English>Ask a Nation to Declare link(DIPLOMACY_WAR) on another Nation</English>
+  </Entry>
+</Root>

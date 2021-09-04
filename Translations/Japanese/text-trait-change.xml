@@ -476,7 +476,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_TIMID_GAIN_1</zType>
-    <Translation>Scared to take any risks or even make mistakes, {0_character} has become {1_trait}!</Translation>
+    <Translation>リスクを負うことやミスを犯すことを恐れ、{0_character}は{1_trait}になってしまった。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_GRACIOUS</zType>
@@ -660,7 +660,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_ILL_GAIN_3</zType>
-    <Translation>{0_character} is feeling {1_trait}, light-headed and weak.</Translation>
+    <Translation>{0_character}は{1_trait}になり、頭がふらつき弱っている。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_ILL_GAIN_4</zType>
@@ -712,7 +712,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_SEVERELY_ILL_LOSS_2</zType>
-    <Translation>Although {masculine_0:he:she} was at death's door, {0_character} has miraculously recovered from being {1_trait}.</Translation>
+    <Translation>死の淵に立たされていた{0_character}だが、奇跡的に{1_trait}の状態から回復した。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_TRAIT_SEVERELY_ILL_LOSS_3</zType>
