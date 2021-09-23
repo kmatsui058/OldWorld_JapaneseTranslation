@@ -1520,7 +1520,7 @@ Will you encourage or restrain this idol worship? </English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEGEND_OF_THE_SWORD</zType>
-		<English>{CHARACTER-1} led {G1:his:her} forces to a glorious victory, completely routing the {PLAYER-3,1} forces. Tales quickly spread about {G0:his:her} mysterious blade, saying that it seemed to move as if guided by the divine.
+		<English>{CHARACTER-1} led {G1:his:her} forces to a glorious victory, completely routing the {PLAYER-3,1} forces. Tales quickly spread about {G1:his:her} mysterious blade, saying that it seemed to move as if guided by the divine.
 
 {CHARACTER-SHORT-1} has done well, but is the strength from the sword or the wielder? </English>
 	</Entry>
@@ -5306,7 +5306,7 @@ Would {CHARACTER-3} be more suitable? Or perhaps {CHARACTER-4} would be preferre
 
 Before the {PLAYER-1,3} have had a chance to dismount, a group from the already angry {FAMILY-2,1} charge in, shouting that {CHARACTER-4} would be far more suitable.
 
-Neither side look ready to stand down. Are either of these suitors suitable for {CHARACTER-SHORT-0}?</English>
+Neither side looks ready to stand down. Are either of these suitors suitable for {CHARACTER-SHORT-0}?</English>
 	</Entry>
 	<Entry beginGroup="Combat">
 		<zType>TEXT_EVENTSTORY_LEADER_SMITING_FOES</zType>
@@ -5859,7 +5859,7 @@ Upon hearing the news the devastated {FAMILY-2} blame the {FAMILY-3} boy for the
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MUTINY_IN_THE_RANKS</zType>
-		<English>Mutiny is afoot. A message arrives at night from a young officer in {CHARACTER-SHORT-0}’s army, warning that the troops are on the verge of rising up against {G0:him:her}. In the midst of the battle {CHARACTER-SHORT-0} was recklessly throwing soldiers at the enemy with little strategy, shouting that they are expendable when an unfortunate officer questioned {G0:his:her} leadership. {CHARACTER-SHORT-0} has refused to listen to the danger from {G0:his:her} own army and drives the soldiers harder and harder. 
+		<English>Mutiny is afoot. A message arrives at night from a young officer in {CHARACTER-SHORT-0}’s army, warning that the troops are on the verge of rising up against {G0:him:her}. In the midst of a recent skirmish, {CHARACTER-SHORT-0} was recklessly throwing soldiers at the enemy with little strategy, shouting that they are expendable when an unfortunate officer questioned {G0:his:her} leadership. {CHARACTER-SHORT-0} has refused to listen to the danger from {G0:his:her} own army and drives the soldiers harder and harder. 
 
 Time is short. Will you warn {CHARACTER-SHORT-0} of the danger that {G0:he:she} is in, despite upsetting the troops? </English>
 	</Entry>
@@ -6552,7 +6552,7 @@ Shall our two families be bound together?  </English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_OLIGARCHS_BETROTHED</zType>
-		<English>{CHARACTER-1} is to be wed, and has invited you to preside over the marriage. Upon meeting the intended, {CHARACTER-2}, you are taken by {G2:his:her} incredible charm. In your brief time together, it appears that {CHARACTER-SHORT-2} reciprocates the attraction. Being shockingly frank, {G2:he:she} asks if you would marry {G2:him:her} instead.
+		<English>{CHARACTER-1} is to be wed and has invited you to preside over the marriage. Upon meeting the intended, {CHARACTER-2}, you are taken by {G2:his:her} incredible charm. In your brief time together, it appears that {CHARACTER-SHORT-2} reciprocates the attraction. Being shockingly frank, {G2:he:she} asks if you would marry {G2:him:her} instead.
 
 As the leader of {PLAYER-0}, you could take {CHARACTER-2} as your own {G2:husband:wife}, but it would certainly make an enemy of {CHARACTER-1}. </English>
 	</Entry>
@@ -8130,9 +8130,9 @@ This has been happening more and more often recently. {CHARACTER-SHORT-1} always
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_LOVED_LOVE_SPREADING_SIX</zType>
-		<English><![CDATA[Seeming almost angry at you, {CHARACTER-SHORT-0} demands to speak with you in private. Once {G0:he:she} is alone with you {G0:he:she} seems even more annoyed. Gathering {G0:himself:herself}, {G0:he:she} speaks stiffly to you, “I never thought I would fall for a <p.is_sub.S1=SUBJECT_ZEALOT>pious fool<p=SUBJECT_SCHOLAR>bookish intellectual<p=SUBJECT_ORATOR>rambling windbag<p=SUBJECT_DIPLOMAT>worm-tongued manipulator<p=SUBJECT_SCHEMER>scheming sneak<p=SUBJECT_HERO>puffed up braggart<p=SUBJECT_TACTICIAN>conceited bore<p=SUBJECT_COMMANDER>military-obsessed fanatic<p=SUBJECT_BUILDER>tinkering obsessive<p=SUBJECT_JUDGE>judgemental type<else>bore with no personality<end> like you, but for some reason I have! Now you know, you <p.is_sub.S1=SUBJECT_ZEALOT>preachy<p=SUBJECT_SCHOLAR>bookish<p=SUBJECT_ORATOR>rambling<p=SUBJECT_DIPLOMAT>wordy<p=SUBJECT_SCHEMER>sneaky<p=SUBJECT_HERO>boastful<p=SUBJECT_TACTICIAN>strategic<p=SUBJECT_COMMANDER>strategic<p=SUBJECT_BUILDER>fiddly<p=SUBJECT_JUDGE>judgemental<else>boring<end> fool.”
+		<English><![CDATA[Seeming almost angry at you, {CHARACTER-SHORT-1} demands to speak with you in private. Once {G1:he:she} is alone with you {G1:he:she} seems even more annoyed. Gathering {G1:himself:herself}, {G1:he:she} speaks stiffly to you, “I never thought I would fall for a <p.is_sub.S0=SUBJECT_ZEALOT>pious fool<p=SUBJECT_SCHOLAR>bookish intellectual<p=SUBJECT_ORATOR>rambling windbag<p=SUBJECT_DIPLOMAT>worm-tongued manipulator<p=SUBJECT_SCHEMER>scheming sneak<p=SUBJECT_HERO>puffed up braggart<p=SUBJECT_TACTICIAN>conceited bore<p=SUBJECT_COMMANDER>military-obsessed fanatic<p=SUBJECT_BUILDER>tinkering obsessive<p=SUBJECT_JUDGE>judgemental type<else>bore with no personality<end> like you, but for some reason I have! Now you know, you <p.is_sub.S1=SUBJECT_ZEALOT>preachy<p=SUBJECT_SCHOLAR>bookish<p=SUBJECT_ORATOR>rambling<p=SUBJECT_DIPLOMAT>wordy<p=SUBJECT_SCHEMER>sneaky<p=SUBJECT_HERO>boastful<p=SUBJECT_TACTICIAN>strategic<p=SUBJECT_COMMANDER>strategic<p=SUBJECT_BUILDER>fiddly<p=SUBJECT_JUDGE>judgemental<else>boring<end> fool.”
 
-Having said {G0:his:her} piece, {CHARACTER-SHORT-0} storms off.]]></English>
+Having said {G1:his:her} piece, {CHARACTER-SHORT-1} storms off.]]></English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_LEADER_LOVED_BOTH_WANTON</zType>
@@ -9164,7 +9164,48 @@ The problems start the next day, when news of your exploits starts to travel aro
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_OLD_FRIEND_RETURNS</zType>
 		<English>Returning from a tour of the nation, {RELATIVE-0} {CHARACTER-0} bounds into the hall, unable to hide {G0:his:her} unbound glee. Without prompting, {G0:he:she} quickly introduces you to {CHARACTER-2}, an old childhood friend whom {G0:he:she} happened to meet again on {G0:his:her} travels. The two traveled together for the rest of the journey and are now clearly in love.
 
-{CHARACTER-SHORT-0} ask for permission to marry {CHARACTER-SHORT-2}, but an advisor informs you that the {FAMILY-2} family had high hopes for a match with {CHARACTER-SHORT-0}. Shall the marriage be allowed, or is the risk of angering the nobles too high?</English>
+{CHARACTER-SHORT-0} asks for permission to marry {CHARACTER-SHORT-2}, but an advisor informs you that the {FAMILY-1} family had high hopes for a match with {CHARACTER-SHORT-0}. Shall the marriage be allowed, or is the risk of angering the nobles too high?</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_RECOGNIZED</zType>
+		<English>You have agreed to go hunting with {CHARACTER-SHORT-1} in an attempt to influence the {PLAYER-1,1}. Preparing for the hunt, a face in {G1:his:her} entourage of followers takes you by surprise. Your agent {CHARACTER-0} clearly mirrors your own shock, and {CHARACTER-SHORT-1} notices the exchange before the two of you manage to regain composure. 
+
+"I didn't tell my party who I was riding with today to confirm my suspicions, which appear to be correct. Why should I trust someone who would send agents into {PLAYER-3,1} cities?"
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_EXPOSED_KILLED</zType>
+		<English>The body of {CHARACTER-0} has been subtly returned to {PLAYER-3}. Your network of agents in {CITY-1} report that despite a ruse to lose them in a crowd, the {PLAYER-2,1} guards managed to track down and kill both {CHARACTER-SHORT-0} and the informant before they could escape. 
+
+Fortunately our role in this is still unknown, but the loss of {CHARACTER-0} is a serious blow to {PLAYER-3}. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_EXPOSED_SECRETS</zType>
+		<English>{CHARACTER-0} managed to retrieve the scrolls! In a stroke of cunning, {G0:he:she} changed the meeting location to the site of a large religious gathering taking place in {CITY-1}. The informant handed over the secrets, and {CHARACTER-SHORT-0} blended back into the crowd, ready to deliver the scrolls and adopt a new identity.
+
+{G0:His:Her} position in {CITY-1} is safe. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_EXPOSED</zType>
+		<English>Your agent {CHARACTER-0} has been living as one of the {PLAYER-2,3} of {CITY-1}, eating, sleeping, and working with them. While at the market, {G0:he:she} hears rumors of a new technology that is spreading across {PLAYER-2}, and {G0:he:she} is making moves to try and acquire it for ourselves. 
+
+Such direct questions have aroused suspicion, and {CHARACTER-SHORT-0} is sure that {G0:he:she} is being tailed by guards. However, there is an informant who may be able to deliver the needed scrolls. 
+
+Should {CHARACTER-SHORT-0} be risked to get our hands on this new technology?</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_WOUNDED</zType>
+		<English>Urgent word has arrived from the network of agents in {CITY-1}: {CHARACTER-0} has been wounded while trying to retrieve secrets from a {PLAYER-2,1} informant. The meeting was a trap, guards surrounding the building and forcing {CHARACTER-SHORT-0} to cut a path through. 
+
+Luckily, the informant was killed and {CHARACTER-SHORT-0} kept {G0:his:her} face covered, so {G0:his:her} role there is not compromised. However, the wound could get worse if it is not seen to soon. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_RIGHT_PRICE</zType>
+		<English><![CDATA[Your agent {CHARACTER-SHORT-0} has failed to make contact for over a month. Worried of the implications this could have, the agent network in {CITY-1} is tasked with finding {G0:him:her}.
+
+They soon return with news that the {PLAYER-2,3} managed to discover {CHARACTER-SHORT-0} and have made contact with {G0:him:her}, using <p.is_sub.S0=SUBJECT_CORRUPT>a hefty bribe<p=SUBJECT_GREEDY>the promise of wealth<p=SUBJECT_BLOODTHIRSTY>the promise of violence<p=SUBJECT_RUTHLESS>an additional sum for betrayal<p=SUBJECT_DECEITFUL>the pleasure of betrayal<else>a hefty bribe<end> to appeal to {G0:his:her} <p.is_sub.S0=SUBJECT_CORRUPT>corrupt<p=SUBJECT_GREEDY>greedy<p=SUBJECT_BLOODTHIRSTY>bloodthirsty<p=SUBJECT_RUTHLESS>ruthless<p=SUBJECT_DECEITFUL>deceitful<else>villainous<end> nature. 
+
+The deal is not yet complete. Shall we intervene to prevent this possible treachery?]]></English>
 	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS</zType>
@@ -11576,6 +11617,42 @@ In fact, one might call this a rebellion.</English>
 Shall we make a sacrifice?</English>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CURSED</zType>
+		<English>As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward with a wail of dismay. “You have doomed us with this folly,” {G0:he:she} cries! “Your life shall be cursed from this day until your death!”
+
+Your guards quickly escort this lunatic away, but you cannot shake the ominous feeling that {G0:his:her} words caused.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_BLESSED</zType>
+		<English>As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward with a cry of joy. “Oh happy days,” {G0:he:she} exclaims! “Your life shall be blessed from this day until your death!”
+
+The {G0:man:woman} smiles warmly at you before striding off, and the positive feeling that {G0:his:her} words caused remain with you throughout the day.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_WISDOM</zType>
+		<English>As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward. “I have some advice for you,” {G0:he:she} says, stroking {G0:his:her} {G0:beard:chin}. “Balance self-interest with the collective good, and seek understanding for its own sake”
+
+The {G0:man:woman} smiles knowingly at you before walking away, and you realise that you feel wiser for {G0:his:her} words.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CHARISMA</zType>
+		<English>As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward. “I have some advice for you,” {G0:he:she} says, striking a dramatic pose. “Stand tall, and always try to use people’s names, {CHARACTER-SHORT-0}! Make a little effort to know people and they will love you for it”
+
+The {G0:man:woman} winks roguishly at you before striding off, leaving you to ponder {G0:his:her} words.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_DISCIPLINE</zType>
+		<English>As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward. “I have waited a long time to tell you this,” {G0:he:she} says, sternly, “but being able to wait patiently for the perfect moment is the key to victory.”
+
+The {G0:man:woman} nods regally before marching off, leaving you to ponder {G0:his:her} words.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_RICHES</zType>
+		<English>As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward. “A few coins, wisely invested,” {G0:he:she} says, handing you a heavy sack, “can result in you being able to hand a sack of jewels to your inheritor.”
+
+Thoroughly distracted by the wealth in your hands, you do not notice the old {G0:man:woman} leaving.</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_RELIGIOUS_FREEDOM</zType>
 		<English>Priests of our link(CONCEPT_STATE_RELIGION) of {RELIGION-1} have asked us to adopt an orthodox religious culture. However, the followers of {RELIGION-2} prefer a path of tolerance.
 
@@ -11629,7 +11706,7 @@ This unit is eager to continue the fight, wishing to honor the court with its ki
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TECH_LATEEN_MAIDEN_VOYAGE</zType>
-		<English>With the development of the link(TECH_JURISPRUDENCE), the court is eager to expand its reach over the mysterious seas. Yet there is disagreement over what types of vessels should be built for our maiden voyages. What we choose will show the world how we plan to utilize this powerful new technology.</English>
+		<English>With the development of link(TECH_JURISPRUDENCE), the court is eager to expand its reach over the mysterious seas. Yet there is disagreement over what types of vessels should be built for our maiden voyages. What we choose will show the world how we plan to utilize this powerful new technology.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TECH_LATEEN_ADRIFT</zType>
@@ -11984,7 +12061,7 @@ It is time to turn back to {PLAYER-0}, before the weather swamps your entire voy
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_SHARED_INTERESTS</zType>
 		<English>A visiting {PLAYER-0,1} scholar falls before the throne, flattering you with tales of {PLAYER-0}'s envy. According to him, {CHARACTER-SHORT-0} aspires to emulate your leadership, knowledge, and tolerance. "You are both searchers for the truth. It is right that you be companions on this journey."
 
-The {PLAYER-0,1} advisor bestows upon you a gift of ancient texts, a sign of {CHARACTER-SHORT-0}'s  friendship.</English>
+The {PLAYER-0,1} advisor bestows upon you a gift of ancient texts, a sign of {CHARACTER-SHORT-0}'s friendship.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_RELATIONSHIP_AN_ADMIRER</zType>
@@ -13130,6 +13207,10 @@ Congratulations, you have won a link(VICTORY_TIME) by having the most Victory Po
 Congratulations, you have won a link(VICTORY_CONQUEST) by destroying all of your opponents.</English>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_GAME_WIN_ALLIANCE</zType>
+		<English>Your ally {PLAYER-1} has achieved supremacy at last, and you feel proud that you contributed to the winning side. Your triumphant link(CONCEPT_ALLIANCE_PLAYER) will be remembered for centuries to come.</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_GAME_LOSS</zType>
 		<English>The court convenes one last time... to discuss the tragedy of our defeat. We tried our best to serve and protect our nation, but {PLAYER-0} will go down as a minor footnote in the history of the Old World.
 
@@ -13455,7 +13536,7 @@ You can conduct an link(MISSION_IMPRISON) Mission by clicking the  icon(MISSION_
 		<zType>TEXT_EVENTSTORY_TUTORIAL_INTERCESSION_MISSION</zType>
 		<English>link(MISSION_INTERCESSION_RELIGION) and link(MISSION_INTERCESSION_FAMILY) Missions give you the chance to have a link(CONCEPT_RELIGION) or link(CONCEPT_FAMILY) Head speak to another Character on behalf of your Leader, potentially increasing that Character's link(CONCEPT_OPINION_CHARACTER) of your leader at the cost of a few link(YIELD_ORDERS,1)  and some link(YIELD_MONEY,1). Such Missions may also lead to follow up Events.
 
-You can conduct an link(MISSION_INTERCESSION_RELIGION) or link(MISSION_INTERCESSION_FAMILY) Mission by clicking the  icon(MISSION_INTERCESSION) Intercession button in the Action Panel on the left while a Character other than your Leader is selected. The link(CONCEPT_RELIGION) Head may intercede with members of any link(CONCEPT_NATION) or link(CONCEPT_TRIBE) if they follow the same link(CONCEPT_RELIGION). The link(CONCEPT_FAMILY) Head may intercede with any members of their link(CONCEPT_FAMILY).</English>
+You can conduct an link(MISSION_INTERCESSION_RELIGION) or link(MISSION_INTERCESSION_FAMILY) Mission by clicking the  icon(MISSION_INTERCESSION) Intercession button in the Action Panel on the left while a Character other than your Leader is selected. The link(CONCEPT_RELIGION) Head (who must belong to your link(CONCEPT_NATION)) may intercede with members of any link(CONCEPT_NATION) or link(CONCEPT_TRIBE) if they follow the same link(CONCEPT_RELIGION). The link(CONCEPT_FAMILY) Head may intercede with any members of their link(CONCEPT_FAMILY).</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_TUTORIAL_TECH_DECK</zType>
@@ -14030,7 +14111,7 @@ What should we do with this undeniably fun invention?</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_EXPERIENCED_INSTRUCTOR</zType>
-		<English>{CHARACTER-0} has been training soldiers personally for years and has acquired quite a reputation. Now {G0:he:she} returns to you, saying that {G0:he:she} is ready to serve as a general in our army. There is no doubt that {CHARACTER-0} possesses exceptional tactical skills and is well-respected.</English>
+		<English>{CHARACTER-0} has been training soldiers personally and has acquired quite a reputation. Now {G0:he:she} returns to you, saying that {G0:he:she} is ready to serve as a general in our army. There is no doubt that {CHARACTER-0} possesses exceptional tactical skills and is well-respected.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_INFILTRATION_UNWELCOME_MEETING</zType>
@@ -14641,6 +14722,10 @@ How do you feel about your latest achievement?</English>
 		<English>{CITY-1} grows strong, and {PLAYER-0} with it, following your recent move to centralize our nation’s government. How shall we further hone our focus?</English>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_AMBITION_FINISHED_VASSALAGE</zType>
+		<English>With link(LAW_VASSALAGE) established, you feel confident that {PLAYER-0} will flourish. Some express concern over what they see as a dilution of power in the capital, but most of your subjects applaud the new law. Your vassals and courtiers alike wish to know the path forward.</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_AMBITION_FINISHED_FREEDOM</zType>
 		<English>The free people of {PLAYER-0} join with you to celebrate your declaration of link(LAW_FREEDOM). Although some of those close to you oppose the idea and warn you of its consequences, many are supportive and encourage you to venture forth down the path you have started.
 
@@ -14664,21 +14749,21 @@ What is your path forward?</English>
 		<zType>TEXT_EVENTSTORY_COGNOMEN_DRILLMASTER</zType>
 		<English>The armies of {PLAYER-0} march in a procession through {CITY-1} under your watchful gaze. Your military might is something to be feared, and people have taken to calling you The Drillmaster in recognition of your ability to wield the armies of our nation with ruthless effectiveness. 
 
-Ambition and pride swells up, perhaps this is the prime opportunity to pursue a new ambition to ensure your legacy?
+Ambition and pride swells up. Perhaps this is the prime opportunity to pursue a new ambition to ensure your legacy?
 </English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COGNOMEN_INTERCESSOR</zType>
-		<English>Your ability to mediate with other leaders has led to a time of flourishing peace and trade. The people of {PLAYER-0} fondly praise your skills in diplomacy and your reputation has grown to the point you are referred to as The Intercessor. 
+		<English>Your ability to mediate with other leaders has led to a time of flourishing peace and trade. The people of {PLAYER-0} fondly praise your skills in diplomacy, and your reputation has grown to the point that you are referred to as The Intercessor. 
 
-Having peace and allies amongst the other peoples of the world gives a chance to take time and reflect. Will you undertake a new ambition to secure your legacy?
+Having peace and allies amongst the other peoples of the world gives you a chance to take time and reflect. Will you undertake a new ambition to secure your legacy?
 </English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COGNOMEN_SETTLER</zType>
 		<English>Under your rule, {PLAYER-0} has pushed ever outwards into new lands, cities rising at a speed never seen before. This rapid expansion has your name traveling across the world, with people calling you The Settler. 
 
-You travel to the latest of your cities, watching as the scaffold is raised for a new administrative center. As with each, inscriptions are written to praise your rule. Watching the artisans work leads you to reflect on your legacy, what successes will be written about in the future?
+You travel to your newest city, watching as the scaffold is raised for a new administrative center. As with each, inscriptions are written to praise your rule. Watching the artisans work leads you to reflect on your legacy. What successes will be written about you in the future?
 </English>
 	</Entry>
 	<Entry>
@@ -14690,7 +14775,7 @@ Poring over the map and imagining the places still undiscovered, you wonder how 
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COGNOMEN_INTREPID</zType>
-		<English>Your name has reached even the far-flung corners of the world, your scouts returning with tales of wondrous lands and incredible creatures. Legend holds that there is no place of which {PLAYER-0} does not know and you are praised throughout the nation as The Intrepid.
+		<English>Your name has reached even the far-flung corners of the world, your scouts returning with tales of wondrous lands and incredible creatures. Legend holds that there is no place of which {PLAYER-0} does not know, and you are praised throughout the nation as The Intrepid.
 
 As your world has expanded, you have become aware of the ways of other people and cultures. Reflecting on your place in the world raises a question: There is still so much of the world to discover, but where do your ambitions lie? 
 </English>
@@ -14706,7 +14791,7 @@ As the scholars of the court list their latest findings, you wonder if there is 
 		<zType>TEXT_EVENTSTORY_COGNOMEN_WEAK</zType>
 		<English>It has been a difficult time. The armies and cities of {PLAYER-0} have taken a battering under your rule, with some giving into despair and labeling you as The Weak. But all is not lost. You are not defeated yet, and the fire of ambition still burns within! 
 
-Will you pursue an ambition to prove those who doubt your rule wrong?    
+Will you pursue an ambition to prove wrong those who doubt your rule?
 </English>
 	</Entry>
 	<Entry>
@@ -14715,6 +14800,247 @@ Will you pursue an ambition to prove those who doubt your rule wrong?
 
 The question that all are wondering is what next? Pride often comes before the fall, and it is time for you to prove your legitimacy as a leader of action. What ambition would take your name to even greater heights? 
 </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_MIGHTY</zType>
+		<English>No force can halt the tide of the {PLAYER-0,1} armies under your command. People are learning to fear our nation’s military prowess, and our warriors are regarded with awe across the world. The reputation of your name travels too: {CHARACTER-SHORT-0} the Mighty is a name on many lips. 
+
+Such victories on the field of battle have increased your reputation, but with such fame comes the question of legacy. To what glorious purpose shall you turn your armies and your mighty gaze? 
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_READY</zType>
+		<English>The armies of {PLAYER-0} have grown at an incredible rate, rumors spreading that your forces are numerous beyond compare, dwarfing those of other nations. Your reputation for training and promoting troops has the world trembling at your name, {CHARACTER-SHORT-0} the Ready. 
+
+The question for most is to what purpose are these armies intended? It is something that you yourself ponder while looking out over the sea of warriors. Where do your ambitions lie? 
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_AVENGER</zType>
+		<English>The tribes of the world whisper your name in fear. The sites left torched by your armies have consigned many potential nations to the footnotes of history, but the people of {PLAYER-0} celebrate your victories, proclaiming you as The Avenger. 
+
+You have gained your reputation in war against the tribes. Do you continue this path, or do your ambitions lie elsewhere?
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_CONQUERER</zType>
+		<English>Another city has fallen before your might! As news of your victory spreads, so does the legend of your power in war: It is said that no city can stand before you, {CHARACTER-SHORT-0} the Conquerer. 
+
+Surveying the damage caused by the siege, you wonder what comes next. How shall you leave your mark on the world? 
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_BRILLIANT</zType>
+		<English>Under your rule, the court of {PLAYER-0} has flourished with skilled courtiers and specialists. Surrounding yourself with those of such potential and expertise has led to your reputation as {CHARACTER-SHORT-0} The Brilliant, a ruler of wisdom and grace. 
+
+So much talent around you has another effect: You feel driven to do more, to be better and to leave a lasting legacy on the world. Will you follow this inspiration to pursue a new ambition?
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_ARCHITECT</zType>
+		<English>Dust scatters as the large stone block is moved into place, a team of five lifting as another guides them. All are aware of your watchful gaze and work hard to impress their {G0:king:queen}. The flurry of construction under your reign has made a lasting impression, and a nickname first given by the workers has spread - {CHARACTER-SHORT-0} the Architect. 
+
+As you watch such diligence, you reflect on your own work. Will you pursue a new ambition and drive yourself to new heights? 
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_KEYSTONE</zType>
+		<English>The buildings of your cities are visible for miles around, wondrous constructions that tourists travel the world to see. The legend of the buildings of {PLAYER-0} has also led to a new name for you, {CHARACTER-SHORT-0} the Keystone. 
+
+A meeting with your leading architects raises a question of what statues you want displayed on the latest monuments. There is always more to achieve. Will you announce a new ambition to those assembled? 
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_DEVOUT</zType>
+		<English>Your dedication to the heavens has not gone unnoticed by those on earth. Your court is often called upon by people of faith, with visitors commenting that your halls almost feel like a temple. Word of your aura has led to renown as {CHARACTER-SHORT-0} the Devout. 
+
+The voices of those in ritual worship rise up to the palace; your rule has seen a wave of religious fervor. As you reflect on the voices, you wonder if there is a way to express your devotion through action.
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGACY_OF_THE_YOUNG</zType>
+		<English>You are the latest of a chain of rulers, a link in the dynasty that will rule for all time. Each day, you are surrounded by the successes of your predecessors, statues, inscriptions, monuments, festivals all praising their varied successes. True or not. 
+
+Although their legitimacy upholds your own, it is vital that you make your own mark on {PLAYER-1}. There is an upcoming new year festival, will you proclaim a new ambition to your people? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGACY_OF_THE_RULER</zType>
+		<English>{PLAYER-0} is held together by the legitimacy of your dynasty, those with the ambition and the heritage to rule. All eyes are on you and how you will steer then nation. 
+
+What will you aim for? What legacy do you wish to leave behind? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGACY_OF_THE_OLD</zType>
+		<English>How do you want to be remembered? The many years of your life make themselves felt in your every movement, but you are not yet too old for action! Knowing that the end is likely close brings a certain clarity and purpose. 
+
+Will you use your lasting vigor to aim for a new ambition? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GROWING_COMPETITION</zType>
+		<English>{PLAYER-2} is closely mirrored by our neighbor, {PLAYER-0}. The proximity of their nation, in both position and power, has led to a wary tension between the two. Your subjects pass around rumors of the strange practices of their people and ministers fret over the threat of war if they turn their gaze toward our resources. 
+
+Your advisers suggest taking action to prepare in case of a rise in {PLAYER-0,1} power. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RIVALS_AT_WAR</zType>
+		<English>The mounting rivalry with {PLAYER-0} has only deepened by the war between your two nations. The scars on the minds of those whose homes have been destroyed and their family killed will never fade. Every battle deepens the divide. 
+
+How will you strive to surpass {PLAYER-0}? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RIVALS_AT_PEACE</zType>
+		<English>The tension with {PLAYER-0} has been appeased with a peace, but undercurrents of rivalry still make themselves known as your nations vie for the glory and renown to stand above the other. 
+
+Will you continue this legacy of competition? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_OLD_WAYS</zType>
+		<English>The pagan ways of {PLAYER-5} are surrounded by new religions like {RELIGION-1} and {RELIGION-2}. But the old ways are a part of life and culture, interwoven into the very fabric of your way of being. What does it mean to the future of {PLAYER-5} and your rule if these ways die out? 
+</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_REVENGE_FOR_LEADER</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LEGACY_OF_RULER</zType>
+		<English>The legacy of {CHARACTER-0} still resonates through the {PLAYER-1,1} world. {G0:His:Her} name is used as an example of ideal rule, and {G0:he:she} remains the subject of many tales, songs and plays. 
+
+How does a {G1:king:queen} live up to such a great legacy? The question returns as you find yourself facing yet another application to erect a statue of the historic ruler.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_EPIC_LEGACY</zType>
+		<English>The link(LAW_EPICS) of your people are told by word of mouth, inscribed in stone and depicted in painting. Most popular among these stories is the tale of {CHARACTER-0}, the legendary founder of {PLAYER-0}. 
+
+The legacy of such a name inspires awe, yet also brings a certain responsibility. Will you try to live up to the name of {G0:he:she} who came before you?</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEFINED_BY_WAR</zType>
+		<English>The war with {PLAYER-0} is threatening to define your rule in the eyes of the people of {PLAYER-1}. Your name inspires as a leader in combat, yet is that all that will be remembered of your achievements? 
+
+As reports return of another sortie against the enemy forces, the question remains: Will you commit to this path of war? Or do you aim to follow a different road? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NEXT_GENERATION</zType>
+		<English>You bring your children {CHARACTER-0} and {CHARACTER-1} to the throne room one evening, to sit in your place and to feel the responsibility of leading {PLAYER-2}. 
+
+As they take turns, one of your advisers asks them what change they would implement first as ruler. Interested, you listen on, curious if either will impress you.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RICHES_OF_NATION</zType>
+		<English>The treasuries of {CITY-0} and {CITY-1} are overflowing, great wealth hoarded in the stone vaults. 
+
+As your ministers share their reports on the state of the nation, the question forms in your mind of whether the wealth from these cities is best left alone, or if it should be invested back into the improvement of {PLAYER-2}...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_POWER_OF_THE_PEOPLE</zType>
+		<English>The people of {CITY-0} are up in arms, complaining about the state of affairs in {PLAYER-1}. A mob has gathered in front of the palace, demanding that you face them. Although your guards can easily hold them back, you wonder if a promise to improve would help to calm the simmering resentment. 
+
+Will you address the crowd? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOVE_OF_THE_LAND</zType>
+		<English>{CHARACTER-SHORT-0} is not only your {p.is_sub.S0=SUBJECT_SPOUSE_OF_LEADER_US:spouse:lover}, but your love. The rule of {PLAYER-1} would be a cold and lonely path without your muse. 
+
+Watching as {G0:he:she} {p.is_sub.S0=SUBJECT_EQUESTRIAN:rides:p.is_sub.S0=SUBJECT_WARLIKE:trains:p.is_sub.S0=SUBJECT_DILIGENT:works:relaxes} one day, you wonder if there is some gift you could pursue for your love. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRUSTED_COUNCIL</zType>
+		<English>The members of your council have gathered together to discuss the state of affairs in {PLAYER-3}. Your Spymaster {CHARACTER-SHORT-0} is seated, an aura of {p.is_sub.S0=SUBJECT_CHARACTER_MIN_PLEASED:inplacable and reassuring calm:cold malice} surrounding {G0:him:her}. Chancellor {CHARACTER-SHORT-1} {p.is_sub.S1=SUBJECT_CHARACTER_MIN_PLEASED:bows respectfully:looks away} as you enter. Ambassador {CHARACTER-SHORT-2} gives you {p.is_sub.S2=SUBJECT_CHARACTER_MIN_PLEASED:a warm smile:an indifferent glance}, "Shall we begin?"
+
+Personal opinions aside, each has their own suggestion for the best steps to guide {PLAYER-3}. Will you take their council?</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WISDOM_OF_THE_OLIGARCHS</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGE_OF_WAR</zType>
+		<English>The people of {PLAYER-0} are tired. The multiple wars have families, supplies and patience stretched thin. Discontent is on the rise, with the people of {CITY-1} marching through the street in mobs. 
+
+Members of your court have gathered to suggest that a plan is needed to encourage the people and restore their spirits, before you are faced with rebels at home as well as abroad. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GLORY_FOR_GOD</zType>
+		<English>Your devotion to {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGANISM:the gods:God} is a part of your daily life, subtly shaping your actions and guiding your hand. But a meeting with the religious elders questions if there is more that could be done.
+
+Others of the faithful look to you for guidance, will you take action to shape {PLAYER-0} into a realm worthy of {RELIGION-1}? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BEHIND_THE_THRONE</zType>
+		<English>{CHARACTER-0} has not been idle. Your {p.is_sub.S0=SUBJECT_CHARACTER_DILIGENT:diligent:determined} spouse approaches you in your chambers, bringing a scribe laiden with various plans for the future of {PLAYER-1}. 
+
+Laying them in front of you, {G0:he:she} begs you to take a look at {G0:his:her} ideas. A few stand out...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WONDROUS_AMBITION</zType>
+		<English>The pyramids tower above the fields of {CITY-0}, visible from miles around. Such monolithic structures have become a thing of awe and wonder, some wondering if such a feat of construction would even be possible in current times. 
+
+Although this wonder of your dynasty raises your name, the looming tombs are a reminder to make your own mark on the world, or be forgotten. Will they inspire you to action? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_WAR</zType>
+		<English>The Pythia of link(IMPROVEMENT_ORACLE) of {CITY-0} has spoken:
+
+"Hear your fate, O people of {PLAYER-0}. Weep for your children, those to fall to the blades of {PLAYER-1}. Even your statues shiver with dread. Look to your one salvation, the wooden walls that will stand for generations to come."</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_PEACE</zType>
+		<English>The Pythia of link(IMPROVEMENT_ORACLE) of {CITY-0} has spoken:
+
+"Remember the tides of fate O dwellers of {PLAYER-0}, the rolling waves of foam and time that not even the gods can control. Rise, climb above with quivering fingers and a yearning heart, or be dashed upon the rocks laid out before you."</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_PERSONAL</zType>
+		<English>The Pythia of link(IMPROVEMENT_ORACLE) of {CITY-0} has spoken:
+
+"Listen, {CHARACTER-2}, first of the {PLAYER-2,3}. Bring not a broken chain to pull your people forwards. {G1:He:She} by your side will be entertained, by your rise or by your fall."</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FORMING_NATION</zType>
+		<English>As the laws of the court are read out to the people, the court themselves are engaged in celebration and merriment. 
+
+One of the court scholars rises to give a speech: “A civilization is not a static being, but a dynamic entity built on the decisions of the people within. The laws of {PLAYER-0} have taken their first shape, painting a picture of our future. Praise to {CHARACTER-0}!”
+
+As you reflect on your path, ambition swells from within. What shape do you wish for this fledgling nation? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_OTHER_PATH</zType>
+		<English>The laws of the land can greatly shape a developing nation. Although {PLAYER-2} and {PLAYER-3} have started down different paths, there is still so much potential in what your nations will become. 
+
+Even as their people are telling link(LAW_EPICS) of their heroes, yours are practicing link(LAW_EXPLORATION) and venturing into the wilds. Every route you find opens new possibilities and you find yourself reflecting on the road your nation is on. 
+
+Where will it lead you next? </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TALES_OF_NATION</zType>
+		<English>There are whispers in the markets of {PLAYER-1} of the far off land of {PLAYER-0}, said to be filled with cities bedecked in jewels and an army so large that the very earth shakes under their marching feet. 
+
+{PLAYER-0} may be distant, but the arrival of their merchants leads to questions in your court on how {PLAYER-1} is to economically compete with such a wealthy and powerful nation.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FRIENDS_AND_ALLIES</zType>
+		<English>A diplomatic meeting provides a rare chance to speak to your ally {CHARACTER-1} in person rather than through a series of messengers. 
+
+Although most of the day is taken up by rote formalities, in a brief interlude at dinner, {CHARACTER-SHORT-1} speaks to you in a conspiratorial whisper:
+
+"Come now, {CHARACTER-SHORT-2}, we are allies! I am sworn to you like you are a {G2:brother:sister}, yet there is so much I still don't know about you. Will you tell me of your plans for {PLAYER-2}?" </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FAMILY_COMPLAINTS</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRUE_SUCCESSOR</zType>
+		<English>As you sit on the throne of {PLAYER-1}, a slither of doubt sits uncomfortably in your chest. You may rule for now, but you know that {CHARACTER-0} is still out there, waiting to return to the throne. 
+
+Time is short. It is vital to make the most of your current power, to either secure it for yourself or to path the way for {CHARACTER-SHORT-0}. How will you make your mark and secure your legacy?  </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_MEMORY_ENDURES</zType>
+		<English>The loss of {CHARACTER-0} strikes you at the most mundane of moments. Grief will suddenly appear, wrapping it self around you until it feels impossible to move. 
+
+The pain of {G0:his:her} passing will never entirely leave you, but maybe there is a way to honor the memory of your lost child? </English>
 	</Entry>
 	<Entry beginGroup="Tribe">
 		<zType>TEXT_EVENTSTORY_RAID_MERCENARIES</zType>
@@ -15549,7 +15875,7 @@ What do you desire in a suitable companion?</English>
 		<zType>TEXT_EVENTSTORY_INFLUENCE_SPOUSE_INTERESTS</zType>
 		<English><![CDATA[Hoping to improve your relationship with {CHARACTER-SHORT-1}, you have arranged a day together <p.is_sub.S1=SUBJECT_ZEALOT>discussing theology<p=SUBJECT_SCHOLAR>studying ancient scrolls<p=SUBJECT_ORATOR>praising {G1:his:her} latest speech<p=SUBJECT_DIPLOMAT>examining your most important treaties<p=SUBJECT_SCHEMER>plotting revenge on a common enemy<p=SUBJECT_HERO>talking about {G1:his:her} greatest triumphs<p=SUBJECT_TACTICIAN>re-fighting ancient battles with model soldiers<p=SUBJECT_COMMANDER>studying the great campaigns of famous generals<p=SUBJECT_BUILDER>designing a wondrous building<p=SUBJECT_JUDGE>analyzing historic case law<else>spending quality time with {G1:him:her}<end>.
 
-{CHARACTER-SHORT-1} declares that this is one of their favorite activities and they can think of nothing they’d rather do!]]></English>
+{CHARACTER-SHORT-1} declares that this is one of {G1:his:her} favorite activities and {G1:he:she} can think of nothing {G1:he:she} would rather do!]]></English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTSTORY_INFLUENCE_SPOUSE_START</zType>
@@ -16920,6 +17246,13 @@ There is no continuing as before after this public display. What will you decide
 
 Quietly and intimately, {CHARACTER-SHORT-0} confesses to loving you. {G0:He:She} doesn't expect anything to change, but hopes, dreams, that you may feel the same and take {G0:him:her} as your {G0:husband:wife}.</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_IN_THE_EYES</zType>
+		<English>The cries of anger from the gathered mob can be heard even from your private chambers. {CHARACTER-0} wasted no time upon hearing of your intentions for a divorce, swiftly securing the support of {CHARACTER-2}, the Head of {RELIGION-1}. {G0:He:She} is determined to remain {G0:king:queen}, and so together they roused the faithful of the city to protest against the divorce.
+
+Now the duo sit in your chambers, awaiting your answer. {CHARACTER-SHORT-2} reminds you of {G2:his:her} power to denounce your name to the faithful. Will you continue with the divorce or is the risk of upsetting the {RELIGION-1,3} too great? 
+</English>
+	</Entry>
 	<Entry beginGroup="Courtier">
 		<zType>TEXT_EVENTSTORY_CALENDAR_AND_SEASONS</zType>
 		<English>Learned thinkers and philosophers, farmers and priests alike have long contemplated correcting the current calendar, which is prone to wandering about. The current seasons are out of alignment with the existing calendar by as much as one hundred days, putting critical harvests and sacred festivals at risk. </English>
@@ -17944,6 +18277,6 @@ Although you are learning a lot, studying the scroll is giving you a terrible he
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_CHANCE_ENCOUNTER</zType>
 		<English>News arrives that {RELATIVE-0} {CHARACTER-0} has asked to be wed to {CHARACTER-1}, a self-made {G1:man:woman} who has made {G1:his:her} fortune through the building and supplying of trading vessels.
 
-Such a relation will bring a large dowery, but the snub would undoubtably anger the noble families. Shall the marriage be permitted? </English>
+Such a relation will bring a large dowry, but the snub would undoubtedly anger the noble families. Shall the marriage be permitted? </English>
 	</Entry>
 </Root>

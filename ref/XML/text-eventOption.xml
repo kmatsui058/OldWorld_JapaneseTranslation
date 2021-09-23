@@ -1070,11 +1070,11 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FIGHTING_FOR_THE_DIVINE_0</zType>
-		<English><![CDATA[My blade belongs to <p.is_sub.S0=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end>.]]></English>
+		<English>My blade belongs to {p.is_sub.S0=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S0=SUBJECT_RELIGION_PAGAN:the gods:God}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FIGHTING_FOR_THE_DIVINE_2</zType>
-		<English><![CDATA[May <p.is_sub.S0=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end> bless my sword.]]></English>
+		<English>May {p.is_sub.S0=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S0=SUBJECT_RELIGION_PAGAN:the gods:God} bless my sword.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ZOROASTRIANISM_FOUNDED_THEM_STATE_0</zType>
@@ -1106,7 +1106,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DIVINE_PUNISHMENT_1</zType>
-		<English><![CDATA[Order extra worship to appease <p.is_sub.S2=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end>.]]></English>
+		<English>Order extra worship to appease {p.is_sub.S2=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S2=SUBJECT_RELIGION_PAGAN:the gods:God}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DIVINE_PUNISHMENT_2</zType>
@@ -1114,7 +1114,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNED_TO_THE_FOLD_0</zType>
-		<English><![CDATA[Ratify the marriage before <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGANISM>the gods<else>God<end>.]]></English>
+		<English>Ratify the marriage before {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGANISM:the gods:God}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RETURNED_TO_THE_FOLD_1</zType>
@@ -1641,7 +1641,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_SUPPORT_1</zType>
-		<English><![CDATA[Pay off the remaining <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Magi<p=SUBJECT_CHRISTIANITY>Bishops<p=SUBJECT_JUDAISM>Kohanim<p=SUBJECT_MANICHAEISM>Elect<else>Priests<end> to shore up support. ]]></English>
+		<English>Pay off the remaining {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Magi:p.is_sub.S1=SUBJECT_CHRISTIANITY:Bishops:p.is_sub.S1=SUBJECT_JUDAISM:Kohanim:p.is_sub.S1=SUBJECT_MANICHAEISM:Elect:Priests} to shore up support.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_INTRIGUE_SUPPORT_2</zType>
@@ -1769,7 +1769,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_ABDICATION_1</zType>
-		<English><![CDATA[If that is <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Ahura Mazda’s<p=SUBJECT_RELIGION_PAGAN>the gods’<else>God’s<end> will, then so be it. ]]></English>
+		<English>If that is {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda’s:p.is_sub.S1=SUBJECT_RELIGION_PAGAN:the gods’:God’s} will, then so be it.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RELIGIOUS_ABDICATION_2</zType>
@@ -2056,7 +2056,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INTERCESSION_DONATION_2</zType>
-		<English><![CDATA[We need money to aid <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end>. Lots of money.]]></English>
+		<English>We need money to aid {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGAN:the gods:God}. Lots of money.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INTERCESSION_TRUCE_0</zType>
@@ -2492,7 +2492,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FIRE_OF_THE_GODS_1</zType>
-		<English><![CDATA[The <p.is_sub.S2=SUBJECT_ZOROASTRIANISM>Magi<p=SUBJECT_CHRISTIANITY>Bishops<p=SUBJECT_JUDAISM>Kohanim<p=SUBJECT_MANICHAEISM>Elect<else>Priests<end> are right. The mountain should be left alone.]]></English>
+		<English>The {p.is_sub.S2=SUBJECT_ZOROASTRIANISM:Magi:p.is_sub.S2=SUBJECT_CHRISTIANITY:Bishops:p.is_sub.S2=SUBJECT_JUDAISM:Kohanim:p.is_sub.S2=SUBJECT_MANICHAEISM:Elect:Priests} are right. The mountain should be left alone.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_RIVER_CROSSING_0</zType>
@@ -3794,7 +3794,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CONVERT_SELF_BEFORE_GOD_2</zType>
-		<English><![CDATA["We are all the same before <p.is_sub.S2=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end>."]]></English>
+		<English>"We are all the same before {p.is_sub.S2=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S2=SUBJECT_RELIGION_PAGAN:the gods:God}."</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CONVERT_SELF_FOOL_0</zType>
@@ -3825,7 +3825,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CONVERT_SELF_ALL_THINGS_1</zType>
-		<English><![CDATA[Explain that you believe it comes from a unique connection with <p.is_sub.S2=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end>.]]></English>
+		<English>Explain that you believe it comes from a unique connection with {p.is_sub.S2=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S2=SUBJECT_RELIGION_PAGAN:the gods:God}.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_CONVERT_SELF_ALL_THINGS_2</zType>
@@ -4352,6 +4352,90 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_WHAT_IS_ART_OPTION_3</zType>
 		<English>This is beyond compare! A Masterpiece!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED</zType>
+		<English>Worrisome.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP</zType>
+		<English>I feel as if {G0:his:her} face was familiar somehow too...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_BLESSED</zType>
+		<English>What a nice {G0:man:woman}!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM</zType>
+		<English>What a nice {G0:man:woman}!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM_HELP</zType>
+		<English>{TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CHARISMA</zType>
+		<English>What a good-looking {G0:man:woman}. Very charming!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM_HELP_COPY</zType>
+		<English>{TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_DISCIPLINE</zType>
+		<English>How strange, I didn’t see {G0:him:her} waiting.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_RICHES</zType>
+		<English>A surprise, to be sure, but a welcome one!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TYRANNY</zType>
+		<English>Let’s not give our subjects too much freedom.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_DIVINE_RULE</zType>
+		<English>Let’s not give our subjects too much freedom.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_THREE_GOVERNORS</zType>
+		<English>I still plan to appoint those in charge of governance.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_SERFDOM</zType>
+		<English>Let the people work the land they govern.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_STONE_800</zType>
+		<English>Let the people work the land they govern.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_GOODS_TURN</zType>
+		<English>Let the people work the land they govern.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_CONSTITUTION</zType>
+		<English>The order of law will keep our subjects in check.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_LEGAL_CODE</zType>
+		<English>The order of law will keep our subjects in check.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_FOUR_COURTHOUSE_1</zType>
+		<English>The order of law will keep our subjects in check.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_POLYTHEISM</zType>
+		<English>{PLAYER-0} is not afraid of diversity.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TOLERANCE</zType>
+		<English>{PLAYER-0} is not afraid of diversity.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_SPECIALISTS</zType>
+		<English>{PLAYER-0} is not afraid of diversity.</English>
 	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTOPTION_RUINS_SURVIVORS_INVITE</zType>
@@ -10505,7 +10589,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INTERCESSION_SACRIFICE_2</zType>
-		<English><![CDATA[Pay for dedications to <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end> in {G0:his:her} name. ]]></English>
+		<English>Pay for dedications to {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGAN:the gods:God} in {G0:his:her} name.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INTERCESSION_SACRIFICE_3</zType>
@@ -15488,7 +15572,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BORROWING_CLOTHES_OPTION_2</zType>
-		<English>Come and see my collection, I have something for every fancy and gender.</English>
+		<English>Come and see my collection, I have something for every fancy.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_BORROWING_CLOTHES_OPTION_2_HELP</zType>
@@ -15916,7 +16000,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_VENGEFUL_TO_PLOTTING</zType>
-		<English><![CDATA[<p.is_sub.S1=SUBJECT_ZEALOT>The gods shall protect me!<p=SUBJECT_SCHOLAR>I shall research counters to common schemes.<p=SUBJECT_ORATOR>Perhaps I can talk {G0:him:her} out of it?<p=SUBJECT_DIPLOMAT>Perhaps I can talk {G0:him:her} out of it?<p=SUBJECT_SCHEMER>{G0:He:She} cannot out-plot me!<p=SUBJECT_HERO>{G0:He:She} dares plot against me?!<p=SUBJECT_TACTICIAN>{G0:He:She} can be easily out-maneuvered<p=SUBJECT_COMMANDER>{G0:He:She} is no threat to me!<p=SUBJECT_BUILDER>I hate these distractions from my great works.<p=SUBJECT_JUDGE>But… that’s illegal!<else>Worrisome.<end>]]></English>
+		<English>{p.is_sub.S1=SUBJECT_ZEALOT:The gods shall protect me!:p.is_sub.S1=SUBJECT_SCHOLAR:I shall research counters to common schemes.:p.is_sub.S1=SUBJECT_ORATOR:Perhaps I can talk {G0:him:her} out of it?:p.is_sub.S1=SUBJECT_DIPLOMAT:Perhaps I can talk {G0:him:her} out of it?:p.is_sub.S1=SUBJECT_SCHEMER:{G0:He:She} cannot out-plot me!:p.is_sub.S1=SUBJECT_HERO:{G0:He:She} dares plot against me?!:p.is_sub.S1=SUBJECT_TACTICIAN:{G0:He:She} can be easily out-maneuvered.:p.is_sub.S1=SUBJECT_COMMANDER:{G0:He:She} is no threat to me!:p.is_sub.S1=SUBJECT_BUILDER:I hate these distractions from my great works.:p.is_sub.S1=SUBJECT_JUDGE:But… that’s illegal!:Worrisome.}</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_1</zType>
@@ -15937,6 +16021,66 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_1</zType>
 		<English>Refuse to entertain this marriage offer.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_0</zType>
+		<English>"Ah, this is my old family friend. We've not seen each other in years!"</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_0_HELP</zType>
+		<English>I don't believe {G1:he:she}'d fall for this...</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_1</zType>
+		<English>Attempt to explain it away.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_1_HELP</zType>
+		<English>I may lose progress with {CHARACTER-SHORT-1}, but at least my agent will be safe.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_2</zType>
+		<English>Own up to it immediately.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_2_HELP</zType>
+		<English>I will not sacrifice my integrity to win someone over.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_EXPOSED_KILLED</zType>
+		<English>The court will mourn {G0:his:her} sacrifice…</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_EXPOSED_SECRETS</zType>
+		<English>Well done!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_EXPOSED_0</zType>
+		<English>Return to us, before anything worse happens.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_EXPOSED_1</zType>
+		<English>Your work is too important to stop now.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_WOUNDED_0</zType>
+		<English>Return to us for treatment.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_WOUNDED_1</zType>
+		<English>Your work is too important to stop now.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_RIGHT_PRICE_0</zType>
+		<English>Remind {CHARACTER-SHORT-0} of what happens to those who betray me.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_RIGHT_PRICE_1</zType>
+		<English>Promise {G0:him:her} that I can match any offer that the {PLAYER-2,3} make.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGENT_RIGHT_PRICE_2</zType>
+		<English>Demand that {CHARACTER-SHORT-0} returns at once. {G0:He:She} must be watched. </English>
 	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTOPTION_HAPPINESS_IMMIGRANTS_YES</zType>
@@ -16200,7 +16344,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FOREST_FIRE_EMBERS_OPTION_0</zType>
-		<English>The citizens of {CITY-1} are not pleased.</English>
+		<English>The citizens of {CITY-1} are grateful that you tried.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_FOREST_FIRE_ORPHAN_OPTION_0</zType>
@@ -19927,6 +20071,10 @@
 		<English>Send an official {PLAYER-1,1} escort across the border.</English>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_RELATIONSHIP_ALLIED_INTELLIGENCE_OPTION_3</zType>
+		<English>It's best not to risk anything.</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_RELATIONSHIP_GOOD_CHEER_OPTION_0</zType>
 		<English>Reinvigorate our national traditions.</English>
 	</Entry>
@@ -22555,6 +22703,10 @@
 		<English>Bring the horse inside. Let us celebrate our victory.</English>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_OPTION_0_HELP</zType>
+		<English>I'm sure it'll be fine this time...</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_OPTION_1</zType>
 		<English>Burn it down - it's a trap!</English>
 	</Entry>
@@ -24303,6 +24455,10 @@
 		<English>I have something else in mind.</English>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_NO</zType>
+		<English>I have something else in mind.</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTOPTION_AMBITION_FINISHED_FREEDOM_OPTION_NO</zType>
 		<English>I have something else in mind.</English>
 	</Entry>
@@ -24340,7 +24496,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_DOCTORS</zType>
-		<English>There won’t always be peace, train medical specialists to care for our people!</English>
+		<English>There won’t always be peace. Train medical specialists to care for our people!</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_CONVOYS</zType>
@@ -24465,6 +24621,894 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_COGNOMEN_STRONG_CAPITAL</zType>
 		<English>Only a strike at the heart will prove our strength!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_POPULATION</zType>
+		<English>It is the people that we fight for!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_SPECIALISTS</zType>
+		<English>We will train the most skilled people to drive our nation forward!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_LEGENDARY_CITIES</zType>
+		<English>The heartlands of {PLAYER-0} shall rise above all others!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_CIRCUS_MAXIMUS</zType>
+		<English>Our armies will perform in an arena, the like of which has never been seen!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EVENTOPTION_COGNOMEN_MIGHTY_YIELDS</zType>
+		<English>Our people shall never want for food or shelter!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_LAWS</zType>
+		<English>We will make {PLAYER-0} a beacon of civilization and law!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_CITIES</zType>
+		<English>Our cities shall spread across the earth! </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_GENERALS</zType>
+		<English>I will gather the best generals to lead my armies to war!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_KILLS</zType>
+		<English>I will lead my forces in a rampage of destruction!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_TECH</zType>
+		<English>My armies will provide stability during an age of economic reform!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_REVEAL</zType>
+		<English>I will explore all this world has to offer!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_SHRINES</zType>
+		<English>I will seek the favor of the gods of {PLAYER-0}!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_PEACE</zType>
+		<English>I want to be remembered for peace, not for war!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_POP</zType>
+		<English>We should rest and focus on home!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_MYTHOLOGY</zType>
+		<English>Our religion should tell stories of my exploits!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_DIVINE_RULE</zType>
+		<English>A link to the divine will further secure my rule!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_CITIES</zType>
+		<English>It is time for our armies to pursue grander prizes!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_HOLY_WAR</zType>
+		<English>I need purpose, like fighting for faith!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TYRANNY</zType>
+		<English>My rule should be absolute across every city!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_CIVICS</zType>
+		<English>We shall keep records of every detail of my conquests!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TOWERS</zType>
+		<English>I shall not fall prey to a similar fate as befell these!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TRIBES</zType>
+		<English>The tribes of the world will be the next to fall!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_WONDERS</zType>
+		<English>I shall build wonders like the world has never seen!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_LEGENDARY</zType>
+		<English>Our cities shall shine like jewels!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_PROJECTS</zType>
+		<English>I will oversee the improvement of our cities!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_RELIGION</zType>
+		<English>I will bring faith to every corner of the land!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_CITIES</zType>
+		<English>My skills should be turned to war and conquest!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_PHILOSOPHY</zType>
+		<English>The desire to learn should be handed down to future generations!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_ENGINEERING</zType>
+		<English>I will pass laws to ensure my legacy of construction endures!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_SEVEN_CITIES</zType>
+		<English>I want to have more cities to build in!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_IRON</zType>
+		<English>We should increase production for future projects!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_MONEY</zType>
+		<English>I want to be known for my wealth and riches!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_YIELDS</zType>
+		<English>We shall focus all of our efforts on production!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_CITIES</zType>
+		<English>Our cities shall shine like jewels!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS</zType>
+		<English>I will only accept the very best to work in my lands!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS_2</zType>
+		<English>We need as many skilled workers as possible!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_TECH</zType>
+		<English>I want to explore the military applications of such engineering!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_GOVERNORS</zType>
+		<English>I need to find people I can trust to oversee these cities!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_KILLS</zType>
+		<English>I will show my devotion with blade and bow!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_POP</zType>
+		<English>The faithful will be as numerous as the stars!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_HAGIA</zType>
+		<English>I will build a place of worship to surpass all others!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_MONEY</zType>
+		<English>I will gather all I can to fund the faith!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_COURTS</zType>
+		<English>My righteousness shall be felt through the law as well as the faith!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_TECH</zType>
+		<English>We should research other ways to express our faith!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_OF_THE_YOUNG_NO</zType>
+		<English>There is still time, I will be patient before deciding my path.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_OF_THE_RULER_NO</zType>
+		<English>I will be patient before deciding my path.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GROWING_COMPETITION_NO</zType>
+		<English>I do not see {PLAYER-0} as our rivals. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_OF_THE_OLD_NO</zType>
+		<English>There is no time, leave ambition to the young.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_NO</zType>
+		<English>I still hold out hope for peace.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_AT_PEACE_NO</zType>
+		<English>This rivalry will bring nothing but pain. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OLD_WAYS_NO</zType>
+		<English>Maybe we should be open to change.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_NO</zType>
+		<English>It is time to let go of the past.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_LEGACY_OF_RULER_NO</zType>
+		<English>I will find my own path. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EPIC_LEGACY_NO</zType>
+		<English>I will not compete with such a figure. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_NO</zType>
+		<English>Fighting is enough of a challenge. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEXT_GENERATION_NO</zType>
+		<English>Hopefully they will gain some sense as they grow.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RICHES_OF_NATION_NO</zType>
+		<English>I have different ideas for how this could be used. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_POWER_OF_THE_PEOPLE_NO</zType>
+		<English>I will not pander to the masses.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_NO</zType>
+		<English>Is {G0:he:she} not content?</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_NO</zType>
+		<English>I will not take their advice this time. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WISDOM_OF_THE_OLIGARCHS_NO</zType>
+		<English>I will plot a different path for {PLAYER-3}. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGE_OF_WAR_NO</zType>
+		<English>We will not be defined by these times.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_NO</zType>
+		<English>I seek glory for myself alone.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_NO</zType>
+		<English>I will decide another path.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_NO</zType>
+		<English>We will not be influenced by those who came before.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_WAR</zType>
+		<English>Ask about matters of war.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_PEACE</zType>
+		<English>Ask about your legacy.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_PERSONAL</zType>
+		<English>Ask about your family.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_NO</zType>
+		<English>Refuse to listen to the warnings.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FORMING_NATION_NO</zType>
+		<English>I will shape {PLAYER-0} in a different way. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OTHER_PATH_NO</zType>
+		<English>I will think on this before deciding.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TALES_OF_NATION_NO</zType>
+		<English>I will not be influenced by these tales. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_NO</zType>
+		<English>Refuse to commit to anything.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_NO</zType>
+		<English>I will not pursue my own ambitions. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_MEMORY_ENDURES_NO</zType>
+		<English>My memory is testament enough.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_EPICS</zType>
+		<English>We shall remember our deeds through word and song.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_CENTRALIZATION</zType>
+		<English>A strong administration in {CITY-2} will keep us together.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_TYRANNY</zType>
+		<English>I will not rest until my rule will be absolute!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_DIVINE_RULE</zType>
+		<English>I will show that even the very gods have decreed my legitimacy.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_LEGAL_CODE</zType>
+		<English>Law and governance keeps us from chaos.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_FOUR_CITIES</zType>
+		<English>I shall found cities in my name. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_TEN_CITIES</zType>
+		<English>Our cities will spread across the land.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_FOOD</zType>
+		<English>We should make sure that we are protected from famine and drought.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_MONEY</zType>
+		<English>The treasuries of {PLAYER-1} will overflow with riches. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_MAUSOLEUM</zType>
+		<English>A monument for my family will ensure that we are remembered. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_NECROPOLIS</zType>
+		<English>A site to honor our dead will be a lasting testament to my power.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_APADANA</zType>
+		<English>I will craft a hall that honors the deeds of my reign.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_THREE_LEGENDARY</zType>
+		<English>Our cities will be a beacon of culture and progress.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_THREE_PEACE</zType>
+		<English>I want to leave {PLAYER-0} a legacy of peace. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_KILLS</zType>
+		<English>My enemies will never forget the blood I spill.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GROWING_TENSION_CITIES</zType>
+		<English>We will strike first, before they can become a threat!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GROWING_TENSION_CARAVANS</zType>
+		<English>We will build a network of trade to improve relations.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GROWING_TENSION_PROMOTIONS</zType>
+		<English>Focus on training our military to be prepared for anything.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GROWING_TENSION_TECH</zType>
+		<English>We will research all we can to improve ourselves.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GROWING_TENSION_TRIBE</zType>
+		<English>An alliance with one of the tribes could tip the balance of power in our favor.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GROWING_TENSION_OFFICERS</zType>
+		<English>We need officers to train our forces to cope with {PLAYER-0,1} tactics.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_CITIES</zType>
+		<English>We will bring war to their cities!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_CITADEL</zType>
+		<English>Our defences shall tower across the land!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_UNITS</zType>
+		<English>We will train the very best fighters possible!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_TECH</zType>
+		<English>Our military technology shall bring us victory!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_KILLS</zType>
+		<English>No surrender, no mercy!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_HARBOURS</zType>
+		<English>Contolling the seas will give us an advantage.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_LAWS</zType>
+		<English>Our laws clearly mark us as superior.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_CITIES</zType>
+		<English>We will take land for our cities, even if it angers {PLAYER-0}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_FORUMS</zType>
+		<English>Forums will let the people discuss our path forwards.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_RELIGION</zType>
+		<English>We will see our religion spread across the land.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OLD_WAYS_FOOD</zType>
+		<English>We will gather food for religious sacrifice.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OLD_WAYS_DIVINE_RULE</zType>
+		<English>I will tie my very rule to the will of the gods. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OLD_WAYS_POLYTHEISM</zType>
+		<English>The worship of the gods should be protected by laws.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OLD_WAYS_SHRINES</zType>
+		<English>I will raise new shrines to the true gods.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_OLD_WAYS_ACOLYTES</zType>
+		<English>Our acolytes will keep the ways going.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_COURTHOUSE</zType>
+		<English>At least my people can be guaranteed justice. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_CAPITAL</zType>
+		<English>Only the capital will satisfy me,</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_SCRIBES</zType>
+		<English>We will bury them with words and write tales so we never forget!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_GENERAL</zType>
+		<English>I will avenge their honor myself!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_CITIES</zType>
+		<English>Their cities shall pay the price.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_KILLS</zType>
+		<English>I will prove myself in battle!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_PEACE</zType>
+		<English>I will bring an age of peace and prosperity.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_SPECIALISTS</zType>
+		<English>We should gather the very best to lead {PLAYER-1} into the future.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_WONDERS</zType>
+		<English>My building projects will be the envy of the world!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_CITIES</zType>
+		<English>All roads should lead to {CITY-2}!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EPIC_LEGACY_TRIBES</zType>
+		<English>I will inscribe my own name in legend by taking a sword to our enemies!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EPIC_LEGACY_POETS</zType>
+		<English>We will gather the finest poets to keep these stories alive.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EPIC_LEGACY_ISHTAR_GATES</zType>
+		<English>I will erect a monumental gate with references to these tales.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EPIC_LEGACY_CALLIGRAPHY</zType>
+		<English>Such tales should be written down for prosperity.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_EPIC_LEGACY_MYTHOLOGY</zType>
+		<English>These stories make {CHARACTER-0} sound like one of the gods!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_HOLY_WAR</zType>
+		<English>I will gain divine justification for my fights.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_LUXURIES</zType>
+		<English>To continue in war, we need the support of the families.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_KILLS</zType>
+		<English>A decisive blow will cow our enemies!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_TECH</zType>
+		<English>We will research new ways to wage war.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_PEACE</zType>
+		<English>It is time for us to seek peace.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEXT_GENERATION_0_MONEY</zType>
+		<English>{CHARACTER-SHORT-0} suggests hoarding the riches of {PLAYER-2}. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEXT_GENERATION_0_KILLS</zType>
+		<English>{CHARACTER-SHORT-0} suggests taking the fight to our enemies.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEXT_GENERATION_0_TYRANNY</zType>
+		<English>{CHARACTER-SHORT-0} suggests ensuring absolute rule, by any means possible.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEXT_GENERATION_0_GENERALS</zType>
+		<English>{CHARACTER-SHORT-0} suggests building a strong cohort of loyal generals.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEXT_GENERATION_1_MUSAEUM</zType>
+		<English>{CHARACTER-SHORT-1} suggests building a center of learning and research.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEXT_GENERATION_1_CITIES</zType>
+		<English>{CHARACTER-SHORT-1} suggests strengthening our cities.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEXT_GENERATION_1_DOCTORS</zType>
+		<English>{CHARACTER-SHORT-1} suggests training skilled medical staff.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_NEXT_GENERATION_1_LUXURIES</zType>
+		<English>{CHARACTER-SHORT-1} suggests finding rare resources for use in diplomacy.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RICHES_OF_NATION_POP</zType>
+		<English>We should use these riches to support our people.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RICHES_OF_NATION_LUXURIES</zType>
+		<English>We will build to make the most of our land's resources.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RICHES_OF_NATION_PROJECTS</zType>
+		<English>We will construct only the best improvements in our cities!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RICHES_OF_NATION_CATHEDRALS</zType>
+		<English>I will raise the finest buildings to praise the divine!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RICHES_OF_NATION_WONDERS</zType>
+		<English>Our building projects will be the wondered at across the world! </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_RICHES_OF_NATION_UNITS</zType>
+		<English>This will be invested into our armies to train the best military force</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_FESTIVALS</zType>
+		<English>Announce a series of public holidays, with gifts of food and dramatic parades. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_GRANARIES</zType>
+		<English> Promise to build new granaries, to protect the people from drought and famine.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_TRIBES</zType>
+		<English>Claim that you will ride out to protect your people from any threatening tribes.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_LEGAL_CODE</zType>
+		<English>Commit your scribes to writing a legal code that will bind all citizens.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_CONSTITUTION</zType>
+		<English>Ask a council of elders to aid in the writing of a constitution for the people of {PLAYER-0}.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_THEATER</zType>
+		<English>I will build odeons where any can see the dramatic arts!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_TYRANNY</zType>
+		<English>We will rule the land with absolute control, together. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_GARDENS</zType>
+		<English>I will build a wondrous garden, specially for {CHARACTER-SHORT-0}!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_TREASURIES</zType>
+		<English>Our cities will be bedecked with the riches of the world.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_COURTIERS</zType>
+		<English>I will build an entourage of people for {CHARACTER-SHORT-0} to spend time with!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_0_REVEAL</zType>
+		<English>{CHARACTER-SHORT-0} suggests exploring the hidden routes of the world.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_0_HARBORS</zType>
+		<English>{CHARACTER-SHORT-0} suggests that expanding to the sea provides another path to our enemies.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_0_MARKET</zType>
+		<English>{CHARACTER-SHORT-0} suggests building markets as centers of trade, and of secrets.  </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_1_REFORM</zType>
+		<English>{CHARACTER-SHORT-1} advises monetary reforms to secure the economy. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_1_ARCHIVES</zType>
+		<English>{CHARACTER-SHORT-1} advises building archives to keep records of our administration.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_1_COINAGE</zType>
+		<English>{CHARACTER-SHORT-1} advises researching ways of updating our economic power.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_2_PEACE</zType>
+		<English>{CHARACTER-SHORT-2} asks that we seek peace with the other nations.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_2_CARAVANS</zType>
+		<English>{CHARACTER-SHORT-2} asks that we send caravans to trade with the other nations.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_2_TOWNS</zType>
+		<English>{CHARACTER-SHORT-2} asks that we develop towns along the trade routes to other nations.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGE_OF_WAR_FOOD</zType>
+		<English>We will stockpile food, to supply both our troops and citizens.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGE_OF_WAR_RESOURCES</zType>
+		<English>A strong economy will support our armed forces.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGE_OF_WAR_CIRCUS</zType>
+		<English>I will build a grand Circus to keep the people entertained!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGE_OF_WAR_SHOPKEEPERS</zType>
+		<English>Specialists will allow the flow to trade to continue, even in war.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_AGE_OF_WAR_BATHS</zType>
+		<English>Public baths will let the people rest and recuperate.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_MONOTHEISM</zType>
+		<English>I will enshrine the sanctity of the one God in law.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_HOLY_WAR</zType>
+		<English>We will strike down the heretic and the non-believer. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_CATHEDRALS</zType>
+		<English>I will build majestic buildings of praise to the almighty! </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_PRIESTS</zType>
+		<English>We will train priests to lead the faithful.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_VENERATION</zType>
+		<English>Practicing veneration will prove our respect for the holy!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_COURTIERS</zType>
+		<English>{G0:His:her} idea for expanding the court is interesting!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_MOUNTED</zType>
+		<English>These are impressive plans for the military!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_TRIBE</zType>
+		<English>You are right, we need allies to help us!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_SPECIALISTS</zType>
+		<English>You are right, skilled specialists will aid our efforts! </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_PANTHEON</zType>
+		<English>These plans for a building of both rule and the gods are inspired!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_TECH</zType>
+		<English>We will research forms of construction that could lead to even greater wonders.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_LIBRARIES</zType>
+		<English>Maybe places of learning will unlock the secrets of the past.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_WONDERS</zType>
+		<English>I will build wonders that surpass even the Pyramids!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_URBAN</zType>
+		<English>The Pyramids will stand watch over a sea of buildings.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_CATHEDRALS</zType>
+		<English>We will match these tombs with places of praise.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_WALLS</zType>
+		<English>We will build the walls as commanded.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_HARBOR</zType>
+		<English>We must build a fleet of ships as our 'wooden walls'.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_SIEGE</zType>
+		<English>Siege engines will be a 'wooden wall' to drive off our enemies.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_WOOD</zType>
+		<English>We must gather all the wood we can!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_RANGED</zType>
+		<English>Our archers will stand on our walls to defend our cities.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_ACROPOLIS</zType>
+		<English>We will raise a place of governance and worship.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_THEOLOGY</zType>
+		<English>We will raise our religious practice through theology!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_TRIBE_PEACE</zType>
+		<English>We will raise a hand of peace to those near to us.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_FESTIVALS</zType>
+		<English>We will raise our hands and voices in celebration of these wise words!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_10_PROMOTIONS</zType>
+		<English>It must mean our soldiers, we will train and raise them in rank!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FORMING_NATION_WORKERS</zType>
+		<English>The workers are the backbone of any nation.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FORMING_NATION_FARMS</zType>
+		<English>We need farms to keep our people fed.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FORMING_NATION_TECHS</zType>
+		<English>Research and thought will guide our path.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FORMING_NATION_PROMOTIONS</zType>
+		<English>We will train our soldiers to stand above all others.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FORMING_NATION_CITIES</zType>
+		<English>We need cities to be the heart of our nation.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FORMING_NATION_TRIBES</zType>
+		<English>I will carve out a place for our people.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TALES_OF_NATION_MARKET</zType>
+		<English>Our markets will be a gateway to these foreign lands.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TALES_OF_NATION_LUXURIES</zType>
+		<English>We will not be surpassed in luxury and wealth!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TALES_OF_NATION_SHOPKEEPERS</zType>
+		<English>We need specialists who can ensure fair and regulated trade.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TALES_OF_NATION_RECTA</zType>
+		<English>I will build a place of trade unlike any other!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TALES_OF_NATION_YIELDS</zType>
+		<English>I will show them a land of plenty!</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_LAWS</zType>
+		<English>Describe a plan of intricate laws to shape the nation.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_CITIES</zType>
+		<English>Promise to build a network of trade and connection.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_WONDERS</zType>
+		<English>Explain your ideas of dramatic buildings that will be renown throughout the world.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_SPECIALISTS</zType>
+		<English>Describe your plan to bring together experts from different fields.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_TECH</zType>
+		<English>Talk about your desire to be at the forefront of military development. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_KILLS</zType>
+		<English>Promise to destroy any who stand in your way. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_GENERALS</zType>
+		<English>Install military leaders who are loyal to yourself.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_LUXURIES</zType>
+		<English>Gain the support of the noble families. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_DIVINE_RULE</zType>
+		<English> Enshrine the idea that your rule is ordained by the divine.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_CAPTURE_CITIES</zType>
+		<English>Prove your might and right to rule through conquest.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_SHRINES</zType>
+		<English>Make an appeal to the gods to support your rule.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEMORY_ENDURES_PHILOSOPHY</zType>
+		<English>I will seek consolation through thought.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEMORY_ENDURES_PILGRIMAGE</zType>
+		<English>I will travel and humble myself before the divine. </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEMORY_ENDURES_REDEMPTION</zType>
+		<English>I will seek answers about what awaits after death.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEMORY_ENDURES_NECROPOLIS</zType>
+		<English>I will build a grand mortuary temple to house those of my line.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEMORY_ENDURES_MAUSOLEUM</zType>
+		<English>I will build a monument to the dead unlike any seen before! </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_MEMORY_ENDURES_DOCTORS</zType>
+		<English>I will train doctors so that other parents can be spared this pain.</English>
 	</Entry>
 	<Entry beginGroup="Tribe">
 		<zType>TEXT_EVENTOPTION_RAID_MERCENARIES_0</zType>
@@ -25512,7 +26556,7 @@
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_SPOUSE_MISMATCH</zType>
-		<English><![CDATA[I’ll try to be less <p.is_sub.S0=SUBJECT_ZEALOT>preachy<p=SUBJECT_SCHOLAR>bookish<p=SUBJECT_ORATOR>rambling<p=SUBJECT_DIPLOMAT>wordy<p=SUBJECT_SCHEMER>sneaky<p=SUBJECT_HERO>boastful<p=SUBJECT_TACTICIAN>strategic<p=SUBJECT_COMMANDER>strategic<p=SUBJECT_BUILDER>fiddly<p=SUBJECT_JUDGE>judgemental<else>boring<end> around you.]]></English>
+		<English>I’ll try to be less {p.is_sub.S0=SUBJECT_ZEALOT:preachy:p.is_sub.S0=SUBJECT_SCHOLAR:bookish:p.is_sub.S0=SUBJECT_ORATOR:rambling:p.is_sub.S0=SUBJECT_DIPLOMAT:wordy:p.is_sub.S0=SUBJECT_SCHEMER:sneaky:p.is_sub.S0=SUBJECT_HERO:boastful:p.is_sub.S0=SUBJECT_TACTICIAN:strategic:p.is_sub.S0=SUBJECT_COMMANDER:strategic:p.is_sub.S0=SUBJECT_BUILDER:fiddly:p.is_sub.S0=SUBJECT_JUDGE:judgmental:boring} around you.</English>
 	</Entry>
 	<Entry>
 		<zType>TEXT_EVENTOPTION_INFLUENCE_SPOUSE_INTERESTS</zType>
@@ -27289,6 +28333,14 @@
 	<Entry>
 		<zType>TEXT_EVENTOPTION_DECLARATION_OF_LOVE_2</zType>
 		<English>Step back, this is a mistake.</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_IN_THE_EYES_YES</zType>
+		<English>No, my decision is made! </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTOPTION_IN_THE_EYES_NO</zType>
+		<English>Very well, we shall remain wed.</English>
 	</Entry>
 	<Entry beginGroup="Courtier">
 		<zType>TEXT_EVENTOPTION_CALENDAR_AND_SEASONS_OPTION_0</zType>

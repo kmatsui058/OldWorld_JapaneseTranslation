@@ -1359,6 +1359,34 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<zType>TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_CAPTURED_TITLE</zType>
 		<English>{CHARACTER-2}</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CURSED_TITLE</zType>
+		<English>Some Time Later</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_BLESSED_TITLE</zType>
+		<English>Some Time Later</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_WISDOM_TITLE</zType>
+		<English>Some Time Later</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CHARISMA_TITLE</zType>
+		<English>Some Time Later</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_DISCIPLINE_TITLE</zType>
+		<English>Some Time Later</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_RICHES_TITLE</zType>
+		<English>Some Time Later</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AMBITION_FINISHED_VASSALAGE_TITLE</zType>
+		<English>Distribution of Power</English>
+	</Entry>
 	<Entry beginGroup="Exploration">
 		<zType>TEXT_EVENTSTORY_RUINS_SURVIVORS_TITLE</zType>
 		<English>Survivors</English>
@@ -5079,6 +5107,22 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_TITLE</zType>
 		<English>Young and In Love</English>
 	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_RECOGNIZED_TITLE</zType>
+		<English>Agent Recognized</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_EXPOSED_TITLE</zType>
+		<English>Agent Exposed</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_WOUNDED_TITLE</zType>
+		<English>Agent Wounded</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGENT_RIGHT_PRICE_TITLE</zType>
+		<English>The Right Price</English>
+	</Entry>
 	<Entry beginGroup="City">
 		<zType>TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE</zType>
 		<English>Immigrants</English>
@@ -7720,6 +7764,10 @@ It seems that your quick thinking has saved you on this occassion, but what will
 		<English>CONQUEST VICTORY!</English>
 	</Entry>
 	<Entry>
+		<zType>TEXT_EVENTSTORY_GAME_WIN_ALLIANCE_TITLE</zType>
+		<English>ALLIANCE VICTORY!</English>
+	</Entry>
+	<Entry>
 		<zType>TEXT_EVENTSTORY_GAME_LOSS_TITLE</zType>
 		<English>DEFEAT</English>
 	</Entry>
@@ -8782,6 +8830,157 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	<Entry>
 		<zType>TEXT_EVENTSTORY_COGNOMEN_STRONG_TITLE</zType>
 		<English>The Strong</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_MIGHTY_TITLE</zType>
+		<English>The Mighty</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_READY_TITLE</zType>
+		<English>The Ready</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_AVENGER_TITLE</zType>
+		<English>The Avenger</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_CONQUERER_TITLE</zType>
+		<English>The Conquerer</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_BRILLIANT_TITLE</zType>
+		<English>The Brilliant</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_ARCHITECT_TITLE</zType>
+		<English>The Architect</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_KEYSTONE_TITLE</zType>
+		<English>The Keystone</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_COGNOMEN_DEVOUT_TITLE</zType>
+		<English>The Devout</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGACY_OF_THE_YOUNG_TITLE</zType>
+		<English>Legacy of the Young</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGACY_OF_THE_RULER_TITLE</zType>
+		<English>Legacy of the {G0:King:Queen}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LEGACY_OF_THE_OLD_TITLE</zType>
+		<English>Legacy of the Old</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GROWING_COMPETITION_TITLE</zType>
+		<English>Growing Rivalry</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RIVALS_AT_WAR_TITLE</zType>
+		<English>Rivals at War</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RIVALS_AT_PEACE_TITLE</zType>
+		<English>Rivals in Peace</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_OLD_WAYS_TITLE</zType>
+		<English>The Old Ways</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_REVENGE_FOR_LEADER_TITLE</zType>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_LEGACY_OF_RULER_TITLE</zType>
+		<English>The Legacy of {CHARACTER-SHORT-0}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_EPIC_LEGACY_TITLE</zType>
+		<English>An Epic Legacy</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_DEFINED_BY_WAR_TITLE</zType>
+		<English>Defined By War</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_NEXT_GENERATION_TITLE</zType>
+		<English>The Next Generation</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_RICHES_OF_NATION_TITLE</zType>
+		<English>The Riches of {PLAYER-2}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_POWER_OF_THE_PEOPLE_TITLE</zType>
+		<English>Promise to the People</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_LOVE_OF_THE_LAND_TITLE</zType>
+		<English>Love of the Land</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRUSTED_COUNCIL_TITLE</zType>
+		<English>Trusted Council</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WISDOM_OF_THE_OLIGARCHS_TITLE</zType>
+		<English>Wisdom of the Oligarchs</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_AGE_OF_WAR_TITLE</zType>
+		<English>An Age of War</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_GLORY_FOR_GOD_TITLE</zType>
+		<English>Glory for {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGANISM:the gods:God}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_BEHIND_THE_THRONE_TITLE</zType>
+		<English>Behind the Throne</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_WONDROUS_AMBITION_TITLE</zType>
+		<English>Wondrous Ambition</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_TITLE</zType>
+		<English>To the Pythia</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_REPLY_TITLE</zType>
+		<English>The Pythia Speaks</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FORMING_NATION_TITLE</zType>
+		<English>Forming a Nation</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_OTHER_PATH_TITLE</zType>
+		<English>The Other Path</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TALES_OF_NATION_TITLE</zType>
+		<English>Tales of {PLAYER-0}</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FRIENDS_AND_ALLIES_TITLE</zType>
+		<English>Friends and Allies</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_FAMILY_COMPLAINTS_TITLE</zType>
+		<English>Family Complaints</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_TRUE_SUCCESSOR_TITLE</zType>
+		<English>True Successor </English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_THE_MEMORY_ENDURES_TITLE</zType>
+		<English>The Memory Endures</English>
 	</Entry>
 	<Entry beginGroup="Tribe">
 		<zType>TEXT_EVENTSTORY_RAID_MERCENARIES_TITLE</zType>
@@ -10346,6 +10545,10 @@ It seems that your quick thinking has saved you on this occassion, but what will
 	<Entry>
 		<zType>TEXT_EVENTSTORY_DECLARATION_OF_LOVE_TITLE</zType>
 		<English>Declaration of Love</English>
+	</Entry>
+	<Entry>
+		<zType>TEXT_EVENTSTORY_IN_THE_EYES_TITLE</zType>
+		<English><![CDATA[In The Eyes of <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the Gods<else>God<end>]]></English>
 	</Entry>
 	<Entry beginGroup="Courtier">
 		<zType>TEXT_EVENTSTORY_CALENDAR_AND_SEASONS_TITLE</zType>
