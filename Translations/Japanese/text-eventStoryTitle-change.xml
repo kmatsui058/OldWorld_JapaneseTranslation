@@ -338,7 +338,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_NOWRUZ_TITLE</zType>
-    <Translation>wowruz.</Translation>
+    <Translation>wowruz</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_WAR_IN_THE_STARS_TITLE</zType>
@@ -514,7 +514,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_EL_YAHWEH_BAAL_TITLE</zType>
-    <Translation>El、Yahweh、Baal</Translation>
+    <Translation>El、Yahweh、Baal.</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_JUSTICE_AND_KINDNESS_TITLE</zType>
@@ -2046,7 +2046,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHARACTER_PLOTTING_HEIR_TITLE</zType>
-    <Translation>敬意をはらう</Translation>
+    <Translation>敬意を示す</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CHARACTER_DEADLY_INHERITANCE_TITLE</zType>
@@ -3514,7 +3514,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_DEMAND_LUXURY_TITLE</zType>
-    <Translation>豪華な需要</Translation>
+    <Translation>嗜好品の要求</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_ABDUCTING_THE_HEIR_TITLE</zType>
@@ -6758,7 +6758,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_COMPANIONSHIP_TITLE</zType>
-    <Translation>仲間艦</Translation>
+    <Translation>交友関係</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_YOU_OWE_ME_FAMILY_TITLE</zType>
@@ -7058,7 +7058,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HAPPINESS_PUBLIC_FEAST_TITLE</zType>
-    <Translation>公共のフェースト</Translation>
+    <Translation>晩餐会</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_CULTURE_SHIP_BORNE_PLAGUE_TITLE</zType>
@@ -10826,7 +10826,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_MURDER_TITLE</zType>
-    <Translation>これをisinherit！</Translation>
+    <Translation>isinheritこれを！</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER_TITLE</zType>
@@ -11035,5 +11035,209 @@
   <Entry>
     <zType>TEXT_EVENTSTORY_MARRIAGE_OFFER_CHANCE_ENCOUNTER_TITLE</zType>
     <Translation>自己作られた{G1：男：女性}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CURSED_TITLE</zType>
+    <Translation>今度いつか</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_BLESSED_TITLE</zType>
+    <Translation>今度いつか</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_WISDOM_TITLE</zType>
+    <Translation>今度いつか</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CHARISMA_TITLE</zType>
+    <Translation>今度いつか</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_DISCIPLINE_TITLE</zType>
+    <Translation>今度いつか</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_RICHES_TITLE</zType>
+    <Translation>今度いつか</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AMBITION_FINISHED_VASSALAGE_TITLE</zType>
+    <Translation>電力の分配</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AGENT_RECOGNIZED_TITLE</zType>
+    <Translation>エージェントが認識されました</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AGENT_EXPOSED_TITLE</zType>
+    <Translation>エージェントが公開されました</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AGENT_WOUNDED_TITLE</zType>
+    <Translation>被災剤</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AGENT_RIGHT_PRICE_TITLE</zType>
+    <Translation>正しい価格</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_GAME_WIN_ALLIANCE_TITLE</zType>
+    <Translation>同盟の勝利！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_MIGHTY_TITLE</zType>
+    <Translation>強大な</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_READY_TITLE</zType>
+    <Translation>準備ができて</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_AVENGER_TITLE</zType>
+    <Translation>アベンジャー</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_CONQUERER_TITLE</zType>
+    <Translation>征服者</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_BRILLIANT_TITLE</zType>
+    <Translation>華麗な</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_ARCHITECT_TITLE</zType>
+    <Translation>建築家</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_KEYSTONE_TITLE</zType>
+    <Translation>キーストーン</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_COGNOMEN_DEVOUT_TITLE</zType>
+    <Translation>敬礼</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LEGACY_OF_THE_YOUNG_TITLE</zType>
+    <Translation>ヤングの遺産</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LEGACY_OF_THE_RULER_TITLE</zType>
+    <Translation>{G0：KING：QUEEN}の遺産</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LEGACY_OF_THE_OLD_TITLE</zType>
+    <Translation>旧の遺産</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_GROWING_COMPETITION_TITLE</zType>
+    <Translation>競争を育てます</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RIVALS_AT_WAR_TITLE</zType>
+    <Translation>戦争のライバル</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RIVALS_AT_PEACE_TITLE</zType>
+    <Translation>平和のライバル</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_THE_OLD_WAYS_TITLE</zType>
+    <Translation>古い方法</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_REVENGE_FOR_LEADER_TITLE</zType>
+    <Translation>#VALUE!</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_THE_LEGACY_OF_RULER_TITLE</zType>
+    <Translation>{CHARACTER-SHORT-0}の遺産</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_EPIC_LEGACY_TITLE</zType>
+    <Translation>壮大な遺産</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_DEFINED_BY_WAR_TITLE</zType>
+    <Translation>戦争で定義されて</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_NEXT_GENERATION_TITLE</zType>
+    <Translation>次の世代</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_RICHES_OF_NATION_TITLE</zType>
+    <Translation>{PLAYER-2}の富</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_POWER_OF_THE_PEOPLE_TITLE</zType>
+    <Translation>人々に約束します</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_LOVE_OF_THE_LAND_TITLE</zType>
+    <Translation>土地への愛</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TRUSTED_COUNCIL_TITLE</zType>
+    <Translation>信頼された議会</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_WISDOM_OF_THE_OLIGARCHS_TITLE</zType>
+    <Translation>寡頭教師の知恵</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_AGE_OF_WAR_TITLE</zType>
+    <Translation>戦争の年齢</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_GLORY_FOR_GOD_TITLE</zType>
+    <Translation>{P.IS_SUB.S1 = SUBJECT_ZOROASTRIANISM：AHURA MAZDA：P.IS_SUB.S1 = SUBJECT_RELIGION_PAGANISM：神々：神}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_BEHIND_THE_THRONE_TITLE</zType>
+    <Translation>王位の後ろに</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_WONDROUS_AMBITION_TITLE</zType>
+    <Translation>不思議な野心</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_TITLE</zType>
+    <Translation>Pythiaへ</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_REPLY_TITLE</zType>
+    <Translation>ピティアは話す</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_FORMING_NATION_TITLE</zType>
+    <Translation>国を形成する</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_THE_OTHER_PATH_TITLE</zType>
+    <Translation>他の道</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TALES_OF_NATION_TITLE</zType>
+    <Translation>Tales of {PLAYER-0}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_FRIENDS_AND_ALLIES_TITLE</zType>
+    <Translation>友達と同盟国</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_FAMILY_COMPLAINTS_TITLE</zType>
+    <Translation>家族の苦情</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_TRUE_SUCCESSOR_TITLE</zType>
+    <Translation>真の後継者</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_THE_MEMORY_ENDURES_TITLE</zType>
+    <Translation>メモリは耐えます</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTSTORY_IN_THE_EYES_TITLE</zType>
+    <Translation>&lt;P.IS_SUB.S1 = Subject_Zoroastrianisis&gt;の目に&gt; Ahura Mazda &lt;P = Subject_Religion_Pagan&gt;神々&gt;神&lt;エンド&gt;</Translation>
   </Entry>
 </Root>

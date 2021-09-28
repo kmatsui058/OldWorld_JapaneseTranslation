@@ -54,7 +54,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ASSASSINATION_OF_MONARCH_BATHS</zType>
-    <Translation>浴室の準備ができています。それからドアをロックして、それをすべて火の中で設定します。</Translation>
+    <Translation>浴室の準備ができています。それからドアをロックして、それをすべて火の中に設定します。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PEACE_RESPONSE_OFFER_TRIBUTE_YES</zType>
@@ -842,7 +842,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTIONS_BEATING_POETS_0</zType>
-    <Translation>{CHARACTER-SHORT-0}は明らかに優れています。</Translation>
+    <Translation>{CHARACTER-SHORT-0}は明らかに優れたものです。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BEATING_POETS_1</zType>
@@ -1842,7 +1842,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_1</zType>
-    <Translation>他の司祭を通して信じることを} {G0：彼女の}信仰を奨励する。</Translation>
+    <Translation>他の司祭を通して信じること。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_2</zType>
@@ -2686,7 +2686,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DEMAND_TRIBUTE_THE_FAITHFUL</zType>
-    <Translation>私たちは私たちの仲間{宗教3,3}から取らないでしょう。</Translation>
+    <Translation>私たちは私たちの仲間{宗教3,3}からはかかりません。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DEMAND_TRIBUTE_DENOUNCED_0</zType>
@@ -4462,7 +4462,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CONVERT_SELF_BEFORE_GOD_2</zType>
-    <Translation>私たちは&lt;P.IS_SUB.S2 =件名&gt; Ahura Mazda &lt;P = Subject_Religion_Pagan&gt;の前にすべて同じです。</Translation>
+    <Translation><![CDATA[私たちは<P.IS_SUB.S2 =件名> Ahura Mazda <P = Subject_Religion_Pagan>の前にすべて同じです<phere>神<エンド>。]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CONVERT_SELF_FOOL_0</zType>
@@ -4470,7 +4470,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CONVERT_SELF_FOOL_1</zType>
-    <Translation>{CHARACTER-SHORT-1}のカバー。しかし、後で{G1：HE：HE：HE：HE：彼女：彼女}はこの失敗のためにあなたを負っている。</Translation>
+    <Translation>{CHARACTER-SHORT-1}のカバー。しかし、後で{G1：HE：HE：HE：HE：彼女：彼女}はこの失敗のためにあなたを負っています。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CONVERT_SELF_FOOL_2</zType>
@@ -6738,15 +6738,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHARACTER_PLOTTING_HEIR_OPTION_0</zType>
-    <Translation>彼らは私を尊重するように{G1：彼：彼女の}を尊重しなければなりません。</Translation>
+    <Translation>彼らが私に敬意を示したように、{G1:彼:彼女}に敬意を示さなければならない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHARACTER_PLOTTING_HEIR_OPTION_1</zType>
-    <Translation>私たちの人々はあなたの習慣に従うことを余儀なくされるべきではありません。</Translation>
+    <Translation>我が国の民が貴国の習慣に従うことを強制されるべきではない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHARACTER_PLOTTING_HEIR_OPTION_2</zType>
-    <Translation>この裁判所では、すべての弓、{CHARACTER-0}。</Translation>
+    <Translation>宮廷では、全員が私に頭を下げなければならない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHARACTER_DEADLY_INHERITANCE_OPTION_0</zType>
@@ -8926,7 +8926,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_ORATOR_CONVINCED</zType>
-    <Translation>私は{G0：彼：彼女の}を平和を望んでいる{CHARACTER-SHORT-0}を納得させる。</Translation>
+    <Translation>私は{G0：彼：彼女の}を平和を望んでいます。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_JUDGE_TRIBUTE</zType>
@@ -10722,11 +10722,11 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DEMAND_LUXURY_YES</zType>
-    <Translation>それが{FAMILY-0,2}を幸せに保つなら...</Translation>
+    <Translation>それが{FAMILY-0,2}の幸せにつながるなら...。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DEMAND_LUXURY_NO</zType>
-    <Translation>彼らは彼らの場所を忘れます。</Translation>
+    <Translation>自身の立場を忘れているようだな。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ABDUCTING_THE_HEIR_OPTION_0</zType>
@@ -12174,7 +12174,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_GP_OFFENSIVE_BEHAVIOR_OPTION_0</zType>
-    <Translation>一度に{CHARACTER-0}を削除してください！</Translation>
+    <Translation>一度に{CHARACTER-0}を削除してください。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_GP_OFFENSIVE_BEHAVIOR_OPTION_1</zType>
@@ -12350,7 +12350,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DEATH_THE_PRICE_OF_POWER_OPTION_0</zType>
-    <Translation>私は血統を汚すために捨てなければなりません{G1：彼：彼女の}。</Translation>
+    <Translation>私は血統を汚すために捨てなければなりません。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DEATH_THE_PRICE_OF_POWER_OPTION_1</zType>
@@ -16470,7 +16470,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INHERITANCE_CORRUPT_OPTION_0</zType>
-    <Translation>存在すると、汚職はほとんど根付くことがほとんど不可能です。</Translation>
+    <Translation>存在すると、汚職はほとんど根絶することがほとんど不可能です。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INHERITANCE_DEBAUCHED_OPTION_0</zType>
@@ -17502,7 +17502,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_ELOQUENT</zType>
-    <Translation>空が泣くと、そのような情熱と話すことを学びましょう。</Translation>
+    <Translation>空が泣くと、そのような情熱で話すことを学びましょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_INSPIRING</zType>
@@ -17510,7 +17510,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_EDUCATED</zType>
-    <Translation>この信仰から学ぶことをあなたの人生を捧げました。</Translation>
+    <Translation>この信仰から学ぶことにあなたの人生を捧げました。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_FRUGAL</zType>
@@ -18014,7 +18014,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_ONE_YES_HELP_COPY</zType>
-    <Translation>私は彼をさまざまな衣装で会うのを待つことができません。</Translation>
+    <Translation>私は彼をさまざまな衣装で会うのを待つことができません、またはおそらくまったく何もない...</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_THREE_YES</zType>
@@ -18598,7 +18598,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_REGAL_INSPIRATION_EXTRAVAGANT</zType>
-    <Translation>エキゾチックなダンサーや訓練を受けたゾウのようなものは何もありません！</Translation>
+    <Translation>エキゾチックなダンサーや訓練を受けたゾウのようなものは何もありません。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_REGAL_INSPIRATION_RIGHTEOUS</zType>
@@ -18778,7 +18778,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_COMPANIONSHIP_NO</zType>
-    <Translation>私はこれをしません。私は今この友情を終わらせる必要があります。</Translation>
+    <Translation>余はそのようなことはしない。この関係はここで終わりだ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_COMPANIONSHIP_AFFABLE</zType>
@@ -18946,7 +18946,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_COMPANIONSHIP_LOYAL</zType>
-    <Translation>私は{CHARACTER-1}を私に束縛し、仲間を裏切ることはありません。</Translation>
+    <Translation>{CHARACTER-1}を余に縛り付け、決して裏切らない。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_COMPANIONSHIP_CUNNING</zType>
@@ -19858,15 +19858,15 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_HAPPINESS_PUBLIC_FEAST_MODERATION</zType>
-    <Translation>良いマナーを見せて食べる{G0：彼：彼女の} ill。</Translation>
+    <Translation>行儀よく、好きなだけ食べて来い。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_HAPPINESS_PUBLIC_FEAST_POOR</zType>
-    <Translation>未硬化の食べ物を貧しい人々に与える。</Translation>
+    <Translation>食べきれなかった分は貧しき物に与えよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_HAPPINESS_PUBLIC_FEAST_STORE</zType>
-    <Translation>復活のための食べ物は将来の困難のために食べ物。</Translation>
+    <Translation>食べきれなかった分は将来に備えて備蓄せよ。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CULTURE_SHIP_BORNE_PLAGUE_OPTION_0</zType>
@@ -20462,7 +20462,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_THE_GODS_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_NINURTA_OPTION_0</zType>
@@ -20486,7 +20486,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_NINURTA_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_MARS_OPTION_0</zType>
@@ -20510,7 +20510,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_MARS_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_NUSKA_OPTION_0</zType>
@@ -20534,7 +20534,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_NUSKA_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ATAR_OPTION_0</zType>
@@ -20558,7 +20558,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ATAR_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_VULCAN_OPTION_0</zType>
@@ -20582,7 +20582,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_VULCAN_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_NABU_OPTION_0</zType>
@@ -20606,7 +20606,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_NABU_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ATHENA_OPTION_0</zType>
@@ -20630,7 +20630,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ATHENA_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_SHAMASH_OPTION_0</zType>
@@ -20654,7 +20654,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_SHAMASH_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_RA_OPTION_0</zType>
@@ -20678,7 +20678,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_RA_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_HVAR_KHSHAITA_OPTION_0</zType>
@@ -20702,7 +20702,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_HVAR_KHSHAITA_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_MELQART_OPTION_0</zType>
@@ -20726,7 +20726,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_MELQART_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_POSEIDON_OPTION_0</zType>
@@ -20750,7 +20750,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_POSEIDON_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ANAHITA_OPTION_0</zType>
@@ -20774,7 +20774,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ANAHITA_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ISHTAR_OPTION_0</zType>
@@ -20798,7 +20798,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ISHTAR_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ASTARTE_OPTION_0</zType>
@@ -20822,7 +20822,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ASTARTE_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_VENUS_OPTION_0</zType>
@@ -20846,7 +20846,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_VENUS_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ERESHKIGAL_OPTION_0</zType>
@@ -20870,7 +20870,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ERESHKIGAL_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_OSIRIS_OPTION_0</zType>
@@ -20894,7 +20894,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_OSIRIS_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_HADES_OPTION_0</zType>
@@ -20918,7 +20918,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_HADES_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ESHMUN_OPTION_0</zType>
@@ -20942,7 +20942,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ESHMUN_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ISIS_OPTION_0</zType>
@@ -20966,7 +20966,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ISIS_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ASHUR_OPTION_0</zType>
@@ -20990,7 +20990,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ASHUR_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_MARDUK_OPTION_0</zType>
@@ -21014,7 +21014,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_MARDUK_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_ZEUS_OPTION_0</zType>
@@ -21038,7 +21038,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_ZEUS_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_TANIT_OPTION_0</zType>
@@ -21062,7 +21062,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_TANIT_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_VESTA_OPTION_0</zType>
@@ -21086,7 +21086,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_VESTA_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_NEITH_OPTION_0</zType>
@@ -21110,7 +21110,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_NEITH_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_BLESSING_OF_MITHRA_OPTION_0</zType>
@@ -21134,7 +21134,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_DISPLEASURE_OF_MITHRA_OPTION_1</zType>
-    <Translation>番号！私はあなたのオファーを受け入れません。今すぐ休暇。</Translation>
+    <Translation>番号！私はあなたの申し出を受け入れません。今すぐ休暇。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_SHRINE_BLESSING_RELIGIOUS</zType>
@@ -21298,7 +21298,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PATRON_GODS_BABYLON_MARDUK</zType>
-    <Translation>彼の行為によって神々の支配者になった英雄王のマルズク</Translation>
+    <Translation>彼の行為によって神々の支配者になった英雄王</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PATRON_GODS_BABYLON_ANU</zType>
@@ -22050,7 +22050,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AGE_OF_EMPIRES_OPTION_2</zType>
-    <Translation>もっとリソースが必要です！</Translation>
+    <Translation>もっとリソースが必要です。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ERA_OF_PATRIOTS_OPTION_0</zType>
@@ -22854,7 +22854,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_THE_LITERATE_PROPAGANDA</zType>
-    <Translation>私たちの文明のニュースを広げるためにこのシステムを使ってください！</Translation>
+    <Translation>私たちの文明のニュースを広めるためにこのシステムを使ってください！</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PROPAGANDA_CITIZEN</zType>
@@ -23030,7 +23030,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELIGION_YOUR_BLESSING_OPTION_1</zType>
-    <Translation>マニについて教えるためにここに{G1：彼：彼女の}が必要です。</Translation>
+    <Translation>マニについて教えてください。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_RELIGION_YOUR_BLESSING_OPTION_2</zType>
@@ -24446,7 +24446,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_INWARD_GAZE_OPTION_2</zType>
-    <Translation>{G1：彼の国の}国の誇りを持っていることを思い出させる{CHARACTER-SHORT-1}。</Translation>
+    <Translation>{G1：彼の国の}国の誇りを持っていることを思い出させる。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_IRREPARABLE_DAMAGE_OPTION_0</zType>
@@ -26374,7 +26374,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_CHANCELLOR_RELIGION_HEAD_FAMILY_GIFT_MISSION_YES</zType>
-    <Translation>{FAMILY-0,1}に贈り物をしましょう。{宗教-4,3}を喜ばせてください。</Translation>
+    <Translation>{FAMILY-0,1}に贈り物をしましょう。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_AMBASSADOR_TRADE_MISSION_YES</zType>
@@ -26770,7 +26770,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_NEW_AMBITION_FOUR_LIBRARY_3</zType>
-    <Translation>私たちは4つのlink(改善_LIBRARY_3,2)を構築します。ここでは、素晴らしい心がアイデアを共有するために集まります。</Translation>
+    <Translation>私たちは4つのlink(改善_LIBRARY_3,2)を構築します。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_NEW_AMBITION_FOUR_COURTHOUSE_3</zType>
@@ -27446,7 +27446,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PARENTAL_GUIDANCE_VIGILANT</zType>
-    <Translation>あなたが誰かに最初に閉じるようにしたら、あなたは背中に刺されることができます。</Translation>
+    <Translation>あなたが誰かに最初に閉じるようにしてください。</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_PARENTAL_GUIDANCE_FRUGAL</zType>
@@ -28346,7 +28346,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TECH_WISDOM_OF_PEACE_2</zType>
-    <Translation>この要求は彼らの弱さを示しています。戦争の準備ができて！</Translation>
+    <Translation>この要求は彼らの弱点を示しています。戦争の準備ができて！</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_TECH_GIFTS_OF_THE_SEA_0</zType>
@@ -28598,7 +28598,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_VENGEFUL_TO_PLOTTING</zType>
-    <Translation><![CDATA[<P.IS_SUB.S1 = Subject_Zealot>神々は私を守るでしょう！<P =件名_scholar>私は一般的なスキームにカウンターを研究しなければならない。<P =件名>おそらく私はそれから話すことができますか？<p = subject_diplomatt>おそらく私はそれから{G0：彼：彼女の}を話すことができますか？<p = subject_schemer> {G0：彼：彼女}は私を描くことができません！<p = subject_hero> {G0：彼：彼女：彼女： ！<P =件名> {G0：HE：彼女}は簡単に操作できます<p = subject_commander> {G0：HE：彼女}は私にとって脅威ではありません！<p = subject_builder>私の素晴らしい作品<P =件名>しかし...それは違法です！<else>心配。<エンド>]]></Translation>
+    <Translation><![CDATA[<P.IS_SUB.S1 = Subject_Zealot>神々は私を守るでしょう！<P =件名_scholar>私は一般的なスキームにカウンターを研究しなければならない。<P =件名>おそらく私はそれから話すことができますか？<p = subject_diplomatt>おそらく私はそれから{G0：彼：彼女の}を話すことができますか？<p = subject_schemer> {G0：彼：彼女}は私を描くことができません！<p = subject_hero> {G0：彼：彼女：彼女： ！<P =件名> {G0：HE：彼女}は簡単に操作できます<p = subject_commander> {G0：HE：彼女}は私にとって脅威ではありません！<p = subject_builder>私はからの気を散らすことが嫌いです私の素晴らしい作品<P =件名>しかし...それは違法です！<else>心配。<エンド>]]></Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_1</zType>
@@ -28906,7 +28906,7 @@
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LEADER_DECEITFUL_TWO</zType>
-    <Translation>これはどうやって起こったのでしょうか。</Translation>
+    <Translation>これはどうやって起こったのでしょうか？</Translation>
   </Entry>
   <Entry>
     <zType>TEXT_EVENTOPTION_LEADER_DECEITFUL_FAMILY_LIES_LIE</zType>
@@ -28939,5 +28939,1057 @@
   <Entry>
     <zType>TEXT_EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_2</zType>
     <Translation>彼らの理解のために感謝の気持ちのショーで家族を骨させます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED</zType>
+    <Translation>心配しています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP</zType>
+    <Translation>私は{g0：彼の顔もどういうわけかおめでとうよかったかのように感じます...</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_BLESSED</zType>
+    <Translation>なんて素敵な{G0：男：女性}！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM</zType>
+    <Translation>なんて素敵な{G0：男：女性}！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM_HELP</zType>
+    <Translation>{TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CHARISMA</zType>
+    <Translation>おやすみなさい{G0：男：女性}。とても愛らしい！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM_HELP_COPY</zType>
+    <Translation>{TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP}</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_DISCIPLINE</zType>
+    <Translation>どのくらい奇妙な、私は{G0：彼：彼女の}待っていませんでした。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_RICHES</zType>
+    <Translation>驚いたこと、確かに歓迎1つ！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TYRANNY</zType>
+    <Translation>私たちの主題を多くの自由に与えていません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_DIVINE_RULE</zType>
+    <Translation>私たちの主題を多くの自由に与えていません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_THREE_GOVERNORS</zType>
+    <Translation>私はまだ統治担当者を任命する予定です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_SERFDOM</zType>
+    <Translation>人々が彼らが政府の土地を働かせるようにしましょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_STONE_800</zType>
+    <Translation>人々が彼らが政府の土地を働かせるようにしましょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_GOODS_TURN</zType>
+    <Translation>人々が彼らが政府の土地を働かせるようにしましょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_CONSTITUTION</zType>
+    <Translation>法律の順序は私たちの被験者をチェックに保つでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_LEGAL_CODE</zType>
+    <Translation>法律の順序は私たちの被験者をチェックに保つでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_FOUR_COURTHOUSE_1</zType>
+    <Translation>法律の順序は私たちの被験者をチェックに保つでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_POLYTHEISM</zType>
+    <Translation>{PLAYER-0}は多様性を恐れていません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TOLERANCE</zType>
+    <Translation>{PLAYER-0}は多様性を恐れていません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_SPECIALISTS</zType>
+    <Translation>{PLAYER-0}は多様性を恐れていません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_0</zType>
+    <Translation>「ああ、これは私の昔の家族の友達です。何年もの間お互いに見たことがありません！」</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_0_HELP</zType>
+    <Translation>私は{G1：彼：彼女} 'd秋を信じていません...</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_1</zType>
+    <Translation>それを説明しようとします。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_1_HELP</zType>
+    <Translation>私は{CHARACTER-SHORT-1}で進行を失うかもしれませんが、少なくとも私のエージェントは安全になります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_2</zType>
+    <Translation>すぐにそれを所有しています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_RECOGNIZED_2_HELP</zType>
+    <Translation>私は誰かに勝つために私の誠実さを犠牲にしません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_EXPOSED_KILLED</zType>
+    <Translation>裁判所は{G0：彼の：彼女の}を犠牲にするでしょう...</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_EXPOSED_SECRETS</zType>
+    <Translation>素晴らしい！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_EXPOSED_0</zType>
+    <Translation>何も悪いことが起こる前に私達に戻る。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_EXPOSED_1</zType>
+    <Translation>あなたの仕事は今止めるには重要ではありません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_WOUNDED_0</zType>
+    <Translation>治療のために私達に戻る。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_WOUNDED_1</zType>
+    <Translation>あなたの仕事は今止めるには重要ではありません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_RIGHT_PRICE_0</zType>
+    <Translation>私を裏切る人たちに何が起こるのかの{CHARACTER-SHORT-0}を思い出させます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_RIGHT_PRICE_1</zType>
+    <Translation>約束{G0：彼：彼女の}私は{PLAYER-2,3}が作ることを申し立てに合わせることができます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGENT_RIGHT_PRICE_2</zType>
+    <Translation>{CHARACTER-SHORT-0}が一度に戻ることを要求します。 {G0：彼：彼女}は見ている必要があります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RELATIONSHIP_ALLIED_INTELLIGENCE_OPTION_3</zType>
+    <Translation>危険にさらさないのは最善です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_END_OF_A_SIEGE_OPTION_0_HELP</zType>
+    <Translation>私は今回はうまくいくと確信しています...</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_NO</zType>
+    <Translation>私は他の何かを念頭に置いています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_POPULATION</zType>
+    <Translation>それは私たちが戦う人々です！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_SPECIALISTS</zType>
+    <Translation>私たちは私たちの国を前進させるために最も熟練した人々を訓練します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_LEGENDARY_CITIES</zType>
+    <Translation>{PLAYER-0}の心は他の何よりも上がるでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_CIRCUS_MAXIMUS</zType>
+    <Translation>私たちの軍隊はアリーナで演奏するでしょう、そのようなことは決して見られなかった！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_EVENTOPTION_COGNOMEN_MIGHTY_YIELDS</zType>
+    <Translation>私たちの人々は食べ物や避難所に望んでいないでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_LAWS</zType>
+    <Translation>文明と法則のビーコンを{PLAYER-0}を作ります！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_CITIES</zType>
+    <Translation>私たちの都市は地球に広がるでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_GENERALS</zType>
+    <Translation>私は私の軍隊を戦争に導くために最善の将軍を集めるでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_KILLS</zType>
+    <Translation>私は破壊の急迷で私の力を導きます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_TECH</zType>
+    <Translation>私の軍隊は経済改革の時代に安定性を提供します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_REVEAL</zType>
+    <Translation>私はこの世界を提供しなければならないすべての世界を探検します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_SHRINES</zType>
+    <Translation>私は{PLAYER-0}の神々の支持を求めます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_PEACE</zType>
+    <Translation>私は戦争のためではなく平和のために覚えておきたいです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_POP</zType>
+    <Translation>私たちは休み、家に集中するべきです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_MYTHOLOGY</zType>
+    <Translation>私たちの宗教は私の悪用の話をするべきです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_DIVINE_RULE</zType>
+    <Translation>神へのリンクは私のルールをさらに確保するでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_AVENGER_CITIES</zType>
+    <Translation>私たちの軍隊が祖父の賞を追求するのは時です！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_HOLY_WAR</zType>
+    <Translation>私は信仰のために戦うように目的が必要です！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TYRANNY</zType>
+    <Translation>私の支配はすべての都市を絶対に絶対にするべきです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_CIVICS</zType>
+    <Translation>私たちは征服のあらゆる細部の記録を保管しなければならない！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TOWERS</zType>
+    <Translation>私はこれらを提供するものと同様の運命に餌をや​​ることはありません！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TRIBES</zType>
+    <Translation>世界の部族は秋の隣になります！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_WONDERS</zType>
+    <Translation>私は世界が見たことがないように不思議を築くでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_LEGENDARY</zType>
+    <Translation>私たちの都市は宝石のように輝くでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_PROJECTS</zType>
+    <Translation>私は私たちの都市の改善を監督します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_RELIGION</zType>
+    <Translation>私は土地の隅々に信仰をもたらすでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_CITIES</zType>
+    <Translation>私のスキルは戦争や征服に目を向けるべきです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_PHILOSOPHY</zType>
+    <Translation>学ぶことの欲求は将来の世代に引き渡されるべきです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_ENGINEERING</zType>
+    <Translation>私は建設耐性の遺産を確実にするために法律を渡します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_SEVEN_CITIES</zType>
+    <Translation>私はより多くの都市を建てることをしたいです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_IRON</zType>
+    <Translation>将来のプロジェクトのための生産を増やすべきです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_MONEY</zType>
+    <Translation>私の富と富で知られています！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_YIELDS</zType>
+    <Translation>私達は私達の努力のすべてを生産に集中させます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_CITIES</zType>
+    <Translation>私たちの都市は宝石のように輝くでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS</zType>
+    <Translation>私は私の土地で働くために最高のものを受け入れます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS_2</zType>
+    <Translation>できるだけ多くの熟練した労働者が必要です！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_TECH</zType>
+    <Translation>そのような工学の軍事的応用を探求したい！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_GOVERNORS</zType>
+    <Translation>私はこれらの都市を監督することを信頼できる人々を見つける必要があります！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_KILLS</zType>
+    <Translation>私はブレードと弓で私の献身を見せます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_POP</zType>
+    <Translation>忠実な人は星のように数多くあるでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_HAGIA</zType>
+    <Translation>私は他のすべてを超えるように崇拝の場所を築くでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_MONEY</zType>
+    <Translation>私は信仰に資金を供給するためにできることすべてを集めるでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_COURTS</zType>
+    <Translation>私の義は法律だけでなく信仰を通して感じられなければならない！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_TECH</zType>
+    <Translation>私たちは信仰を表現するための他の方法を研究すべきです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_OF_THE_YOUNG_NO</zType>
+    <Translation>まだ時間があり、私の道を決める前に忍耐強くなるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_OF_THE_RULER_NO</zType>
+    <Translation>私の道を決める前に私は辛抱します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GROWING_COMPETITION_NO</zType>
+    <Translation>私たちのライバルとして{PLAYER-0}が見えません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_OF_THE_OLD_NO</zType>
+    <Translation>時間がない、若者に野心を残してください。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_NO</zType>
+    <Translation>私はまだ平和のための希望を抱きしめます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_AT_PEACE_NO</zType>
+    <Translation>この競争は痛み以外何もしません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_OLD_WAYS_NO</zType>
+    <Translation>たぶん私達は変わるために開かれるべきです。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_NO</zType>
+    <Translation>過去を手放す時です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_LEGACY_OF_RULER_NO</zType>
+    <Translation>私は自分の道を見つけます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_EPIC_LEGACY_NO</zType>
+    <Translation>私はそのような図と競争しません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_NO</zType>
+    <Translation>戦いは十分な挑戦です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NEXT_GENERATION_NO</zType>
+    <Translation>うまくいけば、彼らは成長するにつれて感覚を得るでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RICHES_OF_NATION_NO</zType>
+    <Translation>私はこれがどのように使われるかもしれないかについてのさまざまなアイデアを持っています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_POWER_OF_THE_PEOPLE_NO</zType>
+    <Translation>私は大衆にパンダンしません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_NO</zType>
+    <Translation>{G0：彼：彼女}はコンテンツではありませんか？</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_NO</zType>
+    <Translation>今回は彼らのアドバイスを受けません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_WISDOM_OF_THE_OLIGARCHS_NO</zType>
+    <Translation>私は{PLAYER-3}の別のパスをプロットします。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGE_OF_WAR_NO</zType>
+    <Translation>これらの時代には定義されません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_NO</zType>
+    <Translation>私は一人で自分のために栄光を求めます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_NO</zType>
+    <Translation>私は別の道を決めます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_NO</zType>
+    <Translation>私たちは以前に来た人たちの影響を受けません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_WAR</zType>
+    <Translation>戦争の問題について尋ねる。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_PEACE</zType>
+    <Translation>あなたの遺産について尋ねなさい。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_PERSONAL</zType>
+    <Translation>あなたの家族について尋ねます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_NO</zType>
+    <Translation>警告を聴くことを拒否します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FORMING_NATION_NO</zType>
+    <Translation>私は異なる方法で{PLAYER-0}を形作ります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_OTHER_PATH_NO</zType>
+    <Translation>私は決定する前にこれを考えるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TALES_OF_NATION_NO</zType>
+    <Translation>私はこれらの物語の影響を受けません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_NO</zType>
+    <Translation>何にコミットすることを拒否します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_NO</zType>
+    <Translation>私は自分の野心を追求しません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_MEMORY_ENDURES_NO</zType>
+    <Translation>私の記憶は十分な聖書です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_EPICS</zType>
+    <Translation>私たちは単語と歌を通して私たちの行いを覚えています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_CENTRALIZATION</zType>
+    <Translation>{CITY-2}での強力な投与は私たちを一緒に保ちます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_TYRANNY</zType>
+    <Translation>私のルールが絶対的になるまで私は休みません！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_DIVINE_RULE</zType>
+    <Translation>私は非常に神々でさえ私の正当性を宣言したことを示すでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_LEGAL_CODE</zType>
+    <Translation>法と統治は私たちをカオスから保ちます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_FOUR_CITIES</zType>
+    <Translation>私は私の名前の都市を見つけます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_TEN_CITIES</zType>
+    <Translation>私たちの都市は土地に広がるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_FOOD</zType>
+    <Translation>私たちは飢饉や干ばつから保護されていることを確認する必要があります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_MONEY</zType>
+    <Translation>{PLAYER-1}の秘宝は富とオーバーフローします。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_MAUSOLEUM</zType>
+    <Translation>私の家族のための記念碑は私たちが覚えていることを確認します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_NECROPOLIS</zType>
+    <Translation>私たちの死者を尊重するためのサイトは私の力の永続的な聖者になるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_APADANA</zType>
+    <Translation>私の治世の行為を尊重するホールを作ります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_THREE_LEGENDARY</zType>
+    <Translation>私たちの都市は文化と進歩のビーコンになります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_THREE_PEACE</zType>
+    <Translation>私は{PLAYER-0}を平和の遺産を残したいです。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_KILLS</zType>
+    <Translation>私の敵は私がこぼれる血を忘れないでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GROWING_TENSION_CITIES</zType>
+    <Translation>彼らが脅威になる前に、私たちは最初に攻撃します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GROWING_TENSION_CARAVANS</zType>
+    <Translation>関係を改善するための貿易ネットワークを構築します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GROWING_TENSION_PROMOTIONS</zType>
+    <Translation>私たちの軍事訓練に焦点を当ててください。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GROWING_TENSION_TECH</zType>
+    <Translation>私たちは自分自身を改善するためにできることをすべて研究します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GROWING_TENSION_TRIBE</zType>
+    <Translation>部族の1つへの同盟は、私たちの有利な力のバランスを傾けることができました。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GROWING_TENSION_OFFICERS</zType>
+    <Translation>{PLAYER-0,1}戦術に対処するために私たちの力を訓練するために役員が必要です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_CITIES</zType>
+    <Translation>私たちは彼らの都市に戦争をもたらすでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_CITADEL</zType>
+    <Translation>私たちの防御は土地を横切って塔を塔にするでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_UNITS</zType>
+    <Translation>私たちは可能な限り最高の戦闘機を訓練します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_TECH</zType>
+    <Translation>私たちの軍事技術は私たちの勝利をもたらすでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_AT_WAR_KILLS</zType>
+    <Translation>降伏しない、憐れみなし！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_HARBOURS</zType>
+    <Translation>海の浸入は私たちに利点を与えます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_LAWS</zType>
+    <Translation>私たちの法律は明らかに私たちを優れています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_CITIES</zType>
+    <Translation>それがアンジェ{PLAYER-0}であっても、私たちは私たちの都市のために土地を取るでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_FORUMS</zType>
+    <Translation>フォーラムは人々に私たちの道を進めてみるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RIVALS_IN_PEACE_RELIGION</zType>
+    <Translation>私達は私達の宗教が土地を横切って広がるのを見るでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_OLD_WAYS_FOOD</zType>
+    <Translation>私たちは宗教犠牲のために食べ物を集めるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_OLD_WAYS_DIVINE_RULE</zType>
+    <Translation>私は神々の意志に非常に支配を結びます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_OLD_WAYS_POLYTHEISM</zType>
+    <Translation>神々の崇拝は法律によって保護されるべきです。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_OLD_WAYS_SHRINES</zType>
+    <Translation>私は真の神々に新しい神社を上げます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_OLD_WAYS_ACOLYTES</zType>
+    <Translation>私たちのacolytesはやり方を続けます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_COURTHOUSE</zType>
+    <Translation>少なくとも私の人々は正義の正義を保証することができます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_CAPITAL</zType>
+    <Translation>首都だけが私を満足させるでしょう、</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_SCRIBES</zType>
+    <Translation>私たちは言葉でそれらを埋めて物語を書いています</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_GENERAL</zType>
+    <Translation>私は自分自身を彼らの名誉を復讐します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_REVENGE_FOR_LEADER_CITIES</zType>
+    <Translation>彼らの都市は価格を支払うものとします。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_KILLS</zType>
+    <Translation>私は戦いで自分自身を証明します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_PEACE</zType>
+    <Translation>私は平和と繁栄の年齢をもたらします。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_SPECIALISTS</zType>
+    <Translation>私たちは{PLAYER-1}を将来的にリードするために最善を尽くすべきです。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_WONDERS</zType>
+    <Translation>私の建築プロジェクトは世界の羨望の的なものになるでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LEGACY_OF_RULER_CITIES</zType>
+    <Translation>すべての道は{CITY-2}につながるべきです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_EPIC_LEGACY_TRIBES</zType>
+    <Translation>私たちの敵に刀を撮ることによって私自身の名前を伝説に刻印するでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_EPIC_LEGACY_POETS</zType>
+    <Translation>私たちはこれらの物語を生き続けるために最高級の詩人を集めます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_EPIC_LEGACY_ISHTAR_GATES</zType>
+    <Translation>私はこれらの物語への言及を持つ記念碑的な門に直立します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_EPIC_LEGACY_CALLIGRAPHY</zType>
+    <Translation>そのような物語は繁栄のために書き留められるべきです。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_EPIC_LEGACY_MYTHOLOGY</zType>
+    <Translation>これらの物語は神々の一人のように{CHARACTER-0}を作る！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_HOLY_WAR</zType>
+    <Translation>私は私の戦いのための神の正当化を得ます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_LUXURIES</zType>
+    <Translation>戦争を続けるには、家族の支援が必要です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_KILLS</zType>
+    <Translation>決定的な打撃は私たちの敵を牛にします！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_TECH</zType>
+    <Translation>私たちは戦争賃金戦争への新しい方法を研究します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_DEFINED_BY_WAR_PEACE</zType>
+    <Translation>私たちが平和を求めるのは時です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NEXT_GENERATION_0_MONEY</zType>
+    <Translation>{CHARACTER-SHORT-0}は{PLAYER-2}の富を買うことを提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NEXT_GENERATION_0_KILLS</zType>
+    <Translation>{キャラクター - ショート -  0}私たちの敵との戦いをすることを提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NEXT_GENERATION_0_TYRANNY</zType>
+    <Translation>{CHARACTER-SHORT-0}は、可能な限り絶対的な規則を確実にすることを提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NEXT_GENERATION_0_GENERALS</zType>
+    <Translation>{CHARACTER-SHORT-0}は忠実な将軍の強いコホートを構築することを提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NEXT_GENERATION_1_MUSAEUM</zType>
+    <Translation>{キャラクター - ショート -  1}は学習と研究の中心を構築することを提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NEXT_GENERATION_1_CITIES</zType>
+    <Translation>{キャラクター - ショート -  1}私たちの都市を強化することを提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NEXT_GENERATION_1_DOCTORS</zType>
+    <Translation>{キャラクター - ショート -  1}はトレーニング熟練した医療スタッフを提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_NEXT_GENERATION_1_LUXURIES</zType>
+    <Translation>{キャラクター - ショート -  1}は、外交に使用するための稀なリソースを見つけることを提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RICHES_OF_NATION_POP</zType>
+    <Translation>私たちは私たちの人々を支えるためにこれらの富を使うべきです。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RICHES_OF_NATION_LUXURIES</zType>
+    <Translation>私たちは土地の資源を最大限に活用するために建てます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RICHES_OF_NATION_PROJECTS</zType>
+    <Translation>私たちは私たちの都市で最高の改善だけを構築します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RICHES_OF_NATION_CATHEDRALS</zType>
+    <Translation>私は神を賛美するために最高の建物を育てます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RICHES_OF_NATION_WONDERS</zType>
+    <Translation>私たちの建築プロジェクトは世界中の疑問に思っているでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_RICHES_OF_NATION_UNITS</zType>
+    <Translation>これは私たちの軍隊に最高の軍事力を訓練するために投資されます</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_FESTIVALS</zType>
+    <Translation>食品や劇的なパレードの贈り物を使って、一連の祝日を発表しました。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_GRANARIES</zType>
+    <Translation> 干ばつや飢饉から人々を保護するために、新しい穀倉を建設することを約束します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_TRIBES</zType>
+    <Translation>あなたが脅迫的な部族からあなたの人々を守るために乗り出すことを主張する。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_LEGAL_CODE</zType>
+    <Translation>すべての市民をバインドする法的コードを書くためにあなたのスクライブをコミットします。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_CONSTITUTION</zType>
+    <Translation>{PLAYER-0}の人々のための憲法の執筆を助けるために長老議会に尋ねなさい。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_THEATER</zType>
+    <Translation>私は劇的な芸術を見ることができるようなオデオンを構築します！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_TYRANNY</zType>
+    <Translation>絶対管理で土地をまとめて支配します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_GARDENS</zType>
+    <Translation>私は特に{CHARACTER-SHORT-0}のために特に驚異的な庭を建てます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_TREASURIES</zType>
+    <Translation>私たちの都市は世界の富と寝されるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_LOVE_OF_THE_LAND_COURTIERS</zType>
+    <Translation>私は時間を過ごすために{CHARACTER-SHORT-0}のための人々の絡み合いを築くでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_0_REVEAL</zType>
+    <Translation>{CHARACTER-SHORT-0}世界の隠されたルートを探索することを提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_0_HARBORS</zType>
+    <Translation>{キャラクター - ショート -  0}海への拡大は私たちの敵への別の道を提供することを示唆しています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_0_MARKET</zType>
+    <Translation>{CHARACTER-SHORT-0}は、貿易​​の中心として、そして秘密の建物市場を提案します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_1_REFORM</zType>
+    <Translation>{キャラクター - ショート -  1}経済を確保するために金融改革を助言する。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_1_ARCHIVES</zType>
+    <Translation>{CHARACTER-SHORT-1}管理の記録を保存するために建物のアーカイブを助言します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_1_COINAGE</zType>
+    <Translation>{CHARACTER-SHORT-1}私たちの経済力を更新する方法を調査する方法をお勧めします。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_2_PEACE</zType>
+    <Translation>{CHARACTER-SHORT-2}は、他の国々と平和を求めることを求めます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_2_CARAVANS</zType>
+    <Translation>{CHARACTER-SHORT-2}は、他の国々と交換するようにキャラバンを送るように頼みます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUSTED_COUNCIL_2_TOWNS</zType>
+    <Translation>{CHARACTER-SHORT-2}私たちが他の国への貿易経路に沿って町を開発するように頼みます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGE_OF_WAR_FOOD</zType>
+    <Translation>私たちの軍隊と市民の両方を供給するために、食べ物を備えています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGE_OF_WAR_RESOURCES</zType>
+    <Translation>強い経済は私たちの軍隊を支援します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGE_OF_WAR_CIRCUS</zType>
+    <Translation>私は人々を楽しませ続けるために壮大なサーカスを築くでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGE_OF_WAR_SHOPKEEPERS</zType>
+    <Translation>専門家たちは、戦争中でさえも、流れを継続するために交換することを可能にするでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_AGE_OF_WAR_BATHS</zType>
+    <Translation>公衆浴場は人々を休ませて回復させます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_MONOTHEISM</zType>
+    <Translation>私は法律の1つの神の聖聖心を祀るでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_HOLY_WAR</zType>
+    <Translation>私たちは異端者と非信者を打破します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_CATHEDRALS</zType>
+    <Translation>私は全能者に賞賛の雄大な建物を建てます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_PRIESTS</zType>
+    <Translation>私たちは祭司を忠実に導くために訓練します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_GLORY_FOR_GOD_VENERATION</zType>
+    <Translation>習得の練習は聖なる敬意を証明するでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_COURTIERS</zType>
+    <Translation>{G0：彼：彼女の}裁判所を拡大するためのアイデアは面白いです！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_MOUNTED</zType>
+    <Translation>これらは軍のための印象的な計画です！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_TRIBE</zType>
+    <Translation>あなたは正しい、私たちは私たちを助けるために同盟国を必要としています！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_SPECIALISTS</zType>
+    <Translation>あなたは正しいです、熟練した専門家は私たちの努力を助けます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_BEHIND_THE_THRONE_PANTHEON</zType>
+    <Translation>これらのルールと神々の建物のためのこれらの計画は触発されています！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_TECH</zType>
+    <Translation>私達はより大きな不思議になる可能性がある構造の形態を研究します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_LIBRARIES</zType>
+    <Translation>多分学習の場所は過去の秘密のロックを解除するでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_WONDERS</zType>
+    <Translation>私はピラミッドさえも凌駕する不思議を築きます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_URBAN</zType>
+    <Translation>ピラミッドは建物の海の上を見守るでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_WONDROUS_AMBITION_CATHEDRALS</zType>
+    <Translation>私たちはこれらの墓と賞賛の場所と一致します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_WALLS</zType>
+    <Translation>命令として壁を建てます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_HARBOR</zType>
+    <Translation>私たちの「木製の壁」として船の艦隊を建設しなければなりません。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_SIEGE</zType>
+    <Translation>包囲エンジンは私たちの敵を追い払うための「木製の壁」になるでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_WOOD</zType>
+    <Translation>私達は私達ができるすべての木を集める必要があります！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_RANGED</zType>
+    <Translation>私たちの射手は私たちの都市を守るために私たちの壁の上に立つでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_ACROPOLIS</zType>
+    <Translation>私たちは統治と礼拝の場所を上げます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_THEOLOGY</zType>
+    <Translation>私たちは神学を通して私たちの宗教的練習を上げます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_TRIBE_PEACE</zType>
+    <Translation>私たちは私たちの近くの人々に平和の手を上げます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_FESTIVALS</zType>
+    <Translation>これらの賢明な言葉のお祝いに手や声を上げます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_10_PROMOTIONS</zType>
+    <Translation>それは私たちの兵士を意味する必要があります、私たちはランクで彼らを訓練して上げるでしょう！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FORMING_NATION_WORKERS</zType>
+    <Translation>労働者はいかなる国のバックボーンです。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FORMING_NATION_FARMS</zType>
+    <Translation>私たちの人々が給料を飼っておくために農場が必要です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FORMING_NATION_TECHS</zType>
+    <Translation>研究と思想は私たちの道を導くでしょう。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FORMING_NATION_PROMOTIONS</zType>
+    <Translation>私たちは他のすべての上に立つように私たちの兵士を訓練します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FORMING_NATION_CITIES</zType>
+    <Translation>私たちは私たちの国の心になるために都市が必要です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FORMING_NATION_TRIBES</zType>
+    <Translation>私たちの人々のための場所を彫ります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TALES_OF_NATION_MARKET</zType>
+    <Translation>私たちの市場はこれらの外国の土地への玄関口になります。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TALES_OF_NATION_LUXURIES</zType>
+    <Translation>私たちは贅沢と富に上回ることはありません！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TALES_OF_NATION_SHOPKEEPERS</zType>
+    <Translation>公正で規制された貿易を確保できる専門家が必要です。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TALES_OF_NATION_RECTA</zType>
+    <Translation>私は他の誰かと違って貿易の場を建てます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TALES_OF_NATION_YIELDS</zType>
+    <Translation>私は彼らにたくさんの土地を見せます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_LAWS</zType>
+    <Translation>国民を形作るための複雑な法律の計画を説明してください。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_CITIES</zType>
+    <Translation>貿易とつながりのネットワークを構築することを約束します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_WONDERS</zType>
+    <Translation>世界中で有名になる劇的な建物のあなたの考えを説明してください。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_SPECIALISTS</zType>
+    <Translation>さまざまな分野から専門家を集めるためのあなたの計画を説明してください。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_TECH</zType>
+    <Translation>軍事開発の最前線にあるというあなたの願望について話してください。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_KILLS</zType>
+    <Translation>あなたのやり方で立っている人を破壊することを約束します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_GENERALS</zType>
+    <Translation>自分に忠実なミリタリーリーダーをインストールしてください。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_LUXURIES</zType>
+    <Translation>高貴な家族の支持を得てください。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_DIVINE_RULE</zType>
+    <Translation> あなたの規則が神によって述べられたという考えを祀っています。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_CAPTURE_CITIES</zType>
+    <Translation>征服を通して支配する力と権利を証明してください。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_TRUE_SUCCESSOR_SHRINES</zType>
+    <Translation>あなたの規則を支えるために神々に魅力的にします。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_MEMORY_ENDURES_PHILOSOPHY</zType>
+    <Translation>私は思考を通して慰めを求めます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_MEMORY_ENDURES_PILGRIMAGE</zType>
+    <Translation>私は神の前に自分自身を旅行し、謙虚にします。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_MEMORY_ENDURES_REDEMPTION</zType>
+    <Translation>私は死後のどんな待望の答えを求めます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_MEMORY_ENDURES_NECROPOLIS</zType>
+    <Translation>私は私のラインの人々を家に家を飼うために壮大な葬儀の寺院を建てます。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_MEMORY_ENDURES_MAUSOLEUM</zType>
+    <Translation>私は以前に見られたものとは異なり、死者への記念碑を建てます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_MEMORY_ENDURES_DOCTORS</zType>
+    <Translation>私は他の両親がこの痛みを回転させることができるように医者を訓練します。</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_IN_THE_EYES_YES</zType>
+    <Translation>いいえ、私の決断が行われます！</Translation>
+  </Entry>
+  <Entry>
+    <zType>TEXT_EVENTOPTION_IN_THE_EYES_NO</zType>
+    <Translation>非常によく、私たちはWedのままです。</Translation>
   </Entry>
 </Root>
